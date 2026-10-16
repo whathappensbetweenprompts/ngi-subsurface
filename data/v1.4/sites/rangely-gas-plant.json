@@ -1,0 +1,294 @@
+{
+ "site_slug": "rangely-gas-plant",
+ "plan_title": "Scout Energy Management, LLC Rangely Field Subpart RR Monitoring, Reporting and Verification (MRV) Plan",
+ "plan_version_or_date": "March 2024",
+ "injection_purpose": "eor",
+ "uic_class_per_plan": "II",
+ "ama_definition": "The boundary of the Rangely Field (Rangely Weber Sand Unit) plus a one-half mile buffer, since free-phase CO2 is already present throughout the field and is retained by pressure and lease-line fluid management (p19-20).",
+ "mma_definition": "Same as the AMA: the Rangely Field Unit boundary plus the required one-half mile buffer, because the plume is expected to stay within the unit (p20).",
+ "leakage_pathways_rated_significant": "Existing wellbores and pipeline/surface equipment are treated as the only meaningful pathways; faults/fractures, natural and induced seismicity, previous operations, lateral migration, future drilling and diffuse seal leakage are rated very low risk (p21-26).",
+ "baseline_summary": "No pre-injection environmental baseline. The baseline is ongoing operational data captured by existing automatic data systems: visual inspection work orders, personal H2S monitor alarms, SCADA injection rate/pressure set points, and production volume/composition forecasts used to flag excursions (p30-31).",
+ "reporting_summary": "Annual Subpart RR report (filed by March 31) with the mass balance and estimated surface leakage; records retained at least three years; well failures and MIT results reported in parallel to COGCC and equipment leaks under Subpart W. No commitment to publish measurement data (p25-26, p29, p35-37).",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "Custody transfer meter on CO2 received from the Raven Ridge pipeline; operations meters at the inlet and outlet of the CO2 reinjection facility; composition sampled at least quarterly; meters NIST traceable, API standards.",
+   "location": "Raven Ridge pipeline custody transfer point; CO2 Reinjection Facility inlet and outlet",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    14,
+    18,
+    27,
+    35,
+    36
+   ],
+   "evidence_quote": "Meters measure flow rate continually."
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "WAG manifold flow meters and pressure monitors feed SCADA, which compares each injector to its weekly pattern plan and flags deviations from high/low set points; satellites have automatic shutoff if pressure exceeds fracture pressure.",
+   "location": "Each injection well (WAG manifold) and injection satellites",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Pressure or rate outside set points: field personnel investigate; unresolved issues get a work order and detailed investigation; screened for leakage.",
+   "pages": [
+    14,
+    22,
+    23,
+    24,
+    28,
+    29,
+    31
+   ],
+   "evidence_quote": "Well pressure in injection wells is monitored on a continual basis."
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "committed",
+   "detail": "Annular pressure in wellheads monitored, with changes in tubing and annulus pressure used to detect tubing and casing leaks; annular leakage detection devices mentioned as part of well procedures.",
+   "location": "Wellheads",
+   "frequency": "unspecified",
+   "baseline": "no",
+   "trigger_or_response": "Anomaly: field personnel inspect and repair; well shut in and workover crews respond within days.",
+   "pages": [
+    16,
+    25,
+    29
+   ],
+   "evidence_quote": "monitoring of the annular pressure in wellheads"
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "MITs under COGCC rules before injection, every five years, after casing repair and whenever tubing or packer is reset; casing-tubing annulus tested to 1,200 psi for 15 minutes with COGCC witness.",
+   "location": "All active injection wells",
+   "frequency": "multi_year",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Failed MIT: well shut in immediately, COGCC notified, leak repaired and retested or well plugged.",
+   "pages": [
+    16,
+    17,
+    21,
+    25
+   ],
+   "evidence_quote": "Every 5 years as stated in the injection orders (COGCC 417.a. (1))"
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "committed",
+   "detail": "Each producer tested at its collection station about twice per month (roughly 24 hours) for oil, water and gas rates; produced gas composition sampled at least quarterly; sales oil sampled annually for CO2; performance compared to forecast.",
+   "location": "382 production wells via 27 collection stations; RCF inlet; oil LACT",
+   "frequency": "monthly",
+   "baseline": "no",
+   "trigger_or_response": "Significant deviation from forecast: well management investigates; work order if unresolved; leakage quantified if found.",
+   "pages": [
+    17,
+    22,
+    28,
+    31,
+    35
+   ],
+   "evidence_quote": "Most wells are tested twice per month."
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "committed",
+   "detail": "Bottom-hole pressure surveys across the field one to two times per year, with designated monitor wells (Appendix 5) used to watch reservoir pressure against the ~3,730 psi induced-seismicity threshold; also listed in the response table for faults, spill points and seismic events.",
+   "location": "Monitor wells across the Rangely Field (listed in Appendix 5)",
+   "frequency": "annual",
+   "baseline": "no",
+   "trigger_or_response": "Reservoir pressure above ~3,730 psi: reduce nearby injection; shut in injectors near faults or seismic events; reseal abandoned wells if high pressure found.",
+   "pages": [
+    23,
+    26,
+    43
+   ],
+   "evidence_quote": "bottom hole pressure surveys are collected one (1) to two (2) times per year across the Rangely Field"
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Routine two-part visual inspection of wells and surface facilities by about 25 field personnel, looking for white CO2 clouds, ice, fluid line leaks, valve leaks and WAG schedule compliance; also watches for unapproved drilling.",
+   "location": "Field-wide wells, pipelines and surface facilities",
+   "frequency": "periodic_unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Leak or problem found: repair on the spot or generate work order; critical leaks acted on immediately; volume quantified for reporting.",
+   "pages": [
+    22,
+    24,
+    29,
+    31
+   ],
+   "evidence_quote": "field inspections are conducted on a routine basis by field personnel."
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "committed",
+   "detail": "All field personnel wear H2S monitors at all times (10 ppm detection limit); H2S treated as a proxy for CO2 leaks, including diffuse leakage through the seal.",
+   "location": "Worn by all field personnel",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Alarm: protect personnel, verify monitor, investigate source; confirmed H2S incidents reported to MRV lead; not used to determine leak volume.",
+   "pages": [
+    18,
+    22,
+    28,
+    29,
+    30,
+    31
+   ],
+   "evidence_quote": "all field personnel are required to wear H2S monitors at all times."
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "mentioned_only",
+   "detail": "Cement bond logs and pressure tests named as examples of corrosion-protection procedures in COGCC injection orders; not tied to this plan's monitoring.",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    16
+   ],
+   "evidence_quote": "procedures (e.g. packer placement, use of annular leakage detection devices, cement bond logs, pressure tests)"
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "mentioned_only",
+   "detail": "Historical USGS seismic stations (1969-1973) and a USGS earthquake catalog map (1900-2023) are discussed; induced seismicity is managed through reservoir pressure, with no ongoing seismic monitoring commitment.",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Response table: shut in injectors near a seismic event.",
+   "pages": [
+    9,
+    10,
+    23,
+    26
+   ],
+   "evidence_quote": "Between 1969 and 1973, a joint investigation with the USGS installed seismic monitoring stations in and around the town of Rangely"
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "mentioned_only",
+   "detail": "Existing 3D seismic reinterpreted to identify joint faults near the main field fault; characterization only, no repeat survey.",
+   "location": "",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    10,
+    23
+   ],
+   "evidence_quote": "A new interpretation from the 3D seismic revealed a series of previously unknown joint faults"
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Subpart W emission factors and engineering estimates used to quantify equipment leaks and vents between meters and wellheads and any other surface leak; work orders track events for reporting.",
+   "location": "Surface equipment and pipelines",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    18,
+    24,
+    25,
+    28,
+    29,
+    30,
+    34
+   ],
+   "evidence_quote": "SEM uses 40 CFR Part 98 Subpart W to estimate surface leaks from equipment at the Rangely Field."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Reservoir pressure management by holding injection-to-withdrawal ratio near 1.0, lease-line well operation and pattern modeling that sets injection targets below historic step-rate fracture pressure; cited as containment and seal-protection measures.",
+   "location": "Field-wide",
+   "frequency": "periodic_unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Unexplained injection pressure changes trigger investigation; fluid management along lease lines if overfill beyond spill points.",
+   "pages": [
+    20,
+    23,
+    24,
+    25,
+    26,
+    31
+   ],
+   "evidence_quote": "Reservoir pressure in the Rangely Field is managed by maintaining an injection to withdrawal ratio (IWR) of approximately 1.0."
+  }
+ ],
+ "notes": "No image-only pages; figures are referenced but their content is not in the text. Appendix 5 (p43-67) is a well list in which 'Monitor' status means a well used for bottom-hole reservoir pressure; these are the monitor wells referenced in Table 3 but the plan never states their number or survey instruments. Reservoir pressure surveys are '1 to 2 times per year'; coded as annual (the weaker reading). Production well tests are 'twice per month'; coded as monthly with the actual cadence in detail. Table 3 lists 'high pressure found in new wells' as a monitoring method although SEM has drilled no new wells. The plan cites a Section 2.2.3 and Figures 11/12 that do not exist. 'Pressure transducers with low pressure alarms' on surface equipment (p24) are pressure sensors, not gas detectors, so fixed_gas_detectors is not_found. The response table lists 'Loss of bottom-hole pressure control' with 'blowout during well operations' as the monitoring entry, which is not a monitoring method."
+}

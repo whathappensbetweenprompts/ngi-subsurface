@@ -1,0 +1,276 @@
+{
+ "site_slug": "camrick-unit",
+ "plan_title": "Camrick Field Area (CFA) MONITORING, REPORTING AND VERIFICATION PLAN (MRV) CapturePoint LLC",
+ "plan_version_or_date": "April 2022",
+ "injection_purpose": "eor",
+ "uic_class_per_plan": "II",
+ "ama_definition": "The Camrick Field Area unitized leases plus an all-around half-mile buffer, which the plan says it monitors in its entirety; the figure captions, however, show the AMA excluding a red hashed rectangle that the MMA includes (p21-23).",
+ "mma_definition": "The boundary of the Camrick Field Area plus a half-mile buffer, sized to hold up to 140 Bscf of injected CO2 and all areas of the CFA that could be used for future injection (p6, p20-22).",
+ "leakage_pathways_rated_significant": "Every pathway is rated unlikely; poorly completed or cemented legacy wellbores are named the most likely pathway, with surface equipment leaks handled through Subpart W. Faults, fractures, lateral migration, seal failure and seismicity are dismissed largely on the basis of Farnsworth Unit analog studies (p23-30, p32).",
+ "baseline_summary": "No CFA-specific pre-injection environmental baseline. Section 5 offers NOAA Moody, Texas atmospheric CO2 data (and a defunct Farnsworth eddy tower) as background values for soil CO2, says groundwater is not routinely sampled, and otherwise relies on daily visual inspection and UIC well surveillance (p32-33).",
+ "reporting_summary": "Annual Subpart RR report with the mass balance, Subpart W surface-equipment estimates and the methodology used for any event-driven leak quantification (p31, p35-37); leaks also reported to OCC/TRRC with measured or estimated quantities under their fire/break/leak rules (p33). Records kept per 98.3(g) and 98.447 (p39). No commitment to publish measurement data.",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "Custody transfer meter at the compression facility; AGA Report #3 totalizer meters on purchased CO2 and compressed recycle gas recorded daily; totalizer at each injection well pad; produced gas sampled at least quarterly for CO2.",
+   "location": "Custody transfer point, field purchase meter, recycle compressor meter, each injection well pad",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    11,
+    12,
+    36,
+    37
+   ],
+   "evidence_quote": "A totalizer meter, for the purchased CO2, is located in the field where instantaneous data is summed into a 24-hour flow rate which is recorded."
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "Continuous pressure monitoring at the WAG injection skids/manifolds, used as the detection method for abandoned-well, fault, lateral, induced-fracture and seismic leakage; daily injection volumes collected at each well pad. No SCADA system described.",
+   "location": "WAG skids at AWT sites; each injection well pad",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Anomalous pressure: reseal abandoned wells, shut in injectors near faults or seismic event, manage fluids along lease lines, keep pressures below parting pressure.",
+   "pages": [
+    12,
+    30,
+    31
+   ],
+   "evidence_quote": "Continuous monitoring of pressure in WAG skids; high pressure found in new wells as drilled"
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "committed",
+   "detail": "Changes in annulus pressure watched to detect tubing leaks; all wells carry a Bradenhead gauge and pressure between casing strings is measured and reported under state rules.",
+   "location": "Injection wells; all wells (Bradenhead gauge)",
+   "frequency": "unspecified",
+   "baseline": "no",
+   "trigger_or_response": "Annulus pressure change: workover crews respond within days; Bradenhead pressure reported and addressed per state procedures.",
+   "pages": [
+    15,
+    27,
+    31
+   ],
+   "evidence_quote": "Monitor changes in annulus pressure; MIT for injectors"
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "MITs on injection wells as required by the OCC/TRRC Class II UIC programs; no test interval stated.",
+   "location": "Injection wells",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Tubing or casing leak found: workover crews respond within days.",
+   "pages": [
+    14,
+    24,
+    31
+   ],
+   "evidence_quote": "Mechanical integrity testing (MIT) is an essential requirement of the UIC program in demonstrating that injection wells themselves do not act as conduits for leakage"
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "committed",
+   "detail": "Each producer tested at the AWT test separator every 30-60 days (oil, gas, water metered); produced gas metered downstream of compressors and sampled at least quarterly for CO2; stock-tank oil analyzed annually; pattern monitoring.",
+   "location": "Each production well via AWT sites; CTB gas meter",
+   "frequency": "monthly",
+   "baseline": "no",
+   "trigger_or_response": "Pattern monitoring anomalies lead to further investigation (stated for seismic-induced pathways).",
+   "pages": [
+    12,
+    30,
+    34,
+    36
+   ],
+   "evidence_quote": "Each producing well is production tested every 30 to 60 days after the last production test, or after the well is returned to production."
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "mentioned_only",
+   "detail": "Reservoir pressure named only as an example of existing 'reservoir fluid monitoring provisions'; the response table also relies on high pressure being found in new wells as they are drilled. No gauges or observation wells described.",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "no",
+   "trigger_or_response": "Unexplained changes would lead to further investigation.",
+   "pages": [
+    30,
+    31
+   ],
+   "evidence_quote": "other reservoir fluid monitoring provisions (e.g., reservoir pressure, well pressure, and pattern monitoring) would lead to further investigation."
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Field personnel visually inspect surface equipment daily (Section 5.4); the response table lists weekly field inspection for casing, wellhead, pump/valve leaks and unapproved drilling; routine surveillance of pipelines and wellheads.",
+   "location": "Field-wide: wells, pipelines, surface equipment",
+   "frequency": "daily",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Leak indication: report and act; workover crews respond within days; leak quantified and reported to state regulators.",
+   "pages": [
+    23,
+    28,
+    31,
+    32
+   ],
+   "evidence_quote": "CapturePoint operational field personnel visually inspect surface equipment daily and report and act upon any event indicating leakage."
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "committed",
+   "detail": "All field and contractor personnel always wear H2S detectors (0-100 ppm range, alarm above 10 ppm); secondary purpose is flagging gas emissions from pipelines or surface equipment.",
+   "location": "Worn by all field and contractor personnel (8-10 workers)",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Alarm above 10 ppm: protect personnel, locate leak, initiate response and quantify CO2 volume.",
+   "pages": [
+    13
+   ],
+   "evidence_quote": "all field and contractor personnel are always required to wear H2S detectors."
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "mentioned_only",
+   "detail": "Section 5.3 is titled soil CO2 monitoring but only says NOAA Moody, Texas atmospheric data can serve as background for soil measurements; no soil gas sampling program is described.",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "unclear",
+   "trigger_or_response": "",
+   "pages": [
+    32
+   ],
+   "evidence_quote": "Atmospheric CO2 concentrations from the Moody, Texas station can be used for background CO2 values for soil measurement in the CFA area"
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "mentioned_only",
+   "detail": "Ogallala water wells are not routinely sampled; samples are taken only when OCC injection permits are filed, and the plan says it is unlikely to continue USDW monitoring.",
+   "location": "Ogallala water wells near permitted injection wells (Oklahoma)",
+   "frequency": "event_driven",
+   "baseline": "no",
+   "trigger_or_response": "",
+   "pages": [
+    32
+   ],
+   "evidence_quote": "CapturePoint does not routinely pull water samples from the Ogallala water wells."
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "mentioned_only",
+   "detail": "One-time review of the USGS catalog of M2.5+ earthquakes over 40 years; no site seismometers and no stated ongoing watch of a public network. Seismic leakage is to be detected via WAG skid pressure.",
+   "location": "Public USGS catalog",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Seismic event leading to pressure anomaly: shut in injectors near the event.",
+   "pages": [
+    29,
+    30,
+    31
+   ],
+   "evidence_quote": "Figure 4.6-1 shows the map of earthquakes with magnitudes measured at greater than 2.5 as defined by the United States Geological Survey (USGS)."
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "mentioned_only",
+   "detail": "2D and 3D geophysical surveys cited only as characterization work at the analog Farnsworth Unit; none at the CFA and no repeat surveys.",
+   "location": "Farnsworth Unit (analog site)",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    6
+   ],
+   "evidence_quote": "Two dimensional (2D) and three dimensional (3D) geophysical surveys were also used as part of the Farnsworth Unit MRV Plan (2021)."
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "mentioned_only",
+   "detail": "Cites the SWP eddy covariance tower at Farnsworth (broken since winter 2019) and the NOAA Moody, Texas station as sources of background atmospheric CO2; no atmospheric monitoring at the CFA is committed.",
+   "location": "Farnsworth Unit tower; NOAA station WKT, Moody, Texas",
+   "frequency": "unspecified",
+   "baseline": "unclear",
+   "trigger_or_response": "",
+   "pages": [
+    32
+   ],
+   "evidence_quote": "Atmospheric CO2 values at the Farnsworth Unit have been determined by a SWP eddy tower installation."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Subpart W Table W-1A emission factors used to estimate equipment leaks and vented emissions between meters and wellheads; event-driven surface leaks quantified by emission factors or engineering estimates, method reported annually.",
+   "location": "Surface equipment",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Detected leak: choose and document quantification method, record event, report in annual Subpart RR submission.",
+   "pages": [
+    23,
+    31,
+    32,
+    35,
+    37
+   ],
+   "evidence_quote": "CapturePoint will use Subpart W techniques to estimate leakages only on equipment and ensure those results are consistently represented in the Subpart RR report."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Wellhead pressure checks on inactive wells that have bridge plugs or cement plugs set above the perforations, to detect any change.",
+   "location": "Inactive (TA/TM) wells in the CFA",
+   "frequency": "periodic_unspecified",
+   "baseline": "no",
+   "trigger_or_response": "",
+   "pages": [
+    26
+   ],
+   "evidence_quote": "The wellhead pressures are then checked per operation schedule for any change."
+  }
+ ],
+ "notes": "Text defines both AMA and MMA as the CFA plus a half-mile buffer, but the Figure 3.1-1/3.1-2 captions say the AMA excludes a red hashed rectangle that the MMA includes (p21-22). Inspection frequency is inconsistent: Section 5.4 says surface equipment is inspected daily, while Table 1 says weekly field inspection (p31-32); coded as daily with the discrepancy noted. Table 1 is the only place injection pressure monitoring ('pressure in WAG skids') is described; no SCADA or alarm set points are given. Reservoir pressure appears only as an example in the seismicity paragraph, so coded mentioned_only. MIT interval is not stated. Section 4 cross-references to 'Sections 4.5 and 4.6' for detection and quantification appear to be stale pointers to Sections 4.7 and 4.8. Section 5 ('baselines') describes Farnsworth Unit and NOAA data rather than any CFA measurement; no soil gas, groundwater or atmospheric program is committed at the CFA. Production well test interval of 30-60 days was coded as monthly. Most figure pages (p7, 16, 24-27) are images with captions only; no text appears lost."
+}

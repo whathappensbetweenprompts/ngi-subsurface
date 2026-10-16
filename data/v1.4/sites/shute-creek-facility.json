@@ -1,0 +1,348 @@
+{
+ "site_slug": "shute-creek-facility",
+ "plan_title": "ExxonMobil Shute Creek Treating Facility Subpart RR Second Amended Monitoring, Reporting and Verification Plan",
+ "plan_version_or_date": "February 2025 (cover); body text refers to the plan as 'dated October 2024'",
+ "injection_purpose": "acid_gas_disposal",
+ "uic_class_per_plan": "II",
+ "ama_definition": "ExxonMobil sets the AMA equal to the MMA for both the AGI wells and the CO2 injection wells, arguing there are no faults or other subsurface leakage pathways and the MMA already covers the plume 100 years post-injection (p30-31).",
+ "mma_definition": "For each well group, the modeled free-phase gas plume (>1% gas saturation) at stabilization in 2205, 100 years after injection ends in 2104 (about 7.7-mile diameter for the AGI wells, 4.6 miles for SC 5-2, 4.7 miles for SC 7-34), plus a half-mile buffer (p28-30, p35).",
+ "leakage_pathways_rated_significant": "Only surface equipment (pipeline, wellhead) and the injection wellbores themselves are treated as realistic enough to focus monitoring on; faults/fractures, the formation seal, lateral migration and natural or induced seismicity are rated highly improbable, and no other wells penetrate the injection zones within the MMAs (p5, p30, p35-42).",
+ "baseline_summary": "No pre-injection environmental baseline. 'Baselines' are ongoing operational data: DCS high/low set points on rates, pressures and composition, daily/weekly visual inspections, H2S and CO2 detector alarms, annual MIT results compared with previous MITs, and smart-pig inspections compared with previous runs (p45-46).",
+ "reporting_summary": "Annual Subpart RR report with the mass balance (Equation RR-12; equipment leaks and surface leakage estimated as upset events); CO2 injection wells added to the report on or before March 31 of the year after each begins injecting; updated SC 7-34 reservoir properties and logs to be submitted in the first annual report after it starts; records kept at least three years. No commitment to publish measurement data or to report monitoring results to the WOGCC beyond required MITs (p5, p15, p47-50).",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "Volumetric flow meters on the AGI wells (at the three AGI compressors) and proposed for the CO2 injection wells upstream of the wellhead; continuous online process analyzers for CO2 composition, averaged quarterly; NIST-traceable calibration.",
+   "location": "Three AGI compressors; upstream of each CO2 injection wellhead",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Missing quarterly volume estimated from nearest prior period at similar injection pressure.",
+   "pages": [
+    48,
+    49,
+    50,
+    51
+   ],
+   "evidence_quote": "Volumetric flow meters are used to measure the injection volumes at the AGI wells"
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "Plant Distributed Control System continuously records flow, pressure, temperature and gas composition for the injection streams; qualified technicians watch it and high/low set points generate alerts.",
+   "location": "AGI facility, CO2 injection facilities and injection wells (DCS at SCTF)",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Parameter outside allowable window alerts engineering/operations and triggers investigation of a possible leak; abnormal data may prompt reservoir modeling.",
+   "pages": [
+    37,
+    43,
+    44,
+    46,
+    47,
+    48
+   ],
+   "evidence_quote": "The DCS of the SCTF monitors injection rates, pressures, and composition on a continuous basis."
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "Annual MIT required by WOGCC: well and wellhead pressured up and subsurface/wellhead valves leak tested; results compared with previous MIT data.",
+   "location": "AGI and CO2 injection wells",
+   "frequency": "annual",
+   "baseline": "no",
+   "trigger_or_response": "MIT shows a leak: well isolated and leak mitigated to prevent release to atmosphere.",
+   "pages": [
+    39,
+    40,
+    45,
+    47
+   ],
+   "evidence_quote": "Mechanical integrity testing is conducted on an annual basis and consists of pressuring up the well and wellhead"
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Field personnel inspect the AGI facility daily and the AGI well sites weekly; the CO2 injection facility and well sites will get weekly visual inspections.",
+   "location": "AGI facility (daily); AGI, SC 5-2 and SC 7-34 well sites and CO2 facility (weekly)",
+   "frequency": "weekly",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Issue identified: work order generated to correct it; leak indication triggers evacuation, isolation and response team.",
+   "pages": [
+    37,
+    38,
+    39,
+    44,
+    46,
+    47
+   ],
+   "evidence_quote": "daily visual inspection rounds are conducted of the AGI facility and weekly visual inspections are conducted of the AGI wells"
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "committed",
+   "detail": "All field personnel wear personal H2S monitors alarming at 5 ppm; listed as a detection program for surface equipment and wells.",
+   "location": "Worn by field personnel at AGI facility and well sites",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Alarm: immediate response to protect personnel and verify detectors are working.",
+   "pages": [
+    37,
+    38,
+    44,
+    47
+   ],
+   "evidence_quote": "all field personnel are required to wear H2S monitors for safety reasons, which alarm at 5 ppm H2S."
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "committed",
+   "detail": "Fixed H2S detectors throughout the AGI facility and well sites (alarm 10 ppm); fixed CO2 detectors at the CO2 injection facilities and wellheads (alarm 5,000 ppm / 0.5%); operated continuously, calibrated per manufacturer and API.",
+   "location": "AGI facility and well sites; CO2 injection facilities and SC 5-2 / SC 7-34 wellheads",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Any alarm: immediate response; more than one detector alarming can trigger automatic equipment isolation/shutdown; leak quantified from operating conditions.",
+   "pages": [
+    37,
+    39,
+    42,
+    43,
+    44,
+    45,
+    47,
+    48,
+    50
+   ],
+   "evidence_quote": "H2S gas detectors are prevalent around the AGI facility and well sites, which alarm at 10 ppm."
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "mentioned_only",
+   "detail": "Wellbore image logs used to characterize the reservoir; no repeat logging as monitoring.",
+   "location": "",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    40
+   ],
+   "evidence_quote": ""
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "conditional",
+   "detail": "Reliance on the public ANSS catalogue (University of Utah Seismograph Stations); consulted if a seismic event occurs during injection. No site seismometers. Table 5.1 lists the catalogue as a monitoring program.",
+   "location": "Regional data (ANSS catalogue)",
+   "frequency": "event_driven",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Seismic event during injection: check ANSS catalogue to judge whether injection caused it and quantify any CO2 leak from operating conditions.",
+   "pages": [
+    42,
+    43,
+    44,
+    46
+   ],
+   "evidence_quote": "ExxonMobil will consult the ANSS Catalogue to verify whether the seismic event was due to the injection"
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "mentioned_only",
+   "detail": "Existing 2D (and regional 3D) seismic used only to characterize structure and show absence of faulting around the well sites; no repeat seismic monitoring.",
+   "location": "Around AGI, SC 5-2 and SC 7-34 well sites",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    10,
+    24,
+    25,
+    40,
+    43
+   ],
+   "evidence_quote": "2D Seismic traverses around the SC 5-2 injection well location shows no evidence of faulting or structuring around the well location"
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Inline inspection of the AGI injection pipelines with a smart pig to measure wall thickness and find corrosion; results compared with prior runs. Not planned routinely for the CO2 flow lines (capability retained).",
+   "location": "AGI flow lines (3,200 ft and 12,400 ft)",
+   "frequency": "periodic_unspecified",
+   "baseline": "no",
+   "trigger_or_response": "Comparison with previous data used to judge whether pipeline integrity is compromised.",
+   "pages": [
+    37,
+    38,
+    44,
+    47
+   ],
+   "evidence_quote": "Inline inspections of the AGI injection pipelines using a smart pigging tool are conducted on a regular frequency"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Water content (dew point) of the injected gas continuously monitored to prevent free water and acid corrosion in flow lines and wells; gas dehydrated and above-ground AGI lines heat traced.",
+   "location": "AGI and CO2 injection streams upstream of flow lines",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    26,
+    27,
+    28
+   ],
+   "evidence_quote": "the water content of the gas is continuously monitored"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Engineered shutdown: surface-controlled subsurface safety valves and redundant surface isolation valves at AGI wells (isolation valves also at CO2 wells) trip closed on leak detection; multiple alarms can trigger automatic isolation.",
+   "location": "AGI and CO2 injection wells",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Leak detected: SCSSV and isolation valves close to stop backflow from the formation.",
+   "pages": [
+    37,
+    38,
+    39,
+    40,
+    44
+   ],
+   "evidence_quote": "wells with surface controlled subsurface safety valves (SCSSVs), which are set to trip closed if leakage is detected"
+  },
+  {
+   "method": "other",
+   "commitment": "conditional",
+   "detail": "Leak verification per the Emergency Response Plan: area evacuated, two-person team with breathing air and portable gas monitors locates the leak; wind speed/direction and H2S readings define affected area; AGI pressure relieved to flare.",
+   "location": "AGI facility; CO2 injection facilities and well sites (ERP to be updated for CO2 wells)",
+   "frequency": "event_driven",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Report or indication of a leak (visual, gas monitor, pressure drop): evacuate, isolate, dispatch team, emergency shutdown as needed.",
+   "pages": [
+    45,
+    46
+   ],
+   "evidence_quote": "A two-man control and countermeasure team will be dispatched with emergency breathing air equipment and gas monitors to investigate the area"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Leak quantification: detected surface or wellbore leaks treated as upset events and estimated from pressure, flow rate, opening size and duration (Equation RR-10); CO2FI per Subpart W; CO2 well venting measured per 98.233. Annual leak survey explicitly rejected as unsafe.",
+   "location": "Surface equipment between flow meter and wellhead; injection wells",
+   "frequency": "event_driven",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Detected and confirmed leak: mass of CO2 calculated from operating conditions at time of release.",
+   "pages": [
+    38,
+    39,
+    45,
+    47,
+    48,
+    49
+   ],
+   "evidence_quote": "fugitive leakage would be managed as an upset event and calculated for that event based on operating conditions at that time."
+  },
+  {
+   "method": "other",
+   "commitment": "conditional",
+   "detail": "If abnormal operating data suggest leakage through faults, the seal or lateral migration, quantification case by case using engineering analysis, dynamic reservoir modeling and history matching, plus mitigation.",
+   "location": "Injection zone (model-based)",
+   "frequency": "event_driven",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Abnormal DCS data indicating subsurface leakage: reservoir modeling/engineering estimates to quantify and actions to stop leakage.",
+   "pages": [
+    46,
+    47
+   ],
+   "evidence_quote": "utilizing quantification methods such as engineering analysis of surface and subsurface measurement data, dynamic reservoic modeling, and history-matching of the reservoir performance"
+  }
+ ],
+ "notes": "The plan covers two different well groups: the AGI wells (acid gas disposal, 35-50% CO2 / 50-65% H2S) and the new SC 5-2 and SC 7-34 wells (99% CO2 disposal); 'acid_gas_disposal' was chosen for injection_purpose, but co2_disposal applies to the SC wells. Cover date is February 2025 while the Introduction calls it 'dated October 2024' (p5). Many figure pages (p17-19, 21-23, 31-35) are images with little or no text. Monitoring is almost entirely surface-based (DCS injection parameters, fixed H2S/CO2 detectors, personal monitors, visual rounds, annual MIT, smart pigging); there is no annulus pressure monitoring, observation well, above-zone, groundwater, soil gas or seismometer commitment. Reservoir pressure is coded not_found because only injection-stream pressure in the DCS is described; fall-off tests (p16) and wellbore image logs (p39) are characterization, not monitoring. Visual inspections are daily at the AGI facility and weekly at all well sites, so 'weekly' was chosen as the row frequency. Passive seismic is coded conditional because the text only commits to consulting the ANSS catalogue if an event occurs, even though Table 5.1 lists it as a monitoring program (p43). The plan explicitly rejects an annual leak survey of components as unsafe-to-monitor and relies on continuous gas detectors instead (p47). 'Monitoring will occur for the duration of injection' (p43); no post-injection monitoring is described. Updated SC 7-34 reservoir properties and well logs are promised in the first annual report after that well starts (p15). Page citations were corrected after the independent check: the coder had cited printed page numbers, one less than the PDF page. Page references inside this notes field may still use printed numbers."
+}

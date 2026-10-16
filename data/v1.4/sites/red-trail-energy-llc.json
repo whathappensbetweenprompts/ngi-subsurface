@@ -1,0 +1,338 @@
+{
+ "site_slug": "red-trail-energy-llc",
+ "plan_title": "Red Trail Energy Subpart RR Monitoring, Reporting, and Verification (MRV) Plan",
+ "plan_version_or_date": "",
+ "injection_purpose": "class_vi_storage",
+ "uic_class_per_plan": "VI",
+ "ama_definition": "The North Dakota area of review (modeled plume extent plus a 1-mile buffer rounded to 40-acre tracts) is used as the AMA because it exceeds the Subpart RR AMA calculation (p10-11).",
+ "mma_definition": "The same AOR also serves as the MMA, since it subsumes the Subpart RR-calculated MMA boundary (p11-12).",
+ "leakage_pathways_rated_significant": "The screening-level risk assessment rates every pathway unlikely and requiring no corrective action; the plan still treats surface components (buried flowline and wellhead) during injection and the two wells (RTE-10 injector, RTE-10.2 monitor) as the main pathways to watch, while the one abandoned well (Rummel-State 1), the Heart River Fault, seismicity and seal/lateral migration are rated very unlikely (p9-17).",
+ "baseline_summary": "A one-year pre-injection baseline program, sampled across all four seasons: completed soil gas sampling at 11 locations, three existing shallow groundwater wells, and two dedicated Fox Hills (lowest USDW) monitoring wells; plus baseline pulsed-neutron logs in both wells, a baseline 3D seismic survey, seismometer stations one year before injection, and InSAR/gravity feasibility studies (p18-19, 22-23).",
+ "reporting_summary": "Annual Subpart RR report with the RR-12 mass balance, filed with other GHG reports by April 30; records kept at least three years. Events are communicated to the North Dakota UIC program director within 24 hours if warranted, and a formal AOR review is submitted every five years with the monitoring plan revised as needed. No commitment to publish measurement data (p21, 25-26).",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "Real-time CO2 stream analysis at the capture plant; mass/volume flowmeters with pressure and temperature transducers at the wellhead metering station (primary) and the flowline station (backup); quarterly concentration from near-continuous measurement.",
+   "location": "Metering station at RTE-10 wellhead; flowline station as backup; capture facility",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    13,
+    18,
+    23,
+    24,
+    25
+   ],
+   "evidence_quote": "The proposed main metering station for mass balance calculation is identified as the first metering station placed at the wellhead"
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "Real-time surface pressure gauges and temperature sensors on RTE-10, RTE-10.2 and the flowline, tracked through a SCADA system with alarms and automatic shutoff devices at each end of the flowline.",
+   "location": "RTE-10 and RTE-10.2 wellheads, flowline, surface facilities",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Pressure, temperature or rate deviating from set points triggers an automatic data flag; field personnel investigate; unresolved excursions get detailed investigation and quantification.",
+   "pages": [
+    13,
+    14,
+    18,
+    21
+   ],
+   "evidence_quote": "a data flag will be automatically triggered by the automated system and field personnel will investigate the excursion"
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "committed",
+   "detail": "Pressure gauges on the wellhead monitor the tubing-casing annulus; listed as part of leak verification.",
+   "location": "Wellheads (RTE-10; RTE-10.2 implied)",
+   "frequency": "unspecified",
+   "baseline": "no",
+   "trigger_or_response": "",
+   "pages": [
+    14,
+    21
+   ],
+   "evidence_quote": "Pressure gauges will be installed on the wellhead to monitor annular pressure between tubing and casing."
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "Annular pressure tests and ultrasonic imager logs before injection and during workovers but no more than every five years; pressure falloff test on RTE-10 before injection and every five years; corrosion and mechanical integrity protocol.",
+   "location": "RTE-10 and RTE-10.2",
+   "frequency": "multi_year",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Loss of mechanical integrity feeds the verification process; if injection stops, resumption needs written UIC director authorization.",
+   "pages": [
+    17,
+    19,
+    20,
+    21
+   ],
+   "evidence_quote": "Perform during workovers but not more than once every 5 years"
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "committed",
+   "detail": "External downhole pressure and temperature gauges set in the Broom Creek injection interval in both the injector and the monitoring well, real-time through injection and until plume stabilization; data history-match the reservoir model.",
+   "location": "RTE-10 and RTE-10.2, injection interval",
+   "frequency": "continuous",
+   "baseline": "unclear",
+   "trigger_or_response": "Deviations from the modeled plume/pressure front identified through history matching are investigated; model recalibrated.",
+   "pages": [
+    15,
+    16,
+    18,
+    19,
+    21
+   ],
+   "evidence_quote": "monitored in real time with external downhole pressure and temperature gauges set in the injection interval and the dissipation interval"
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Quarterly visual inspections of the flowline during injection and post-injection; routine visual checks of wellbores for white CO2 clouds and ice.",
+   "location": "Flowline and wellbores",
+   "frequency": "quarterly",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Observed release: address immediately, notify UIC program director within 24 hours if warranted.",
+   "pages": [
+    14,
+    18,
+    21
+   ],
+   "evidence_quote": "RTE will also rely on a routine visual inspection process to detect unexpected releases from wellbores"
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "committed",
+   "detail": "Flowline and wellhead monitored with CO2 leak detection equipment; the plan does not name the sensors or their placement.",
+   "location": "CO2 flowline and wellhead",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Release: shutoff devices at each end of the flowline stop injection and alarm the automated system.",
+   "pages": [
+    13,
+    14
+   ],
+   "evidence_quote": "Surface components of the injection system, including the CO2 transport flowline and wellhead, will be monitored using CO2 leak detection equipment."
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "committed",
+   "detail": "Soil gas sampled at 11 baseline locations; three to four seasonal samples per year adjacent to each RTE well during injection, then three to four seasonal samples every three years post-injection.",
+   "location": "AOR, adjacent to RTE-10 and RTE-10.2",
+   "frequency": "quarterly",
+   "baseline": "yes",
+   "trigger_or_response": "Change from baseline concentrations may indicate leaking CO2 and triggers verification.",
+   "pages": [
+    18,
+    20,
+    22
+   ],
+   "evidence_quote": "Three to four seasonal samples per year adjacent to each well"
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "committed",
+   "detail": "Three existing shallow water wells nearest RTE-10 and two dedicated Fox Hills (lowest USDW) monitoring wells sampled yearly in years 1-3 and 5, then every five years; three to four events at cessation and before closure.",
+   "location": "Three existing water wells in northwest AOR; two Fox Hills monitoring wells near RTE-10 and RTE-10.2",
+   "frequency": "annual",
+   "baseline": "yes",
+   "trigger_or_response": "Changes in water chemistry versus baseline suggest CO2 impact; other water wells phased in as plume migrates.",
+   "pages": [
+    18,
+    20,
+    22
+   ],
+   "evidence_quote": "Once per year during years 1 through 3 and 5, then every 5 years thereafter"
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "committed",
+   "detail": "Real-time downhole pressure/temperature gauges in the dissipation interval above the confining zone in both wells; fiber optic DTS/DAS up to the base of the confining layer; pulsed-neutron saturation logs of the above-zone interval every five years.",
+   "location": "RTE-10 and RTE-10.2 dissipation interval; dedicated Fox Hills monitoring wells (fiber)",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Pressure/temperature or saturation change above the seal indicates mechanical integrity issue or leakage; verification follows.",
+   "pages": [
+    15,
+    16,
+    18,
+    19,
+    23
+   ],
+   "evidence_quote": "These time-lapse saturation data will be used as an assurance-monitoring technique for CO2 in the formation directly above the storage reservoir"
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "committed",
+   "detail": "Pulsed-neutron logs baseline then every five years in RTE-10.2 and as needed in RTE-10; ultrasonic imager logs during workovers up to every five years; cement bond logs after cementing, if needed, and before plugging.",
+   "location": "RTE-10 and RTE-10.2",
+   "frequency": "multi_year",
+   "baseline": "yes",
+   "trigger_or_response": "",
+   "pages": [
+    18,
+    19,
+    20,
+    23
+   ],
+   "evidence_quote": "Every 5 years in RTE-10.2 and as needed in RTE-10"
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "committed",
+   "detail": "Site seismometer stations installed in the AOR one year before injection to establish baseline seismicity, then real-time through injection and post-injection.",
+   "location": "AOR surface seismometer stations",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "",
+   "pages": [
+    19,
+    20,
+    23
+   ],
+   "evidence_quote": "the project will install seismometer stations sufficient to confidently measure baseline seismicity from the injection area 1 year prior to injection"
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "committed",
+   "detail": "Baseline 3D seismic survey already shot; time-lapse seismic surveys of the AOR every five years during injection and post-injection to track the plume.",
+   "location": "AOR",
+   "frequency": "multi_year",
+   "baseline": "yes",
+   "trigger_or_response": "Plume extent compared with model; deviations prompt model recalibration and investigation.",
+   "pages": [
+    19,
+    20,
+    23
+   ],
+   "evidence_quote": "A 3D seismic survey was conducted to establish baseline conditions in the storage reservoir."
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "mentioned_only",
+   "detail": "InSAR over the AOR listed as baseline and real-time but flagged 'if feasible'; a pre-injection feasibility study will decide whether it is used.",
+   "location": "AOR",
+   "frequency": "continuous",
+   "baseline": "unclear",
+   "trigger_or_response": "",
+   "pages": [
+    19,
+    20,
+    23
+   ],
+   "evidence_quote": "Feasibility studies for monitoring surface deformation with InSAR and detecting changes in mass with gravity methods will be performed prior to injection"
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Distributed temperature and acoustic sensing fiber optics along the buried flowline and in both wells (and Fox Hills monitoring wells) for real-time leak detection and mechanical integrity.",
+   "location": "Flowline, RTE-10, RTE-10.2, dedicated Fox Hills monitoring wells",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Thermal or acoustic anomaly indicates leak or integrity loss; verification and response per emergency plan.",
+   "pages": [
+    13,
+    15,
+    16,
+    18
+   ],
+   "evidence_quote": "Distributed temperature-sensing/distributed acoustic-sensing (DTS/DAS) fiber optics are installed along the flowline as part of the leak detection program"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Corrosion coupons on the flowline pulled quarterly during injection as part of the corrosion and mechanical integrity protocol.",
+   "location": "Flowline",
+   "frequency": "quarterly",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    17,
+    18
+   ],
+   "evidence_quote": "Corrosion Coupons (flowline)"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Reservoir simulation model continuously calibrated with monitoring data to compare predicted and actual plume and pressure front; formal AOR review every five years with plan revisions.",
+   "location": "AOR / storage reservoir",
+   "frequency": "multi_year",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Conditions differing from the model are flagged for investigation; monitoring plan modified if needed.",
+   "pages": [
+    17,
+    21
+   ],
+   "evidence_quote": "Every 5 years, a formal AOR review will be submitted, and the monitoring plan revised and modified if needed."
+  },
+  {
+   "method": "other",
+   "commitment": "mentioned_only",
+   "detail": "Gravity surveys of the AOR to detect mass change, baseline plus at least one repeat, only if a pre-injection feasibility study supports them.",
+   "location": "AOR",
+   "frequency": "unspecified",
+   "baseline": "unclear",
+   "trigger_or_response": "",
+   "pages": [
+    19,
+    20,
+    23
+   ],
+   "evidence_quote": "TBD5 \u2013 repeat survey at least once"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Equipment leaks and vented CO2 between the flowmeter and wellhead estimated with Subpart W procedures and reconciled with surveillance data for the annual report.",
+   "location": "Surface equipment between flowmeter and wellhead",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    23,
+    25
+   ],
+   "evidence_quote": "will comply with the calculation and quality assurance/quality control requirement proposed in Part 98, Subpart W"
+  }
+ ],
+ "notes": "No version number or date is printed on the cover; the implementation schedule says the plan starts April 2022 or 90 days after EPA approval (p25). Most monitoring details are incorporated by reference to the North Dakota storage facility permit (Reference 1, Section 4.4) and not reproduced, so instruments, thresholds and response actions are thinly described here. The summary table runs across p18-20; the page-20 table is labeled 4-3 in the extraction but is Table 4-2 in the TOC. Annulus pressure gauges are described but no frequency is stated for them specifically, though the surface gauges are listed as real-time. Soil gas is 'three to four seasonal samples per year', coded as quarterly. Groundwater frequency is annual in years 1-3 and 5, then every five years; coded annual. Downhole gauges are 'NA' in the pre-injection column but a pre-injection pressure falloff test is planned, so reservoir_pressure baseline is marked unclear. InSAR and gravity are listed in the table only 'if feasible' pending a feasibility study, so coded mentioned_only per the weaker-level rule; a reader may view them as conditional on feasibility. 'CO2 leak detection equipment' at the flowline/wellhead is committed but unspecified. Fiber optic DTS/DAS, corrosion coupons, model updates and gravity are placed in 'other' rows."
+}

@@ -1,0 +1,343 @@
+{
+ "site_slug": "rose-carbon-capture-and-sequestration-facility",
+ "plan_title": "Monitoring, Reporting, and Verification Plan, Rose Carbon Capture and Storage Facility, Jefferson County, Texas",
+ "plan_version_or_date": "Version 1.0, November 2025",
+ "injection_purpose": "class_vi_storage",
+ "uic_class_per_plan": "VI",
+ "ama_definition": "The AMA is treated as functionally equivalent to the MMA: the modeled free-phase plume at 39 years after start of injection (plume stabilization) plus a half-mile buffer, held constant for the life of the project (p22-23).",
+ "mma_definition": "The stabilized free-phase CO2 plume, simulated to reach maximum extent 39 years after start of injection (26 years post-injection), plus an all-around half-mile buffer (p22).",
+ "leakage_pathways_rated_significant": "None rated more than low likelihood. The plan screens six pathways (injection/monitor well integrity, legacy wells, monitoring equipment failure, UCCZ integrity including one mapped fault, induced/natural seismicity, surface equipment) and calls each low or negligible; wells and surface equipment get the most monitoring attention (p27-31).",
+ "baseline_summary": "A pre-injection baseline program: groundwater/geochemical samples from the above-zone well and three USDW wells, downhole pressure/temperature before injection, a baseline (reprocessed) seismic survey, pre-operational surface equipment inspection, baseline soil gas and air samples, and a seismometer array recording since 1 July 2024 (p30, p39). Operating data are also compared to baseline and predicted values (p32).",
+ "reporting_summary": "Annual Subpart RR report per 40 CFR 98.442 with the mass balance; any surface leakage mass and estimation method documented in that report (p41, p43). Seismic events M2+ within 5.6 miles of an injector are reported to the UIC Program Director; monitoring frequency changes need Director approval (p31, p33). No commitment to publish measurement data.",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "Two Coriolis mass flow meters on two flowlines at the central pad measure rate, density and total mass; gas chromatograph at the pad; injection stream sampled quarterly and sent to a lab.",
+   "location": "Central pad (custody transfer point from the single CO2 pipeline)",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    13,
+    31,
+    32,
+    33,
+    39,
+    42,
+    43
+   ],
+   "evidence_quote": "Two Coriolis flow meters, installed at the central pad, will be used to directly measure the mass flow rate of the injected fluid."
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "Wellhead tubing pressure, downhole pressure/temperature, rate and CO2 stream temperature recorded continuously (5-second sampling, 5-minute recording) on a SCADA system watched by an Operations Control Center, with alarms.",
+   "location": "Each injection wellhead and downhole gauge; central pad; distribution piping",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Pressure outside tolerances (about 90% of fracture gradient or permitted wellhead pressure) alarms; anomalies investigated against baseline and predicted values; automatic shut-off devices.",
+   "pages": [
+    27,
+    29,
+    31,
+    32,
+    33,
+    34,
+    37,
+    39
+   ],
+   "evidence_quote": "Alarms will be set for pressures outside described tolerances (generally 90% of fracture gradient and prescribed wellhead pressures)"
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "committed",
+   "detail": "Continuous wellhead gauge on the tubing/long-string annulus plus a level transmitter on the annulus fluid tank; fluid additions or removals documented; alarms on annular pressure or fluid changes.",
+   "location": "Each injection wellhead and annulus system tank",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Annular pressure anomaly: field personnel examine; minor repairs done promptly, otherwise well shut in; emissions estimated and reported.",
+   "pages": [
+    27,
+    32,
+    33,
+    40,
+    41
+   ],
+   "evidence_quote": "the pressure on the annulus between the tubing and the long-string casing"
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "Annual annulus pressure test; pressure falloff tests at the end of each injection stage (also described as annual during shut-ins); baseline casing inspection log with repeats only if triggered.",
+   "location": "Injection wells",
+   "frequency": "annual",
+   "baseline": "yes",
+   "trigger_or_response": "Deficiency in falloff or annulus test indicates loss of integrity; casing log repeated if leakage risk apparent or UIC Director requests.",
+   "pages": [
+    27,
+    28,
+    29,
+    34,
+    37
+   ],
+   "evidence_quote": "Deficiency identified during pressure falloff tests and annulus pressure tests."
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "committed",
+   "detail": "Downhole pressure/temperature gauges in each injector's open interval and a tubing-encapsulated cable with in-line gauges across four intervals in In-Zone Monitoring Well No. 01, used to track the pressure front and calibrate the model.",
+   "location": "Three injection wells and In-Zone Monitoring Well No. 01 (Bead Farm Company #4)",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Pressure front tracking indicating potential impact to legacy wells or above UCCZ prompts investigation, model updates and phased corrective action.",
+   "pages": [
+    9,
+    29,
+    30,
+    34,
+    37,
+    39
+   ],
+   "evidence_quote": "Collect pressure and temperature measurements for evaluating the rate of CO2 plume and pressure front movement"
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Routine visual inspections and preventive maintenance of wellheads, flowlines and other surface components; equipment inspected, tested and calibrated before commissioning.",
+   "location": "Surface facilities between central pad and wellheads",
+   "frequency": "periodic_unspecified",
+   "baseline": "unclear",
+   "trigger_or_response": "Problems found during inspection: minor repairs made promptly, otherwise well shut in; CO2 emissions estimated and reported.",
+   "pages": [
+    29,
+    31,
+    39,
+    40,
+    41
+   ],
+   "evidence_quote": "Routine visual inspections and preventative maintenance of all surface components."
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "conditional",
+   "detail": "Stationary CO2 detectors named as one option for contingent air monitoring; no fixed sensors described as routine monitoring (see atmospheric_co2 row).",
+   "location": "",
+   "frequency": "event_driven",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Only deployed after a confirmed release to the USDW.",
+   "pages": [
+    38
+   ],
+   "evidence_quote": "Portable and/or stationary CO2 detectors monitor record ambient CO2 concentrations"
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "conditional",
+   "detail": "Soil gas samples from the unsaturated zone, only as a response to a confirmed release to the USDW; baseline soil gas samples already collected.",
+   "location": "Not stated",
+   "frequency": "event_driven",
+   "baseline": "yes",
+   "trigger_or_response": "Confirmed release to USDW triggers soil gas sampling.",
+   "pages": [
+    38,
+    39
+   ],
+   "evidence_quote": "Soil gas and air monitoring are proposed only as responses to triggering events. However, baseline samples of each have been collected."
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "committed",
+   "detail": "Quarterly fluid sampling from three USDW monitoring wells in the upper Chicot Aquifer (about 300-350 ft), pre-operational and operational phases, analyzed for water quality and geochemical trends; baseline collected.",
+   "location": "USDW Monitoring Wells No. 1, 2R and 3 within the AoR",
+   "frequency": "quarterly",
+   "baseline": "yes",
+   "trigger_or_response": "Statistically significant change versus baseline indicates possible leak; additional USDW wells added if plume/pressure tracking warrants.",
+   "pages": [
+    9,
+    18,
+    19,
+    28,
+    29,
+    30,
+    35,
+    38,
+    39
+   ],
+   "evidence_quote": "Sample fluids from the Chicot Aquifer which is the most prolific USDW aquifer within the MMA"
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "committed",
+   "detail": "Quarterly fluid samples collected through tubing from the first laterally continuous water-bearing zone above the UCCZ in converted stratigraphic well Bead Farm Co. #1, supplemented by time-lapse seismic; baseline samples collected.",
+   "location": "Above-Zone Monitoring Well No. 01 (Bead Farm Co. #1) on the central pad",
+   "frequency": "quarterly",
+   "baseline": "yes",
+   "trigger_or_response": "Statistically significant change in fluid chemistry indicates CO2 or brine crossflow; corrective action plan updated.",
+   "pages": [
+    8,
+    17,
+    27,
+    28,
+    29,
+    30,
+    34,
+    37,
+    39
+   ],
+   "evidence_quote": "fluid sampling from the first laterally continuous zone above the UCCZ, supplemented by time-lapse seismic surveys"
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "committed",
+   "detail": "Annual distributed temperature sensing on cemented fiber to detect flow through cement channels; one-time DTS cement evaluation; baseline through-tubing casing inspection log with repeats only if triggered.",
+   "location": "Injection wells",
+   "frequency": "annual",
+   "baseline": "yes",
+   "trigger_or_response": "Casing log repeated if leakage risk apparent or UIC Director requests; legacy well re-entry for casing/cement logs if a well is suspected.",
+   "pages": [
+    27,
+    29,
+    34
+   ],
+   "evidence_quote": "DTS to assess potential flow through channels through or along cement"
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "committed",
+   "detail": "Permanent on-site near-surface seismometer array with continuous sampling and near-real-time processing, operated by a third party, recording since 1 July 2024; also USGS notifications and public data.",
+   "location": "Selected surface locations within the AoR; USGS network",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Event of M2 or larger within 5.6 miles of an injector: notify UIC Program Director, jointly assess link to operations, implement seismic response actions.",
+   "pages": [
+    30,
+    31,
+    37
+   ],
+   "evidence_quote": "ExxonMobil has installed a permanent seismicity monitoring system on-site, which is being monitored by a third party"
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "committed",
+   "detail": "Time-lapse surface seismic over the plume area: baseline from reprocessed 2024/2025 data, repeat surveys within 1-3 years, 6-8 years and at year 13 (end of injection), plus contingent PISC surveys.",
+   "location": "CO2 plume area, surface to base of Frio Sand 2",
+   "frequency": "multi_year",
+   "baseline": "yes",
+   "trigger_or_response": "Unexpected lateral or vertical plume migration above the UCCZ prompts update of the corrective action plan; additional surveys subject to UIC Director approval.",
+   "pages": [
+    17,
+    28,
+    30,
+    34,
+    37,
+    39
+   ],
+   "evidence_quote": "Indirect method to monitor CO2 plume growth in the subsurface over time"
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "conditional",
+   "detail": "Portable and/or stationary CO2 detectors recording ambient CO2 concentrations, deployed only after a confirmed release to the USDW; baseline air samples collected.",
+   "location": "Not stated",
+   "frequency": "event_driven",
+   "baseline": "yes",
+   "trigger_or_response": "Confirmed release to USDW triggers air monitoring.",
+   "pages": [
+    38,
+    39
+   ],
+   "evidence_quote": "Portable and/or stationary CO2 detectors monitor record ambient CO2 concentrations"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Corrosion coupons of project metals checked quarterly under 40 CFR 146.90(c).",
+   "location": "Injection system (location not stated)",
+   "frequency": "quarterly",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    33
+   ],
+   "evidence_quote": "Measure corrosion levels on the types of metal used in the Project"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Reservoir model forecast updates and AoR/MMA/AMA reevaluation using monitoring data at least every five years, used to time monitoring and phased corrective action on legacy wells.",
+   "location": "AoR / MMA",
+   "frequency": "multi_year",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Observed plume or pressure front differing from prediction may trigger more frequent review, corrective action and MRV plan revision.",
+   "pages": [
+    22,
+    29,
+    33,
+    45
+   ],
+   "evidence_quote": "reevaluate the AoR (including free phase CO2 plume), MMA, and AMA based on site-specific monitoring data at the minimum frequency of 5 years"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Equipment leaks and vented emissions between the injection meters and wellheads quantified with Subpart W methods for the mass balance.",
+   "location": "Surface equipment between central pad meters and wellheads",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    41,
+    43
+   ],
+   "evidence_quote": "will be measured and reported in accordance with the requirements of 40 CFR 98.444(d)/Subpart W."
+  },
+  {
+   "method": "other",
+   "commitment": "mentioned_only",
+   "detail": "One-time aeromagnetic survey (September 2023) over the predicted plume to find undocumented wells; characterization, not ongoing monitoring.",
+   "location": "Predicted CO2 plume boundary",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    28
+   ],
+   "evidence_quote": "an aeromagnetic survey was conducted on September 2023 to assess the predicted CO2 plume boundary for undocumented artificial penetrations"
+  }
+ ],
+ "notes": "Pages 11 and 25 (Figures 3-1 and 4-1, the well/AoR map and the AMA/MMA map) are image-only. Table 3-1 lists four 'Shallow Groundwater Wells' (20-25 ft deep) in addition to the three USDW monitoring wells, but the monitoring program (Tables 6-2/6-3, Section 7) only describes sampling the three USDW wells; the shallow wells' role is not stated. Falloff test frequency is given inconsistently ('at the end of every injection stage' in Table 6-2 vs 'annual' in Table 6-3). Table 6-3 flags the passive seismic array as 'Phased/Triggered: Yes, contingent on triggering seismic events' while listing continuous monitoring; coded as committed because the array is installed and recording. 'Air monitoring' with portable or stationary detectors is coded under atmospheric_co2 (conditional); fixed_gas_detectors is mentioned_only for the stationary option. Visual inspection baseline marked 'unclear' because the plan lists a pre-operational equipment inspection as a baseline element but it is not a measurement compared against later readings. Reporting section (Section 11) is a single sentence. Implementation date proposed as October 1, 2025 although the plan is dated November 2025. Reservoir model updates and reductions in indirect monitoring frequency require UIC Program Director approval."
+}

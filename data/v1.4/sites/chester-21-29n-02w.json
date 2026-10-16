@@ -1,0 +1,277 @@
+{
+ "site_slug": "chester-21-29n-02w",
+ "plan_title": "Riverside Energy Michigan, LLC Chester 21-29N-02W Storage Facility Subpart RR Monitoring, Reporting, and Verification Plan",
+ "plan_version_or_date": "February 6, 2025",
+ "injection_purpose": "acid_gas_disposal",
+ "uic_class_per_plan": "II",
+ "ama_definition": "The Chester 21-29N-02W Reef Structure area (regularized to the nearest 10-acre square) plus a half-mile buffer in all directions, set for a 10-year period covering the expected project life; the plume is projected to stay inside the reef (p23-25).",
+ "mma_definition": "Identical to the AMA: the reef structure plus a half-mile buffer, since the stabilized plume is expected to remain within the compartmentalized reef (p25).",
+ "leakage_pathways_rated_significant": "No pathway is rated more than low. Surface equipment between the meter and wellhead and the single injection wellbore are treated as the realistic ones and receive the most monitoring; legacy wells and future wells are low; faults, seismicity, confining layers and lateral migration are very low (p26-32).",
+ "baseline_summary": "Pre-injection baselines are collected: MIT and annular pressure test, initial annular fluid volume, tubing and annulus wellhead pressures, initial bottomhole pressure and temperature gradient survey, one groundwater sample from the pad water well, and a baseline OGI survey of surface equipment; target injection rates from analog reefs and the model serve as operating baselines (p34-36).",
+ "reporting_summary": "Annual Subpart RR report with mass balance (RR-4, RR-10, RR-12) and quarterly averages of flow rate and mass injected; records kept per 98.3(g) and three years per 98.447. Well records and injection data will be shared with Michigan-EGLE; no commitment to publish monitoring data (p29, p36-41).",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "Emerson Micro Motion ELITE Coriolis mass flow meter on the well pad near the wellhead measures CO2 received and injected continuously; injection stream sampled at least quarterly for CO2 concentration.",
+   "location": "Injection well pad, immediately upstream of the Smith 3-21 wellhead",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    21,
+    23,
+    27,
+    37,
+    39
+   ],
+   "evidence_quote": "the volume of CO2 injected will be measured continuously by an Emerson Micro Motion ELITE Coriolis mass flow meter"
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "Pressure transducers on the tubing at the wellhead and the mass flow meter logged continuously by SCADA, which alarms operators when parameters leave prescribed limits; nominal parameters updated from early injection data.",
+   "location": "Smith 3-21 wellhead",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Abnormal tubing or reservoir pressures are investigated for a subsurface leak; SCADA alarms on deviations from set limits.",
+   "pages": [
+    23,
+    27,
+    30,
+    33,
+    34,
+    35
+   ],
+   "evidence_quote": "The surface pressure of the tubing and annular space will be continuously monitored by the SCADA system"
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "committed",
+   "detail": "Annulus pressure at the wellhead monitored continuously by transducer on SCADA; annulus filled with corrosion-inhibiting fluid whose volume is checked quarterly for significant change.",
+   "location": "Smith 3-21 wellhead casing-tubing annulus",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Abnormal annulus pressure or fluid volume indicates loss of integrity; injection stops until an MIT is passed.",
+   "pages": [
+    30,
+    33,
+    34,
+    35
+   ],
+   "evidence_quote": "Annulus pressure is continuously monitored and could indicate a loss of wellbore integrity issues caused by seismicity."
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "Cement bond log and MIT before injection, then MIT of long-string casing, tubing and packer at least every 5 years under Michigan-EGLE rules.",
+   "location": "Smith 3-21 injection well",
+   "frequency": "multi_year",
+   "baseline": "yes",
+   "trigger_or_response": "Lost mechanical integrity: injection stops and does not resume until an MIT is passed; leak quantified from timing and MIT data.",
+   "pages": [
+    30,
+    33,
+    35
+   ],
+   "evidence_quote": "Riverside will perform a MIT at least every 5 years per Michigan-EGLE requirements."
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "committed",
+   "detail": "Bottomhole pressure tests at mid-perforations in the injection well, before injection, after about 48 hours of injection, then every six months for two years and annually thereafter.",
+   "location": "Smith 3-21 injection well, mid-perforations",
+   "frequency": "semiannual",
+   "baseline": "yes",
+   "trigger_or_response": "Abnormal reservoir pressure investigated; if a subsurface leak is confirmed, volume and rate estimated by mass balance from injection and reservoir data.",
+   "pages": [
+    33,
+    34,
+    35,
+    36
+   ],
+   "evidence_quote": "Riverside will conduct bottomhole pressure tests and temperature surveys every six months for the first two years and annually thereafter."
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Audible, visual and olfactory (AVO) inspections of the wellhead, meter, flowline, valves and area around the wellbore by trained personnel at every site visit and at least weekly.",
+   "location": "Injection well pad surface equipment",
+   "frequency": "weekly",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Leak found: repair as quickly as possible; leaked or vented CO2 estimated using Subpart W methods.",
+   "pages": [
+    27,
+    30,
+    33,
+    34
+   ],
+   "evidence_quote": "These checks will occur each time operators visit the well site but not less than once per week."
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "committed",
+   "detail": "Scheduled optical gas imaging surveys (infrared or thermal camera) of the wellhead, meter, flowline and well pad; baseline survey before injection, another within the first month, then quarterly.",
+   "location": "Injection well pad surface equipment and wellhead",
+   "frequency": "quarterly",
+   "baseline": "yes",
+   "trigger_or_response": "Detected plume: repair; leak size estimated from OGI plume size, pinhole measurements, metered pressure/flow anomalies and time between inspections.",
+   "pages": [
+    27,
+    30,
+    33,
+    34,
+    36
+   ],
+   "evidence_quote": "OGI surveys will occur quarterly using either an IR or thermal imaging camera"
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "committed",
+   "detail": "One shallow water well on the injection pad (retained from drilling operations) sampled for field parameters, UIC lab ions, TDS, dissolved methane/ethane/propane and calculated dissolved CO2.",
+   "location": "One ~60-100 ft water well on the Smith 3-21 well pad",
+   "frequency": "quarterly",
+   "baseline": "yes",
+   "trigger_or_response": "Changes indicating fugitive CO2 would be investigated as leakage through confining layers, legacy wells or faults; quantified by mass balance.",
+   "pages": [
+    29,
+    33,
+    34,
+    35,
+    36
+   ],
+   "evidence_quote": "During injection, groundwater sampling and testing will occur at least quarterly."
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "committed",
+   "detail": "Temperature surveys with gradient stops in the injection well before injection, then every six months for two years and annually; pre-injection cement bond log; radioactive tracer/gamma ray log only if temperature anomaly.",
+   "location": "Smith 3-21 injection well",
+   "frequency": "semiannual",
+   "baseline": "yes",
+   "trigger_or_response": "Temperature anomaly suggesting CO2 behind casing: run radioactive tracer/gamma ray tool; possible workover.",
+   "pages": [
+    30,
+    33,
+    34,
+    36
+   ],
+   "evidence_quote": "If the temperature survey detects an anomaly suggesting CO2 intrusion behind casing, a radioactive tracer/gamma ray tool will be run to investigate."
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "committed",
+   "detail": "Subscription to the USGS Earthquake Notification Service for magnitude 2.0 or greater earthquakes in Michigan; no site seismometers.",
+   "location": "Public USGS network, statewide Michigan notifications",
+   "frequency": "event_driven",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Earthquake notification: review wellbore and facility monitoring data (including annulus pressure) for effects.",
+   "pages": [
+    31,
+    34,
+    35
+   ],
+   "evidence_quote": "Riverside will subscribe to the USGS\u2019 Earthquake Hazards Program Earthquake Notification Service (ENS)"
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "mentioned_only",
+   "detail": "Five existing 2D seismic lines used to map the reef and rule out faults; no repeat seismic planned.",
+   "location": "Reef structure and surroundings",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    12,
+    13,
+    24,
+    32
+   ],
+   "evidence_quote": "Evaluation of 2D seismic did not reveal any faults or fractures in the Reef Structure"
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Subpart W procedures to estimate equipment leaks and venting between meter and wellhead; mass balance from injection and reservoir pressure/volume/temperature data to quantify any subsurface leak.",
+   "location": "Surface equipment between meter and wellhead; storage reservoir",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Confirmed leak: metered if possible, otherwise estimated by mass balance; timing set by estimated plume contact with the pathway.",
+   "pages": [
+    32,
+    33,
+    34,
+    37,
+    38
+   ],
+   "evidence_quote": "the amount of CO2 vented will be estimated using the methods specified in 40 CFR 98 Subpart W"
+  }
+ ],
+ "notes": "Reservoir pressure and temperature surveys are run in the injection well itself (no observation well); coded as semiannual because the first two years are every six months before dropping to annual. Groundwater well depth is given as approx. 100 ft in Section 6.4 (p35) but 60 ft in Table 4 (p28); one of two Riverside water wells on the pad is retained for monitoring. The State Chester 2-22 Dundee brine disposal well is monitored and MIT-tested by a different operator and is not part of this plan's monitoring. Table 2 lists the injection well as 'Permit pending' while Section 1.4 says the permit was issued 1/10/2025. Passive seismic frequency coded event_driven because it is a notification subscription. Figures are captioned images with no additional text; no sections appear missing."
+}

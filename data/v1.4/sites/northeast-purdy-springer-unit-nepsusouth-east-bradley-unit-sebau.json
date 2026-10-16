@@ -1,0 +1,304 @@
+{
+ "site_slug": "northeast-purdy-springer-unit-nepsusouth-east-bradley-unit-sebau",
+ "plan_title": "Purdy-Bradley Springer Field: Northeast Purdy Springer Unit (NEPSU) / South East Bradley A Unit (SEBAU) Monitoring, Reporting, and Verification (MRV) Plan",
+ "plan_version_or_date": "August 2025",
+ "injection_purpose": "eor",
+ "uic_class_per_plan": "II",
+ "ama_definition": "The combined NEPSU and SEBAU unit boundaries plus a buffer of at least one-half mile, where the free-phase CO2 is expected to stay through 2054 and five years after (p34).",
+ "mma_definition": "Defined as identical to the AMA: the two unit boundaries plus a half-mile buffer, since the plume is expected to be held by the reservoir's geologic truncation limits (p6, p34-35).",
+ "leakage_pathways_rated_significant": "Wellbores (especially legacy wells and drilling of new wells) and surface equipment are treated as the realistic pathways ('unlikely but possible'); shallow groundwater wells, faults/fractures, lateral movement, the confining seal and seismicity are all rated unlikely with low magnitude (p5, p36-39, p41, p46).",
+ "baseline_summary": "No pre-injection environmental baseline. The baseline is ongoing operational data on injection well pressures and rates plus pattern performance; the plan may elect to collect ambient air data later. Reference gas values cited: 0.6% CO2 in the Cunningham before 1982 injection, 0.25% average in Hart wells sampled October 2023, and basin-wide published CO2 ranges, to be consulted if a leak is detected (p39, p46).",
+ "reporting_summary": "Annual Subpart RR report with the mass balance (Equation RR-11) and any leakage events with estimated amounts; records kept at least three years; mechanical failures of surface casing or cement reported to the appropriate regulatory authority. No commitment to publish measurement data (p42, p45, p47, p50, p53).",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "Orifice meter with digital transducer and ROC800 flow computer on received CO2 pipeline; meters at Purdy Tee, plant outlet, recycle point and each injection well; composition sampled routinely, produced gas quarterly.",
+   "location": "Pipeline receipt point, Lindsay plant outlet, recycle compressor, each injection well",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    16,
+    47,
+    48,
+    50,
+    51,
+    52
+   ],
+   "evidence_quote": "A flow meter at each injection well measures the injection rate of the CO2 or water."
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "Wellhead injection pressure monitored continually; injection rates reported daily and compared with pattern WAG targets; SCADA data warehouse; WAG skid pressures monitored continuously.",
+   "location": "Each CO2 injection well and WAG skids",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Statistically significant deviation from target rate/pressure or permit limits: screened and investigated; corrective plan if leakage indicated.",
+   "pages": [
+    20,
+    42,
+    44,
+    46,
+    47
+   ],
+   "evidence_quote": "Well pressure in injection wells is monitored on a continual basis."
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "committed",
+   "detail": "Casing (tubing-casing annulus) pressure monitored on each injection well as part of MIT program and to detect tubing leaks.",
+   "location": "Each CO2 injection well",
+   "frequency": "unspecified",
+   "baseline": "no",
+   "trigger_or_response": "Annulus pressure change indicating tubing leak: workover crews respond within days.",
+   "pages": [
+    42,
+    43,
+    44
+   ],
+   "evidence_quote": "Injection pressures and casing pressures are monitored on each CO2 injection well."
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "MIT under OAC 165:10-5-6 using pressure recorder and annulus pressure test; initial MIT then at least every year or every five years depending on permitted injection rate.",
+   "location": "Active injection wells",
+   "frequency": "multi_year",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Loss of mechanical integrity: well immediately shut in, investigation initiated, leak documented and corrected.",
+   "pages": [
+    20,
+    36,
+    43,
+    47
+   ],
+   "evidence_quote": "subsequent MIT at least once every year or every 5 years, depending on the permitted injection rate"
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "committed",
+   "detail": "Each producer diverted to satellite test equipment about every 1-2 months (roughly 24 hours) to measure and sample fluids; produced gas sampled quarterly at plant; volumes compared with forecasts.",
+   "location": "Each production well via 10 satellite batteries; Lindsay plant inlet and tailgate",
+   "frequency": "monthly",
+   "baseline": "no",
+   "trigger_or_response": "Production off plan: engineering/operations investigate; leak documented, reported and corrected if found.",
+   "pages": [
+    16,
+    20,
+    21,
+    42,
+    51
+   ],
+   "evidence_quote": "with each well being tested approximately once every 1-2 months"
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "mentioned_only",
+   "detail": "Reservoir pressure named as an example monitoring provision and for the end-of-period demonstration, but the plan admits no recent reservoir pressure measurements exist and names no gauges or observation wells.",
+   "location": "Injection zone (method not specified)",
+   "frequency": "unspecified",
+   "baseline": "no",
+   "trigger_or_response": "Seismicity creating a pathway would be flagged by reservoir pressure, well pressure and pattern monitoring, prompting investigation.",
+   "pages": [
+    30,
+    35,
+    39,
+    44,
+    45
+   ],
+   "evidence_quote": "other reservoir fluid monitoring provisions (e.g., reservoir pressure, well pressure, and pattern monitoring) would lead to further investigation"
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Field personnel (about 20) inspect wells, facilities, pipelines and equipment weekly or daily, looking for CO2 clouds, frost, stains, dead animals, vegetation change and unapproved drilling.",
+   "location": "Field-wide, both units",
+   "frequency": "weekly",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Visible vapor or ice: reported, documented, corrective plan; workover crews within days.",
+   "pages": [
+    21,
+    35,
+    38,
+    42,
+    44,
+    46,
+    47
+   ],
+   "evidence_quote": "Daylight\u2019s field personnel conduct routine weekly or daily inspections of the facilities, wells, and other equipment"
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "mentioned_only",
+   "detail": "No background soil gas collection; shallow vapor monitoring points, flux box or ring tent offered only as examples the operator may elect to use to verify and quantify a detected leak.",
+   "location": "Suspected leak site",
+   "frequency": "event_driven",
+   "baseline": "no",
+   "trigger_or_response": "Possible leakage event detected: may install vapor monitoring points or flux box to quantify.",
+   "pages": [
+    45,
+    46
+   ],
+   "evidence_quote": "Daylight may elect to use vapor monitoring points installed into the shallow subsurface as part of the leakage verification and quantification process."
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "committed",
+   "detail": "One shallow groundwater well within the AMA to be tested annually; water samples also taken from shallow wells during Class II permit applications. Plan elsewhere says USDW wells have not been monitored.",
+   "location": "One groundwater well within the AMA (about 85 shallow wells exist)",
+   "frequency": "annual",
+   "baseline": "unclear",
+   "trigger_or_response": "Any reported groundwater change: investigated to eliminate the potential leakage pathway.",
+   "pages": [
+    36,
+    41,
+    46
+   ],
+   "evidence_quote": "Daylight will test a groundwater well within the AMA on an annual basis to provide additional monitoring for potential leakage."
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "mentioned_only",
+   "detail": "One-time October 2023 gas sampling of more than 50 wells producing from the overlying Hart Sandstone (0.25% CO2) used to show the seal holds; no ongoing above-zone program.",
+   "location": "Hart Sandstone producing wells",
+   "frequency": "one_time",
+   "baseline": "unclear",
+   "trigger_or_response": "Values to be consulted as reference if a potential leak is detected.",
+   "pages": [
+    39,
+    46
+   ],
+   "evidence_quote": "Daylight\u2019s testing of more than 50 wells producing from the Hart reservoir showed an average of 0.25% molar concentration of CO2"
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "conditional",
+   "detail": "Radioactive tracer survey run in some instances, in addition to or instead of MIT, when required by permit or regulator to confirm fluids enter the injection zone.",
+   "location": "Injection wells where required",
+   "frequency": "periodic_unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "If investigation identifies a leak: shut in, document, report, corrective plan.",
+   "pages": [
+    20,
+    43
+   ],
+   "evidence_quote": "Daylight is required to perform a RTS to ensure that all injection fluids are going into the injection zone."
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "mentioned_only",
+   "detail": "One-time review of the USGS earthquake catalog (M2.5+ within 2 miles of the MMA, accessed January 2025); no site seismometers and no commitment to ongoing network monitoring.",
+   "location": "Public USGS catalog",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Response plan: shut in injectors near a seismic event, detected via WAG skid pressure monitoring.",
+   "pages": [
+    39,
+    40,
+    44
+   ],
+   "evidence_quote": "data obtained from the United States Geological Survey [USGS] Earthquakes Hazard Program catalog"
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "mentioned_only",
+   "detail": "Operator may elect to collect ambient air detector data to characterize baseline values; no commitment.",
+   "location": "Within the units",
+   "frequency": "unspecified",
+   "baseline": "unclear",
+   "trigger_or_response": "",
+   "pages": [
+    46
+   ],
+   "evidence_quote": "Daylight may elect to collect additional atmospheric test data using ambient air detectors or other methodologies to characterize baseline values in the units."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Continuous rate and pressure monitoring of the CO2 pipeline and the capture/compression/dehydration facility with high and low set-point alarms to operators.",
+   "location": "CO2 pipeline and plant",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Parameter outside allowable window: operators alerted; delivery-point-only flags sent to field staff to investigate for leak.",
+   "pages": [
+    43
+   ],
+   "evidence_quote": "monitors the rates and pressures at the facility and on the pipeline on a continuous basis."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Subpart W emission factors (Table W-1A) for equipment leaks and vents between meters and wellheads; engineering estimates or modeling for event-driven surface leaks.",
+   "location": "Surface equipment",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    45,
+    49,
+    51
+   ],
+   "evidence_quote": "Daylight will use Subpart W techniques to estimate leakages only on equipment"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Wellhead pressure of temporarily abandoned (inactive) wells, isolated with bridge plugs, checked on an operations schedule for changes.",
+   "location": "Inactive wells",
+   "frequency": "periodic_unspecified",
+   "baseline": "no",
+   "trigger_or_response": "",
+   "pages": [
+    38
+   ],
+   "evidence_quote": "The wellhead pressures are then checked per operation schedule for any change."
+  }
+ ],
+ "notes": "Figure pages (p10-12, 14-15, 17-19, 23-25, 27-29, 32-33, 37, 40) carry only captions; Figure 22 well map and the Appendix 1 well list (886 wellbores) are not in the text. Groundwater is contradictory: p36 commits to annual testing of one groundwater well, while p46 says USDW wells have not been monitored; coded as committed on the explicit 'will test' sentence. MIT frequency is annual or five-yearly depending on permitted rate, so coded multi_year. Reservoir pressure is listed as a monitoring provision, yet p30 says actual reservoir pressure was unavailable and the last measurement dates to Fox et al. (1988); hence mentioned_only. Visual inspection frequency is stated as 'weekly or daily' (p42), daily for surface equipment (p46), weekly in Table 4; coded weekly as the floor. Soil gas and RTS use permissive 'may elect'/'sometimes' language. No fresh CO2 has been received since 2022; implementation is expected in 2026 after approval and securing a new CO2 supply (p13, p50). No seismic surveys, personal or fixed gas detectors, InSAR or microseismic arrays are mentioned."
+}

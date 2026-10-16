@@ -1,0 +1,342 @@
+{
+ "site_slug": "spg-co2-bowie-facility",
+ "plan_title": "EOG SPG Holdings, Inc. Subpart RR Monitoring, Reporting, and Verification Plan for SPG CO2 Bowie Facility, Montague County, TX",
+ "plan_version_or_date": "Version 3, December 2023",
+ "injection_purpose": "acid_gas_disposal",
+ "uic_class_per_plan": "II",
+ "ama_definition": "The simulated separate-phase CO2 plume (3% saturation cutoff) at the end of the 12-year injection period in 2035 plus a half-mile buffer, which fully contains the year-2040 plume (p34-35).",
+ "mma_definition": "The simulated stabilized plume (3% saturation cutoff, stable about year 2225) plus the required half-mile buffer (p33-34).",
+ "leakage_pathways_rated_significant": "No pathway is rated likely. The two project wellbores (the only penetrations of the injection zone) and the short surface piping between meter and wellhead are the pathways actually instrumented; faults/fractures are rated low (fault slip potential <10%) and the 2,200-ft confining system extremely unlikely to leak; other existing wells are >1,400 ft above the injection zone (p35-44).",
+ "baseline_summary": "Mixed: operational baselines from continuous surface and downhole pressure/temperature data (to be established by July 17, 2023), plus pre-injection baseline surveys: initial MIT, initial pressure transient analysis from injection tests, and pre-injection saturation and mechanical integrity logs in both project wells (p46-47).",
+ "reporting_summary": "Annual Subpart RR report with mass balance (RR-4, RR-10, RR-12); any leak mass noted in the annual report; records kept at least three years (p40, p47-50). The attached Class II permit also requires annual H-10 reporting, annual annulus test (H-5) and a fluid migration/pressure monitoring report to TXRRC (p54-55). No commitment to publish measurement data.",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "High-pressure Coriolis mass meter (FW46045INJ, \u00b10.15%) downstream of the injection compressor, less than 210 ft from the wellhead; composition from gas chromatograph upstream of compressor, validated by quarterly gas samples; NIST-traceable calibration.",
+   "location": "Injection facility, between final compressor and Hinkle Trust #1 wellhead",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    9,
+    35,
+    47,
+    48,
+    49,
+    50
+   ],
+   "evidence_quote": "The high pressure coriolis mass meter used in the system has an accuracy of \u00b10.15%"
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "Continuous wellhead pressure monitoring and continuous downhole pressure/temperature from gauges on tubing and casing, fed to a real-time data acquisition system with alarms and operational set points; data archived and trended.",
+   "location": "Hinkle Trust #1 wellhead and downhole; Billy Henderson #5",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Deviation from operational baseline trends investigated as possible leak signal; set points keep downhole pressure below fault-slip thresholds.",
+   "pages": [
+    37,
+    40,
+    44,
+    46,
+    47
+   ],
+   "evidence_quote": "will be continuously monitored via the project's real-time data acquisition system"
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "committed",
+   "detail": "Surface pressures on all casing strings and downhole gauges on the intermediate casing collected continuously in both wells to watch the long-string annular space; permit requires at least weekly tubing-casing annulus monitoring.",
+   "location": "Hinkle Trust #1 and Billy Henderson #5, all casing strings",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Deviations from operational baselines investigated; wellbore leak leads to volume estimate and corrective action.",
+   "pages": [
+    36,
+    37,
+    44,
+    47,
+    54
+   ],
+   "evidence_quote": "surface pressures on all strings of casing is collected continuously in both wells"
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "Annual MIT on Hinkle Trust #1 as required by the Class II permit (annual annulus pressure test, Form H-5); initial MIT at completion serves as baseline for later tests.",
+   "location": "Hinkle Trust #1 injection well",
+   "frequency": "annual",
+   "baseline": "yes",
+   "trigger_or_response": "Results compared to initial MIT and TXRRC standards; additional MIT and corrosion logging if a wellbore leak is suspected.",
+   "pages": [
+    37,
+    44,
+    45,
+    47,
+    54
+   ],
+   "evidence_quote": "an annual mechanical integrity test (MIT) will be conducted in the injection well as prescribed in the Class II"
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "committed",
+   "detail": "Downhole pressure-temperature gauges and fiber across the injection zone in the Billy Henderson #5 monitor well (1,600 ft from injector) and in the injector, read continuously; yearly pressure transient analysis; permit requires wireline BHP test every five years.",
+   "location": "Billy Henderson #5 monitor well and Hinkle Trust #1, middle Ellenburger",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Unexplained pressure change: sensor validation, extended pressure transient analysis, additional saturation logging; reservoir simulation to quantify.",
+   "pages": [
+    30,
+    36,
+    40,
+    44,
+    45,
+    47,
+    54
+   ],
+   "evidence_quote": "pressure-temperature gauges and fiber monitoring instrumentation were installed across the injection zone"
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Field personnel conduct auditory, visual and olfactory (AVO) inspections of the injection site and surface equipment; Table 8 lists weekly, text says daily to weekly, before, during and after injection.",
+   "location": "Injection site, flowmeter to injection wellhead",
+   "frequency": "weekly",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Signs of CO2 leakage: corrective action; verification by AVO, FLIR camera and enhanced gas monitoring; quantify from process conditions.",
+   "pages": [
+    44,
+    45,
+    46,
+    48
+   ],
+   "evidence_quote": "Field personnel will conduct daily to weekly inspections at the injection site pre-, during, and post-injection."
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "committed",
+   "detail": "Personnel wear personal H2S monitors (OSHA-calibrated, 0.5 ppm sensitivity, 10 ppm low alarm) during inspections; H2S used as a proxy for CO2 since the stream contains both.",
+   "location": "Worn by field personnel at the injection site",
+   "frequency": "weekly",
+   "baseline": "not_applicable",
+   "trigger_or_response": "H2S indication treated as CO2 presence; investigate and correct.",
+   "pages": [
+    44,
+    47,
+    48
+   ],
+   "evidence_quote": "Personnel will wear personal H2S monitors calibrated to OSHA standards with a detection sensitivity of 0.5 ppm"
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "conditional",
+   "detail": "FLIR (optical gas imaging) camera inspection and unspecified 'enhanced gas monitoring' of surface facilities, only as verification steps after a suspected leak.",
+   "location": "Surface facilities at the injection site",
+   "frequency": "event_driven",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Suspected surface facility leak: FLIR inspection and enhanced gas monitoring to confirm or rule out.",
+   "pages": [
+    45
+   ],
+   "evidence_quote": "Forward Looking Infrared (FLIR) camera inspection"
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "committed",
+   "detail": "Pressure-temperature gauges and fiber installed above the injection zone in the Billy Henderson #5 monitor and on the Hinkle Trust #1 intermediate casing; continuous data; listed as confining system detection. Depth relative to top of confining zone not stated.",
+   "location": "Both project wells, above the middle Ellenburger",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Anomalous pressure/temperature: validate sensors, deploy wireline sensors, saturation logging, extended pressure transient analysis.",
+   "pages": [
+    36,
+    37,
+    44,
+    45,
+    47
+   ],
+   "evidence_quote": "above the injection zone (gauges and fiber) to allow for monitoring of pressure and temperature responses across the wellbore"
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "committed",
+   "detail": "Yearly time-lapse saturation surveys and yearly corrosion/mechanical integrity logging in the two project wells, compared to pre-injection baseline saturation and integrity logs; additional saturation logs if a leak is suspected. Also permanent DTS/DAS fiber on well casing, recording continuously.",
+   "location": "Billy Henderson #5 and Hinkle Trust #1",
+   "frequency": "annual",
+   "baseline": "yes",
+   "trigger_or_response": "Saturation change outside injection zone: additional logging, sensor checks; saturation change used to estimate leaked mass.",
+   "pages": [
+    36,
+    37,
+    44,
+    45,
+    46,
+    47
+   ],
+   "evidence_quote": "Initial pre-injection surveys have been conducted for both saturation and mechanical integrity and will serve to establish baselines"
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "mentioned_only",
+   "detail": "One-time review of the USGS earthquake catalog showing one earthquake in Montague County in 100 years; no seismometers and no commitment to ongoing seismic monitoring.",
+   "location": "",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    40,
+    42
+   ],
+   "evidence_quote": "Only one earthquake in Montague County has been recorded in the last 100 years"
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "mentioned_only",
+   "detail": "In-house 3D seismic used only for characterization and fault mapping; 'additional geophysical imaging surveys' are something SPG 'will consider' to help quantify a verified leak.",
+   "location": "",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    19,
+    27,
+    40,
+    45,
+    46
+   ],
+   "evidence_quote": "SPG will also consider conducting additional appropriate geophysical imaging surveys"
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Yearly pressure transient analysis of injection and fall-off data from both wells to check consistency of injection and confining zone behavior against the initial test-based baseline.",
+   "location": "Both project wells / plume extent",
+   "frequency": "annual",
+   "baseline": "yes",
+   "trigger_or_response": "Change in transient behavior: extended analysis, additional logging; reservoir model used to back out leaked mass.",
+   "pages": [
+    30,
+    44,
+    45,
+    46,
+    47
+   ],
+   "evidence_quote": "Subsequent pressure transient analyses are in progress and will continue to be performed when operationally feasible"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Review of TXRRC permitting activity across the project area each quarter to catch new wells that could create a leakage risk in the MMA.",
+   "location": "Entire project area / MMA",
+   "frequency": "quarterly",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Proposed well posing risk: take action; if drilled, update MRV plan and add monitoring near the new well.",
+   "pages": [
+    39
+   ],
+   "evidence_quote": "SPG intends to monitor permitting activity across the entire project area on a quarterly basis"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Subpart W calculation methods for fugitive equipment leaks between the injection meter and wellhead; venting occurs upstream of the meter so is not subtracted.",
+   "location": "Surface equipment between flow meter and wellhead",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    35,
+    48,
+    49,
+    50
+   ],
+   "evidence_quote": "the methods outlined in 40 CFR \u00a798 subpart W will be used to quantify those amounts"
+  },
+  {
+   "method": "other",
+   "commitment": "conditional",
+   "detail": "Reservoir simulation history-matched to observed pressure or saturation anomalies to estimate leaked CO2 mass through faults, wellbores or the confining system; enhanced surveillance (saturation surveys) on nearby EOG-operated wells; possible new monitoring wells.",
+   "location": "Project site; nearby EOG wells",
+   "frequency": "event_driven",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Verified leak: simulate leakage cases to match data and report mass in annual report.",
+   "pages": [
+    45,
+    46
+   ],
+   "evidence_quote": "reservoir simulation will likely be an essential tool to quantify the magnitude of the leak in those cases"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Class II permit condition (Appendix A): static bottomhole pressure test before injection and wireline BHP test at least every five years; fluid migration and pressure monitoring report filed with each MIT.",
+   "location": "Hinkle Trust #1",
+   "frequency": "multi_year",
+   "baseline": "yes",
+   "trigger_or_response": "Fluid found outside permitted interval: permit suspended and injection stopped until migration eliminated.",
+   "pages": [
+    54,
+    56
+   ],
+   "evidence_quote": "Operator shall conduct a BHP test at least once every five (5) years"
+  }
+ ],
+ "notes": "No production occurs (p48), so production_monitoring is coded not_found. Table 8 lists both visual inspection and personal H2S monitors as 'Weekly' while Section 3.7 says 'daily to weekly' inspections; weekly used. The above-zone gauges are described only as 'above the injection zone'; the plan does not say whether they sit above the top of the upper confining system, so the above_zone_monitoring row may overstate coverage. 'Enhanced gas monitoring' (Table 9) is undefined and was folded into fixed_gas_detectors as a conditional verification step rather than atmospheric_co2. Additional geophysical imaging surveys appear in Table 10 as a quantification method but the text says SPG 'will consider' them, so active_seismic is coded mentioned_only rather than conditional. The last 'other' row comes from the TXRRC permit reproduced in Appendix A (p53-56), not the MRV narrative. Pages 10, 12, 13, 32, 33, 35 are essentially figure-only but no needed section is missing; appendix B is a generic drilling permit. Permanent DTS/DAS fiber is coded under cased_hole_logging, as in v1.3."
+}

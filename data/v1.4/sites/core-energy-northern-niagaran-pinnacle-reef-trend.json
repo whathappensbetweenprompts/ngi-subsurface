@@ -1,0 +1,301 @@
+{
+ "site_slug": "core-energy-northern-niagaran-pinnacle-reef-trend",
+ "plan_title": "Core Energy Northern Niagaran Pinnacle Reef Trend (NNPRT) CO2 Monitoring, Reporting, and Verification (MRV) Plan",
+ "plan_version_or_date": "September, 2018",
+ "injection_purpose": "eor",
+ "uic_class_per_plan": "II",
+ "ama_definition": "The AMA is the Unit Area boundary of each individual reef/field as set in the MDEQ Supervisor of Wells order authorizing that EOR project, because each reef is a sealed compartment (p27-28).",
+ "mma_definition": "The MMA is the whole band of hydrocarbon-bearing Niagaran pinnacle reefs along the northern Michigan Basin from Lake Huron to Lake Michigan, plus a half-mile buffer around the reefs (p28-29).",
+ "leakage_pathways_rated_significant": "Existing wellbores are called the most likely pathway but rated very small risk given well construction and integrity studies; pipelines and surface equipment are treated as a potential risk handled by inspection and Subpart W. Faults, seismicity, lateral migration out of a reef, and diffuse seal leakage are all rated highly unlikely (p31-36).",
+ "baseline_summary": "No pre-injection environmental baseline. The baseline is daily operational data (injection rates/pressures against targets, production forecasts, casing pressure, fill-up tests, MITs) and daily visual rounds, used to flag variances (p41-42). Well pressure survey histories built over time serve the same role for bottom-hole pressure (p39). A separate 'baseline accounting' of 2.11 Mt CO2 injected since 1996 is an inventory figure, not a monitoring baseline (p20).",
+ "reporting_summary": "Annual Subpart RR report with the mass balance and any event-driven leak quantification, reconciled with an internal Subpart W report; facility and well changes are to be reported in the annual report rather than by plan revision; MIT and workover results go to EPA UIC before injection resumes; a closure report is promised for any abandoned reef; leak-event records kept at least three years. No commitment to publish measurement data (p26-27, p38-42, p46-48).",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "Coriolis mass flow meters on new CO2 at Chester 10 (meter #2), recycle gas at Dover 36 (#19), and a dedicated Coriolis meter on each of 15 injection wells; composition sampled at least quarterly at meters #2 and #19.",
+   "location": "Chester 10 Facility, Dover 36 Facility, and each injection well (some meters at facility, some at wellhead)",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    23,
+    24,
+    25,
+    36,
+    37,
+    38
+   ],
+   "evidence_quote": "Dedicated Coriolis mass flow meters are attached to each injection well at the EOR reefs."
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "Injection rate, tubing pressure, casing pressure, wellhead temperature and runtime tracked daily for all wells; HMI logs per-minute data where instrumented; values compared with target rates and pressures set from modeling and permit limits.",
+   "location": "All injection wells; data centralized at Dover 36 HMI",
+   "frequency": "daily",
+   "baseline": "no",
+   "trigger_or_response": "Statistically significant deviation from target rate or pressure flags an investigation; unresolved flags get detailed investigation; any confirmed leak quantified and reported.",
+   "pages": [
+    25,
+    38,
+    39,
+    42
+   ],
+   "evidence_quote": "If injection rate or pressure significantly deviate from that which is targeted, it generates a flag and alerts operational personnel"
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "committed",
+   "detail": "Daily readings of casing pressure and tubing-casing annular pressure at injection wells, with quarterly annular fill-up tests; annulus holds corrosion-inhibited packer fluid above the packer.",
+   "location": "Injection wellheads",
+   "frequency": "daily",
+   "baseline": "no",
+   "trigger_or_response": "Annular pressure anomaly: field personnel inspect; simple repair on the spot or well shut in until repaired; leaked CO2 estimated and reported.",
+   "pages": [
+    25,
+    38,
+    40,
+    42
+   ],
+   "evidence_quote": "Mechanical integrity for injection wells is monitored through daily readings of casing pressure, quarterly fill-up tests"
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "Mandatory MITs every five years under the EPA Class II permits, plus quarterly fill-up tests; new MIT after any workover, witnessed by EPA.",
+   "location": "Injection wells",
+   "frequency": "multi_year",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Loss of mechanical integrity: well shut in immediately, investigated, repaired; injection resumes only after EPA letter following a new MIT.",
+   "pages": [
+    25,
+    40,
+    42
+   ],
+   "evidence_quote": "mandatory mechanical integrity tests (MIT) every five years"
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "committed",
+   "detail": "Daily oil, water and gas rates for all wells; produced gas metered by Coriolis (HP separators) and Vortex (LP separators); wells without own separators tested at least quarterly; data reviewed at least monthly against forecast.",
+   "location": "All production wells and separators at Dover 36 Facility",
+   "frequency": "daily",
+   "baseline": "no",
+   "trigger_or_response": "Significant deviation from forecast or past performance: operational and engineering investigation, possible work orders; confirmed leaks quantified and reported.",
+   "pages": [
+    24,
+    38,
+    39,
+    42
+   ],
+   "evidence_quote": "The production data is reviewed at least monthly and if there is a significant deviation from past performance or forecast"
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "committed",
+   "detail": "Episodic bottom-hole pressure surveys (typically 3-7 days) run field-by-field or well-by-well on injectors and producers; survey histories built up per well to spot anomalies. Plan also claims 'continual' injection-zone pressure monitoring without naming instruments.",
+   "location": "Injection and production wells in each reef",
+   "frequency": "periodic_unspecified",
+   "baseline": "no",
+   "trigger_or_response": "Survey result diverging statistically from the well's survey history triggers deeper evaluation; material balance used to quantify any flood-zone leak.",
+   "pages": [
+    33,
+    39,
+    40,
+    41
+   ],
+   "evidence_quote": "episodic surveys are conducted, on a field-by-field or well-by-well basis to gather information about reservoir pressure and other parameters"
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Operators make daily rounds of facilities and wells, visually inspecting vessels, piping, valves and wellheads, and record wellhead data during daily site visits.",
+   "location": "Field-wide: wells, Dover 36 Facility, pipelines and surface equipment",
+   "frequency": "daily",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Issue found: fixed on the spot or work order issued; each event documented with estimated CO2 leaked and included in annual RR report.",
+   "pages": [
+    25,
+    33,
+    36,
+    40,
+    42
+   ],
+   "evidence_quote": "Operations personnel make daily rounds of the facilities and wells, providing a visual inspection of equipment used in the operations"
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "mentioned_only",
+   "detail": "Existing cement bond logs and pulsed-neutron logs are cited as characterization and wellbore-integrity research data; no logging is scheduled as monitoring.",
+   "location": "Existing wells (log inventory in Appendix I)",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    25,
+    32,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57
+   ],
+   "evidence_quote": "Cement-bond logs are sparingly available."
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "mentioned_only",
+   "detail": "3D seismic shot on nine reefs to map reef edges and confirm no structural features; characterization only, no repeat surveys.",
+   "location": "Nine of the ten active reefs",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    7,
+    28,
+    35
+   ],
+   "evidence_quote": "Core Energy also collected 3D seismic data for nine reefs"
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Surface equipment and pipeline losses estimated by a third-party firm using Subpart W methods; orifice meters at the wet and dry vents measure vented recycle gas; results reconciled with event-driven leak estimates.",
+   "location": "Surface equipment, pipelines, separator vents at Dover 36 Facility",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Extreme event: loss estimated with engineering best practice.",
+   "pages": [
+    5,
+    24,
+    36,
+    37,
+    38,
+    41,
+    46,
+    47
+   ],
+   "evidence_quote": "Core has orifice type flow meters installed at its Wet and Dry Vent locations to measure the mass of recycle gas that is vented."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Corrosion coupons at various nodes in the system to track metal loss.",
+   "location": "Various nodes in the pipeline/facility system",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    25
+   ],
+   "evidence_quote": "Corrosion coupons are placed at various nodes in the system as a way to monitor metal loss."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Periodic material balance of injected and produced fluids per reef, supported by reef models, used to confirm containment; pressure assessment per reef planned for the end-of-period demonstration.",
+   "location": "Each reef",
+   "frequency": "periodic_unspecified",
+   "baseline": "no",
+   "trigger_or_response": "Material balance also proposed to quantify CO2 if a flood-zone leak were detected.",
+   "pages": [
+    14,
+    35,
+    39,
+    41
+   ],
+   "evidence_quote": "Periodic material balance associated with the measured reservoir fluid amounts, which has helped correlate and reconfirm that no CO2 has been lost"
+  }
+ ],
+ "notes": "Pages 22 (Figure 13 process flow diagram), 49 and 58 (pipeline map) are image-only; meter numbering is described in text only. The plan says wells are monitored 'through continual pressure monitoring in the injection zone (as described in Section 5.1)' (p40), but Section 5.1 describes only flow, pressure and composition data in the HMI, while Section 5.5.1 describes reservoir pressure as episodic 3-7 day surveys; reservoir_pressure frequency is therefore recorded as periodic_unspecified. Seismicity is discussed only as a hazard assessment (p35); no seismic network monitoring is mentioned, so passive_seismic is not_found. Appendix I lists several 'OBS' observation wells (Bagley, Chester 16) but the plan does not describe any monitoring program at them beyond production/pressure surveillance. Section 7.4 cites Sections 5.1.5-5.1.7, which do not exist. Unusual accounting: recycled Dover 36 gas is counted as CO2 'received' under RR-1 until the 2.11 Mt pre-2018 inventory is reached (p43); the mass balance starts at zero as of January 1, 2018 (p20, p47). Facility changes (new reefs, wells, sources, pipelines) are to be handled through the annual report rather than MRV plan revisions (p26-27)."
+}

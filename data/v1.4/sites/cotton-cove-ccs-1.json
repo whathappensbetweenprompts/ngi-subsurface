@@ -1,0 +1,328 @@
+{
+ "site_slug": "cotton-cove-ccs-1",
+ "plan_title": "Subpart RR Monitoring, Reporting, and Verification (MRV) Plan Cotton Cove CCS 1",
+ "plan_version_or_date": "Version 3.0, February 19, 2025",
+ "injection_purpose": "co2_disposal",
+ "uic_class_per_plan": "II",
+ "ama_definition": "The AMA is set equal to the MMA because the MMA (94-year post-injection plume plus half-mile buffer) already exceeds the 40 CFR 98.449 definition for a 12-year injection period (p35).",
+ "mma_definition": "The modeled free-phase CO2 plume after it stabilizes 94 years post-injection (5% gas saturation cutoff) plus an all-around half-mile buffer, about 3.07 square miles reaching 1.5 miles from the injector (p34).",
+ "leakage_pathways_rated_significant": "Surface equipment is the only pathway rated 'possible'; existing wells are 'unlikely' (via faults into the Barnett Shale and then produced gas); not-yet-drilled wells, faults/fractures, confining layers, seismicity and lateral migration are 'improbable'. The plan states that well penetrations and surface equipment are the only real pathways (p35, p37-38).",
+ "baseline_summary": "Three pre-injection baselines: groundwater quality from one or more groundwater wells near the site (plus baseline sampling of available water wells in the MMA), gas composition including CO2 from the Barnett Shale producers acting as above-zone monitoring wells, and seismicity from USGS/TexNet records (TexNet since 2017) and the operator's own array since 2023. Baseline data collection starts in 2025, injection in 2026 (p49-51, p53).",
+ "reporting_summary": "Annual Subpart RR monitoring report with mass balance (Eq. RR-12) and any leakage estimates and methods; flow and composition data compiled quarterly; records kept at least five years. Abnormal pressure or seismicity concerns are reported to the TRRC per permit conditions. MRV plan to be modified to Eq. RR-11 if CO2 reaches the Barnett wells. No commitment to publish measurement data (p44, p47, p49, p52-55).",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "CO2 from the gas plant metered (orifice/Coriolis) for quantity, temperature, pressure and composition; Coriolis meter immediately upstream of the wellhead; composition by gas chromatograph at least quarterly; meters calibrated to NIST-traceable standards.",
+   "location": "Cotton Cove Gas Plant delivery point and injection well site upstream of wellhead",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Meter throughput discrepancies investigated and reconciled; unaccounted CO2 quantified per Subpart W and subtracted from injection.",
+   "pages": [
+    27,
+    46,
+    51,
+    54
+   ],
+   "evidence_quote": "CO2 for injection will be metered with a Coriolis meter at the injection well site, immediately upstream of the injection wellhead itself"
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "Existing SCADA system plus wellhead pressure and temperature gauges; injection volumes, pressures, temperatures and gas composition collected and reviewed by qualified personnel; surface pressure gauges installed before injection; surface pressure kept below 0.25 psi/ft gradient.",
+   "location": "Injection wellhead and compressor/pipe header",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Data outside acceptable limits triggers response and reporting procedures; after a M3.0+ earthquake, volumes and pressures are reviewed for changes.",
+   "pages": [
+    43,
+    44,
+    45,
+    46,
+    47,
+    48
+   ],
+   "evidence_quote": "dCarbon will monitor and collect injection volumes, pressures, temperatures, and gas composition data for the injection well."
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "committed",
+   "detail": "Pressure sensors on each annulus of the injection well.",
+   "location": "Each annulus of the Cotton Cove CCS 1 well",
+   "frequency": "unspecified",
+   "baseline": "no",
+   "trigger_or_response": "A change in annulus pressure indicates a possible leak requiring remediation.",
+   "pages": [
+    47
+   ],
+   "evidence_quote": "pressure sensors for each annulus of the well."
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "Annual MITs on the injection well; cement bond logs on all three casing strings during construction.",
+   "location": "Cotton Cove CCS 1 injection well",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Negative MIT: well immediately isolated and leak mitigated.",
+   "pages": [
+    39,
+    47
+   ],
+   "evidence_quote": "Mechanical Integrity Tests (MITs) performed annually would also indicate the presence of a leak."
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "committed",
+   "detail": "Pressure fall-off test during well construction and periodic PFOTs afterward to monitor static reservoir pressure; annual bottomhole pressure/temperature measurements to calibrate surface gauges; bottomhole pressure kept below fracture pressure.",
+   "location": "Cotton Cove CCS 1 injection well (injection zone)",
+   "frequency": "annual",
+   "baseline": "no",
+   "trigger_or_response": "Unexpected static pressure increase: Fault Slip Potential analysis, report to regulator per permit, further investigation; model and MRV plan updated if behavior deviates.",
+   "pages": [
+    29,
+    43,
+    44,
+    47
+   ],
+   "evidence_quote": "dCarbon plans to perform periodic pressure fall-off tests (PFOT) to determine and monitor reservoir pressure"
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Monthly auditory, visual and olfactory (AVO) and CO2 leak detection inspections of compressor facility, pipe header and injection well; personnel expected on site daily; look for vapor clouds, ice, abnormal AVO.",
+   "location": "Compressor facility, pipe header and injection well location",
+   "frequency": "monthly",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Leaks repaired on the spot where possible; leaked CO2 quantified and included in reporting.",
+   "pages": [
+    35,
+    39,
+    46
+   ],
+   "evidence_quote": "These recurring monthly inspections, which are standard for detecting leaks and malfunctioning equipment in the gas production industry"
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "committed",
+   "detail": "All BKV and dCarbon field personnel wear four- or five-gas monitors including H2S and O2; the plan does not say the monitors read CO2 directly (CO2 stream has no H2S).",
+   "location": "Worn by field personnel",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    35,
+    39
+   ],
+   "evidence_quote": "All BKV and dCarbon field personnel are required to wear gas monitors that detect four or five gases, including H2S and O2."
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "committed",
+   "detail": "Automatic CO2 detection and oxygen-deficiency detection at designated locations; continuous monitoring systems alarm on a release; compressor emergency shutdown on loss of line pressure; wellhead shut-in valve.",
+   "location": "Designated locations at compressor facility and injection well site",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Alarm on release: managed as upset event; mass calculated from pressure, flow, leak size and duration.",
+   "pages": [
+    35,
+    39,
+    46,
+    52,
+    54
+   ],
+   "evidence_quote": "automatic detection of CO2 and lack of O2 detection in specifically designated locations."
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "mentioned_only",
+   "detail": "Soil flux detectors named among emerging technologies dCarbon may evaluate for quantifying a leak.",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    50
+   ],
+   "evidence_quote": "Non-Dispersive Infra-Red (NDIR) CO2 sensors and soil flux detectors."
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "committed",
+   "detail": "Deep groundwater monitoring well at the gas plant sampled periodically for chemical composition (including the chemical tracer); pre-injection baseline sampling of available water wells in the MMA and one or more wells near the site by third-party lab.",
+   "location": "Deep groundwater monitoring well at Cotton Cove Gas Plant; available water wells within the MMA (baseline)",
+   "frequency": "periodic_unspecified",
+   "baseline": "yes",
+   "trigger_or_response": "Increase in groundwater CO2 over baseline: volumetric analysis for a preliminary leakage estimate.",
+   "pages": [
+    48,
+    49,
+    50,
+    53
+   ],
+   "evidence_quote": "dCarbon also plans to periodically sample the well to monitor for chemical composition."
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "committed",
+   "detail": "Produced gas from Barnett Shale gas wells within the MMA (operated by others) sampled for CO2 and an injected chemical tracer; described as the primary tool for detecting CO2 past the primary seal; pre-injection baseline gas composition by third-party lab.",
+   "location": "Barnett Shale producing gas wells within the MMA",
+   "frequency": "unspecified",
+   "baseline": "yes",
+   "trigger_or_response": "Increased CO2 with tracer present: investigate and quantify leakage; quarterly sampling with operators if a leak is found; MRV plan switched to Eq. RR-11.",
+   "pages": [
+    40,
+    43,
+    47,
+    48,
+    49,
+    50,
+    52
+   ],
+   "evidence_quote": "Sampling of the produced gas stream from the Barnett Shale gas wells within the MMA is the primary tool for detecting CO2"
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "mentioned_only",
+   "detail": "Cement bond logs on each casing string and a logging program during well construction; no logging described as recurring monitoring.",
+   "location": "Cotton Cove CCS 1 well",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    29,
+    39
+   ],
+   "evidence_quote": "inspected with cement bond logs to ensure wellbore integrity."
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "committed",
+   "detail": "BKV/dCarbon proprietary seismometer array (stations 1-8, operating since August 2023) covering Wise, Denton, Parker and Tarrant counties, supplemented by TexNet/USGS stations; detected events are located and analyzed; TexNet catalog also watched.",
+   "location": "Local array around the injection site plus TexNet/USGS stations",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Event of M3.0 or greater: review injection volumes and pressures for changes indicating leakage; report to regulator if operations-related concern.",
+   "pages": [
+    20,
+    21,
+    43,
+    44,
+    48,
+    51,
+    53
+   ],
+   "evidence_quote": "dCarbon operates a proprietary seismic monitoring array in the general area of the Cotton Cove CCS 1 well."
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "mentioned_only",
+   "detail": "Existing 3D seismic used to interpret faults and karst and to build the static model; no repeat seismic planned.",
+   "location": "",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    29,
+    38,
+    42
+   ],
+   "evidence_quote": "based on 3D seismic data interpretation conducted by dCarbon."
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "mentioned_only",
+   "detail": "Options listed for quantifying a detected leak: ambient CO2 sensing baseline, UAV-mounted CO2 sensors flown over the MMA, fixed-wing or satellite data, eddy covariance, open-path tunable diode lasers, closed-path detectors, NDIR sensors. All phrased as 'could' or 'will consider'.",
+   "location": "Project area / MMA",
+   "frequency": "event_driven",
+   "baseline": "unclear",
+   "trigger_or_response": "Deviations from an ambient baseline paired with meteorological and PVT data to attribute and estimate leak rates.",
+   "pages": [
+    49,
+    50
+   ],
+   "evidence_quote": "Currently available (and continuously improving) atmospheric sensing technology could be used to establish a baseline of ambient CO2 concentration"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "A chemical tracer is injected with the CO2 downstream of the flow meter so CO2 found in Barnett produced gas or groundwater can be attributed to the storage reservoir.",
+   "location": "Injection stream downstream of flow meter",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Tracer presence with elevated CO2 confirms leakage from the sequestration reservoir and triggers investigation.",
+   "pages": [
+    48,
+    49
+   ],
+   "evidence_quote": "dCarbon plans to inject a small amount of chemical tracer with the CO2 downstream of the volumetric flow meter."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Quarterly review of TRRC records for proposed, permitted or drilled wells within the MMA; new wells assessed for added risk and the MRV plan updated.",
+   "location": "MMA",
+   "frequency": "quarterly",
+   "baseline": "not_applicable",
+   "trigger_or_response": "New well proposed or drilled: investigate added risk; update MRV plan.",
+   "pages": [
+    46,
+    47
+   ],
+   "evidence_quote": "dCarbon will reverify the status and public information for all proposed and approved drilling permits within the MMA"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Subpart W calculation methods used for equipment leaks and vented emissions between the injection flow meter and the wellhead; releases quantified from pressure, flow, leak size and duration.",
+   "location": "Surface equipment between flow meter and wellhead",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    46,
+    52,
+    54
+   ],
+   "evidence_quote": "Calculation methods from Subpart W will be used to calculate CO2 emissions from equipment located on the surface"
+  },
+  {
+   "method": "other",
+   "commitment": "conditional",
+   "detail": "Fault Slip Potential analysis on nearest mapped faults if unexpected formation pressure increases; reservoir models updated if PFOT/logging show deviations; 3D reservoir models may be used to predict leak locations.",
+   "location": "Mapped faults near the well; reservoir model",
+   "frequency": "event_driven",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Unexpected formation pressure increase: FSP analysis, report to regulator, investigate.",
+   "pages": [
+    29,
+    44,
+    50
+   ],
+   "evidence_quote": "dCarbon can perform Fault Slip Potential (FSP) analysis (Walsh, et al., 2017) to evaluate the risk of induced seismicity"
+  }
+ ],
+ "notes": "Attachment A (W-14/W-1 permits, p57) contains only a title in the extracted text. Sections are misnumbered in the plan (3.1 appears before section 3). production_monitoring is coded not_found because this is a disposal well with no production; the sampling of third-party Barnett Shale producers is coded under above_zone_monitoring, and the plan says dCarbon will 'endeavor to work with' those operators, so access is not fully in its control; no routine sampling frequency is given (quarterly sampling is only promised after a leak is found). Fixed CO2/O2 detectors are stated as a facility design feature (p35) and as alarm sources (p46, p52) but the QA section hedges with 'gas detectors, if employed' (p54); coded committed with this caveat. Personal gas monitors are described as detecting H2S and O2, not necessarily CO2, and the stream contains no H2S. The reservoir_pressure row combines an annual bottomhole P/T measurement with PFOTs of unstated frequency. Atmospheric and other quantification technologies (UAV, eddy covariance, open-path lasers, NDIR, soil flux) are all 'could'/'will consider' language and coded mentioned_only rather than conditional."
+}

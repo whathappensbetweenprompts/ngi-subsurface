@@ -1,0 +1,309 @@
+{
+ "site_slug": "north-burbank-unit",
+ "plan_title": "North Burbank Unit (NBU) CO2 Monitoring, Reporting, and Verification (MRV) Plan",
+ "plan_version_or_date": "September 18, 2020",
+ "injection_purpose": "eor",
+ "uic_class_per_plan": "II",
+ "ama_definition": "The AMA is the North Burbank Unit boundary itself, because injected CO2 is held within the unit by structure and water-curtain injection; it expands as CO2-EOR moves into other parts of the unit (p20-21).",
+ "mma_definition": "The MMA is the NBU unit boundary plus the required half-mile buffer, since the free-phase plume is expected to stay within the unit (p21).",
+ "leakage_pathways_rated_significant": "Only wellbores (about 2,845 wells, roughly 2,394 inactive or abandoned) and pipelines/surface equipment are treated as realistic pathways; faults/fractures, natural and induced seismicity, prior operations, lateral migration, future drilling and diffuse seal leakage are rated improbable or very low (p4, p22-29).",
+ "baseline_summary": "No pre-injection environmental baseline. The baseline is ongoing operational data: daily field monitoring, SCADA data, target injection rates/pressures, production forecasts, routine inspections, H2S alarms, plant/pipeline set points and MITs, used to flag excursions from expected performance (p34-36).",
+ "reporting_summary": "Annual Subpart RR report filed with other GHG reports by March 31, containing the mass balance (RR-2 through RR-11, using RCF outlet and satellite/RCF inlet meters rather than per-well meters) and any quantified leakage events; AMA expansions and facility changes are described in the annual report; event records kept at least 3 years. No commitment to publish measurement data or to report monitoring results to the UIC program beyond permit requirements (p21, p34, p36-42).",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "Custody transfer flowmeters on CO2 received from the Coffeyville pipeline and operations meters at the RCF compressor outlets; flow meter at each injection well; CO2 concentration sampled quarterly by gas analyzer.",
+   "location": "Coffeyville pipeline custody transfer point, RCF outlet, each injection well",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    17,
+    29,
+    33,
+    36,
+    41
+   ],
+   "evidence_quote": "Perdure uses flowmeters for measurements at custody transfer locations, and these flowmeters measure flow rate continually."
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "Injection and casing pressures on each CO2 injection well monitored by SCADA; injection rates compared daily with pattern target rates; pressure monitors flag significant deviations from the pattern plan.",
+   "location": "Each CO2 injection well",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Rate or pressure outside set points: automatic flag, operations personnel investigate; unresolved issues get detailed investigation and leak quantification.",
+   "pages": [
+    23,
+    30,
+    31,
+    35
+   ],
+   "evidence_quote": "Injection pressures and casing pressures are monitored using SCADA equipment on each CO2 injection well."
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "committed",
+   "detail": "Annular (casing) pressure at wellheads monitored; casing pressure is among the surface data tracked and reported daily; tubing-casing annular pressure also regularly monitored as part of MIT compliance.",
+   "location": "Injection wellheads",
+   "frequency": "daily",
+   "baseline": "no",
+   "trigger_or_response": "Annular pressure anomaly: equipment inspected; simple repairs made on the spot and leak counted via Subpart W approach, larger repairs quantified by rate/concentration/duration.",
+   "pages": [
+    30,
+    31,
+    32,
+    35
+   ],
+   "evidence_quote": "monitoring of the annular pressure in wellheads, and routine maintenance and inspection."
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "Periodic EPA-required MITs on active injection wells: pressure recorder and gauge test of casing-tubing annulus, plus well/wellhead pressure-up test; plan says often annual but does not fix an interval.",
+   "location": "Active injection wells",
+   "frequency": "periodic_unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Loss of mechanical integrity: well shut in immediately, investigated, repaired (e.g., workover), retested before resuming.",
+   "pages": [
+    22,
+    31,
+    32,
+    35,
+    36
+   ],
+   "evidence_quote": "the NBU injection wells are leak tested for Mechanical Integrity Testing (MIT) as required by the EPA."
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "committed",
+   "detail": "Each producer diverted to satellite well-test equipment (8-12 hour test) on a routine cycle; oil, water and CO2 rates compared with forecasts; produced gas metered at satellites/RCF inlet and sampled at least quarterly for CO2.",
+   "location": "Each production well via satellite test facilities; RCF inlet",
+   "frequency": "quarterly",
+   "baseline": "no",
+   "trigger_or_response": "Significant deviation from past performance or forecast: operations and engineering investigate; thorough investigation if unexplained; leaks quantified.",
+   "pages": [
+    19,
+    23,
+    29,
+    31,
+    35,
+    41
+   ],
+   "evidence_quote": "Production wells are assigned to a satellite test facility and are isolated once every quarter for a daily well production test."
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "mentioned_only",
+   "detail": "Plan refers to reservoir pressure monitoring and 'pressure monitoring' of the seal, and would use monitored reservoir pressures in a material balance to quantify a subsurface leak, but names no observation wells or gauges; 'injection zone pressure' appears to mean injection wellhead pressure.",
+   "location": "Injection zone (method not specified)",
+   "frequency": "unspecified",
+   "baseline": "no",
+   "trigger_or_response": "Unexplained reservoir/well pressure changes would lead to further investigation; reservoir pressure assessed at end of Specified Period.",
+   "pages": [
+    20,
+    26,
+    28,
+    31,
+    34
+   ],
+   "evidence_quote": "other reservoir fluid monitoring methods (such as reservoir pressure, well pressure and pattern monitoring) would lead to further investigation."
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Field personnel (about 32 daily) inspect wells, facilities, vessels, piping and valves weekly or daily, looking for white CO2 clouds, ice, fluid leaks and unapproved drilling; injectors also inspected at each WAG choke adjustment.",
+   "location": "Field-wide: wellheads, surface facilities, pipelines",
+   "frequency": "weekly",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Visible CO2 vapor or ice: report, document, develop and execute a correction plan; critical leaks acted on immediately; leak quantified.",
+   "pages": [
+    24,
+    27,
+    28,
+    32,
+    33,
+    34,
+    35
+   ],
+   "evidence_quote": "Perdure's field personnel conduct routine weekly if not daily inspections of the NBU facilities, wells and other equipment"
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "committed",
+   "detail": "All field personnel wear H2S monitors alarming at 10 ppm; because produced gas contains 50-165 ppm H2S, H2S is treated as a proxy for CO2 leaks from wells, equipment or diffuse seepage.",
+   "location": "Worn by all field personnel",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Alarm: protect personnel, verify monitor, investigate source, document and quantify any CO2 leak, correct the issue.",
+   "pages": [
+    19,
+    22,
+    23,
+    31,
+    32,
+    33,
+    35
+   ],
+   "evidence_quote": "All field personnel are required to wear H2S monitors which, when alarmed at 10 ppm, trigger an immediate response"
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "mentioned_only",
+   "detail": "'Gas alarms' are listed among detection techniques with no description of locations, type or frequency; no fixed CO2 or H2S sensors are otherwise described.",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    29
+   ],
+   "evidence_quote": "Detection monitoring program techniques include visual inspections, pipeline inspections, gas alarms, personal H2S monitors, and MITs."
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "mentioned_only",
+   "detail": "Cites the Oklahoma state seismic network, the Coordinating Council on Seismic Activity and state earthquake density maps to argue low seismic risk; no commitment to track these networks as part of this plan's monitoring.",
+   "location": "Public Oklahoma seismic network (risk assessment only)",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "If induced seismicity opened a pathway, reservoir pressure, well pressure and pattern monitoring would prompt investigation.",
+   "pages": [
+    24,
+    25,
+    26,
+    46,
+    47
+   ],
+   "evidence_quote": "The State of Oklahoma maintains one of the nation's most robust seismic monitoring systems"
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "'Subpart W Methodology Approach': emission factors used to estimate equipment leaks and vents between injection meter and wellhead and between production wellhead and meter; venting events directly metered; results reconciled with event-based quantification.",
+   "location": "Surface equipment between flow meters and wellheads",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    24,
+    27,
+    30,
+    32,
+    39,
+    40,
+    41
+   ],
+   "evidence_quote": "certain Subpart W methodologies will be utilized for certain emission calculations regardless of whether Subpart W reporting is required by regulation."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Continuous monitoring of rates and pressures at Perdure's CO2 capture/compression plant and supply pipeline with high/low set-point alarms; a flag at the delivery point alone sends field personnel to check for a leak.",
+   "location": "CO2 supply plant and pipeline to the NBU",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Parameter outside allowable window: operators alerted; delivery-point-only flag triggers field investigation for a leak threat.",
+   "pages": [
+    35
+   ],
+   "evidence_quote": "monitors the rates and pressures at the facility and on the pipeline on a continuous basis."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "History-matched reservoir model used to set pattern-level daily/monthly injection rate and pressure plans and production forecasts, which serve as the reference against which excursions are judged.",
+   "location": "Each injection pattern",
+   "frequency": "periodic_unspecified",
+   "baseline": "no",
+   "trigger_or_response": "Measured rates/pressures outside plan set points generate flags that are screened for possible leakage.",
+   "pages": [
+    6,
+    22,
+    31,
+    35
+   ],
+   "evidence_quote": "Perdure uses reservoir modeling based on extensive history-matched data"
+  }
+ ],
+ "notes": "No image-only pages; figures and the well list (p56-91) carry little monitoring text. Well-test frequency is inconsistent: p23 says each producer is tested about every two months, p31 says once every quarter; quarterly is coded (weaker). MIT is 'periodic (and in many instances an annual)', so coded periodic_unspecified rather than annual. 'Continual, automated pressure monitoring in the injection zone' (p31) cross-references Section 4.1, which describes injection-well pressure, so reservoir_pressure is coded mentioned_only despite several references to reservoir pressure. 'Gas alarms' (p29) appear only in a list with no description. Seismic networks are cited for risk characterization only. Section 7.4 refers to quantification approaches 'in Section 5.1', apparently meaning 5.8. The plan acknowledges a prior operator let small amounts of CO2 move past the western unit boundary (p20, p27-28); response would be quantification and reporting, not added subsurface monitoring. Mass balance uses aggregated RCF/satellite meters because of per-well meter error (p37, p38)."
+}

@@ -1,0 +1,322 @@
+{
+ "site_slug": "oneal-gas-unit-well-no-4",
+ "plan_title": "Subpart RR Monitoring, Reporting, and Verification (MRV) Plan O'Neal Gas Unit Well No. 4",
+ "plan_version_or_date": "Version 4.0, August 2024",
+ "injection_purpose": "acid_gas_disposal",
+ "uic_class_per_plan": "II",
+ "ama_definition": "Set equal to the MMA: the circular area around the single injector covering the modeled stabilized plume plus a half-mile buffer, after checking that the plume five years past end of injection stays inside the 12-year plume plus buffer; a revised AMA/MMA is promised by 2037 (p48, p50).",
+ "mma_definition": "A circle around the O'Neal No. 4 covering the modeled free-phase plume after 12 years of injection and 10 years of density drift (about 0.45 mi radius, 303 acres) plus a half-mile all-around buffer (p48).",
+ "leakage_pathways_rated_significant": "Every pathway is rated low magnitude. Surface equipment is the only one rated 'possible' (during injection); existing wells (one plugged well penetrates the injection zone), faults (nearest interpreted fault about 4.25 mi away), the Pearsall confining zone, and natural/induced seismicity are all 'unlikely', with any vertical migration expected to be caught in a shallower gas reservoir (p52, p55, p61-62).",
+ "baseline_summary": "Pre-injection baselines are planned: baseline readings of the fixed H2S/CO2 monitors during commissioning, an atmospheric CO2 concentration at the facility, soil gas samples near the one plugged penetrating well, and groundwater samples from water wells (pH, TDS, CO2, VOC), all estimated for Oct. 1, 2024 but tied to permit/EPA approval. Operational baseline of injection volumes and pressures is recorded at start of injection (p65, p72-73, p77).",
+ "reporting_summary": "Annual Subpart RR report filed March 31 with the RR-12 mass balance; soil gas and groundwater lab results are included in the annual report only if they show a material variance from baseline; flare/blowdown emissions are reported under the facility's GHG reporting and Subpart W; records kept at least 3 years. No commitment to publish measurement data; MRV plan revisions to EPA within 180 days (p72-73, p75-77, p79-80).",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "Volumetric flow meter in the plant downstream of the amine unit, API-calibrated, operated continuously; composition measured upstream of the meter by continuous gas analyzer or representative sampling, averaged quarterly; mass by Equation RR-5.",
+   "location": "In-plant, downstream of the amine unit, upstream of the O'Neal No. 4",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    54,
+    74,
+    78,
+    80
+   ],
+   "evidence_quote": "The flow rate of the CO2 being injected will be measured with a volumetric flow meter, consistent with API standards."
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "SCADA continuously records injection volumes, pressures and temperatures at the well site and plant; high/low pressure ESD valves; set points keep pressure below the fracture gradient; qualified personnel review the data.",
+   "location": "O'Neal No. 4 wellsite and Pawnee Treating Facility",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Deviation from normal pressure/volume set points alarms; field personnel review, may shut in; also reviewed after any M3.0+ seismic event.",
+   "pages": [
+    53,
+    62,
+    64,
+    65,
+    67,
+    70,
+    72
+   ],
+   "evidence_quote": "Ozona continuously monitors and collects injection volumes, pressures, and temperatures through their SCADA systems, for the O'Neal No. 4."
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "committed",
+   "detail": "Plan says a change in annular pressure would indicate a possible leak and be investigated; it does not say how or how often annular pressure is read.",
+   "location": "O'Neal No. 4",
+   "frequency": "unspecified",
+   "baseline": "no",
+   "trigger_or_response": "Change in annular pressure: thorough investigation as a possible leak.",
+   "pages": [
+    67
+   ],
+   "evidence_quote": "A change of injection or annular pressure would indicate the presence of a possible leak and be thoroughly investigated."
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "MITs under TRRC Statewide Rule 3.46 every 5 years to confirm the well and wellhead hold operating pressure.",
+   "location": "O'Neal No. 4",
+   "frequency": "multi_year",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Failed MIT: well isolated, investigated, leak mitigation plan developed.",
+   "pages": [
+    55,
+    64,
+    67
+   ],
+   "evidence_quote": "Mechanical integrity tests (MITs), required under Statewide Rule (SWR) \u00a73.46 [40 CFR \u00a7146.23 (b)(3)], will take place every 5 years"
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Field personnel make routine visual inspections of gauges and gas monitoring equipment at the facility and well site, looking for vapor clouds or ice; continues through post-injection period.",
+   "location": "Pawnee Treating Facility and O'Neal No. 4 site",
+   "frequency": "periodic_unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Vapor clouds or ice formation: corrective action; leak volume calculated from operating conditions.",
+   "pages": [
+    64,
+    65,
+    72
+   ],
+   "evidence_quote": "field personnel conduct routine visual field inspections of gauges, and gas monitoring equipment."
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "committed",
+   "detail": "Eight fixed H2S monitors (four at wellsite, four in plant) used as CO2 proxy, tied to SCADA with local alarms; 10 ppm high alarm, 40 ppm emergency shutdown; operated continuously except maintenance/calibration.",
+   "location": "O'Neal No. 4 wellsite and in-plant",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "10 ppm H2S: high alarm; 40 ppm: facility ESD; release quantified from pressure, flow, CO2 fraction, opening size, duration.",
+   "pages": [
+    53,
+    54,
+    55,
+    64,
+    65,
+    72,
+    77,
+    78
+   ],
+   "evidence_quote": "These devices will be continuously monitored by the Supervisory Control and Data Acquisition (SCADA) system and will alarm at set points"
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "committed",
+   "detail": "Annual soil gas probes with membrane inserts collecting over 21 days near wells penetrating the injection zone in the AMA (currently one plugged well); third-party lab analysis for CO2, H2S and trace hydrocarbons; pre-injection baseline.",
+   "location": "Near the one plugged well penetrating the injection interval within the AMA; more sites as AMA is updated",
+   "frequency": "annual",
+   "baseline": "yes",
+   "trigger_or_response": "Material variance from baseline: results reported in the annual report; leak quantified per Section 7.",
+   "pages": [
+    64,
+    67,
+    72,
+    77
+   ],
+   "evidence_quote": "Ozona will take an annual soil gas sample from this area, which will be analyzed by a third-party lab."
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "committed",
+   "detail": "Five existing water wells identified in the AMA; pre-injection baseline, then annual sampling of selected wells analyzed by third-party lab for pH, TDS, CO2 and VOCs.",
+   "location": "Existing groundwater wells within the AMA (5 identified)",
+   "frequency": "annual",
+   "baseline": "yes",
+   "trigger_or_response": "Material deviation in analysis: results provided in the annual report.",
+   "pages": [
+    59,
+    64,
+    68,
+    73,
+    77
+   ],
+   "evidence_quote": "Initial groundwater quality tests will be performed to establish a baseline prior to commencing operations."
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "committed",
+   "detail": "Shallower producing gas wells within the MMA serve as proxy above-zone monitoring wells; CO2 content of produced hydrocarbons from regular sampling and monthly production statements is compared against historical trends.",
+   "location": "Shallower offset producing hydrocarbon wells within the MMA",
+   "frequency": "monthly",
+   "baseline": "unclear",
+   "trigger_or_response": "Material change in CO2 concentration from historical trend: investigate, corrective action plan, possibly reduce rate or shut in; adjust reported volumes.",
+   "pages": [
+    55,
+    64,
+    67,
+    70
+   ],
+   "evidence_quote": "Ozona will also utilize shallower producing gas wells as proxies for above-zone monitoring wells."
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "committed",
+   "detail": "Relies on the public TexNet station EF71 about 3 mi northwest; no site seismometers. Also a one-time review of TexNet and USGS ANSS catalogs within 25 km.",
+   "location": "TexNet station EF71, ~3 mi NW of the well",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "M3.0 or greater at EF71 or operating anomalies: review injection volumes/pressures; may limit pressure and reduce rate.",
+   "pages": [
+    61,
+    62,
+    64,
+    70
+   ],
+   "evidence_quote": "Ozona will closely monitor nearby TexNet station EF71 for activity and any corresponding irregularities in the operating pressures of O'Neal No. 4."
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "mentioned_only",
+   "detail": "A published regional seismic line (Bebout et al., 1981) across the shelf margin is cited to show continuity of the Pearsall seal; no site-specific or repeat seismic.",
+   "location": "",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    19,
+    20
+   ],
+   "evidence_quote": "The seismic line displayed in Figure 12 runs northwest to southeast across the Stuart City reef trend southwest of the project area."
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "mentioned_only",
+   "detail": "A pre-operation baseline atmospheric CO2 concentration is to be established after facility construction; no ongoing atmospheric CO2 monitoring is described beyond the fixed H2S detectors.",
+   "location": "Facility and O'Neal No. 4 site",
+   "frequency": "one_time",
+   "baseline": "yes",
+   "trigger_or_response": "",
+   "pages": [
+    65,
+    77
+   ],
+   "evidence_quote": "A baseline atmospheric CO2 concentration will be established prior to commencing operation once facility construction has been completed."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Corrosion control checked by periodic inspection of corrosion coupons and the cathodic protection system.",
+   "location": "Surface facilities and well",
+   "frequency": "periodic_unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    65
+   ],
+   "evidence_quote": "monitored through the periodic inspection of the corrosion coupons and inspection of the cathodic protection system."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Equipment leaks and vented emissions between meter and wellhead calculated with Subpart W methods; blowdowns routed to a flare stack and reported under facility GHG reporting; no direct leak surveys because of H2S hazard.",
+   "location": "Surface equipment between flow meter and wellhead; flare stack",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    72,
+    73,
+    75,
+    76,
+    78,
+    79
+   ],
+   "evidence_quote": "Direct leak surveys present a hazard to personnel due to the presence of H2S in the gas stream."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Monitor new drilling activity in the area and compliance with TRRC Rule 13 construction requirements.",
+   "location": "MMA",
+   "frequency": "periodic_unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    59,
+    64,
+    67
+   ],
+   "evidence_quote": "Monitor drilling activity and compliance with TRRC Rule 13 Regulations"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Plume model (CMG GEM) to be revisited: revised MRV plan with updated AMA/MMA by 2037, and resubmittal if the formation fluid sample taken during recompletion or actual gas composition materially changes the plume.",
+   "location": "Injection zone model",
+   "frequency": "multi_year",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Material difference in formation fluid or gas analysis: updated MRV plan submitted.",
+   "pages": [
+    23,
+    48,
+    50
+   ],
+   "evidence_quote": "By 2037, Ozona will submit a revised MRV plan to provide an updated AMA and MMA."
+  }
+ ],
+ "notes": "Class II permit was pending at submission; the plan says baseline data cannot be dated until the permit issues and the MRV plan will be implemented on EPA approval (p77). Figure-only pages (49, 51, 56-58, 60, 63, 66, 69, 71) and the appendices (81-82 are index pages only; forms, well lists not included). Annulus pressure is coded committed on a single sentence that implies monitoring without describing it (p67). Above-zone monitoring uses third-party-style producing gas wells; composition sampling frequency is not stated beyond 'regular' and 'monthly production statements', and whether Ozona operates these wells is not said. production_monitoring is not_found because this is not EOR (no CO2 produced, p75); the produced-gas CO2 checks are coded under above_zone_monitoring. Atmospheric CO2 is coded mentioned_only because only a one-time pre-operation baseline is promised and it may simply be the commissioning baseline of the fixed H2S/CO2 monitors (Table 10). Groundwater sampling: baseline on all wells but 'select wells' annually (p73). Minor inconsistencies: stabilized plume year given as 2047 (p16, p61) and 2062 (p26); TexNet station figure referenced as Figure 38 but is Figure 39 (p70-71). Monitoring commitment covers 12-year injection plus a 10-year post-injection period (p64)."
+}

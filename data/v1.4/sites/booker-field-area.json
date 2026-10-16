@@ -1,0 +1,289 @@
+{
+ "site_slug": "booker-field-area",
+ "plan_title": "Booker Field Area (BFA) MONITORING, REPORTING AND VERIFICATION PLAN (MRV) CapturePoint LLC",
+ "plan_version_or_date": "November 2023",
+ "injection_purpose": "eor",
+ "uic_class_per_plan": "II",
+ "ama_definition": "The BFA unit boundary plus a half-mile buffer, which the plan says will contain the free-phase plume through year t+5 (p26-27).",
+ "mma_definition": "Same as the AMA: the BFA boundary plus a half-mile buffer (p7, p27).",
+ "leakage_pathways_rated_significant": "The plan treats wellbores (especially poorly cemented legacy wells) and surface equipment as the realistic pathways; faults/fractures, seal leakage, lateral migration and seismicity are all rated unlikely, with surface equipment leaks of 0.1-2 MT/yr and well or seal leaks of 5-20 MT once per 50 years given as magnitudes (p27-35, p37).",
+ "baseline_summary": "No operator pre-injection environmental baseline. Baseline is ongoing operational data (injection well pressures and rates, pattern surveillance). NOAA Moody, Texas atmospheric CO2 data would serve as background for any soil-flux measurement, and a TWDB database pre-injection water analysis (State Well 04-36-201) is the reference for any Ogallala water sample (p37-38).",
+ "reporting_summary": "Annual Subpart RR report with the mass balance; any leak quantification method would be described in that report. Leaks also reported to the TRRC under Rule 20 with estimated quantities, and MIT results filed on TRRC Form H-5. Records retained per 98.3(g). No commitment to publish measurement data (p36-38, p43-44).",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "Custody transfer meter at the Serendipity compression facility; totalizer orifice meters (NIST library) on purchased and recycled CO2, read daily; turbine meter and totalizer at each injection pad; produced gas sampled at least quarterly for CO2.",
+   "location": "Custody transfer point, field inlet, recycle compressor discharge, each injection well pad",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    12,
+    13,
+    14,
+    15,
+    42
+   ],
+   "evidence_quote": "All flow meters are operated continuously except as necessary for maintenance and calibration."
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "Continuous pressure monitoring at the WAG skids; injection volumes totalized every 24 hours per pad and collected daily; field staff compare readings with permitted limits and pattern targets.",
+   "location": "WAG injection skids and each injection well pad",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Departure from permitted limits or unexplained high pressure: investigate; shut in injectors near faults or seismic events; keep pressure below parting pressure.",
+   "pages": [
+    14,
+    15,
+    36,
+    37,
+    38
+   ],
+   "evidence_quote": "Continuous monitoring of pressure in WAG skids"
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "committed",
+   "detail": "Annulus pressure changes monitored to detect tubing leaks; TRRC rules require Bradenhead gauges on all wells with reporting of any detected pressure.",
+   "location": "Injection wells (all wells per TRRC Bradenhead rule)",
+   "frequency": "unspecified",
+   "baseline": "no",
+   "trigger_or_response": "Change in annulus pressure indicating tubing leak: workover crews respond within days.",
+   "pages": [
+    17,
+    32,
+    36
+   ],
+   "evidence_quote": "Monitor changes in annulus pressure; MIT for injectors"
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "MITs required under TRRC Rule 46 every five years or after wellbore work; results filed on TRRC Form H-5.",
+   "location": "Injection wells",
+   "frequency": "multi_year",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Tubing or casing leak found: workover crews respond within days.",
+   "pages": [
+    28,
+    36,
+    37,
+    38
+   ],
+   "evidence_quote": "The TRRC requires a wellbore MIT every 5 years or after wellbore work actions and the results are submitted per TRRC form H5."
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "committed",
+   "detail": "Each producer tested every 30-60 days at an AWT separator (oil, gas, water metered); AWT gas metered by orifice meter; produced gas sampled at least quarterly for CO2; stock-tank oil analyzed annually for CO2.",
+   "location": "Each production well via AWT sites; CTB",
+   "frequency": "monthly",
+   "baseline": "no",
+   "trigger_or_response": "Pattern monitoring excursions cited as prompting further investigation (p35).",
+   "pages": [
+    13,
+    15,
+    35,
+    40,
+    42
+   ],
+   "evidence_quote": "Each producing well is production tested every 30 to 60 days after the last production test, or after the well is returned to production."
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "mentioned_only",
+   "detail": "Reservoir pressure is named only as an example of 'reservoir fluid monitoring provisions'; Table 1 relies on WAG skid pressure and on high pressure encountered in new wells as drilled. No observation wells or gauges described.",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "no",
+   "trigger_or_response": "Anomalous pressure would lead to further investigation.",
+   "pages": [
+    35,
+    36
+   ],
+   "evidence_quote": "other reservoir fluid monitoring provisions (e.g., reservoir pressure, well pressure, and pattern monitoring) would lead to further investigation."
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Field personnel visually inspect surface equipment daily for stains, frost, washouts, dead animals and vegetation change; Table 1 lists weekly field inspection of wellheads, casing, pumps and valves and for unapproved drilling.",
+   "location": "Field-wide: surface equipment, pipelines, wellheads",
+   "frequency": "daily",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Evidence of leakage: report and act; workover crews respond within days; surface equipment leaks addressed within 6-12 hours.",
+   "pages": [
+    27,
+    32,
+    36,
+    38
+   ],
+   "evidence_quote": "CapturePoint operational field personnel visually inspect surface equipment daily and report and act upon any event indicating leakage."
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "committed",
+   "detail": "All field and contractor personnel always wear H2S detectors (0-100 ppm range, alarm above 10 ppm); secondary use is indicating gas emissions from pipelines or equipment.",
+   "location": "Worn by field and contractor personnel (2-6 workers on site)",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Alarm: leak located, further response initiated and CO2 volume quantified per Sections 4.7, 4.8, 5.4, 8.1.5.",
+   "pages": [
+    15,
+    16
+   ],
+   "evidence_quote": "all field and contractor personnel are always required to wear H2S detectors."
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "conditional",
+   "detail": "Soil flux rings (or flux box/ring tent) installed near a leak only after a subsurface leak event is identified; soil CO2 compared with NOAA Moody, Texas atmospheric background rather than a site baseline.",
+   "location": "Surface location close to a detected leak",
+   "frequency": "event_driven",
+   "baseline": "no",
+   "trigger_or_response": "Identified subsurface leak: install flux rings, measure flow rate, sample gas to quantify.",
+   "pages": [
+    36,
+    37,
+    38
+   ],
+   "evidence_quote": "If a subsurface leak event is identified, soil flux rings will be installed on a surface location close to the event."
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "mentioned_only",
+   "detail": "No routine sampling of Ogallala water wells and no USDW monitoring; any reported groundwater change would be investigated, and any sample not matching the TWDB pre-injection analysis for State Well 04-36-201 would be addressed.",
+   "location": "Ogallala water wells within the BFA AMA (if ever sampled)",
+   "frequency": "event_driven",
+   "baseline": "yes",
+   "trigger_or_response": "Groundwater change brought to CapturePoint's attention: investigate to eliminate pathway.",
+   "pages": [
+    37
+   ],
+   "evidence_quote": "CapturePoint does not routinely pull water samples from the Ogallala water wells."
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "mentioned_only",
+   "detail": "One-time review of the USGS catalog of M2.5+ earthquakes over 40 years; no site seismometers and no stated ongoing watch of a public network. Seismic-event response relies on WAG skid pressure.",
+   "location": "Regional USGS catalog",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Response plan: shut in injectors near a seismic event.",
+   "pages": [
+    34,
+    35,
+    36
+   ],
+   "evidence_quote": "Figure 4.6-1 shows the map of earthquakes with magnitudes measured at greater than 2.5 as defined by the United States Geological Survey (USGS)."
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "mentioned_only",
+   "detail": "2D and 3D geophysical surveys cited only as characterization work at the analog Farnsworth Unit; none described at BFA and no repeat surveys.",
+   "location": "Farnsworth Unit (analog field)",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    7
+   ],
+   "evidence_quote": "Two dimensional (2D) and three dimensional (3D) geophysical surveys were also used as part of the Farnsworth Unit MRV Plan (2021)."
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "mentioned_only",
+   "detail": "No atmospheric monitoring at BFA; cites the SWP eddy tower at Farnsworth (failed in 2019) and NOAA Moody, Texas station data as background values for any soil measurement.",
+   "location": "Off-site (Farnsworth Unit, NOAA station WKT)",
+   "frequency": "unspecified",
+   "baseline": "unclear",
+   "trigger_or_response": "",
+   "pages": [
+    37,
+    38
+   ],
+   "evidence_quote": "atmospheric CO2 concentrations from the NOAA Global Monitoring Laboratory data can be used for background CO2 values."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Subpart W Table W-1A emission factors used to estimate surface equipment leaks and vents for the mass balance; flared gas during compressor upsets metered with a certified thermal displacement meter; leaks reported to TRRC under Rule 20.",
+   "location": "Surface equipment between meters and wellheads; CTB flare",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Detected leak: quantify using emission factors or engineering estimates; document and report in annual Subpart RR submission.",
+   "pages": [
+    12,
+    13,
+    27,
+    36,
+    37,
+    38,
+    40,
+    42
+   ],
+   "evidence_quote": "CapturePoint will use Subpart W techniques to estimate leakages only on equipment and ensure those results are consistently represented in the Subpart RR report."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Wellhead pressures of inactive wells (isolated with bridge plugs or cement plugs) checked for change on an operational schedule.",
+   "location": "5 inactive wells in the AMA (10 in the MMA)",
+   "frequency": "periodic_unspecified",
+   "baseline": "no",
+   "trigger_or_response": "Pressure change: investigate; legacy wellbore leaks addressed within 2-6 months of discovery.",
+   "pages": [
+    30,
+    31
+   ],
+   "evidence_quote": "The wellhead pressures are then checked per operation schedule for any change."
+  }
+ ],
+ "notes": "Pages 1-4 are cover and table of contents; figure pages (e.g., 19, 21, 25, 29, 31, 35) carry little text but no monitoring section appears to be lost to image-only pages. Inspection frequency is inconsistent: Section 5.4 says daily visual inspection of surface equipment, Table 1 says weekly field inspection (coded daily, both cited). Reservoir pressure is named only as an example on p35 and Table 1 relies on WAG skid pressure and pressures encountered when new wells are drilled for faults, seals, lateral migration and seismicity, so no dedicated reservoir, above-zone, soil, groundwater or seismic monitoring is committed. Groundwater coded mentioned_only because the plan explicitly says no routine sampling and does not commit to sample on a trigger, though it references a TWDB pre-injection analysis as a comparison value. Production test frequency is 30-60 days, coded monthly. The plan is dated November 2023 but states implementation begins April 1, 2023 when the Arkalon capture upgrade is operational, and elsewhere describes the MRV period as July 2023-August 2035. Injected mass for the mass balance comes from the purchase and recycle totalizer meters, not per-well turbine meters. Three former GHGRP facility IDs (544680, 544681, 544682) were merged into 544681."
+}

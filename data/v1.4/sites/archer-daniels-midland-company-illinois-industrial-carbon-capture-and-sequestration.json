@@ -1,0 +1,385 @@
+{
+ "site_slug": "archer-daniels-midland-company-illinois-industrial-carbon-capture-and-sequestration",
+ "plan_title": "Archer Daniels Midland Company, ADM Decatur Corn Processing, Monitoring, Reporting, and Verification Plan CCS#2",
+ "plan_version_or_date": "Version 10.0, issued 3/21/2024 (Document # 180.60.ENV.309)",
+ "injection_purpose": "class_vi_storage",
+ "uic_class_per_plan": "VI",
+ "ama_definition": "Set equal to the MMA: the Area of Review from the Class VI permit plus a half-mile buffer, held constant through injection and the 10-year post-injection period (p12, p14).",
+ "mma_definition": "The permit Area of Review plus a half-mile buffer, i.e. the stabilized plume (modeled to stabilize 4 years after injection, 6.5 million t total from CCS#1 and CCS#2) plus a half mile, radius about 8,260 ft (p12, p14).",
+ "leakage_pathways_rated_significant": "Only surface components (the ~5,000 ft pipeline and wellhead) are rated 'possible'; injection/monitoring wells are 'highly improbable', faults/fractures and confining-zone limitations 'highly improbable to nearly impossible', and abandoned wells 'almost impossible' because none penetrate the Eau Claire seal (p15-18).",
+ "baseline_summary": "Pre-injection baselines: groundwater quality/geochemistry (completed 08/09/2015, accepted range set statistically with ProUCL at 95% limits), injection-well pulsed neutron and temperature logs (9/30/2015) and shut-in DTS profile (12/31/2016), MIT logs and pressure tests on CCS#2 and VW#2 (2012-2015), RST logs in CCS#1, CCS#2, VW#1, VW#2 (2014-2016), 3D seismic and VSP surveys (2011, 2015), and pre-injection seismicity. Injection and annulus pressures are explicitly not baseline parameters (p20, p29-32).",
+ "reporting_summary": "Annual Subpart RR report with mass balance (CO2 injected by Coriolis meter minus surface leakage and equipment/vented emissions, RR-4/6, RR-10, RR-12); records kept per permit Section N in electronic form at Decatur. Through the incorporated Class VI permit, monitoring results go to EPA's UIC program in semiannual reports, with 24-hour reporting of noncompliance, MIT reports within 30 days and 10-year record retention; seismic events above thresholds reported to the UIC Director and ISGS within 24 hours. No commitment to publish monitoring data (p24, p32-34, p55-58, p65-66).",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "Coriolis mass flow meter (FE006) on the injection line measures CO2 injected; CO2 stream sampled quarterly after the last compression stage and analyzed by a third-party lab; annual mass from quarterly flow times quarterly concentration.",
+   "location": "Compression facility / injection line to CCS#2",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    32,
+    33,
+    90,
+    91,
+    92
+   ],
+   "evidence_quote": "Flow will be monitored with a Coriolis mass flowmeter at the compression facility."
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "Wellhead and downhole (at packer) pressure and temperature recorded continuously (sampled every 5 s, recorded every 5 min) by a distributed control system that alarms and shuts down outside normal ranges; surface pressure capped at 2,284 psig.",
+   "location": "CCS#2 wellhead and tubing at packer",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Anomalous readings trigger investigation; automatic alarm/shut-off; loss of integrity or equipment failure: shut in, notify UIC Director within 24 hours.",
+   "pages": [
+    12,
+    21,
+    29,
+    30,
+    49,
+    50,
+    92,
+    96,
+    262,
+    263
+   ],
+   "evidence_quote": "Pressure and temperature will be continuously monitored during injection operations, at the surface (wellhead), at the injection zone, and in the well annulus."
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "committed",
+   "detail": "Continuous annulus pressure gauge with a pressurized annulus head tank (about 425-525 psi) and minimum 100 psi differential across the packer; average annulus pressure and tank fluid level recorded daily, fluid added or removed logged.",
+   "location": "CCS#2 tubing-casing annulus",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Significant annulus pressure changes investigated under the emergency plan; QASP action limit is more than 3% pressure loss over one hour.",
+   "pages": [
+    21,
+    29,
+    30,
+    94,
+    95,
+    146,
+    262
+   ],
+   "evidence_quote": "During the injection timeframe of the project, the casing-tubing pressure will be monitored and recorded in real time."
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "Annual external MIT on CCS#2 by temperature log (DTS or wireline), noise log or oxygen activation log; DTS gives real-time integrity surveillance; pressure fall-off tests mid-injection and at end of injection (permit: at least every five years); annual alarm/shut-off test.",
+   "location": "CCS#2 injection well (baseline MIT also on VW#2)",
+   "frequency": "annual",
+   "baseline": "yes",
+   "trigger_or_response": "Failed MIT or loss of integrity: cease injection, determine any release, restore integrity and get Director approval before resuming.",
+   "pages": [
+    20,
+    21,
+    22,
+    26,
+    27,
+    31,
+    49,
+    51,
+    52,
+    53,
+    55,
+    102,
+    103,
+    106
+   ],
+   "evidence_quote": "MITs will be performed annually, up to 45 days before the anniversary date of authorization of injection each year"
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "committed",
+   "detail": "Downhole pressure/temperature gauges in the Mt. Simon: VW#2 (4 intervals) continuous, VW#1 continuous in years 1-3 only, CCS#1 and CCS#2 at the packer continuous; continued in post-injection (CCS#1/CCS#2 annual after year 3).",
+   "location": "VW#1, VW#2, CCS#1, CCS#2 (Mt. Simon)",
+   "frequency": "continuous",
+   "baseline": "unclear",
+   "trigger_or_response": "Unexpected pressure change beyond three standard deviations, or above 90% of fracture pressure, triggers an unscheduled AoR reevaluation.",
+   "pages": [
+    12,
+    13,
+    23,
+    29,
+    66,
+    67,
+    87,
+    88,
+    109,
+    110,
+    237
+   ],
+   "evidence_quote": "ADM will deploy pressure/temperature monitors and DTS to directly monitor the position of the pressure front."
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Monthly visual inspection of the aboveground pipeline and wellhead for ice crystal formation from leaking CO2; the buried, fully welded pipeline segment is checked only by abnormal pressure drops during shut-ins.",
+   "location": "Pipeline from flow meter to CCS#2 wellhead",
+   "frequency": "monthly",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Leak seen: photograph, map on P&ID, isolate pipeline or stop injection, estimate leak rate and mass.",
+   "pages": [
+    19,
+    20,
+    26,
+    27
+   ],
+   "evidence_quote": "Visual monitoring for these emissions will be performed monthly to detect fugitive emissions."
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "mentioned_only",
+   "detail": "Permit allows soil gas monitoring only if the Director requires it; the 2011 permit application says soil gas monitoring is not proposed given the low risk.",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    55,
+    466,
+    467
+   ],
+   "evidence_quote": "soil gas monitoring is not proposed for this permit."
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "committed",
+   "detail": "Four shallow Quaternary/Pennsylvanian wells (MVA10LG-MVA13LG) sampled quarterly in years 1-2, semiannually in years 3-5, annually post-injection; lowermost USDW (St. Peter) sampled annually at GM#2; metals, anions, dissolved CO2, TDS, alkalinity, field parameters, St. Peter d13C.",
+   "location": "4 shallow wells on ADM property; GM#2 (St. Peter)",
+   "frequency": "quarterly",
+   "baseline": "yes",
+   "trigger_or_response": "Values outside baseline range: verify per QASP; confirmed: shut in, confirmation sampling, delineate and remediate USDW with UIC Director.",
+   "pages": [
+    13,
+    18,
+    19,
+    22,
+    23,
+    30,
+    31,
+    97,
+    98,
+    99,
+    101,
+    231,
+    264
+   ],
+   "evidence_quote": "Shallow groundwater samples will be collected on a quarterly basis in years 1-2 of injection, semi-annual sampling for years 3-5 of injection"
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "committed",
+   "detail": "Ironton-Galesville (directly above the Eau Claire seal) fluid sampling at VW#2 annually (VW#1 years 1-3) with continuous pressure/temperature at VW#2 (VW#1 years 1-3); St. Peter pressure/temperature at GM#2; geochemical and isotopic (d13C DIC) indicators.",
+   "location": "VW#1, VW#2 (Ironton-Galesville); GM#2 (St. Peter)",
+   "frequency": "annual",
+   "baseline": "yes",
+   "trigger_or_response": "Statistically significant difference from baseline above the confining zone triggers QASP verification and an unscheduled AoR reevaluation.",
+   "pages": [
+    13,
+    22,
+    23,
+    30,
+    31,
+    88,
+    99,
+    231
+   ],
+   "evidence_quote": "wells monitoring the deeper formations (St. Peter and Ironton/Galesville) are monitored for changes in geochemical and isotopic signatures"
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "committed",
+   "detail": "Pulsed neutron/RST saturation logs in VW#1, VW#2, CCS#1 and CCS#2 at baseline and years 2 and 4 of injection, then post-injection years 1, 3, 5, 7, 10; wireline temperature, noise or oxygen activation logs as MIT options; DTS temperature profiles.",
+   "location": "VW#1, VW#2, CCS#1, CCS#2",
+   "frequency": "multi_year",
+   "baseline": "yes",
+   "trigger_or_response": "CO2 saturation increase into or above the confining zone triggers AoR reevaluation unless traced to well integrity.",
+   "pages": [
+    21,
+    22,
+    23,
+    29,
+    31,
+    32,
+    88,
+    100,
+    102,
+    109,
+    231,
+    232,
+    236
+   ],
+   "evidence_quote": "pulse neutron logging / reservoir saturation testing in VW#1, VW#2, CCS#1, and CCS#2 every two years during the injection phase"
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "committed",
+   "detail": "ADM's own network of borehole and surface seismic stations detects events above M1.0 within about 8 miles/the AoR, continuously through post-injection; USGS national network and felt reports also used; compared with pre-injection seismicity.",
+   "location": "Multiple stations within the AoR, 8-mile radius of CCS#2",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Traffic-light plan: above M1.5 with felt report or above M2.0, notify UIC Director/ISGS in 24 hours; larger events reduce rate or shut in well.",
+   "pages": [
+    24,
+    25,
+    26,
+    32,
+    109,
+    110,
+    237
+   ],
+   "evidence_quote": "ADM will maintain a network of seismic monitoring stations to detect natural or induced seismic events greater than magnitude 1.0"
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "committed",
+   "detail": "Time-lapse 3D surface seismic: baseline 2011 and 2015 surveys, reduced-scale repeat in 2021, another planned about 2030 (year 10 post-injection); VSP from GM#1 in 2013-2015 near CCS#1 already done.",
+   "location": "Northern part of plume area near CCS#2 (~2,000 acres; fold coverage ~650 acres)",
+   "frequency": "multi_year",
+   "baseline": "yes",
+   "trigger_or_response": "Seismic data showing a fault or fracture in or near the confining zone triggers an AoR reevaluation.",
+   "pages": [
+    16,
+    23,
+    31,
+    32,
+    88,
+    109,
+    236
+   ],
+   "evidence_quote": "conducted in 2021, and another is planned for year 10 following the conclusion of injection operations (approximately 2030)."
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "mentioned_only",
+   "detail": "Permit requires surface air monitoring only if the Director asks; the 2011 permit application says surface air monitoring is not proposed.",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    55,
+    66,
+    466,
+    467
+   ],
+   "evidence_quote": "surface air monitoring is not proposed for this permit."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Direct plume monitoring: fluid sampling of the Mt. Simon injection zone at VW#2 (3 intervals) annually and VW#1 in years 1-3, analyzed for metals, anions, dissolved CO2, d13C DIC and field parameters.",
+   "location": "VW#2, VW#1 (Mt. Simon)",
+   "frequency": "annual",
+   "baseline": "yes",
+   "trigger_or_response": "Anomaly not explained by reservoir conditions or model uncertainty is treated as verified leakage.",
+   "pages": [
+    23,
+    27,
+    109,
+    110,
+    236
+   ],
+   "evidence_quote": "The plume will be directly monitored via annual fluid sampling in the Mt. Simon using VW#2 and/or other nearby monitoring wells."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Corrosion coupons (pipeline, casing, tubing, wellhead, packer materials) in a flow-through loop at the start of the pipeline, weighed and measured quarterly.",
+   "location": "Flow-through loop at beginning of pipeline to wellhead",
+   "frequency": "quarterly",
+   "baseline": "yes",
+   "trigger_or_response": "",
+   "pages": [
+    54,
+    96,
+    97
+   ],
+   "evidence_quote": "ADM will monitor corrosion using the corrosion coupon method"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Area of Review reevaluation every five years with model history-matching against monitoring data; monitoring and operating data reviewed periodically (likely annually).",
+   "location": "AoR",
+   "frequency": "multi_year",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Deviations from predicted plume or pressure front trigger an unscheduled AoR reevaluation and model recalibration.",
+   "pages": [
+    46,
+    86,
+    87,
+    88
+   ],
+   "evidence_quote": "ADM will reevaluate the above described AoR every five years during the injection and post-injection phases."
+  },
+  {
+   "method": "other",
+   "commitment": "conditional",
+   "detail": "Leaks quantified only after detection: surface leaks and relief-valve releases estimated from operating conditions and duration; subsurface leaks by mass-balance estimate or a calibrated 'leaky' reservoir model, with statistical error estimate.",
+   "location": "Pipeline relief valves (TRV-001-003), annulus PSVs, wellhead, subsurface",
+   "frequency": "event_driven",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Subsurface leakage assumed to reach the surface unless modeling shows otherwise.",
+   "pages": [
+    27,
+    28,
+    29,
+    33
+   ],
+   "evidence_quote": "ADM will estimate the mass of CO2 emitted from relief valves or leakage points based on operating conditions at the time of the release"
+  }
+ ],
+ "notes": "Hand-coded in session (not by the API batch): the API declined to process this plan. The supplied text file is unreadable: the PDF's embedded fonts lack Unicode mappings, so nearly every page extracted as substitution-cipher garbage. To code it, the public PDF was re-downloaded from the plan_url in sources_national.json (SHA-256 matched the recorded hash) and the needed pages were OCR'd with tesseract; quotes come from that OCR and page numbers are PDF pages (same numbering as the text file). The MRV plan itself is only PDF pages 2-38 and relies on Reference 1 (the CCS#2 Class VI permit, p42-282: Attachment C Testing and Monitoring Plan p90-119, QASP p120-223, PISC plan p229-259, emergency plan p260-274) and Reference 2 (2011 permit application, p284-594); rows draw on these incorporated documents. Several QASP tables are rotated (p130-145) and were not read. Wells: the plan covers only CCS#2 (permit IL-115-6A-0001); CCS#1 (the IBDP well, separate permit IL-115-6A-0002) is not an injector under this plan but is used as a monitoring point (downhole P/T, DTS, RST logs). Commitments differ by well: DTS and annual MIT are described for CCS#2; Mt. Simon fluid sampling at VW#2 annually but VW#1 only years 1-3; Ironton-Galesville P/T continuous at VW#2 but VW#1 only years 1-3; VSP used GM#1 near CCS#1; St. Peter monitoring at GM#2; baseline MIT on CCS#2 and VW#2. Inconsistencies: minimum surface annulus pressure is 100 psi in the MRV plan (p29) but 400 psi in Attachment C (p94); the MRV calls the Pennsylvanian bedrock the lowermost USDW (p7) but later the St. Peter (p22); total injection given as 6 million t (p7) and 6.5 million t (p12); repeat 3D seismic is dated year 2 (2019) in Attachment C, est. 2020 in the PISC plan, and 2021 in the MRV plan. The MRV plan cites 'Section 5' for groundwater monitoring, which appears to mean Section 9.1.2.2. Reservoir-pressure baseline coded 'unclear' because the plan lists 'pressure front data' as baseline but names no pre-injection pressure measurement for it. Soil gas and surface air coded mentioned_only (only 'if required by the Director'; the application says neither is proposed)."
+}

@@ -1,0 +1,284 @@
+{
+ "site_slug": "petra-nova-west-ranch",
+ "plan_title": "Petra Nova West Ranch Oil Field CO2 Monitoring, Reporting and Verification (MRV) Plan",
+ "plan_version_or_date": "July 2021",
+ "injection_purpose": "eor",
+ "uic_class_per_plan": "II",
+ "ama_definition": "The existing West Ranch 41-A/98-A (Consolidated) Unit boundary plus a half-mile buffer, to be expanded to cover any new unit formed for CO2 EOR within the Project Interval, plus the same buffer (p24-25).",
+ "mma_definition": "The outermost boundary of all Frio reservoirs in the Project Interval that could be developed by CO2 EOR, set by oil-water contacts and structure, plus a half-mile buffer (p25-26).",
+ "leakage_pathways_rated_significant": "Every pathway is rated low or highly unlikely. The plan invests most in legacy wellbores (389 P&A, 277 shut-in) and surface equipment; diffuse seal leakage, faults, seismicity, new wells, future drilling and lateral migration are dismissed on geologic grounds (p27-31).",
+ "baseline_summary": "Operational data: daily field rounds, SCADA pressure data from injection, production and shut-in wells, and routine testing/maintenance, with 10% pressure deviations flagged (p35-36). A DOE MVA Plan collected a pre-flood baseline a year before injection, but this plan does not describe those measurements (p4); baseline RST logs were run on six wells (p29).",
+ "reporting_summary": "Annual Subpart RR report (filed by March 31) with the mass balance, surface leakage estimates and well status changes; Subpart W reporting continues; records kept at least three years; TRRC annual injection report and H-5 MIT forms filed with the state. No commitment to publish measurement data (p20, p23, p36, p41-43).",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "Fresh CO2 volume metered at the West Ranch receiving station (M2) with concentration from the custody transfer meter near the capture plant (M1); recycled CO2 volume and concentration at the recycle compressor inlet (M3); quarterly concentration; NIST-traceable meters run continuously.",
+   "location": "Pipeline receiving station (M2), custody transfer meter at CCE (M1), RGC inlet (M3)",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    22,
+    37,
+    38,
+    39,
+    41
+   ],
+   "evidence_quote": "the flow is metered at the metering station at West Ranch (M2)"
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "Continuous devices track injection rate, pressure and volume; injection rate metered per well; wellhead gauges feed a real-time SCADA system with alarms to the control room; readings captured several times a day.",
+   "location": "Each injection well",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Alarm on more than 10% pressure change or pressure outside normal range; field personnel investigate and the well is monitored for CO2 leaks.",
+   "pages": [
+    22,
+    27,
+    28,
+    29,
+    31,
+    34
+   ],
+   "evidence_quote": "The SCADA monitoring system uses set points to trigger an alarm if there is more than a 10 percent change in pressure."
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "committed",
+   "detail": "Pressure gauges on tubing, production casing and surface casing (Bradenhead) of injection, production and shut-in wells, connected to SCADA; continuous annulus gauge on injectors per TRRC rule.",
+   "location": "Injection, production and shut-in monitoring wells field-wide",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Abnormal pressure or 10% deviation: alarm sounds, event investigated; Bradenhead pressure reported and addressed per TRRC procedures.",
+   "pages": [
+    23,
+    28,
+    29,
+    31,
+    34
+   ],
+   "evidence_quote": "continuous monitoring of the annulus with a pressure gauge"
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "TRRC H-5 MITs before injection, at least every five years, after workovers disturbing the tubing-packer-casing seal, and on permit suspension/reactivation; plan also cites annual Casing Integrity Tests under TAC 16 \u00a75.305(1)(C).",
+   "location": "All active injection wells",
+   "frequency": "multi_year",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Loss of mechanical integrity: well immediately shut in, cause investigated, any leak estimated and reported.",
+   "pages": [
+    9,
+    20,
+    23,
+    28,
+    36
+   ],
+   "evidence_quote": "At least once every five years, or more frequently if required by the permit"
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "committed",
+   "detail": "Test separators measure oil, water and gas rates for each producer at least monthly; tubing/casing pressures and gas-lift rate and pressure watched in SCADA; produced gas metered and sampled quarterly for CO2 at the recycle compressor inlet.",
+   "location": "Each production well via five test sites; CPF recycle compressors",
+   "frequency": "monthly",
+   "baseline": "no",
+   "trigger_or_response": "Pressure outside normal range: alarm and the well is monitored for CO2 leaks.",
+   "pages": [
+    22,
+    34,
+    39,
+    40
+   ],
+   "evidence_quote": "measures production rates of oil, water, and gas from each production well at least once per month"
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "committed",
+   "detail": "Shut-in wells completed in the injection zones (10 in 98-A, 7 in 41-A) carry wellhead gauges on SCADA as part of a field-wide pressure monitoring program; reservoir pressure also measured through injectors during workovers.",
+   "location": "Shut-in monitoring wells in 98-A and 41-A across the field; injection wells at workover",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Abnormal reservoir pressure change: SCADA alarm, field investigation and diagnostics.",
+   "pages": [
+    29,
+    31,
+    33
+   ],
+   "evidence_quote": "numerous shut-in wells are used for its active pressure monitoring program throughout the field"
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Operations personnel make daily rounds inspecting vessels, piping, valves and wellheads; CO2 releases are conspicuous as noise, clouds or ice.",
+   "location": "Surface facilities and wellheads field-wide",
+   "frequency": "daily",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Issue found: fixed on the spot or work order issued; each event documented with estimated CO2 leaked for the annual report.",
+   "pages": [
+    30,
+    35,
+    36
+   ],
+   "evidence_quote": "operations personnel make daily rounds of the facilities"
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "committed",
+   "detail": "255 inactive wells in zones above the injection interval, both below the Anahuac Shale (Greta, Ward, Glasscock, etc.) and above it (Miocene, Catahoula, shallow gas), fitted with tubing and casing pressure gauges reported in real time to SCADA.",
+   "location": "255 shut-in wells scattered across the field in 21 zones",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Pressure change in a reservoir not meant to be energized, or 10% deviation from expected: alarm, investigation; leak quantified by modeling, engineering estimate or measurement.",
+   "pages": [
+    28,
+    31,
+    32,
+    33,
+    36
+   ],
+   "evidence_quote": "multiple reservoirs above and below the regional Anahuac Shale, each also immediately overlain by confining rocks, are equipped with shut-in monitoring wells"
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "committed",
+   "detail": "Periodic injection profile packages on injectors (radioactive tracer, spinner, temperature, caliper, collar logs, shut-in temperature survey) to find fluid loss; Reservoir Saturation Tool logs for out-of-zone saturation, with baseline RST on six wells; cement bond logs on new wells.",
+   "location": "Injection wells",
+   "frequency": "periodic_unspecified",
+   "baseline": "yes",
+   "trigger_or_response": "Temperature anomaly or tracer loss indicating channeling or fluid loss: further investigation; tracer data used to quantify any release.",
+   "pages": [
+    29,
+    30
+   ],
+   "evidence_quote": "periodic injection profiles are performed on the injection wells, and this will include running temperature surveys on the injection wells."
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "mentioned_only",
+   "detail": "No site seismometers. TRRC permit applications require a survey of historical events within 5.64 miles from the USGS and TexNet catalogs; M2.0+ triggers a state seismicity review. Not an ongoing monitoring commitment in the plan.",
+   "location": "Public USGS/TexNet catalogs, 5.64-mile Area of Interest",
+   "frequency": "event_driven",
+   "baseline": "not_applicable",
+   "trigger_or_response": "M2.0 or greater event in catalog: TRRC seismicity review and additional geologic information for the permit.",
+   "pages": [
+    28
+   ],
+   "evidence_quote": "A seismic event of 2.0 Magnitude (M) or greater from the USGS earthquake catalog or the TexNet earthquake catalog triggers seismicity review"
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Surface equipment leaks, vents and CO2 entrained in oil estimated under Subpart W methods or engineering estimates; planned and unplanned releases quantified for the mass balance.",
+   "location": "Surface equipment between meters and wellheads",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    30,
+    35,
+    37,
+    40
+   ],
+   "evidence_quote": "PNPH ensures that the operator evaluates and estimates leaks from equipment, the CO2 content of produced oil, and vented CO2"
+  },
+  {
+   "method": "other",
+   "commitment": "mentioned_only",
+   "detail": "Compositional reservoir simulation of 98-A and 41-A, history matched through 2019 under the DOE MVA Plan, used to show plume containment to 2040; no commitment to update the model as monitoring.",
+   "location": "98-A and 41-A reservoirs",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    14,
+    15,
+    16,
+    17,
+    25
+   ],
+   "evidence_quote": "Reservoir modeling is the major predictive tool that determines the capacity of the subsurface to accept CO2."
+  }
+ ],
+ "notes": "Figures (p8-13, 16-17, 19, 21, 26, 32, 35, 38) are images with little text; the inactive-well location map (p32) is image-only. MIT frequency is stated two ways: annual Casing Integrity Tests under TAC 16 \u00a75.305(1)(C) (p23) and H-5 MITs at least every five years (p36); coded as multi_year with both noted. The pre-injection DOE MVA Plan baseline is referenced (p4) but none of its measurements (e.g., soil gas or groundwater) are described or carried into this plan, so those methods are coded not_found. The p31 statement that alarms notify 'if there are any CO2 releases from the subsurface' appears to refer to pressure alarms, not gas sensors. Corrosion monitoring requirement is said to be met by SCADA monitoring (p23). Reservoir_pressure and above_zone_monitoring both draw on the same 255-well shut-in pressure program (Table 5.1.1, p33), split by whether the zone is the injection reservoir."
+}

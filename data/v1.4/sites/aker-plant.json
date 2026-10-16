@@ -1,0 +1,342 @@
+{
+ "site_slug": "aker-plant",
+ "plan_title": "Subpart RR Monitoring, Reporting, and Verification Plan Aker Gas Injection No. 1 Freestone County, Texas",
+ "plan_version_or_date": "Revised - August 2025",
+ "injection_purpose": "acid_gas_disposal",
+ "uic_class_per_plan": "II",
+ "ama_definition": "The plan constructs the AMA as the year-12 end-of-injection plume plus a half-mile buffer overlain with the year-17 plume (6,417 acres), but then sets the AMA equal to the MMA because the difference is small (p55-56).",
+ "mma_definition": "The modeled free-phase plume after a 12-year injection period and 25 years of post-injection drift (stabilized when areal growth falls below 0.25% per year) plus a half-mile buffer, about 8,364 acres (p24, p55-56).",
+ "leakage_pathways_rated_significant": "Surface equipment (pipeline flanges, valves, wellhead) is the only pathway rated 'possible' during injection; existing wells (27 of 35 penetrate the Eagle Ford in the MMA, 7 within the stabilized plume), future wells, faults, confining zones and seismicity are all rated low likelihood and low magnitude (p57-59, p64-66).",
+ "baseline_summary": "Pre-plan environmental and operational baselines: soil gas at selected UCZ penetrations, groundwater from well 3907403, atmospheric H2S/CO2 near the facility, and a snapshot of well pressures (wellhead, annular, possibly bottomhole) taken before injection under the plan; baseline surveys reported completed July 2025 with analysis still pending. Thereafter SCADA normal operating ranges serve as the reference (p68, p71-72, p77-78, p83).",
+ "reporting_summary": "Annual Subpart RR report filed by March 31 of the following year with the mass balance (RR-5, RR-10, RR-12) and any quantified leakage; records kept at least three years; injected volumes and pressures also reported to TRRC under Class II rules (H-10, annual H-5 MIT); flare/blowdown events documented and reported to TRRC and EPA. No commitment to publish or share monitoring data (p78, p80-81, p83, p86).",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "Gas meter at the plant and volumetric flow meter at the Aker No. 1 wellsite; composition measured downstream of the amine unit by continuous gas chromatograph or regular lab samples, averaged quarterly.",
+   "location": "Aker Plant amine unit outlet and Aker No. 1 wellsite",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    11,
+    58,
+    72,
+    79,
+    84,
+    86
+   ],
+   "evidence_quote": "The flow meter will be continuously operated except for maintenance and calibration."
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "SCADA/DCS continuously record injection volume, wellhead pressure and temperature; qualified personnel review data against normal operating range and permit set points; ESD valves and relief valve installed.",
+   "location": "Aker No. 1 wellhead and plant surface equipment",
+   "frequency": "continuous",
+   "baseline": "unclear",
+   "trigger_or_response": "Data outside normal range or set-point alert: investigate, assess risk to confining seal, follow response and reporting procedures.",
+   "pages": [
+    57,
+    67,
+    68,
+    71,
+    75,
+    77,
+    84
+   ],
+   "evidence_quote": "Midcoast G&P will continuously monitor and collect injection volumes, pressures, and temperatures through their SCADA systems for the Aker No. 1 well."
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "committed",
+   "detail": "Surface pressure gauges on tubing, casing annulus and surface casing; annulus filled with inert corrosion-inhibiting fluid; annular pressure change treated as a possible leak indicator.",
+   "location": "Aker No. 1 wellhead",
+   "frequency": "continuous",
+   "baseline": "unclear",
+   "trigger_or_response": "Change in annular pressure: treated as possible leak and thoroughly investigated.",
+   "pages": [
+    59,
+    71,
+    77
+   ],
+   "evidence_quote": "a pressure gauge will be placed on the casing annulus."
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "Annual MIT (H-5) under Permit Amendment 13099, more frequent than the five-year requirement of SWR 3.46, to confirm casing, tubing and packer integrity.",
+   "location": "Aker No. 1 injection well",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Failed MIT: well removed from service and isolated, root cause analysis, repair to mitigate leakage.",
+   "pages": [
+    59,
+    67,
+    71
+   ],
+   "evidence_quote": "Midcoast G&P has agreed to perform an annual MIT on the Aker No. 1."
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "committed",
+   "detail": "Two Midcoast observation wells completed in the Woodbine injection zone inside the plume (about 4,150 ft NW and 4,285 ft SE of the injector) monitored for wellhead pressure and irregularities; method and interval not specified.",
+   "location": "Aker Monitor Well No. 1 and No. 2, within the plume",
+   "frequency": "unspecified",
+   "baseline": "unclear",
+   "trigger_or_response": "Irregularities noted; no specific response described.",
+   "pages": [
+    23,
+    47,
+    72,
+    77
+   ],
+   "evidence_quote": "Midcoast G&P will monitor these two observation wells for wellhead pressure and any irregularities."
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Field personnel inspect detectors, gauges and leak indicators such as vapor plumes and ice at the plant, injection well and monitoring wells; Table 13 lists daily for surface equipment and as needed for existing wells.",
+   "location": "Aker Plant, Aker No. 1 and the two Aker monitoring wells",
+   "frequency": "daily",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Issue found: corrective action per the H2S Contingency Plan.",
+   "pages": [
+    67,
+    68,
+    77
+   ],
+   "evidence_quote": "Field personnel are to conduct routine inspections of detectors, gauges, and leak indicators, such as vapor plumes and ice formations."
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "committed",
+   "detail": "Fixed ambient H2S detectors throughout the plant and near the wellhead, tied to SCADA with local alarms; H2S used as proxy for CO2; Hi alarm 10 ppm, Hi-Hi 20 ppm; calibrated per manufacturer and 98.444(e).",
+   "location": "Aker Plant and Aker No. 1 wellsite",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Alarm at 10/20 ppm H2S: H2S Contingency Plan, ESD isolation, secure facility, quantify release from operating conditions.",
+   "pages": [
+    57,
+    58,
+    67,
+    68,
+    71,
+    72,
+    77,
+    80,
+    84
+   ],
+   "evidence_quote": "Ambient H2S detectors are located throughout the Aker Plant and near the Aker No. 1 well with local alarms."
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "committed",
+   "detail": "Soil gas samples near selected wells penetrating the Eagle Ford within the MMA, analyzed by a third-party lab; baseline by July 2025 then annually through injection and post-injection periods.",
+   "location": "Selected UCZ penetrations within the MMA",
+   "frequency": "annual",
+   "baseline": "yes",
+   "trigger_or_response": "Compared with baseline; no specific threshold or response stated.",
+   "pages": [
+    67,
+    71,
+    72,
+    77,
+    83
+   ],
+   "evidence_quote": "Midcoast G&P will perform baseline and annual soil gas monitoring around select penetrators of the UCZ within the MMA."
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "committed",
+   "detail": "One water well (No. 3907403), updip in the northern part of the stabilized plume, sampled for pH, TDS, inorganic/organic carbon, CO2, H2S, density, temperature by a third-party lab.",
+   "location": "Groundwater well No. 3907403, northern MMA",
+   "frequency": "annual",
+   "baseline": "yes",
+   "trigger_or_response": "Significant variance from baseline: evaluated for possible CO2 leakage.",
+   "pages": [
+    72,
+    78,
+    83
+   ],
+   "evidence_quote": "Midcoast G&P will perform baseline and annual groundwater sampling from well No. 3907403 in the northern portion of the stabilized plume."
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "committed",
+   "detail": "Relies on public networks: operator reviews TexNet and USGS earthquake catalogs; nearest TexNet station (237B) is 40 km away. No site seismometers. One-time catalog review found no events within 25 km.",
+   "location": "Public TexNet and USGS catalogs",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Event of M2.0 or greater: review injection volumes and pressures for changes indicating leakage.",
+   "pages": [
+    58,
+    64,
+    65,
+    66,
+    68,
+    75,
+    76
+   ],
+   "evidence_quote": "Midcoast G&P will monitor the TexNet and USGS earthquake catalogs."
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "mentioned_only",
+   "detail": "A one-time baseline of atmospheric H2S/CO2 concentrations is to be established before reported injection; no ongoing atmospheric CO2 monitoring beyond the fixed H2S detectors.",
+   "location": "Aker Plant and Aker No. 1 area",
+   "frequency": "one_time",
+   "baseline": "yes",
+   "trigger_or_response": "",
+   "pages": [
+    68,
+    83
+   ],
+   "evidence_quote": "Baseline atmospheric H2S/CO2 concentrations are to be established prior to commencing injection volumes reported under this MRV plan."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Routine checks of the TRRC website for new permits and drilling in the MMA; coordination with operators so wells intersecting the plume are built to SWR 13.",
+   "location": "MMA",
+   "frequency": "periodic_unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Proposed well may intersect plume: coordinate with operator on construction to prevent migration above the injection interval.",
+   "pages": [
+    62,
+    67,
+    75
+   ],
+   "evidence_quote": "Midcoast G&P will routinely monitor the TRRC site for permits and drilling activities in the MMA"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Corrosion control: periodic inspection of surface equipment, analysis of liquids collected from piping, and cathodic protection system inspections.",
+   "location": "Plant piping and surface equipment",
+   "frequency": "periodic_unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    68
+   ],
+   "evidence_quote": "The internal and external corrosion control programs are to be monitored for effectiveness by way of periodic inspection of surface equipment"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Subpart W calculation methods for equipment leaks and vents between the flow meter and wellhead (CO2FI); blowdowns routed to the plant flare and reported under the plant's GHGRP reporting. No direct leak surveys because of H2S hazard.",
+   "location": "Surface equipment between flow meter and Aker No. 1 wellhead",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    77,
+    78,
+    80,
+    81,
+    84,
+    85
+   ],
+   "evidence_quote": "Calculation methods from Subpart W will be used to calculate CO2 emissions from equipment located on the surface"
+  },
+  {
+   "method": "other",
+   "commitment": "conditional",
+   "detail": "Leak quantification by case-by-case engineering analysis of operating conditions (pressure, rate, CO2 fraction, opening size, duration), dynamic reservoir modeling and history matching.",
+   "location": "Any detected leakage pathway",
+   "frequency": "event_driven",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Detected leak: quantify, address and document within an appropriate timeline; records retained.",
+   "pages": [
+    68,
+    77,
+    78,
+    80,
+    81,
+    82
+   ],
+   "evidence_quote": "Any mass of CO2 detected leaking to the surface"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Amended MRV plan with updated plume extent based on measured well conditions, to be submitted at least 180 days before the end of the first five years of injection; AMA and MMA revised then.",
+   "location": "Model domain / MMA",
+   "frequency": "multi_year",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    85
+   ],
+   "evidence_quote": "an amended MRV plan will be submitted for this facility with an updated plume extent based on measured conditions in the wells."
+  }
+ ],
+ "notes": "Many pages are figure-only with no text (e.g., p3, 12, 14, 17, 19, 24, 36, 38, 39, 42, 48-51, 53, 56, 60, 61, 63, 69, 70, 73, 74, 76); Appendices A-C (cross section, safety plot plan with detector locations, well lists) are referenced but not in the extracted text, so detector counts and locations cannot be verified. The well has injected acid gas since April 2012; the statement that injection 'begins' in Q3 2025 (p81) refers to the start of Subpart RR reporting. Section 6.3 says pressures recorded before injection under the plan 'could include' wellhead, annular and bottomhole pressures 'for example', so the operational pressure baseline is tentatively worded and coded 'unclear'. Annulus pressure frequency is coded continuous because the plan discusses annular pressure changes within the SCADA continuous-monitoring paragraph (p71), though the annulus gauge is not explicitly said to be SCADA-connected. Table 13 lists 'Seismic monitoring station - Continuous', but the text shows this is the public TexNet station 40 km away; the operator's own commitment is to review catalogs with no stated frequency. The atmospheric H2S/CO2 baseline (p68) is a one-time measurement with no ongoing atmospheric program, so atmospheric_co2 is coded mentioned_only. The two observation wells are completed in the Woodbine injection zone, so there is no above-zone monitoring. No production occurs from the Woodbine (p80). Minor inconsistencies: MASIP is given as 1,800 psig (p2) and 1,850 psig (p47, 52); seismicity review radius stated as 9.08 km in Table 12 but 25 km in Section 4.5. Table 13 gives visual inspections as daily for surface equipment and 'as needed' for existing wells; the daily figure is used."
+}

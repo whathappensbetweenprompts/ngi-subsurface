@@ -1,0 +1,316 @@
+{
+ "site_slug": "core-co2-services-sequestration-operations",
+ "plan_title": "Core CO2 Services Niagaran Reef CO2 Sequestration Project CO2 Monitoring, Reporting, and Verification (MRV) Plan",
+ "plan_version_or_date": "Version 1.2, July 2025",
+ "injection_purpose": "co2_disposal",
+ "uic_class_per_plan": "II-D (initial wells; Class VI permit applications being prepared for future wells)",
+ "ama_definition": "The 30 pinnacle reefs listed in Appendix A-1 (initially Charlton 10 and Chester 12 active, the rest idle), each defined by its seismic/well-control reef boundary plus a one-half mile buffer, for a 20-year injection period (p33-36).",
+ "mma_definition": "The whole band of hydrocarbon-bearing Niagaran pinnacle reefs of the NNPRT across northern lower Michigan from Presque Isle County to Manistee County, plus a half-mile buffer north and south of the reef trend (p30-31).",
+ "leakage_pathways_rated_significant": "Pipeline and surface equipment is the only pathway rated above low (medium likelihood, low magnitude). Wellbores penetrating the reef are called the most likely subsurface pathway but rated low because of well construction, cement evaluation and MIT. Faults, seismicity, lateral migration out of a reef, and diffuse seal leakage are all rated low (p37-39, p41-44).",
+ "baseline_summary": "Mainly operational data: daily field inspections, SCADA injection rate/pressure against target values, annular pressure and MIT results, and quarterly handheld CO2 readings compared for 'statistically significant' deviations (p51-52). The plan also requires 'baseline monitoring' for at least one month (30 days) before injection at each reef moving from Pending to Active, but does not say which measurements that baseline includes (p29, p34, p46, p55).",
+ "reporting_summary": "Annual Subpart RR report through e-GGRT with the mass balance (RR-1/RR-4/RR-6/RR-10/RR-12) and any quantified leakage events; the annual report also carries changes to reef/well inventory, maps of reefs entering Pending/Active status, an affirmative statement that no new leakage pathways exist, and an attestation when a reef is qualified (p9, p27-29, p33-34, p52-55). MIT and workover results go to EGLE/EPA; data is also used for EGLE reporting (p26, p47). A stabilization report is planned 2-3 years after injection ends at a reef (p36, p50-51). Records kept at least 3 years. Idle reef locations are proprietary; no commitment to publish measurement data.",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "Coriolis mass flow meters at custody transfer points and dedicated to each injection well, with data loggers reading about every minute; CO2 concentration (weight percent) determined at least quarterly at custody transfer or wellhead.",
+   "location": "Custody transfer meters and each injection wellhead",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Data gaps filled by prorating most recent daily volume over hours missing.",
+   "pages": [
+    25,
+    26,
+    44,
+    45,
+    52,
+    53,
+    55
+   ],
+   "evidence_quote": "Dedicated mass flow meter technology (e.g., Coriolis) is used at each injection well to ensure accurate measurement of the mass injected"
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "SCADA continuous monitoring of injection volumes and pressures at injection wells; operators record totalizer, tubing pressure, casing pressure and wellhead temperature daily; target rates and pressures set per well and deviations flagged.",
+   "location": "Each injection well in active reefs; facility",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Statistically significant deviation from target rate/pressure flags investigation; unresolved flags get detailed investigation; confirmed leakage quantified and reported.",
+   "pages": [
+    26,
+    46,
+    47,
+    49,
+    51,
+    52
+   ],
+   "evidence_quote": "If the injection rate or pressure significantly deviates from that which is targeted, the system generates a flag and alerts operational personnel to investigate"
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "committed",
+   "detail": "Casing (tubing-casing annulus) pressure recorded at daily site visits and tracked as part of maintaining mechanical integrity under permit conditions, with annular fill-up tests.",
+   "location": "Injection wellheads",
+   "frequency": "daily",
+   "baseline": "no",
+   "trigger_or_response": "Annular pressure anomaly: inspect and repair; loss of mechanical integrity means immediate shut-in and investigation.",
+   "pages": [
+    26,
+    47,
+    48,
+    49,
+    52
+   ],
+   "evidence_quote": "monitoring of the annular pressure in wellheads"
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "Annual MITs on active injection wells per Table 2; annular fill-up tests per permit; a new MIT under EGLE/EPA oversight after any workover before injection resumes.",
+   "location": "Active injection wells",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Loss of mechanical integrity: well shut in, repaired, re-tested, and agency letter required before resuming injection.",
+   "pages": [
+    47,
+    52
+   ],
+   "evidence_quote": "Mechanical Integrity Tests (MIT) of the injection wells Annually, for active injection wells"
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "committed",
+   "detail": "Episodic pressure surveys on a field or well basis to track reservoir pressure (and kh, skin); reservoir pressure assessment also planned for the post-injection stabilization demonstration. Instruments and wells not specified.",
+   "location": "Injection zone of each reef (via injection wells; method not specified)",
+   "frequency": "periodic_unspecified",
+   "baseline": "unclear",
+   "trigger_or_response": "Anomalous, lower survey result than prior surveys: further evaluation of cause; material balance used to quantify any loss.",
+   "pages": [
+    34,
+    43,
+    47,
+    49,
+    50,
+    51
+   ],
+   "evidence_quote": "episodic surveys are conducted on a field-by-field or well-by-well basis to gather information about reservoir pressure"
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Daily rounds by operations personnel inspecting vessels, piping, valves and wellheads; also cited for pipelines and surface equipment.",
+   "location": "Facilities, wells and pipelines",
+   "frequency": "daily",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Issue found: fix on the spot or raise a work order; each event documented with estimated CO2 leaked and reported.",
+   "pages": [
+    26,
+    39,
+    47,
+    51
+   ],
+   "evidence_quote": "Operations personnel make daily rounds of the facilities and wells, providing a visual inspection of equipment used in the operations"
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "committed",
+   "detail": "Fixed CO2 monitors throughout the gas plant facility, listed in the leakage monitoring table for the pipeline/surface equipment pathway; no further description.",
+   "location": "Gas plant facility",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    47
+   ],
+   "evidence_quote": "Fixed CO2 monitors throughout the gas plant facility"
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "mentioned_only",
+   "detail": "Regional cement bond logs analyzed in past MRCSP research to show adequate cement across the seal; no logging planned as monitoring under this plan.",
+   "location": "",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    39
+   ],
+   "evidence_quote": "Leakage through wellbore cement has also been researched in the NNPRT by analyzing several cement bond logs in the region."
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "committed",
+   "detail": "Relies on the public USGS Earthquake Catalog / Earthquake Notification Service for events within the MMA; no site seismometers.",
+   "location": "Public USGS network, MMA",
+   "frequency": "event_driven",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Magnitude 2.5 or greater in the MMA: check wells and facilities for damage, review injection data for correlation, report any leakage.",
+   "pages": [
+    47,
+    50
+   ],
+   "evidence_quote": "Core CO2 monitors the United States Geological Survey (USGS) Earthquake Catalog to identify any seismic events within the MMA."
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "mentioned_only",
+   "detail": "Existing 2D/3D seismic (MRCSP surveys) used to delineate reef edges and rule out faults; no repeat seismic monitoring.",
+   "location": "",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    10,
+    33,
+    43
+   ],
+   "evidence_quote": "The edge of the reef will be defined using 2D or 3D seismic data and well control."
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "committed",
+   "detail": "Handheld CO2 detection units used for quarterly surface readings at all wells (active or plugged) in the reef and half-mile buffer that penetrate the confining zone; continues as 'passive' monitoring after injection until the reef is released.",
+   "location": "Wells penetrating the confining zone within active and post-injection reefs plus half-mile buffer",
+   "frequency": "quarterly",
+   "baseline": "unclear",
+   "trigger_or_response": "Statistically significant deviation in CO2 level: investigate cause, remediate, estimate leakage for annual report.",
+   "pages": [
+    46,
+    47,
+    48,
+    52
+   ],
+   "evidence_quote": "Handheld CO2 monitoring units are used to take quarterly measurements at wells (active or plugged) across the AMA that penetrate the confining zone."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Material balance of injected mass against reef pressure to confirm containment in the closed-tank reef; also used to quantify any loss from the injection zone.",
+   "location": "Each active reef",
+   "frequency": "periodic_unspecified",
+   "baseline": "unclear",
+   "trigger_or_response": "Pressure not matching injected mass: investigate; material balance used to estimate volume lost.",
+   "pages": [
+    19,
+    43,
+    49,
+    50
+   ],
+   "evidence_quote": "Periodic material balance and pressure monitoring will confirm that no leakage from a reef is occurring."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Watches state agency (EGLE) and third-party websites for notices of proposed drilling in the area; Core CO2 controls drilling rights within designated reefs.",
+   "location": "MMA / area around each reef",
+   "frequency": "periodic_unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    47,
+    48
+   ],
+   "evidence_quote": "Core CO2 monitors the state agency and other third-party websites for notices of new drilling activity in the area."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Pipeline and surface equipment losses quantified by GHGRP/Subpart W methodology, direct metering of specific venting events, and engineering estimates for extreme events; third-party firm assists.",
+   "location": "Pipelines and surface equipment downstream of custody transfer",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Event-driven quantification reconciled with annual report to avoid double counting.",
+   "pages": [
+    39,
+    44,
+    45,
+    54,
+    55
+   ],
+   "evidence_quote": "using direct metering to measure specific venting events"
+  },
+  {
+   "method": "other",
+   "commitment": "mentioned_only",
+   "detail": "Appendix Table A-1 allows a maximum of one 'monitor well' per reef and the text says monitoring wells will be named when a reef is readied, but no monitoring well measurements are described.",
+   "location": "One per reef (per table)",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    28,
+    59,
+    60
+   ],
+   "evidence_quote": "the associated injection and any monitoring well(s) will be given names"
+  }
+ ],
+ "notes": "Purpose coded co2_disposal: the initial four wells are to be permitted by EGLE as Class II-D for 'disposal of oilfield waste' (Table A-1 labels them 'Class IID-AGI'), with two Class VI applications being prepared for EPA Region V; no hydrocarbons are produced, so production_monitoring is genuinely absent rather than omitted (p9, p22, p45). Pages 20, 22, 32 and 42 are figure-only pages; no monitoring text appears lost. Section 5.5.1 says 'continual pressure monitoring in the injection zone' (p47), which in context appears to mean SCADA wellhead pressure; the only explicit reservoir pressure measurement is the 'episodic surveys' on p49 with no stated interval, so reservoir_pressure is coded periodic_unspecified. Pre-injection qualification requires a stabilized reservoir pressure below 20% of discovery pressure (p34), which could be read as a baseline, hence 'unclear'. The plan requires 'baseline monitoring' for at least one month / 30 days before injection at each new reef (p34, p46, p55) but never lists what that baseline comprises; the handheld CO2 and material-balance rows are therefore marked baseline 'unclear'. Quarterly handheld CO2 readings at well locations are coded as atmospheric_co2 (the plan calls it 'surface CO2 monitoring' with hand-held units; no soil probes or flux chambers are mentioned). The 'fixed CO2 monitors throughout the gas plant facility' appear only in Table 2 (p47) with no description of the gas plant. Monitoring is phased by reef status (Idle: none; Pending: baseline; Active: SCADA plus handheld CO2; Passive post-injection: handheld CO2 only until release; Plugged-Released: none) (p46). Idle reef locations are withheld as proprietary; reef additions beyond the 30 listed require a revised plan, while well/reef/equipment changes within the list are handled through the annual report (p27-29, p34). Equation RR-12 is described as 'incidentally stored' (p54), a leftover from the EOR template."
+}

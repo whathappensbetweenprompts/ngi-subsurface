@@ -1,0 +1,306 @@
+{
+ "site_slug": "blue-flint-sequester-company-llc",
+ "plan_title": "Blue Flint Sequester Company, LLC Monitoring, Reporting, and Verification Plan",
+ "plan_version_or_date": "",
+ "injection_purpose": "class_vi_storage",
+ "uic_class_per_plan": "VI",
+ "ama_definition": "The North Dakota area of review (AOR), a 1-mile buffer around the projected stabilized CO2 plume rounded to the nearest 40-acre tract, serves as the AMA until facility closure, with monitoring from about one year pre-injection through 20 years of injection and at least 10 years post-injection (p12-14).",
+ "mma_definition": "The MMA is the same AOR boundary (stabilized plume plus 1-mile buffer, rounded to 40-acre tracts), which exceeds the half-mile Subpart RR minimum (p12-14).",
+ "leakage_pathways_rated_significant": "Every pathway is rated very low. The injection well (MAG 1), the monitoring well (MAG 2) and surface equipment (flowline, wellhead) are the only pathways given active mitigation and monitoring; the Class I disposal well, two plugged exploration wells, the suspected Stanton Fault, seismicity, lateral migration, seal diffusivity and future drilling are judged not realistic pathways (p14-19, p21-25).",
+ "baseline_summary": "A true pre-injection baseline, started September 2022 and running about one year to capture seasons: ambient air and soil gas (O2, N2, CO2, stable and radiocarbon isotopes) at five locations, groundwater chemistry at up to five existing shallow wells plus a new Fox Hills USDW well next to MAG 1 and historical data from 15 Falkirk Mining wells; baseline casing inspection, temperature and pulsed-neutron logs, annulus pressure tests and a pressure falloff test in the wells; and a baseline 2D seismic survey, possibly a VSP (p26, p28-30).",
+ "reporting_summary": "Annual Subpart RR report with the mass balance (Equations RR-4, RR-10, RR-12), expected to be filed March 31 with other GHG reports; records kept at least three years. Also commits to North Dakota UIC reporting under NDAC 43-05-01-18 (24-hour and 30-day reporting) and to a facility closure application to the state. No commitment to publish measurement data (p28, p32-34).",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "Two Coriolis mass flowmeters, one at the liquefaction outlet and one near the wellhead (primary metering point); CO2 concentration sampled at least quarterly at the compressors.",
+   "location": "Liquefaction outlet and main metering station adjacent to the MAG 1 wellhead",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Anomalous metering readings sent via SCADA to operations center for investigation; mass balance and leak detection software quantify flowline losses.",
+   "pages": [
+    12,
+    16,
+    26,
+    27,
+    30,
+    31,
+    33
+   ],
+   "evidence_quote": "Two Coriolis mass flowmeters will be installed to meter injected CO2"
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "Digital surface pressure gauges on tubing of MAG 1 and MAG 2 and on the flowline at both ends, recorded in real time by SCADA with automated warnings and shutoffs; leak-size detection targets of minutes.",
+   "location": "MAG 1, MAG 2 wellheads and flowline (liquefaction outlet and near wellhead)",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Anomalous reading: alarm to operations center, remote isolation/shutoff, investigation; injection pressure kept below 90% of fracture pressure.",
+   "pages": [
+    14,
+    15,
+    16,
+    24,
+    26,
+    27
+   ],
+   "evidence_quote": "P\u2013T gauge data will be recorded continuously in real-time by the SCADA system"
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "committed",
+   "detail": "Digital surface pressure gauges on the tubing-casing annulus of both wells, read continuously by SCADA.",
+   "location": "MAG 1 and MAG 2 (MAG 2 only post-injection)",
+   "frequency": "continuous",
+   "baseline": "unclear",
+   "trigger_or_response": "Anomalous readings require further investigation; emergency remedial response plan.",
+   "pages": [
+    14,
+    15,
+    16,
+    26,
+    27
+   ],
+   "evidence_quote": "Digital surface pressure gauges will monitor annulus pressures continuously."
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "Tubing-casing annulus pressure tests and ultrasonic (or alternative) casing inspection logs before injection and during workovers but at least every 5 years; pressure falloff test in MAG 1 every 5 years.",
+   "location": "MAG 1 and MAG 2 (MAG 2 only post-injection)",
+   "frequency": "multi_year",
+   "baseline": "yes",
+   "trigger_or_response": "Integrity issues behind casing trigger further investigation and remedial response.",
+   "pages": [
+    14,
+    15,
+    16,
+    26,
+    27
+   ],
+   "evidence_quote": "The tubing-casing annulus pressure will be tested prior to injection and at least once every 5 years."
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "committed",
+   "detail": "At least one tubing-conveyed downhole P\u2013T gauge in MAG 1 and in the in-plume monitoring well MAG 2, read in real time; pressure falloff tests in MAG 1 every 5 years; data history-matched to track the pressure front.",
+   "location": "MAG 1 injection well and MAG 2 monitoring well",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Deviations from the history-matched model are reviewed for leakage, verified, and quantified; AOR revisited at least every 5 years.",
+   "pages": [
+    14,
+    15,
+    16,
+    25,
+    26,
+    28
+   ],
+   "evidence_quote": "pressure in the wellbore will be continuously monitored with at least one downhole, tubing-conveyed P\u2013T (pressure\u2013temperature) gauge"
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Flowline regularly inspected for visual or auditory signs of equipment failure.",
+   "location": "CO2 flowline",
+   "frequency": "periodic_unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    16
+   ],
+   "evidence_quote": "The flowline will also be regularly inspected for any visual or auditory signs of equipment failure"
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "committed",
+   "detail": "CO2 detection stations on flowline risers, at the injection wellhead and inside the wellhead enclosure, plus stations outside enclosures on the MAG 1 pad; real-time data via SCADA with automated alarms and shutoffs.",
+   "location": "Flowline risers, MAG 1 wellhead and enclosure, MAG 1 well pad",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Anomalous CO2 reading: alarm to operations center, remote isolation, investigation; enclosure volume used to quantify leak.",
+   "pages": [
+    16,
+    26,
+    27
+   ],
+   "evidence_quote": "CO2 detection stations will be located on the flowline risers and at the CO2 injection wellhead"
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "committed",
+   "detail": "Soil gas (O2, N2, CO2, isotopes) at five semipermanent probe stations for baseline, start of post-injection and before closure; two permanent profile stations (SGPS 1 and 2) sampled 3-4 times per year during injection.",
+   "location": "Five semipermanent and two permanent stations within the AOR (Figure 5-1)",
+   "frequency": "quarterly",
+   "baseline": "yes",
+   "trigger_or_response": "Anomalous readings versus baseline: further investigation; vegetation survey and more sampling to estimate leakage.",
+   "pages": [
+    26,
+    27,
+    28,
+    29
+   ],
+   "evidence_quote": "There are five planned soil gas-sampling locations and up to five existing groundwater wells"
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "committed",
+   "detail": "Water chemistry (pH, TDS, alkalinity, ions, trace metals, isotopes) at up to five existing shallow wells (baseline only; post-injection TBD), historical data from 15 Falkirk Mining wells, and a new Fox Hills USDW well sampled 3-4 times per year during injection, annually afterward.",
+   "location": "Fox Hills monitoring well adjacent to MAG 1; shallow wells within or 0.25 mile outside the AOR",
+   "frequency": "quarterly",
+   "baseline": "yes",
+   "trigger_or_response": "Deviation from baseline prompts investigation and remedial response.",
+   "pages": [
+    26,
+    28,
+    29
+   ],
+   "evidence_quote": "Baseline water samples are also being obtained from a new Fox Hills monitoring well drilled adjacent to the MAG 1 wellbore."
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "committed",
+   "detail": "No dedicated above-zone well or gauge; pulsed-neutron logs in MAG 2 check the above-zone monitoring interval for out-of-zone CO2 (baseline, Year 4, then every 5 years; annually post-injection).",
+   "location": "MAG 2 monitoring well, formations overlying the Broom Creek",
+   "frequency": "multi_year",
+   "baseline": "yes",
+   "trigger_or_response": "Signs of out-of-zone migration: further investigation; atmospheric and soil gas studies to quantify.",
+   "pages": [
+    26,
+    27,
+    29
+   ],
+   "evidence_quote": "ensuring there are no signs of out-of-zone migration into formations overlying the storage reservoir, otherwise known as the above-zone monitoring interval"
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "committed",
+   "detail": "Continuous DTS fiber-optic temperature along casing of both wells; wireline temperature logs annually only if DTS fails; casing inspection logs every 5 years; pulsed-neutron logs in MAG 2 (Year 4, every 5 years, annually post-injection until saturation, then every 4 years).",
+   "location": "MAG 1 and MAG 2",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Anomalous temperature or saturation readings near surface or wellbore: further investigation; atmospheric and soil gas studies to quantify.",
+   "pages": [
+    14,
+    15,
+    16,
+    26,
+    27,
+    29
+   ],
+   "evidence_quote": "The temperature profile of the MAG 1 wellbore will be continuously monitored with temperature distributed temperature sensing (DTS) fiber-optic cable."
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "committed",
+   "detail": "Relies on the existing USGS seismic network for all phases, supplemented with additional equipment as necessary during injection and post-injection; no site array specified.",
+   "location": "Public USGS network; CO2 storage complex",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    21,
+    26
+   ],
+   "evidence_quote": "Utilize existing USGS's network and supplement with additional equipment as necessary"
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "committed",
+   "detail": "Baseline 2D seismic survey before injection, repeat surveys in Year 1 and Year 4 with frequency re-evaluated in Year 4; post-injection TBD. VSP only a feasibility evaluation.",
+   "location": "CO2 plume area around MAG 1 (Figure 5-2)",
+   "frequency": "multi_year",
+   "baseline": "yes",
+   "trigger_or_response": "Detected pathways trigger further investigation; atmospheric and soil gas studies to estimate leakage.",
+   "pages": [
+    7,
+    21,
+    26,
+    27,
+    29,
+    30
+   ],
+   "evidence_quote": "A 2D seismic survey will be collected prior to injection to establish baseline conditions in the storage reservoir."
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "committed",
+   "detail": "Ambient air samples (O2, N2, CO2, isotopes) collected at the soil gas stations, 3-4 seasonal samples per year before and during injection; none post-injection.",
+   "location": "Soil gas sampling locations within the AOR; MAG 1 well pad",
+   "frequency": "quarterly",
+   "baseline": "yes",
+   "trigger_or_response": "Anomalous readings versus baseline: further investigation; concentration data over time used to estimate leakage.",
+   "pages": [
+    26,
+    27,
+    28
+   ],
+   "evidence_quote": "The ambient air samples are collected at the same locations as the soil gas samples."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Corrosion coupon testing of flowline and well materials, baseline then quarterly during injection.",
+   "location": "Flowline and wells",
+   "frequency": "quarterly",
+   "baseline": "yes",
+   "trigger_or_response": "",
+   "pages": [
+    14,
+    26
+   ],
+   "evidence_quote": "Corrosion Coupon Testing (flowline and well materials)"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Reservoir simulation continuously history-matched to monitoring data to track plume and pressure front; AOR and monitoring plan reviewed at least every 5 years; Subpart W used for equipment leaks between meter and wellhead.",
+   "location": "Storage reservoir model; surface equipment",
+   "frequency": "multi_year",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Deviation from model or method thresholds: detailed analysis to quantify using engineering estimates, emission factors, geophysics or models.",
+   "pages": [
+    25,
+    28,
+    31,
+    32
+   ],
+   "evidence_quote": "The AOR and monitoring plan will be reviewed and if warranted, revised at least every 5 years."
+  }
+ ],
+ "notes": "Cover page carries no version number or date; the plan references a state SFP application of October 2022 and a March 2023 hearing. No image-only pages, but figures (maps, seismic sections) have captions only. Much detail is deferred to the state permit (R1 sections), including the surface leak detection plan, worker safety plan and QASP, so personal monitors and detection thresholds are not described here. Sampling listed as '3-4 seasonal samples' per year is coded as quarterly. Shallow groundwater wells are sampled only for baseline (NA during injection, TBD post-injection); only the Fox Hills USDW well continues during injection. Above-zone monitoring is coded committed although it is done only by pulsed-neutron logs in MAG 2, which overlaps the cased_hole_logging row. MAG 2's completion interval is not stated. VSP is a feasibility evaluation only ('may'). Saline storage with no production, so production_monitoring is not_found. Passive seismic relies on the USGS network with unspecified supplementation."
+}

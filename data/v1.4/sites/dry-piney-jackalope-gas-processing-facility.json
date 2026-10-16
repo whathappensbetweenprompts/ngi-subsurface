@@ -1,0 +1,367 @@
+{
+ "site_slug": "dry-piney-jackalope-gas-processing-facility",
+ "plan_title": "Blue Spruce Operating LLC Dry Piney \"Jackalope\" Gas Processing Facility & Dry Piney State Acid Gas Injection Wells Subpart RR Monitoring, Reporting and Verification Plan",
+ "plan_version_or_date": "Original Submission - August 2025; First Revision - October 2025; Second Revision - December 2025 (2nd revision submittal December 11, 2025)",
+ "injection_purpose": "acid_gas_disposal",
+ "uic_class_per_plan": "II",
+ "ama_definition": "BSO sets the AMA equal to the MMA by choosing t = 2128 (end of a 50-year injection period plus 50-year stabilization), so the plume-plus-buffer area including the fault pathways coincides with the MMA polygon (p48-49).",
+ "mma_definition": "The union of the modeled 50-year (2078) and stabilized 100-year (2128) free-phase plume outlines (defined as >0.5% net incremental CO2 saturation above in-situ CO2) plus a half-mile buffer, further extended by a half-mile buffer around faults that extend beyond the stabilized plume (p44-48).",
+ "leakage_pathways_rated_significant": "Every pathway is rated 'very low' overall risk. Surface equipment (AGI pipeline, flanges, wellheads) is described as the most likely leak source but 'very unlikely' because of H2S detection and design (p50-52). The plugged Tip Top T62X-16S, the only non-BSO well penetrating the injection zone, is rated 'unlikely' (p54-59). Faults 5, 6 and 7, which extend through the Triassic Evaporite seal into the Frontier, are rated 'unlikely' likelihood but insignificant magnitude; all other faults, confining units, lateral migration and seismicity are 'very unlikely' (p58-73).",
+ "baseline_summary": "A pre-injection environmental baseline program starting in 2027, at least 12 months before the expected October 2028 start of injection (p92): quarterly produced-gas composition (including CO2, H2S and helium) from a subset of third-party shallow gas wells for 12 months (p85-86); monthly groundwater chemistry from existing water wells for 12 months (p87-88); monthly soil CO2 flux at plugged wells and above faults for 12 months (p88-89); a seismic baseline from historical ANSS data (p86-87); and, if adopted, semiannual satellite/Lidar imaging for two years (p85). Operational baseline is 0 ppm H2S with no alarms (p84) and DCS set points (p85).",
+ "reporting_summary": "Annual Subpart RR report using Equation RR-12 (injected minus surface leakage minus equipment leaks), with CO2 received set equal to CO2 injected (p89-92); records kept at least three years (p94). BSO says it will assume responsibility for 'monitoring, recording, and reporting' data from the CO2 monitoring network and that the seismic station can 'report data to third parties as necessary' and will generate periodic seismic reports (p85-86); produced-gas and groundwater reports will be developed internally (p86-87). A revised MRV plan would be submitted if the plume exceeds the modeled area (p80). No commitment to publish measurement data; WOGCC Class II testing/monitoring conditions are referenced but no state reporting commitment is spelled out (p85).",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "Mass flow meters at each AGI wellhead and continuous gas composition analyzers downstream of bulk fractionation/PSA measure injected CO2 and H2S; quarterly averaged composition; meters calibrated per 40 CFR 98.3(i), NIST traceable.",
+   "location": "Each AGI wellhead and DPJGPF process outlet (Figure 2.7-3)",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    40,
+    41,
+    89,
+    90,
+    92,
+    93
+   ],
+   "evidence_quote": "Mass flow meters will be used to measure the injected mass of CO2 at each well."
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "Plant DCS continuously monitors injection rates, pressures, temperatures and composition with high/low set points and alarms; technicians monitor continuously; surface injection pressure limited below 5,400 psi; SCSSVs trip on detected leakage.",
+   "location": "AGI facility, pipeline and each AGI well, from onsite control room",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Parameter outside allowable window: alert to engineering/operations, investigation for leak threat; multiple alarms can trigger automatic isolation or shutdown.",
+   "pages": [
+    41,
+    51,
+    74,
+    75,
+    76,
+    77,
+    83,
+    85
+   ],
+   "evidence_quote": "The DCS of the plant monitors injection rates, pressures, and composition on a continuous basis."
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "committed",
+   "detail": "A dedicated gauge monitors pressure in the tubing-by-long-string-casing annulus, recorded by an interrogator in the control building and transmitted for real-time review; Table 5.1 lists in-well pressure/temperature sensors for all AGI wells.",
+   "location": "Dry Piney State 12-16 (Section 5.3.1); in-well sensors listed for all AGI wells",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Readings outside acceptable limits: response protocols, remote action, shut-in and leak quantification.",
+   "pages": [
+    74,
+    76,
+    77,
+    82
+   ],
+   "evidence_quote": "a third gauge monitors the annular space between the tubing and the long string casing"
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "MITs listed as a detection program for the AGI wells; BSO will follow WOGCC Class II testing and monitoring requirements for mechanical integrity. No test interval stated.",
+   "location": "Dry Piney State AGI wells",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Failed MIT: well shut in, leak quantified from operating conditions.",
+   "pages": [
+    74,
+    77,
+    82,
+    85
+   ],
+   "evidence_quote": "It includes requirements for testing and monitoring of Class II injection wells to ensure they maintain mechanical integrity at all times."
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "committed",
+   "detail": "Downhole gauge above the packer plus a surface gauge record tubing (reservoir) pressure and temperature during injection and shut-in; data transmitted for daily real-time or historical analysis.",
+   "location": "Dry Piney State 12-16 injection well (in-well sensors also listed for all AGI wells)",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Data outside acceptable limits: investigation, remote action, shut-in and quantification; plume model reassessed if plume exceeds modeled area.",
+   "pages": [
+    74,
+    76,
+    77,
+    80,
+    82
+   ],
+   "evidence_quote": "Two gauges are designated to monitor the tubing (reservoir) pressure and temperature: one gauge at the surface, a second gauge downhole above the packer"
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Field personnel conduct daily visual inspection rounds of the AGI facility and weekly rounds of the AGI well site, following inspection and maintenance protocols.",
+   "location": "AGI facility (daily) and AGI well site (weekly)",
+   "frequency": "daily",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Issue identified: work order generated; detected leaks reported, isolated and quantified.",
+   "pages": [
+    51,
+    74,
+    75,
+    84
+   ],
+   "evidence_quote": "Field personnel will conduct daily inspections of the AGI facilities and weekly inspections of the AGI well site."
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "committed",
+   "detail": "All personnel and contractors wear personal H2S monitors (alarm stated as 5 ppm on p51, 10 ppm on p85); AGI pad entry requires a monitor detecting CO2 and H2S; handheld O2/LEL/H2S/CO2 detectors available at the plant.",
+   "location": "Worn by all personnel at plant and AGI well site",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Alarm: investigate, stop leak, manage as upset event and quantify from operating conditions.",
+   "pages": [
+    51,
+    74,
+    75,
+    84,
+    85,
+    90
+   ],
+   "evidence_quote": "all field personnel are required to wear personal H2S monitors for safety reasons at all times without exception"
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "committed",
+   "detail": "Fixed H2S detectors throughout the plant, AGI facility and across the AGI well pad (alarm 10 ppm, evacuation 90 ppm) and fixed CO2 detectors at the AGI facility (alarm 5,000 ppm), tied to the DCS safety system; replaces annual leak surveys.",
+   "location": "Gas plant, AGI facility and AGI wellheads/pad",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Alarm: immediate response; multiple detectors alarming triggers automatic isolation/shutdown; verification by repeat or redundant measurement; event quantified.",
+   "pages": [
+    51,
+    74,
+    75,
+    76,
+    84,
+    89,
+    90,
+    93
+   ],
+   "evidence_quote": "fixed H2S gas detectors will be prevalent around the gas processing plant, AGI facility and wellheads, which will alarm at 10 ppm"
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "committed",
+   "detail": "Soil CO2 flux with a LI-COR LI-8100A chamber on permanent collars; monthly for 12 months as baseline, then quarterly for three years, then annually, weather permitting; initial sites at plugged and abandoned wells and above faults.",
+   "location": "Pre-planned locations across the MMA, initially plugged/abandoned wells and above fault traces",
+   "frequency": "quarterly",
+   "baseline": "yes",
+   "trigger_or_response": "Flux outside expected variation: repeat measurement, recalibrate, redundant device, densify grid or increase frequency; chamber/tenting/eddy covariance used to quantify.",
+   "pages": [
+    74,
+    75,
+    77,
+    78,
+    79,
+    83,
+    85,
+    88,
+    89
+   ],
+   "evidence_quote": "Soil CO2 flux will be collected on a monthly basis for 12 months to establish a baseline"
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "committed",
+   "detail": "Water chemistry (pH, alkalinity, major ions, TDS, ORP, organic carbon, charge balance) from existing groundwater wells per EPA sampling methods; monthly for 12 months as baseline, then quarterly; compared with regional historical data.",
+   "location": "Existing groundwater wells within the MMA (candidates in Appendix C; number not stated)",
+   "frequency": "quarterly",
+   "baseline": "yes",
+   "trigger_or_response": "Results outside expected variation: further investigation to determine if leakage from the injection zone has occurred.",
+   "pages": [
+    52,
+    54,
+    74,
+    75,
+    85,
+    87,
+    88,
+    120,
+    121
+   ],
+   "evidence_quote": "Water samples will be collected and analyzed on a monthly basis for 12 months to establish baseline data."
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "committed",
+   "detail": "Gas composition (including CO2, H2S, helium) sampled from a subset of third-party shallow Frontier/Bear River gas wells above the confining zone; quarterly for 12 months as baseline, then annually; operators' routine analyses and casing/tubing pressure also used. Depends on operator cooperation.",
+   "location": "Selected existing shallow gas wells in the MMA, especially near Faults 5-7 (Birch Creek Unit, BCU No. 1) and State J No. 1",
+   "frequency": "annual",
+   "baseline": "yes",
+   "trigger_or_response": "Increase in CO2, H2S or helium over baseline: repeat analysis at same and second lab, check well records; leakage quantified by material balance.",
+   "pages": [
+    28,
+    29,
+    52,
+    55,
+    57,
+    58,
+    74,
+    75,
+    77,
+    78,
+    85,
+    86
+   ],
+   "evidence_quote": "Production gas samples will be collected and analyzed on a quarterly"
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "committed",
+   "detail": "Fiber-optic Distributed Temperature Sensing clamped to tubing (annulus temperature profile) and Distributed Acoustic Sensing line for wellbore integrity, recorded by a separate interrogator and transmitted for daily review.",
+   "location": "Dry Piney State 12-16 wellbore",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Temperature profile variation taken as possible leak indicator: investigate, shut in, quantify.",
+   "pages": [
+    76,
+    77
+   ],
+   "evidence_quote": "The DTS system is clamped to the tubing, and it monitors the temperature profile of the annulus."
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "committed",
+   "detail": "Onsite seismometer and digital recorder to be installed at the DPJGPF and AGI well site, plus monitoring of the USGS ANSS network; periodic report mapping event magnitudes; historical catalog used as pre-injection baseline.",
+   "location": "DPJGPF and Dry Piney State AGI well site; public ANSS network",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Seismic event: assess integrity of plant and AGI wells; shut down operations if integrity affected; quantify any resulting leak.",
+   "pages": [
+    70,
+    73,
+    75,
+    81,
+    86,
+    87
+   ],
+   "evidence_quote": "BSO will install a seismometer and a digital recorder to monitor and record data for any seismic event"
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "mentioned_only",
+   "detail": "Existing 2D/3D seismic volumes used only to characterize structure and map nine faults in the MMA; no repeat seismic survey is planned.",
+   "location": "DPS AGI area and MMA",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    13,
+    26,
+    27,
+    28,
+    30,
+    31,
+    32,
+    33,
+    61,
+    62
+   ],
+   "evidence_quote": "Seismic line from 3D volume, oriented N to S through the proposed Dry Piney State 12-16 injection well location"
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "mentioned_only",
+   "detail": "BSO is 'investigating' satellite hyperspectral imaging and/or Lidar to see CO2 plumes over the whole MMA; if used, semiannual for two years then annual. Eddy covariance named only for quantifying a detected leak.",
+   "location": "Entire MMA (remote sensing)",
+   "frequency": "semiannual",
+   "baseline": "unclear",
+   "trigger_or_response": "Plume seen in imagery: verify by soil flux or gas composition and repeat imaging; quantify with atmospheric modeling plus eddy covariance/chamber/tenting.",
+   "pages": [
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    85
+   ],
+   "evidence_quote": "BSO is investigating the use of optical imaging techniques to detect CO2 leakage on a much broader spatial scale"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "AGI pipeline instrumented for control-room leak detection with shutdown valves; smart-pig inline inspections for internal/external corrosion per applicable code; wells have SCSSVs and redundant surface isolation valves.",
+   "location": "11.13-mile AGI pipeline and AGI wellheads",
+   "frequency": "periodic_unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Leak or emergency: pipeline isolated by shutdown valves; pig anomalies assessed per codes; pipeline leaks reported per DOT Part 195 and quantified.",
+   "pages": [
+    41,
+    51,
+    74,
+    82
+   ],
+   "evidence_quote": "Inline inspections of the AGI pipeline using a smart pigging tool will be conducted on the pipeline in accordance with applicable code."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Equipment leaks between meter and wellhead quantified by Subpart W methods for normal operations and, for detected events, from pressure, temperature, flow, leak size and duration, optionally with pipeline leak models; no venting after metering.",
+   "location": "Surface equipment between flow meters and wellheads",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    82,
+    89,
+    90,
+    91,
+    93
+   ],
+   "evidence_quote": "quantification of emissions of CO2 from surface equipment will be assessed by employing the methods detailed in Subpart W"
+  },
+  {
+   "method": "other",
+   "commitment": "conditional",
+   "detail": "Reservoir plume-migration model reassessed if monitoring indicates the plume extends beyond the modeled area; treated as a material change requiring a revised MRV plan.",
+   "location": "MMA",
+   "frequency": "event_driven",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Plume beyond modeled extent: remodel, check for intersected pathway, submit revised MRV plan under 40 CFR 98.448(d).",
+   "pages": [
+    80
+   ],
+   "evidence_quote": "BSO will reassess the plume migration modeling for evidence that the plume may have intersected a pathway for CO2 migration."
+  }
+ ],
+ "notes": "Plan is pre-injection (first injection expected October 2028); all commitments are future tense. Figures are image-only (e.g., p10, 12, 14-17, 24-25, 29-33, 35-40, 43-48, 50, 53-54, 56, 62, 65-66, 68, 72); Appendix B wellbore diagram (p119) has no text; Appendix D (p122-130) is OCR of scanned lab reports; bold/italic marking of baseline candidate wells in Appendices A and C is lost in extraction. Coding choices: (1) third-party shallow gas well composition sampling is coded under above_zone_monitoring because the Frontier/Bear River wells sit above the Triassic Evaporite confining zone; it is not EOR production monitoring, so production_monitoring is not_found. It is hedged 'to the extent possible' and depends on other operators, so a reader could reasonably downgrade it to conditional. (2) Satellite hyperspectral/Lidar imaging appears in Table 5.1 and has a stated schedule in 6.3 (semiannual two years, then annual), but every narrative mention says BSO is 'investigating' its use and 'would' employ it, so it is coded mentioned_only; this is the weakest supportable level, and it could be read as committed. (3) DTS/DAS fiber is coded as other rather than cased_hole_logging since it is a permanent sensor, not a logging run. (4) In-well gauges and DTS/DAS are described only for the Dry Piney State 12-16 (Section 5.3.1), though Table 5.1 lists in-well pressure/temperature sensors for all AGI wells. (5) Soil flux frequency is quarterly for three years post-baseline then annual; groundwater is quarterly post-baseline; shallow-well gas is annual post-baseline. Inconsistencies: personal H2S alarm stated as 5 ppm (p51) and 10 ppm (p85); text repeatedly cites a 'Section 6.9' that does not exist; Figure 2.6 and Appendix E are cited for gas analyses that are actually Table 2.6 and Appendix D. Plan states monitoring continues through injection and the 50-year post-injection period (p74). Plan itself notes it would assume 1-3 months (up to ~1.25 Mt) to detect leakage via shallow wells and 12-18 months (4.5-6.75 Mt) via surface methods (p78-82). Permanent DTS/DAS fiber is coded under cased_hole_logging, as in v1.3."
+}

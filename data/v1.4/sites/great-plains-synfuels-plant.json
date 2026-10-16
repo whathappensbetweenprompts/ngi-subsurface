@@ -1,0 +1,304 @@
+{
+ "site_slug": "great-plains-synfuels-plant",
+ "plan_title": "Great Plains CO2 Sequestration Project Monitoring, Reporting, and Verification (MRV) Plan, Class VI Well, Reporting Number: 523812",
+ "plan_version_or_date": "",
+ "injection_purpose": "class_vi_storage",
+ "uic_class_per_plan": "VI",
+ "ama_definition": "The North Dakota AOR, i.e. the storage facility area (modeled plume extent plus a 1-mile buffer rounded to 40-acre tracts), which the plan says exceeds the Subpart RR AMA and so serves as the AMA (p12-13).",
+ "mma_definition": "The same AOR also serves as the MMA, since it exceeds the Subpart RR MMA calculated with t at injection cessation (p13-14).",
+ "leakage_pathways_rated_significant": "Every pathway is rated unlikely. Wellbores (two Class I disposal wells ANG #1 and #2, the plugged Herrmann 1, and the six Coteau injectors) and surface components (pipeline, flowlines, wellheads) get the most attention and are the focus of the monitoring; faults, seismicity, lateral migration, seal diffusivity and future drilling are rated very unlikely (p15-21).",
+ "baseline_summary": "Pre-injection baseline monitoring over four seasons: completed soil gas sampling at 11 stations and groundwater sampling at two existing wells (chemistry plus stable and radiocarbon isotopes), planned baseline samples from five new Fox Hills monitoring wells, historical data from 19 CPC shallow wells, and subsurface baselines in each injection well (USIT, pulsed-neutron and temperature logs, bottomhole pressure, annulus pressure tests, falloff tests) plus baseline 2D radial seismic and VSP (p14-15, p23, p26-27).",
+ "reporting_summary": "Annual Subpart RR report with the mass balance (Eq. RR-12), filed with other GHG reports by March 31; records kept at least 3 years in an electronic database. Leak events communicated to the state UIC program director within 24 hours if warranted and injection resumes only with written authorization; a formal AOR reevaluation is submitted every 5 years. No commitment to publish measurement data (p25, p26, p29, p30).",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "Volumetric flowmeter at a main metering station downstream of the compressors (used for the mass balance) plus receiving meters at each well pad; CO2 concentration from daily measurements at the compressors.",
+   "location": "Main metering station at start of transmission line and each injection well pad",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    11,
+    17,
+    23,
+    27,
+    29
+   ],
+   "evidence_quote": "A flowmeter will be placed downstream of the CO2 compressor (start of the CO2 transmission line) and near each of the injection wellheads"
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "Surface pressure gauges on flowlines and a SCADA automated remote system monitor injection pressure, temperature and rate in real time against set points, with automated warnings to the DGC pipeline control center.",
+   "location": "Flowlines, wellheads and surface facilities",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Deviation from set points: automatic data flag, field investigation; remote valve closure; unresolved issues get detailed investigation and leak quantification.",
+   "pages": [
+    17,
+    23,
+    24,
+    25
+   ],
+   "evidence_quote": "if the injection pressure, temperature, or rate measurements deviate significantly from the specified set points, then a data flag will be automatically triggered"
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "committed",
+   "detail": "200 psi held on the tubing/long-string annulus of each injection well with digital annular pressure gauges read in real time; ANG #1 and #2 have annulus gauges and seal pot systems.",
+   "location": "Each CO2 injection well; ANG #1 and ANG #2",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "",
+   "pages": [
+    16,
+    23,
+    24
+   ],
+   "evidence_quote": "200 psi Kept on Annulus, Between Tubing and Long-String and Digital Annular Pressure Gauges (CO2 injection wells)"
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "Tubing-casing annulus pressure tests and USIT/PMIT casing imaging during workovers at least every 5 years (injection and post-injection); pressure falloff tests every 5 years; cement bond logs after cementing, if needed, and before P&A.",
+   "location": "CO2 injection wells",
+   "frequency": "multi_year",
+   "baseline": "yes",
+   "trigger_or_response": "",
+   "pages": [
+    19,
+    20,
+    23,
+    24,
+    27
+   ],
+   "evidence_quote": "Perform during workovers but not less than once every 5 years"
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "committed",
+   "detail": "Bottomhole pressure readings taken with the quarterly pulsed-neutron/temperature logging program (phased approach), periodic bottomhole pressure tests, and pressure falloff tests every 5 years; plan also says real-time Broom Creek bottomhole pressure data will be available.",
+   "location": "CO2 injection wells (Broom Creek Formation)",
+   "frequency": "quarterly",
+   "baseline": "yes",
+   "trigger_or_response": "Data used to history-match the model; plume migration beyond the stabilized boundary triggers recalculation of AOR and plan update.",
+   "pages": [
+    19,
+    20,
+    21,
+    23,
+    27
+   ],
+   "evidence_quote": "The Coteau 1 will be monitored with periodic bottomhole pressure tests and temperature logs to detect any potential mechanical integrity issues."
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Routine visual inspections of wellbores for the white clouds and ice formed by a cold CO2 release.",
+   "location": "Project wellbores",
+   "frequency": "periodic_unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Event addressed immediately; UIC program director notified within 24 hours if warranted.",
+   "pages": [
+    25
+   ],
+   "evidence_quote": "DGC will also rely on a routine visual inspection process to detect unexpected releases from wellbores"
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "committed",
+   "detail": "Fixed H2S detection stations on flowlines, wellheads and well pads, read in real time and tied to automated warning systems at the pipeline control center.",
+   "location": "Flowlines, wellheads and well pads",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Anomalous reading: automated warning; operator can remotely close valves; CO2 can be looped back to the plant.",
+   "pages": [
+    17,
+    23,
+    24
+   ],
+   "evidence_quote": "The wellsite flowlines will be monitored continuously via multiple pressure gauges and H2S detection stations located between the transmission line and the individual wellheads."
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "committed",
+   "detail": "Soil gas (O2, N2, CO2 plus stable and radiocarbon isotopes) at 11 profile stations, three to four seasonal samples per year during injection and post-injection; baseline already collected.",
+   "location": "11 soil gas profile stations in the AOR",
+   "frequency": "quarterly",
+   "baseline": "yes",
+   "trigger_or_response": "Deviation from baseline/threshold leads to verification and, if a leak is confirmed, quantification.",
+   "pages": [
+    22,
+    23,
+    24,
+    26
+   ],
+   "evidence_quote": "Soil Gas Analysis (11 soil gas profile stations)"
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "committed",
+   "detail": "Five new Fox Hills (lowest USDW) monitoring wells, one near Herrmann 1 and one at each of Coteau 1-4, sampled three to four times seasonally each year during injection and post-injection; baseline from existing wells and 19 CPC shallow wells.",
+   "location": "Groundwater monitoring wells at injection wells and Herrmann 1; existing USDW and shallow aquifer wells for baseline",
+   "frequency": "quarterly",
+   "baseline": "yes",
+   "trigger_or_response": "Changes in parameters relative to baseline may indicate leaking CO2 and trigger verification.",
+   "pages": [
+    23,
+    24,
+    26
+   ],
+   "evidence_quote": "Baseline water samples are also planned to be obtained from five new Fox Hills monitoring wells"
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "committed",
+   "detail": "No dedicated above-zone wells; time-lapse pulsed-neutron saturation logs in the injection wells serve as assurance monitoring of the formation directly above the storage reservoir.",
+   "location": "Injection wells, interval directly above the Broom Creek",
+   "frequency": "quarterly",
+   "baseline": "yes",
+   "trigger_or_response": "",
+   "pages": [
+    23,
+    27
+   ],
+   "evidence_quote": "The time-lapse saturation data will be used as an assurance-monitoring technique for CO2 in the formation directly above the storage reservoir"
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "committed",
+   "detail": "Pulsed-neutron logs with temperature and bottomhole pressure quarterly under a phased approach; USIT/PMIT logs at workovers at least every 5 years; cement bond logs as needed; ANG wells get temperature logs or tracer surveys about every 5 years.",
+   "location": "CO2 injection wells; ANG #1 and ANG #2",
+   "frequency": "quarterly",
+   "baseline": "yes",
+   "trigger_or_response": "",
+   "pages": [
+    16,
+    19,
+    20,
+    23,
+    24,
+    27
+   ],
+   "evidence_quote": "Pulsed-Neutron Logs with Temperature and Bottomhole Pressure Readings (CO2 injection wells)"
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "committed",
+   "detail": "Time-lapse 2D radial seismic surveys of the plume: repeats 1, 3, 5 and 10 years after injection starts and again 1, 3, 5 and 10 years after it ceases; VSP repeat at year 1, later repeats only if deemed beneficial.",
+   "location": "CO2 plume area within the AOR",
+   "frequency": "multi_year",
+   "baseline": "yes",
+   "trigger_or_response": "Plume outside predicted boundary: recalculate storage facility area and AOR, update MRV plan.",
+   "pages": [
+    20,
+    23,
+    24,
+    27
+   ],
+   "evidence_quote": "Repeat survey 1 year after injection begins, then in Years 3, 5, and 10"
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Reservoir simulation history-matched to monitoring data to track plume and pressure front; model continuously calibrated; formal AOR reevaluation submitted every 5 years with monitoring plan revised if needed.",
+   "location": "Storage reservoir / AOR",
+   "frequency": "multi_year",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Conditions differing from the model are investigated; plume beyond predicted boundary triggers AOR recalculation and plan update.",
+   "pages": [
+    20,
+    22,
+    25
+   ],
+   "evidence_quote": "The model will be continuously calibrated with the acquisition of real-time data."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Corrosion monitoring: ultrasonic testing of tubing test sections on the flowlines at wellheads, monthly in the first quarter then quarterly for two years; daily CO2 stream analysis at capture.",
+   "location": "Flowlines at wellheads; capture facility",
+   "frequency": "quarterly",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    19,
+    23,
+    24
+   ],
+   "evidence_quote": "Monthly in the first quarter, then quarterly in the next 2 years"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Equipment leaks and vents between the flowmeter and wellhead estimated with Subpart W procedures and reconciled with monitoring data; surface leaks quantified case by case with emission factors, engineering estimates and models.",
+   "location": "Surface equipment between main flowmeter and wellheads",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Detected deviation from a method's threshold: detailed analysis to quantify CO2 volume.",
+   "pages": [
+    26,
+    28,
+    29
+   ],
+   "evidence_quote": "will comply with the calculation and quality assurance/quality control requirement proposed in Part 98, Subpart W"
+  }
+ ],
+ "notes": "No version or date is printed; implementation is set for September 2022 and references were accessed June 2022. Figures on pp7, 9, 10, 11, 13, 14 are images with no text. Table 4-1 (p23) extracted with interleaved cells; frequencies were reconstructed carefully, but the USIT/PMIT line reads both 'not more frequently than once every 5 years' and 'not less than once every 5 years', so the exact interval is ambiguous. Soil gas and groundwater 'three to four seasonal samples each year' coded as quarterly. The plan leans heavily on the state SFP (Reference 1, Sections 5-7, Appendices A-C) for instrument details, thresholds and QA, which are not included in the text. Reservoir pressure: the quarterly logging schedule is tabulated, while p21 says real-time Broom Creek bottomhole pressure data will be available without naming gauges. Seismicity is discussed only as historical characterization (USGS catalog); no seismic monitoring or network reliance is stated, so passive_seismic is not_found. Saline storage with no production, so production_monitoring is not_found. Personal monitors are not mentioned (worker safety plan referenced only by title)."
+}

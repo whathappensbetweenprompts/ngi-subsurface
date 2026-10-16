@@ -1,0 +1,342 @@
+{
+ "site_slug": "summit-carbon-storage-1",
+ "plan_title": "SUMMIT CARBON STORAGE #1, LLC, SUBPART RR MRV PLAN",
+ "plan_version_or_date": "July 2024, Version 1.2",
+ "injection_purpose": "class_vi_storage",
+ "uic_class_per_plan": "VI",
+ "ama_definition": "The North Dakota area of review (AOR), a roughly 1-mile buffer around the simulated stabilized CO2 plume rounded to 40-acre tracts, serves as the AMA until facility closure; the regulatory AMA (plume at Year 20 plus buffer, superimposed on Year 25 plume) is smaller and shown for reference only (p21-22).",
+ "mma_definition": "The same AOR boundary also serves as the MMA; the regulatory MMA (stabilized plume at Year 16 post-injection plus 0.5-mile buffer) lies inside it and is shown for reference only (p21-22).",
+ "leakage_pathways_rated_significant": "Every pathway is rated very low. The plan treats the two injection wells, the Milton Flemmer 1 reservoir-monitoring well (after about Year 20 when the plume may reach it), and surface equipment (flowline, wellheads) as the pathways that need active monitoring; no legacy wells penetrate the AOR, no faults are known, seismicity is low, and seal diffusivity and lateral migration are dismissed by thickness of seals and simulations (p23-24, p28, p31-32, p34-36).",
+ "baseline_summary": "A pre-injection testing and monitoring program run about one year before injection: 3-4 seasonal soil gas samples (with isotopes) at two stations, 3-4 seasonal groundwater samples (with isotopes) at up to four existing wells and a new Fox Hills well, baseline 3D seismic survey (200 square miles already shot), baseline PNL, casing inspection and temperature logs, DTS installation, downhole P/T gauges, pressure falloff tests, and CO2 stream composition; Milton Flemmer 1 baseline logging is already complete (p36-40).",
+ "reporting_summary": "Annual Subpart RR report with the mass balance (Equations RR-4, RR-6, RR-10, RR-12) expected to be filed by March 31; losses reported under 40 CFR 98.446; records kept at least 3 years (p36, p45-48). Emergency events reported to the North Dakota DMR-O&G Director within 24 hours (p54, p59). Operational data shared between SCS CT and SCS1 under working agreements (p20). No commitment to publish measurement data.",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "Mass flow meter on each injection well's flowline at the wellsite metering skid (primary metering station); gas chromatograph downstream of PIG receiver plus quarterly sample-port sampling; isotopes in first year and when new sources are added.",
+   "location": "One mass flow meter per injection wellhead on the injection pad; gas chromatograph and sample port downstream of PIG receiver on NDL-327",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Anomalous metering readings flagged by SCADA for investigation; mass balance between meters and LDS software used to quantify.",
+   "pages": [
+    19,
+    20,
+    37,
+    41,
+    44,
+    45,
+    47
+   ],
+   "evidence_quote": "Mass flow meters, shown in Figure 1-12, will continuously measure the total volume of CO2 received for each injection well at the wellsite."
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "Digital P/T gauges at the mainline terminus, along NDL-327, at the flow meters and upstream of each wellhead, plus tubing pressure gauges; SCADA records continuously with automated triggers, alarms and emergency shutoff.",
+   "location": "Flowline NDL-327 and each injection wellhead",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Condition outside design parameters or wellhead pressure above permit shutdown pressure: automated shutdown, emergency shutoff valve closes, QI assessment within 24 hours.",
+   "pages": [
+    20,
+    23,
+    24,
+    31,
+    41,
+    44,
+    53
+   ],
+   "evidence_quote": "a SCADA system will be used to monitor operations, shut down the injection upon a condition existing outside the designed operating parameters"
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "committed",
+   "detail": "Digital surface P/T gauges on the surface-casing annulus and tubing-casing annulus of injection and monitoring wells; nitrogen cushion with seal pot system keeps positive annulus pressure and tracks fluid loss/addition on injection wells.",
+   "location": "TB Leingang 1 and 2 and Milton Flemmer 1 wellheads; seal pot on each injection well pad",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Anomalous annulus pressure or fluid loss: investigation; annulus pressure indicating loss of containment is an emergency event (shut-in, verify, repair with DMR-O&G).",
+   "pages": [
+    23,
+    24,
+    28,
+    37,
+    42,
+    44,
+    53,
+    55
+   ],
+   "evidence_quote": "A nitrogen cushion with a seal pot system will maintain a constant positive pressure on the well annulus in each injection well."
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "Tubing-casing annulus pressure test (pressure-testing truck) before injection, during workovers when tubing is pulled, and at least every 5 years; ultrasonic/casing inspection logs when required by DMR-O&G or tubing is pulled.",
+   "location": "CO2 injection wells and reservoir-monitoring well",
+   "frequency": "multi_year",
+   "baseline": "not_applicable",
+   "trigger_or_response": "MIT showing loss of mechanical integrity is an emergency event: cease injection, shut in, verify, remedial repair in consultation with DMR-O&G.",
+   "pages": [
+    23,
+    28,
+    37,
+    42,
+    53,
+    55
+   ],
+   "evidence_quote": "SCS1 will conduct annulus pressure testing during workovers in cases where the tubing must be pulled and no less than once every 5 years."
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "committed",
+   "detail": "Casing-conveyed downhole P/T gauges in both injection wells and a tubing-conveyed downhole P/T gauge in Milton Flemmer 1, recorded continuously via SCADA for model conformance; pressure falloff tests on each injector every 5 years.",
+   "location": "Broom Creek injection zone at TB Leingang 1 and 2 and Milton Flemmer 1",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Data compared with model and simulation projections; monitoring suggesting plume approaching SFA boundary triggers re-evaluation of monitoring strategy.",
+   "pages": [
+    28,
+    32,
+    38,
+    43
+   ],
+   "evidence_quote": "Casing-conveyed (CO2 injection wells) and tubing-conveyed (monitoring well) downhole P/T gauge"
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Regular inspection of the aboveground flowline downstream of the mass flow meters for visual or auditory signs of equipment failure; routine visual inspections and maintenance of surface facilities.",
+   "location": "Aboveground flowline and surface facilities at the injection wellsite",
+   "frequency": "periodic_unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Signs of failure: remote isolation or shutdown of injection until cleared.",
+   "pages": [
+    31
+   ],
+   "evidence_quote": "The aboveground section of flowline downstream of the mass flow meters will also be regularly inspected for any visual or auditory signs of equipment failure."
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "committed",
+   "detail": "Multigas detectors worn by field personnel, listed among the surface-facility gas concentration (CO2, CH4) leak detection equipment.",
+   "location": "Worn by field personnel",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    41
+   ],
+   "evidence_quote": "multigas detectors worn by field personnel"
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "committed",
+   "detail": "Gas detection stations (acoustic and CO2/CH4) on each injection and reservoir-monitoring wellhead and inside the pump/metering building, with safety light on the exterior; integrated into SCADA with automated warnings and shutoffs.",
+   "location": "Injection and monitoring wellheads, wellhead enclosures, flowline risers, pump/metering building",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "CO2 detected: Pipeline Control alarm, remote isolation or injection shutdown, investigation; volume estimated from concentration, metering and valve shut-off times.",
+   "pages": [
+    31,
+    41,
+    44,
+    53,
+    55
+   ],
+   "evidence_quote": "Stations on each injection and reservoir-monitoring wellhead; station inside pump/metering building and safety light mounted on building exterior"
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "committed",
+   "detail": "Two soil gas profile stations (MSG01, MSG04), one at the injection pad and one at the monitoring well pad; 3-4 seasonal samples per year during injection (no isotopes); post-injection Years 1, 3 and every 3 years; isotopes at baseline and closure.",
+   "location": "One station per CO2 injection and reservoir-monitoring well pad",
+   "frequency": "quarterly",
+   "baseline": "yes",
+   "trigger_or_response": "Elevated indicator parameters: confirmation samples; if confirmed, work plan with DMR-O&G to add monitoring points, delineate and remediate; additional sampling to estimate leakage.",
+   "pages": [
+    38,
+    39,
+    43,
+    44,
+    53,
+    56
+   ],
+   "evidence_quote": "Collect 3\u20134 seasonal samples annually per station (no isotopes)."
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "committed",
+   "detail": "Up to four existing wells (Tongue River, Cannonball-Ludlow, Fox Hills aquifers) and a new Fox Hills well MGW11 next to the injection pad; MGW11 sampled 3-4 times a year in Years 1-4 then annually; MGW01 annually; isotopes at baseline and closure.",
+   "location": "MGW11 adjacent to injection well pad; MGW01, MGW03, MGW04, MGW09 within AOR",
+   "frequency": "annual",
+   "baseline": "yes",
+   "trigger_or_response": "Elevated indicator parameters: confirmation sample from Fox Hills well; if confirmed, additional monitoring points, alternate water supply if USDW exceeds standards, remediation with DMR-O&G.",
+   "pages": [
+    32,
+    38,
+    39,
+    43,
+    53,
+    56
+   ],
+   "evidence_quote": "Collect 3\u20134 seasonal samples in Years 1\u20134 and reduce to annually thereafter."
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "committed",
+   "detail": "Above-zone interval (Opeche/Spearfish to Skull Creek) monitored in the injection and monitoring wells by continuous casing-conveyed DTS and PNL saturation logs in Year 1, Year 3 and every 3 years; no dedicated above-zone pressure well.",
+   "location": "Opeche/Spearfish to Skull Creek interval in TB Leingang 1 and 2 and Milton Flemmer 1",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Anomalous temperature or saturation readings require further investigation.",
+   "pages": [
+    38,
+    43,
+    44
+   ],
+   "evidence_quote": "Above-Zone Monitoring Interval (Opeche/Spearfish to Skull Creek)"
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "committed",
+   "detail": "PNL from Opeche/Spearfish to surface in Year 1, Year 3 and every 3 years (post-injection Years 4 and 9 on monitoring well); continuous DTS fiber with temperature log annually only if DTS fails; ultrasonic CIL when required or tubing pulled.",
+   "location": "CO2 injection wells and reservoir-monitoring well",
+   "frequency": "multi_year",
+   "baseline": "yes",
+   "trigger_or_response": "Anomalous readings or pathways detected: further investigation; PNL quantifies near-wellbore CO2, additional logging campaigns to quantify a leak.",
+   "pages": [
+    23,
+    28,
+    37,
+    38,
+    40,
+    42,
+    43,
+    44
+   ],
+   "evidence_quote": "The PNL will be repeated in each injection well in Year 1, Year 3, and at least once every 3 years thereafter"
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "committed",
+   "detail": "Site seismometer stations plus DAS fiber optics within 1 mile of the injection wells, recording continuously; Table 5-1 shows none post-injection although the text says stations run through post-injection.",
+   "location": "Area around injection wells (within 1 mile)",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Event above magnitude 2.7: determine link to injection, demonstrate well mechanical integrity, evaluate containment; Coulomb/fault slip analysis.",
+   "pages": [
+    35,
+    38,
+    43,
+    44,
+    57
+   ],
+   "evidence_quote": "SCS1 will install multiple surface seismometer stations to detect potential seismicity events throughout the operational and post-injection phases"
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "committed",
+   "detail": "Time-lapse 3D seismic (vibroseis source, geophones and DAS fiber receivers) within the AOR; repeat by end of Year 2, Years 4 and 9, then every 5 years; post-injection repeats starting by Year 4; baseline 200-square-mile survey already acquired.",
+   "location": "Within AOR",
+   "frequency": "multi_year",
+   "baseline": "yes",
+   "trigger_or_response": "Plume outside projections: adjust strategy (e.g., limit injection volume); detected pathways investigated with soil gas, water sampling and log analysis.",
+   "pages": [
+    21,
+    35,
+    38,
+    40,
+    43,
+    44
+   ],
+   "evidence_quote": "Repeat 3D seismic survey by the end of Year 2 and in Years 4 and 9 and at least once every 5 years thereafter."
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "conditional",
+   "detail": "Workspace and/or ambient air monitoring program set up only in an emergency response to a flowline failure or confirmed surface release, to track CO2 presence and dispersion.",
+   "location": "Near the failure or at the incident boundary",
+   "frequency": "event_driven",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Confirmed release: evacuation plan with ambient air monitoring until CO2 disperses after shutdown.",
+   "pages": [
+    55,
+    56,
+    57
+   ],
+   "evidence_quote": "initiate an evacuation plan in tandem with an appropriate workspace and/or ambient air-monitoring program"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Flowline leak detection system software comparing real-time and predictive models from P/T and flow data; electrical resistance corrosion probes; dew point meters; impressed current cathodic protection; in-line PIG inspection every 5 years.",
+   "location": "Flowline NDL-327 from NDM-106 terminus to wellhead inlet valves",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "LDS detects deviation between models: Pipeline Control alarm, shutdown and valve closure; leak volume from meter mass balance and LDS calculations.",
+   "pages": [
+    20,
+    31,
+    41,
+    44,
+    53,
+    55
+   ],
+   "evidence_quote": "By monitoring deviations between the real-time model and the predictive model, the software detects flowline leaks."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Equipment leaks and vented emissions between flow meter and wellhead estimated with Subpart W procedures; detected leaks quantified with engineering principles, emission factors, geophysical methods and models.",
+   "location": "Surface equipment between mass flow meters and injection wellheads",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    36,
+    45,
+    46,
+    48
+   ],
+   "evidence_quote": "will comply with the calculation and quality assurance/quality control requirement proposed in Part 98, Subpart W."
+  },
+  {
+   "method": "other",
+   "commitment": "conditional",
+   "detail": "Surface water sampling only in response to a confirmed release to surface waters, to check water quality standards; monitoring strategy and permit reviewed at least every 5 years with possible added groundwater wells.",
+   "location": "Impacted surface waters; AOR",
+   "frequency": "event_driven",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Confirmed surface release to water: surface water monitoring, natural attenuation or treatment.",
+   "pages": [
+    32,
+    53,
+    56
+   ],
+   "evidence_quote": "implement the appropriate surface water-monitoring program to determine if water quality standards are exceeded."
+  }
+ ],
+ "notes": "Pre-operational plan: injection wells not yet drilled; all operational commitments are future tense. Figures (p12, p22, p25-27, p29-30, p33-34, p39) are image-only. Monitoring detail is in Tables 4-1 and 5-1 (p37-38, p41-43), whose extracted text is column-scrambled; coding reconciles them with narrative text. Soil gas '3\u20134 seasonal samples annually' coded as quarterly. Groundwater frequency is mixed (3-4 per year in early years, annual thereafter) and coded annual. Passive seismic: p35 text says operational and post-injection phases but Table 5-1 lists 'None' post-injection. Table 5-2 lists 'Temperature Log (CO2 injection wells)' as a detection method, but Table 5-1 runs it only if DTS fails. above_zone_monitoring is logging/DTS in the project wells, not a dedicated above-zone pressure well. Narrative on p23 and p28 refers to Section 4.0 for monitoring summaries that actually appear in Sections 4.0 and 5.0. No production (saline storage), so production_monitoring is not_found. Seismicity response threshold of magnitude 2.7 is in Appendix A (p57)."
+}

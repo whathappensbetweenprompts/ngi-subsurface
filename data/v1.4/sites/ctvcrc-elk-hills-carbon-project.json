@@ -1,0 +1,342 @@
+{
+ "site_slug": "ctvcrc-elk-hills-carbon-project",
+ "plan_title": "Elk Hills A1-A2 and 26R CO2 Subpart RR Monitoring, Reporting, and Verification Plan",
+ "plan_version_or_date": "Version Date: 11/29/2023",
+ "injection_purpose": "class_vi_storage",
+ "uic_class_per_plan": "VI",
+ "ama_definition": "The modeled plume area at t = three years after injection ends (30 years after start) plus a half-mile buffer; one AMA held for 30 years and treated as functionally equivalent to the MMA (p18, p21).",
+ "mma_definition": "The modeled extent of the CO2 plume at 100 years post-injection plus a half-mile buffer, shown as the blue line in Figure 8 (p18, p20).",
+ "leakage_pathways_rated_significant": "Only existing wellbores and pipelines/surface equipment are treated as realistic (low likelihood; wellbore leakage magnitude bounded at under 1% of injection). Faults, seismicity, previous operations, lateral migration, future drilling and diffuse seal leakage are rated negligible or not anticipated (p24-31).",
+ "baseline_summary": "Pre-injection baselines: fluid chemistry and pressure/temperature at each monitoring well collected during construction (quarterly sampling and continuous P/T at above-confining-zone wells; one-time chemistry plus continuous P/T in the injection zone), and at least 12 months of seismic network data before first injection. Operational data (injection set-points, inspections, personal monitor alarms) also serve as a working baseline for flagging excursions (p38-40).",
+ "reporting_summary": "Annual Subpart RR report (filed March 31 with other GHG reports) with mass balance and estimated leakage; records kept at least three years. Table 4 notes parallel reporting of well incidents to CalGEM or EPA UIC and of surface leaks under Subpart W; monitoring well procedures follow the Class VI permit. No commitment to publish measurement data (p32, p39-40, p43-44).",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "Custody-transfer meters at each CO2 source measure mass flow continuously with composition continuous or by periodic sampling; operations/composition meter at the recompression facility outlet; meters calibrated every 60-90 days; continuous stream analysis.",
+   "location": "CO2 source off-take points and recompression facility outlet",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    13,
+    33,
+    34,
+    43
+   ],
+   "evidence_quote": "The custody-transfer meters will measure flow rate continuously."
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "Injection pressure, temperature and rate monitored continuously through SCADA at the Central Control Facility, staffed 24 hours; high/low set-points per injector flag excursions, which are screened for leakage.",
+   "location": "Each CO2 injection well (six injectors)",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Readings outside set-points: automatic flag, field personnel investigate; unresolved issues get detailed investigation and a work order; leaks quantified.",
+   "pages": [
+    15,
+    24,
+    28,
+    33,
+    36,
+    40
+   ],
+   "evidence_quote": "Injection well pressure, temperature, and injection rate will be monitored continuously."
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "committed",
+   "detail": "Changes in annulus pressure monitored to detect tubing leaks; annular leakage detection devices are part of the corrosion/integrity program.",
+   "location": "Injection wells",
+   "frequency": "unspecified",
+   "baseline": "no",
+   "trigger_or_response": "Tubing leak indicated: workover crews respond within days.",
+   "pages": [
+    24,
+    32
+   ],
+   "evidence_quote": "Monitor changes in annulus pressure; MIT for injectors"
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "Internal and external MITs (Table 5 says annual), including radioactive tracer surveys and standard annular pressure tests; SAPT initially and whenever the packer is replaced or reset; MIT before injection, after workovers, and per UIC schedule.",
+   "location": "Injection wells",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Failed MIT: shut in immediately, notify CalGEM/EPA; repair and retest within 180 days or plug and abandon.",
+   "pages": [
+    17,
+    24,
+    25,
+    32,
+    34
+   ],
+   "evidence_quote": "All active injection wells undergo MIT before"
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "committed",
+   "detail": "Dedicated plume monitoring wells in the sequestration reservoir with continuous pressure and temperature gauges, fluid composition sampling and periodic cased-hole logs; three wells for 26R, two for A1-A2.",
+   "location": "Plume monitoring wells 341-27R, 328-25R, 374-36R (26R) and 353A-7R, 335X-7R (A1-A2)",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Deviation from baseline assessed for indications of leakage.",
+   "pages": [
+    34,
+    35,
+    37,
+    39,
+    51
+   ],
+   "evidence_quote": "Dedicated wells monitoring sequestration reservoir with pressure, temperature, fluid composition, and periodic cased hole logs"
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Routine field inspections by about 40 trained personnel looking for white CO2 clouds, ice and fluid leaks at wells, pipelines and facilities; manned surface facilities visited daily.",
+   "location": "Field-wide wells, pipelines and surface facilities",
+   "frequency": "daily",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Leak seen: investigate, work order, quantify for the annual report; workover crews respond within days.",
+   "pages": [
+    25,
+    30,
+    32,
+    36,
+    37,
+    39
+   ],
+   "evidence_quote": "Field personnel visit manned surface facilities daily to conduct visual inspection."
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "committed",
+   "detail": "ToxiRAE Pro CO2 monitors (0-50,000 ppm, 100 ppm resolution) worn by all field personnel, alarm at 1,000 ppm or lower; used as a supplement for small leaks missed visually.",
+   "location": "Worn by all field personnel",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Alarm: protect personnel, verify monitor, investigate source; confirmed leak quantified and reported.",
+   "pages": [
+    36,
+    37,
+    39
+   ],
+   "evidence_quote": "CO2 gas monitors will be worn by all field personnel (ToxiRAE Pro CO2 or equivalent;"
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "conditional",
+   "detail": "Targeted soil gas flux monitoring only after a surface leak or damaging seismic event is detected, used to quantify the leak.",
+   "location": "Vicinity of a detected leak",
+   "frequency": "event_driven",
+   "baseline": "no",
+   "trigger_or_response": "Detected leakage or Mw>2.0 event with confirmed damage: targeted survey; leak quantified from flow rate and concentration.",
+   "pages": [
+    37,
+    38
+   ],
+   "evidence_quote": "Targeted surface air and/or soil gas flux monitoring will be conducted in the event of detected leakage"
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "committed",
+   "detail": "One USDW monitoring well per project in the Tulare Formation (400-450 ft for 26R, 940-960 ft for A1-A2): quarterly fluid sampling for cations, anions, dissolved CO2, methane, isotopes, plus continuous pressure and temperature.",
+   "location": "USDW monitoring wells, one per project area",
+   "frequency": "quarterly",
+   "baseline": "yes",
+   "trigger_or_response": "Deviation from baseline assessed; increased CO2 in groundwater mapped as isoconcentrations to quantify leakage.",
+   "pages": [
+    34,
+    37,
+    39,
+    51,
+    52,
+    53,
+    54
+   ],
+   "evidence_quote": "These dedicated wells will monitor the sequestration reservoir, zones above the sequestration reservoir, and the USDW."
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "committed",
+   "detail": "Above-zone wells 355X-26R and 327-7R-RD1 in the Etchegoin Formation with continuous pressure/temperature and quarterly fluid sampling; distributed temperature sensing fiber at Etchegoin and Tulare depths in plume wells.",
+   "location": "Etchegoin Formation above the Reef Ridge shale, both project areas",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Anomaly indicating fault or wellbore leakage: shut in injectors near faults; re-enter and reseal abandoned wells.",
+   "pages": [
+    26,
+    30,
+    31,
+    32,
+    34,
+    37,
+    39,
+    51,
+    52,
+    53
+   ],
+   "evidence_quote": "Monitoring wells with pressure, temperature, fluid composition, and periodic cased-hole logs"
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "committed",
+   "detail": "Periodic cased-hole logs in monitoring wells; cement bond logs and radioactive tracer surveys listed as part of the corrosion and mechanical integrity program; log types and interval not specified.",
+   "location": "Monitoring and injection wells",
+   "frequency": "periodic_unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    17,
+    24,
+    34
+   ],
+   "evidence_quote": "periodic cased-hole logs"
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "committed",
+   "detail": "Dedicated seven-station network of surface and borehole (>1,500 ft) three-component geophones detecting events down to Mw 0.0, continuous with near-real-time telemetry; also watches Southern California Seismic Network stations 5-8 miles away.",
+   "location": "Project site; seven sensor locations",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Event above Mw 2.0 with confirmed local damage: investigate for leakage; shut in injectors near the event.",
+   "pages": [
+    28,
+    32,
+    34,
+    37,
+    38,
+    39
+   ],
+   "evidence_quote": "Seven sensor locations (borehole and near surface) with high-sensitivity 3-component geophones."
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "mentioned_only",
+   "detail": "Existing 3D seismic survey, reprocessed in 2019, used for characterization and fault mapping; VSPs cited only for the seismic network velocity model. No repeat seismic committed.",
+   "location": "",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    26,
+    37
+   ],
+   "evidence_quote": "While developing the EHOF, a seismic survey was conducted to characterize the formations"
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "conditional",
+   "detail": "Targeted point-source surface air monitoring near a leaking wellbore or other detected leak, used to quantify the leak from flow rate and CO2 concentration.",
+   "location": "Vicinity of a detected leak",
+   "frequency": "event_driven",
+   "baseline": "no",
+   "trigger_or_response": "Detected wellbore or surface leak: targeted air monitoring; mass quantified for the annual report.",
+   "pages": [
+    25,
+    36,
+    37,
+    38
+   ],
+   "evidence_quote": "Targeted point-source surface air monitoring will be conducted in the event of detected wellbore leakage"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Subpart W emission factors and engineering estimates for equipment leaks and vents between the injection meter and wellhead; reconciled with event-driven quantification to avoid double counting.",
+   "location": "Surface equipment and pipelines",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    30,
+    32,
+    36,
+    38,
+    41,
+    42,
+    43
+   ],
+   "evidence_quote": "40 CFR 98.230-238 (Subpart W) is used to estimate surface leaks from equipment at the EHOF."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Corrosion monitoring with coupons and casing integrity checks on well materials, pipelines and surface equipment; corrosion-resistant materials specified for CO2 service.",
+   "location": "Well materials, pipelines and other surface equipment",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    24,
+    34
+   ],
+   "evidence_quote": "Corrosion monitoring (coupons, casing integrity)"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Geophysical monitoring 'as approved in the Class VI permit' to track plume extent against lateral migration; method, instruments and frequency not described in this plan.",
+   "location": "AoR / plume area",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    31
+   ],
+   "evidence_quote": "Geophysical monitoring conducted as approved in the Class VI permit will track the extent of CO2 plume"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Process instrumentation on pipelines and facilities feeding the 24/7 Central Control Facility to spot leaks, with manual and automatic shutdowns; remote monitoring of pumps and valves.",
+   "location": "CO2 pipelines and surface facilities",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Leak indication: manual or automatic shutdown; workover crews respond within days.",
+   "pages": [
+    30,
+    32,
+    33
+   ],
+   "evidence_quote": "Instrumentation will be installed on pipelines and facilities that allows the 24/7 operations staff at the Central Control Facility (CCF) to monitor the process"
+  }
+ ],
+ "notes": "Figure and equation pages (7-12, 14, 16, 19, 20, 22, 23, 27, 29, 31, 35 and the equations in Section 7) are largely image-only. production_monitoring is not_found because the plan states no CO2 will be produced or recycled (p34); Table 4 does list 'anomalous pressure or gas composition from productive shallower zones' as a detector for abandoned-well leakage, presumably from existing Etchegoin production, but no program is described (p32). MIT frequency conflicts: Table 5 says annual (p34) while Section 4.2 says before injection, after workovers or per UIC schedule (p24-25); annual used. Above-zone and groundwater quarterly sampling frequencies come from Appendix 11.6 tables for the injection phase; Section 6.3 describes the same quarterly/continuous scheme for the baseline period. Well list names plume well 374-36R but the monitoring table names 376-36R (p51-52). Geophysical plume monitoring (p31) is a bare commitment deferred to the Class VI permit, so it is coded under other rather than active_seismic. The seismic network's 'near real-time' telemetry and Mw 0.0 detection threshold are design specifications; response actions are deferred to the Class VI permit except the Mw 2.0 damage trigger (p38). Plan implementation anticipated Q1 2025 or 90 days after EPA approval (p43)."
+}

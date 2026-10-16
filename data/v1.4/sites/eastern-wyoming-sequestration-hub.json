@@ -1,0 +1,330 @@
+{
+ "site_slug": "eastern-wyoming-sequestration-hub",
+ "plan_title": "Subpart RR Monitoring, Reporting, and Verification Plan for the Eastern Wyoming Sequestration Hub, Laramie County, Wyoming",
+ "plan_version_or_date": "Version 5, August 1, 2025",
+ "injection_purpose": "class_vi_storage",
+ "uic_class_per_plan": "VI",
+ "ama_definition": "The modeled free-phase CO2 plume area 50 years after injection ends plus a 0.5-mile buffer (Area #1), which is functionally the same as the MMA; one AMA for the whole project life (p31).",
+ "mma_definition": "The stabilized CO2 plume extent (2 percent saturation cutoff, 50 years after end of injection) plus a 0.5-mile all-around buffer, shown on Figure 10 (p31-32).",
+ "leakage_pathways_rated_significant": "Pipelines/surface equipment (wear at flanges, relief valves, accidents) and wellbores (injection wells, M-1 wells, three abandoned penetrations, one of which, Fritz 1, needs remedial plugging) are rated 'minor' likelihood; confining zone, seismicity, lateral migration and future drilling are rated negligible or not anticipated (p33-37).",
+ "baseline_summary": "A mixed baseline: one year of pre-injection groundwater, soil gas and atmospheric sampling around each injection well, semiannual pre-injection USDW/M-1 fluid sampling and continuous M-1 pressure/temperature, existing 2D/3D seismic as the plume baseline, and historical USGS seismicity; operating parameters are also continuously monitored against set points (p39, p43-45, p54).",
+ "reporting_summary": "Annual Subpart RR report with the RR-12 mass balance, surface leakage and vented/fugitive emissions under 98.446(f)(3); new wells or status changes noted in the annual report; inspection and test records kept available for EPA review. Class VI monitoring follows WDEQ Chapter 24 permits. No commitment to publish measurement data (p7, p33, p42-43, p47-48, p50-51).",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "Custody-transfer meter at the pipeline delivery point to each site measures mass and composition continuously; mass flow meters with daily totalizers on each of six injection wells; quarterly CO2 concentration from the gas measurement database.",
+   "location": "Custody-transfer point and each injection well (six sites)",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    15,
+    16,
+    40,
+    45,
+    46,
+    49
+   ],
+   "evidence_quote": "A custody-transfer meter will be used at the CO2 source (pipeline) to continuously measure the mass and composition of CO2 received"
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "Injection pressure, temperature and rate monitored continuously through a Central Control Center and SCADA; high/low set points programmed; automatic data flags; manual and automatic shutdowns installed.",
+   "location": "Each injection well; Central Control Center",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Pressure or rate outside set points: automatic flag, field personnel investigate; unresolved deviations get detailed investigation and leak quantification.",
+   "pages": [
+    15,
+    34,
+    40,
+    42,
+    44,
+    45
+   ],
+   "evidence_quote": "Injection well pressure, temperature, and injection rate will be continuously monitored."
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "committed",
+   "detail": "Tubing and casing (annulus) pressures of injection wells monitored continuously; monitors flag pressures that statistically deviate from design, which would reveal leaks inside or outside the wellbore.",
+   "location": "Each injection well",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Statistical deviation from design pressures flagged; identified integrity issue addressed with corrective action.",
+   "pages": [
+    34
+   ],
+   "evidence_quote": "Injection well tubing and casing pressures will be monitored continuously."
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "MITs and pressure tests on injection wells to verify internal and external integrity, per WDEQ Chapter 24 Class VI requirements; no interval stated in the plan.",
+   "location": "Injection wells",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Well integrity issue identified: corrective actions.",
+   "pages": [
+    34,
+    35,
+    45
+   ],
+   "evidence_quote": "Injectors will also be monitored with mechanical integrity tests (MITs) and pressure tests to ensure internal and external integrity."
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "mentioned_only",
+   "detail": "Plan refers to downhole pressure and temperature measurements indicating plume stabilization, but names no injection-zone gauges or wells; Juniper M-1 gauges were used only to characterize initial pressure gradient.",
+   "location": "Not specified",
+   "frequency": "unspecified",
+   "baseline": "unclear",
+   "trigger_or_response": "",
+   "pages": [
+    23,
+    44
+   ],
+   "evidence_quote": "after downhole pressure and temperature measurements indicate that the plume has stabilized"
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Routine field inspections by trained personnel; quarterly wellhead inspections recorded on a data sheet (corrosion, bolts, seals, valves, gaskets) including pipelines within 100 feet of each injection well.",
+   "location": "Wellheads, valves and piping across the MMA; pipelines within 100 feet of injection wells",
+   "frequency": "quarterly",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Faults repaired; inoperable surface safety valve: well shut in immediately and valve repaired within 90 days.",
+   "pages": [
+    33,
+    42,
+    43,
+    44
+   ],
+   "evidence_quote": "Injection well wellheads will be inspected on a quarterly basis"
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "committed",
+   "detail": "Scheduled point-source surveys with a portable NDIR CO2 meter (GPS-logged) at injection wellheads and M-1 wells at least quarterly, other MMA locations annually; handheld pSense CO2 meter at wellhead and nearby pipelines during quarterly inspections.",
+   "location": "Injection wellheads, above-confining-zone wells, pipelines/delivery systems within the MMA",
+   "frequency": "quarterly",
+   "baseline": "unclear",
+   "trigger_or_response": "Also triggered by eddy covariance or other anomalies; leakage quantified from leak flow rate and CO2 concentration.",
+   "pages": [
+    41,
+    42,
+    45
+   ],
+   "evidence_quote": "Point-source measurement will be conducted with a portable non-dispersive infrared (NDIR) CO2 meter."
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "committed",
+   "detail": "Semiannual soil gas flux and CO2/CH4 ratio with a portable flux accumulation chamber (LI-COR 8200-01S) and LI-7810 analyzer at baseline locations near each injection site; results compared with pre-injection baseline.",
+   "location": "Fixed baseline locations near each injection site (Figure 10); within 10 feet of suspect wells or buried pipelines if leakage suspected",
+   "frequency": "semiannual",
+   "baseline": "yes",
+   "trigger_or_response": "Flux or gas ratios departing from baseline, or leak indications from other monitoring, direct additional targeted soil gas surveys.",
+   "pages": [
+    33,
+    34,
+    35,
+    43,
+    44
+   ],
+   "evidence_quote": "Soil gas composition monitoring will also be performed prior to injection to establish a baseline."
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "committed",
+   "detail": "Three shallow USDW wells per injection pad (18 total) plus the six M-1 wells sampled for cations, anions, dissolved CO2, H2S, TDS, alkalinity, pH, conductance; semiannual before and during injection, annual in PISC.",
+   "location": "USDW-1/-2/-3 wells at each of six injection pads and M-1 wells",
+   "frequency": "semiannual",
+   "baseline": "yes",
+   "trigger_or_response": "Deviation from baseline assessed for leakage; leak rate quantified from increased CO2 concentration in formation fluids.",
+   "pages": [
+    8,
+    43,
+    53,
+    54,
+    55
+   ],
+   "evidence_quote": "Any deviation from the baseline analysis will be assessed for potential indications of leakage."
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "committed",
+   "detail": "Six M-1 wells monitoring the Sundance Formation above the confining zone with continuous pressure/temperature gauges and semiannual fluid sampling; DTS/DAS fiber installed or planned behind casing for future use.",
+   "location": "Juniper, Azalea, Spirea, Barberry, Old Barberry and Cypress M-1 wells (Sundance Formation)",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Deviation from baseline assessed as possible leakage through the confining zone.",
+   "pages": [
+    6,
+    8,
+    14,
+    34,
+    35,
+    43,
+    54
+   ],
+   "evidence_quote": "Monitoring wells to directly measure pressure, temperature, and fluid composition will be dedicated to geologic sequestration."
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "committed",
+   "detail": "Annual wireline temperature log in each injection well and annual DTS or temperature logs in the M-1 wells to check for leakage through the confining zone or along wellbores.",
+   "location": "All six injection wells and six M-1 monitoring wells",
+   "frequency": "annual",
+   "baseline": "unclear",
+   "trigger_or_response": "",
+   "pages": [
+    34,
+    35,
+    43
+   ],
+   "evidence_quote": "An annual temperature log via wireline will be conducted in each injection well."
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "committed",
+   "detail": "Reliance on the public USGS Intermountain West Seismic Network during injection, with a historical seismicity review (depth, magnitude, frequency) as baseline; no site seismometers.",
+   "location": "Public USGS Intermountain West Seismic Network",
+   "frequency": "unspecified",
+   "baseline": "yes",
+   "trigger_or_response": "",
+   "pages": [
+    36,
+    44,
+    45
+   ],
+   "evidence_quote": "High Plains will monitor the USGS Intermountain West Seismic Network for seismic events."
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "committed",
+   "detail": "Time-lapse 2D seismic for plume tracking: existing 2D/3D surveys as baseline, one repeat survey during injection and one after plume stabilization, compared to baseline to map plume extent.",
+   "location": "Injection interval across the project area",
+   "frequency": "periodic_unspecified",
+   "baseline": "yes",
+   "trigger_or_response": "Used to detect lateral migration outside the modeled plume area.",
+   "pages": [
+    14,
+    36,
+    44
+   ],
+   "evidence_quote": "One survey will be performed during the injection phase to confirm plume movement and direction."
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "committed",
+   "detail": "Permanent solar-powered eddy covariance towers (CSAT3 sonic anemometer, LI-7500A open-path analyzer, 4-5 m) downwind of injection and monitoring wells; hourly CO2 concentration and flux via EddyPro, fed to the Central Control Center.",
+   "location": "One tower east (downwind) of each injection site",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Anomalous, rising CO2: test tower equipment, targeted point-source and soil gas investigation; leak mass computed from increased flux.",
+   "pages": [
+    33,
+    34,
+    35,
+    40,
+    41,
+    45
+   ],
+   "evidence_quote": "Broad aerial surface air monitoring will be conducted with permanently installed eddy covariance towers (Figure 10)."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Equipment leaks and operational venting between the injection meter and wellhead estimated with GHGRP/Subpart W procedures (98.444(d)); event-driven engineering estimates for other surface leaks.",
+   "location": "Surface equipment between flow meter and wellhead",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    33,
+    40,
+    44,
+    47
+   ],
+   "evidence_quote": "Monitoring efforts will evaluate and estimate leaks from equipment and vented CO2 as required under 40 CFR \u00a7 98.444(d)."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Safety valve function testing: 'biannual' surface safety valve tests per API 6AV1 and annual master and wellhead isolation valve tests.",
+   "location": "Injection wellheads",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Inoperable surface safety valve: shut in well immediately, repair within 90 days or set alternative schedule.",
+   "pages": [
+    42,
+    43
+   ],
+   "evidence_quote": "Biannual testing of surface safety valve systems will be conducted to ensure their ability to hold anticipated pressure."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Pipeline and facility instrumentation watched by 24/7 operations staff through SCADA with manual and automatic shutdowns; remote pipeline monitoring to spot leaks.",
+   "location": "Pipelines and facilities within the MMA",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Suspected leak assessed in field by visual inspection, gas analysis, and soil gas for buried pipelines.",
+   "pages": [
+    33,
+    42
+   ],
+   "evidence_quote": "Instrumentation will be installed on pipelines and facilities that allow the 24/7 operations staff to monitor the process and potentially spot leaks."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Surveillance of third-party drilling: WOGCC unitization order ensures notification of permits to drill through the caprock; High Plains also checks the WOGCC online data explorer.",
+   "location": "Unit area encompassing the AoR",
+   "frequency": "periodic_unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Third-party well through Lyons: coordinate wellbore monitoring with operator and add wellhead to surface monitoring if accessible.",
+   "pages": [
+    37
+   ],
+   "evidence_quote": "High Plains will also assess potential drilling activity via the WOGCC online data explorer."
+  }
+ ],
+ "notes": "Pages 9, 12, 13, 16-21, 26-30, 32, 38 and 39 are figure pages with no extracted text; Figure 10 (p32), which shows monitoring well, eddy covariance tower and soil gas locations, is image-only, so locations are known only from the text and Appendices A-B. Production_monitoring is recorded not_found because the plan states no CO2 is produced, entrained or recycled (p40). Reservoir_pressure is coded mentioned_only: the plan mentions 'downhole pressure and temperature measurements' for plume stabilization (p44) but never identifies injection-zone gauges; the M-1 gauges monitor the Sundance above the confining zone. DTS/DAS fiber behind casing in M-1 wells is described as installed or planned 'for future utility' (p34), i.e. not an active commitment beyond the annual DTS/temperature logs. 'Biannual' surface safety valve testing (p42) is ambiguous (twice yearly vs every two years); frequency row coded annual on the master valve test. The plan says six M-1 wells but only Juniper M-1 and Spirea M-1R fully penetrate the confining zone (p15). Point-source monitoring 'once per year at other locations' (p41) does not specify whether abandoned wells (Fritz 1, UPRR Palm 1-21, Cypress M-2) are included. MIT frequency is deferred to WDEQ Class VI permits. The Class VI permits are cited as governing the 2D seismic and groundwater protocols but are not reproduced."
+}

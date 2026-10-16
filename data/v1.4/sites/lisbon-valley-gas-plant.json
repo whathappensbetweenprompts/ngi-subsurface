@@ -1,0 +1,338 @@
+{
+ "site_slug": "lisbon-valley-gas-plant",
+ "plan_title": "Lisbon Valley, Utah Gas Processing Plant Monitoring, Reporting, and Verification Plan",
+ "plan_version_or_date": "",
+ "injection_purpose": "acid_gas_disposal",
+ "uic_class_per_plan": "II",
+ "ama_definition": "The half-mile buffer around the modeled free-phase CO2 plume at year 2060 (30 years of injection plus 10 years post-injection), drawn so it also contains the plume projected for 2065 (p37-38).",
+ "mma_definition": "The combined P10/P50/P90 modeled plume footprint at year 2205 (150 years post-injection, when the plume stabilizes against the graben fault) plus a half-mile buffer; monitoring is proposed to end in 2205 (p35-36, p38).",
+ "leakage_pathways_rated_significant": "None is treated as likely. Surface equipment (flanges and valves on the acid-gas pipeline and plant) is the only pathway given more than negligible likelihood, and even that is rated low (p39). Legacy wells, faults and seal leakage were modeled with NRAP-Open-IAM as zero risk; future drilling, lateral migration and induced seismicity are called negligible or highly unlikely (p39-53).",
+ "baseline_summary": "A mix: DCS target ranges and trigger thresholds for injection rate, pressure and composition (operational baseline); plus described pre-injection baselines for a suite of MITs on the injector, ambient H2S checks, documented baseline inspections, at least four seasonal rounds of soil CO2 flux at an array of collars (thresholds set at a high percentile), and temperature/pressure/fluid composition at one selected USDW water well (p56-57). Note that injection has been ongoing since 2015, so 'prior to injection' baselines can only be pre-plan or pre-rate-increase.",
+ "reporting_summary": "Annual Subpart RR report using equations RR-1 to RR-12 (received, injected, surface leakage, sequestered), with surface equipment leaks estimated per Subpart W; quarterly records of received and injected CO2 and annual records of leakage calculations retained under 40 CFR 98.3(g) (p57-64). Annual MIT on the injector under 40 CFR 146.8 (p54). No commitment to publish or share measurement data; no explicit commitment to report monitoring results to the state UIC program, though the plan relies on DOGM/EPA oversight of drilling (p40).",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "Volumetric totalizer (AGA Report #3) on CO2 received from the plant; daily injection documented from the received-CO2 and recycle compressor meters; CO2 concentration measured quarterly; RR equations applied annually.",
+   "location": "Plant-to-well pipeline receipt point and injection meters",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    57,
+    58,
+    59,
+    60,
+    62,
+    63,
+    64
+   ],
+   "evidence_quote": "CO2 is received via the pipeline from Lisbon Gas Processing Plant and is measured using a volumetric totalizer"
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "Distributed control system continuously tracks injection rates, pressures, temperature and composition at the plant and active wellheads, with operator-set conservative threshold alarms.",
+   "location": "Plant and the Lisbon Unit D-716 wellhead",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Parameter outside threshold: operator alert, investigation and documentation; if a leak is identified it is quantified per section 5 and well may be shut in.",
+   "pages": [
+    16,
+    39,
+    46,
+    54,
+    56
+   ],
+   "evidence_quote": "continuously monitors injection/production rates, pressures, temperature, and composition both in the plant and at active wellheads"
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "Annual mechanical integrity testing of the D-716 injector under 40 CFR 146.8; results logged and compared with earlier/baseline tests.",
+   "location": "Lisbon Unit D-716 injection well",
+   "frequency": "annual",
+   "baseline": "yes",
+   "trigger_or_response": "Results departing from baseline indicate compromised integrity; investigation and remedy (no further detail given).",
+   "pages": [
+    54,
+    56
+   ],
+   "evidence_quote": "Annual testing of mechanical integrity will be conducted on the Lisbon Unit D-716 well, pursuant of 40 C.F.R. \u00a7 146.8."
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "mentioned_only",
+   "detail": "Not an EOR project; plan states no fluids are produced within the MMA and all wells are shut in or plugged. QA section carries template text about quarterly sampling of 'produced gas from plant operations' and a recycle compressor meter.",
+   "location": "",
+   "frequency": "quarterly",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    60,
+    63
+   ],
+   "evidence_quote": "There are no fluids currently produced from the Lisbon Valley Field."
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "committed",
+   "detail": "Plan says pressure and fluid monitoring at the D-716 injector will indicate plume movement and seal integrity; no observation wells, downhole gauges or instruments are specified. Downhole pressure gauges are named only for quantifying a detected leak.",
+   "location": "Lisbon Unit D-716 injection well (instruments not specified)",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Pressure changes suggesting seal or lateral leakage: reservoir model revisited and updated; quantify CO2 released and shut in the well if needed.",
+   "pages": [
+    40,
+    45,
+    46,
+    47,
+    48,
+    55
+   ],
+   "evidence_quote": "pressure and fluid monitoring will be conducted in the Lisbon D-716 well"
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Routine visual inspections of surface equipment (status, valve positions, flanges, pressures, tank volumes) plus visual and auditory checks for CO2 leak signs such as condensation clouds, ice and noise.",
+   "location": "Plant surface equipment, pipeline flanges and valves, well locations",
+   "frequency": "periodic_unspecified",
+   "baseline": "yes",
+   "trigger_or_response": "Faulty equipment or leak signs: record, work order, remedy, then quantify the leak per section 5.",
+   "pages": [
+    39,
+    54,
+    55,
+    56
+   ],
+   "evidence_quote": "Visual inspections of surface equipment will be conducted on a routine basis."
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "committed",
+   "detail": "Field personnel wear H2S monitors (alarm at ~5 ppm on p54, 10 ppm on p39); H2S in the 10% H2S acid gas serves as a tracer for CO2 leaks, and personnel act as mobile sniffers at the plant and wells.",
+   "location": "Worn by personnel at the facility and well locations",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Alarm: immediate response to characterize the situation, investigate cause, remedy, quantify.",
+   "pages": [
+    39,
+    54,
+    56
+   ],
+   "evidence_quote": "personnel will be equipped with wearable personal H2S monitors which trigger an alarm at ~5ppm"
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "committed",
+   "detail": "Fixed in-field H2S detectors around the facility alarming at ~10 ppm; handheld multi-gas detectors (O2, LEL, H2S, CO2) kept at strategic plant locations for checking equipment before work.",
+   "location": "Around the plant/facility; fixed in-field locations",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Alarm: immediate response, investigation of cause, identify leakage pathway, quantify mass from pressure, flow rate, duration and emission area.",
+   "pages": [
+    39,
+    48,
+    54,
+    56
+   ],
+   "evidence_quote": "H2S gas detectors shall be positioned around the facility and will trigger an alarm at ~10ppm."
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "committed",
+   "detail": "Soil CO2 flux measured at an array of established collars each season; collars placed around the injection well, over potential leakage pathways and throughout the MMA; number of collars not stated.",
+   "location": "Collar array around the injection well and potential pathways within the MMA",
+   "frequency": "quarterly",
+   "baseline": "yes",
+   "trigger_or_response": "Flux above seasonal threshold: investigate; persistent exceedance over several seasons: add collars and use subsurface monitoring and modeling to check for leakage.",
+   "pages": [
+    45,
+    46,
+    47,
+    48,
+    55,
+    56,
+    57
+   ],
+   "evidence_quote": "flux values from established collars will be monitored on a seasonal basis for 5 years following the injection period"
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "committed",
+   "detail": "One USDW water well within the MMA to be selected; temperature, pressure and fluid composition measured annually for five years, then every five years for the rest of the monitoring period.",
+   "location": "One selected USDW water well within the MMA",
+   "frequency": "annual",
+   "baseline": "yes",
+   "trigger_or_response": "Departure from baseline: further assessment to confirm no leakage from the injection reservoir.",
+   "pages": [
+    48,
+    55,
+    57
+   ],
+   "evidence_quote": "will be assessed annually for the first 5 years and once every 5 years for the remainder of the monitoring period"
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "mentioned_only",
+   "detail": "Authors 'suggest' installing one seismic station with STA/LTA detection run by the University of Utah Seismograph Stations; regional UUSS catalog reviewed for historical seismicity. No firm commitment or schedule.",
+   "location": "Proposed single station at the site; regional UUSS network",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Activity between the injection site and the possible fault zone to the north should be watched; no specific response stated.",
+   "pages": [
+    49,
+    50,
+    53
+   ],
+   "evidence_quote": "we further suggest the installation of a single seismic station using STA/LTA automatic detections conducted by the University of Utah Seismograph Station"
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "mentioned_only",
+   "detail": "Historical 2D/3D exploration seismic cited in the field history; no repeat or monitoring seismic.",
+   "location": "",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    6,
+    7
+   ],
+   "evidence_quote": "Extensive 2D and 3D seismic exploration measurements have been crucial in understanding the complex geology of the Lisbon Field."
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Surface equipment leaks and vents between injection meter and wellhead estimated with Subpart W emission factors plus event-specific engineering estimates; results reconciled with the mass balance.",
+   "location": "Surface equipment between flow meter and wellhead",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    39,
+    55,
+    56,
+    57,
+    62,
+    63
+   ],
+   "evidence_quote": "Leakage estimate will use 40 CFR \u00a7 98.230-238 (Subpart W) as a starting point and event-specific engineering estimates"
+  },
+  {
+   "method": "other",
+   "commitment": "conditional",
+   "detail": "Reservoir simulation model (section 3.2) revisited and updated, informed by pressure data, to estimate extent and magnitude if seal, lateral-migration or areal leakage is suspected.",
+   "location": "Model domain covering the MMA",
+   "frequency": "event_driven",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Monitoring indicates seal or lateral leakage: re-run model, quantify, shut in well if needed.",
+   "pages": [
+    46,
+    47,
+    55,
+    57
+   ],
+   "evidence_quote": "the reservoir model developed in section 3.2 will be revisited and updated to evaluate the extent and magnitude of any potential leakage"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Pipeline from plant to injection well described as having pressure management controls and leak detection technology; no specifics given.",
+   "location": "Acid gas pipeline from plant to D-716",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Leak detected: promptly identify and address.",
+   "pages": [
+    16
+   ],
+   "evidence_quote": "Advanced leak detection technologies are employed to promptly identify and address any leaks"
+  },
+  {
+   "method": "other",
+   "commitment": "mentioned_only",
+   "detail": "Chemical analysis of fluids from wells within the MMA listed among techniques for detecting wellbore or fault leakage; all MMA wells are shut in or plugged and no sampling program is described.",
+   "location": "Wells within the MMA",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    40,
+    45,
+    48
+   ],
+   "evidence_quote": "monitoring of fluids from wells within the MMA to detect and quantify any leaks through existing wellbores"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Reliance on DOGM and EPA regulatory tracking of new drilling to prevent future wells from penetrating the caprock within the MMA.",
+   "location": "MMA",
+   "frequency": "periodic_unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    39,
+    40
+   ],
+   "evidence_quote": "Continued monitoring of drilling activity by DOGM and EPA will ensure that such a leakage pathway does not occur."
+  }
+ ],
+ "notes": "No version number or date is printed; the plan says it takes effect in Q2/Q3 2025 after EPA approval (p62). Prepared by the University of Utah EGI/CSI for GNG Energy. Injection has been ongoing since 2015 (June 1 on p28, July 1 on p62), so section 6 baselines described as 'prior to injection' (MIT suite, inspections, soil flux, USDW well) are ambiguous in timing; coded baseline=yes because the plan describes them as pre-monitoring reference measurements. Personal H2S alarm threshold is given as 10 ppm on p39 and ~5 ppm on p54. Soil flux duration is ambiguous: p55 says seasonal monitoring 'for 5 years following the injection period' while p56-57 refers to flux values collected during and after injection; 5 years post-injection is far shorter than the 150-year monitoring timeframe (p38, p62). reservoir_pressure coded committed on the strength of p46-47 language about pressure and fluid monitoring at the injection well, but this may simply be the DCS wellhead data; no gauges or observation wells are named. The seismic station is only 'suggested' (p53). Section 7.3 states no production, yet section 9.1 contains template text on quarterly sampling of produced gas and a recycle compressor meter, and p48 refers to 'Targa' (apparently copied from another plan). Several figure pages (e.g. p22-24, p26-27, p31-34) are image-only apart from captions; Tables 4 and 5 and the stratigraphic chart on p9 are garbled in extraction but not needed for coding. No annulus pressure, above-zone, logging, deformation or atmospheric CO2 monitoring is described."
+}

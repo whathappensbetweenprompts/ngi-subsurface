@@ -1,0 +1,331 @@
+{
+ "site_slug": "lima-tango-ccs-1",
+ "plan_title": "Subpart RR Monitoring, Reporting, and Verification (MRV) Plan Lima Tango CCS 1",
+ "plan_version_or_date": "May 16, 2025",
+ "injection_purpose": "co2_disposal",
+ "uic_class_per_plan": "II",
+ "ama_definition": "The AMA calculated under 40 CFR 98.449 for a 12-year injection period (t = 12) was smaller than the MMA, so the operator adopts the MMA as the AMA and refers to the combined area as AMA/MMA (p36-37).",
+ "mma_definition": "The modeled free-phase CO2 plume at stabilization (98 years post-injection, 5% gas-saturation cutoff) plus a half-mile buffer, about 0.88 square miles, with the farthest extent 0.72 miles from the injector (p35).",
+ "leakage_pathways_rated_significant": "Only surface equipment leakage is rated 'possible' (<100 MT per event). Existing wells, undrilled permitted wells, faults/fractures, confining layers, seismicity, and lateral migration are all rated 'improbable' because no wells in the AMA/MMA penetrate below about 2,500 ft, mapped faults lie outside the plume, and confining shales are thick (p39-43).",
+ "baseline_summary": "Three parts: (1) pre-injection groundwater quality from a monitoring well, but only if a freshwater aquifer is found when logging the injection well (quarterly sampling the first year, then possibly annual); (2) a seismicity baseline from TexNet/USGS historical data starting in 2019; (3) operational performance baselines built from continuous injection pressure, temperature, rate and annulus pressure/temperature data once injection begins in 2026 (p49).",
+ "reporting_summary": "Annual Subpart RR report with the mass balance (Equation RR-12; no CO2 produced). Any leakage estimates and the methods used are to be reported in the annual monitoring report; surface-equipment leaks quantified under Subpart W are 'included in recurring reporting'; MRV plan to be updated if new wells are drilled in the MMA. Records kept at least three years. No commitment to publish or share measurement data or to report monitoring results to the TRRC beyond the permit (p40, p45-47, p51, p55).",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "CO2 from the Las Tiendas plant is compressed to supercritical state and passed through a Coriolis meter; a gas chromatograph at the well site measures composition; samples at least quarterly; meters calibrated per 40 CFR 98.3(i), NIST-traceable.",
+   "location": "Single metering point at the injection site, about 150 ft upstream of the wellhead",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Sample results used to confirm composition and recalibrate the meter if necessary.",
+   "pages": [
+    24,
+    44,
+    50,
+    54
+   ],
+   "evidence_quote": "Once the CO2 is compressed to a supercritical state, it will pass through a Coriolis meter for measurement"
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "Continuous automated collection of injection volumes, pressures, temperatures and gas composition; wellhead pressure/temperature gauges plus bottomhole gauges; data reviewed by qualified personnel against operational baselines.",
+   "location": "Lima Tango CCS 1 injection well and compressor facility",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Data outside acceptable limits or deviating from operational baselines is investigated as a possible leak indicator per response and reporting procedures.",
+   "pages": [
+    44,
+    45,
+    49
+   ],
+   "evidence_quote": "dCarbon will continuously monitor and collect injection volumes, pressures, temperatures, and gas composition data for the injection well."
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "committed",
+   "detail": "Downhole gauges near the bottom of the tubing monitor annulus pressure and temperature as well as the tubing; annulus data feed the operational baseline.",
+   "location": "Lima Tango CCS 1 injection well",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "A change in annulus pressure indicates a possible leak requiring remediation.",
+   "pages": [
+    45,
+    49
+   ],
+   "evidence_quote": "The downhole gauges will monitor the inside of the tubing (injection stream) as well as the annulus."
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "Annual mechanical integrity tests on the injection well.",
+   "location": "Lima Tango CCS 1 injection well",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Negative MIT: well immediately isolated and the leak mitigated.",
+   "pages": [
+    45,
+    49
+   ],
+   "evidence_quote": "Mechanical Integrity Tests (MITs) performed annually would also indicate the presence of a leak."
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "committed",
+   "detail": "Bottomhole pressure and temperature gauges near the bottom of the injection tubing; plan also refers to detecting unexpected increases in formation pressure. No observation wells.",
+   "location": "Lima Tango CCS 1 injection well (bottomhole gauges)",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Unexpected formation pressure increase: Fault Slip Potential analysis on nearest faults; if concern about abnormal pressure, shut in well and investigate.",
+   "pages": [
+    43,
+    45
+   ],
+   "evidence_quote": "bottomhole pressure and temperature gauges near the bottom of the tubing"
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Auditory, visual and olfactory (AVO) leak inspections of the compressor facility, pipeline and well location; daily inspections plus monthly AVO inspections of gauges, monitors and leak indicators (p49 says daily to weekly AVO).",
+   "location": "Compressor facility, 150-ft pipeline and injection well location",
+   "frequency": "daily",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Leaks found are often repaired on the spot (tightening valves/flanges); detected leaks analyzed to quantify CO2 released and included in reporting.",
+   "pages": [
+    40,
+    44,
+    49
+   ],
+   "evidence_quote": "field personnel will conduct daily inspections and monthly AVO field inspections of gauges, monitors, and leak indicators."
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "committed",
+   "detail": "All field personnel wear gas monitors alarming on low oxygen (typically 19.5%) and industry-standard low/high H2S levels, used as indicators of a CO2 leak.",
+   "location": "Worn by field personnel at the injection facility",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Alarm on low O2 or high H2S treated as a sign of potential CO2 leak; release mass calculated from operating conditions.",
+   "pages": [
+    44,
+    49,
+    51
+   ],
+   "evidence_quote": "all field personnel are required to wear gas monitors, which will trigger the alarm at low levels of oxygen"
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "committed",
+   "detail": "Fixed oxygen-deficiency monitors in high-risk areas of the facility and well with a low-O2 alarm that automatically alerts personnel; gas detectors run continuously except for maintenance/calibration.",
+   "location": "High-risk areas of the injection facility and well site",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Low-O2 alarm alerts field personnel; release managed as an upset event and CO2 mass calculated from pressure, flow rate, leak size and duration.",
+   "pages": [
+    44,
+    51,
+    54
+   ],
+   "evidence_quote": "The facility and well will be monitored for a lack of oxygen in high-risk areas."
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "mentioned_only",
+   "detail": "Soil flux detectors listed among emerging technologies the operator 'may also evaluate' for quantifying a detected leak.",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "no",
+   "trigger_or_response": "",
+   "pages": [
+    48
+   ],
+   "evidence_quote": "dCarbon may also evaluate other emerging technologies for quantifying CO2 leakage such as Non-Dispersive Infra-Red (NDIR) CO2 sensors and soil flux detectors."
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "conditional",
+   "detail": "If open-hole logs of the injection well show a freshwater response, a groundwater monitoring well is drilled near the injector; third-party lab samples quarterly in the first year for baseline, then possibly annual. No water wells exist within two miles.",
+   "location": "One monitoring well near the injection well, only if a freshwater aquifer is found",
+   "frequency": "annual",
+   "baseline": "yes",
+   "trigger_or_response": "Increase in groundwater CO2 over baseline: volumetric analysis for a preliminary leakage estimate; MRV plan amended if well is drilled.",
+   "pages": [
+    46,
+    47,
+    49
+   ],
+   "evidence_quote": "Should a freshwater response be observed, dCarbon proposes to drill a monitoring well over the groundwater interval"
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "committed",
+   "detail": "Relies on the public TexNet network (no site seismometers); seismicity baseline built from TexNet/USGS data from 2019 onward.",
+   "location": "Public TexNet seismic network",
+   "frequency": "unspecified",
+   "baseline": "yes",
+   "trigger_or_response": "Event of M3.0 or greater: review injection volumes and pressures for changes indicating leakage; shut in and investigate if concern arises.",
+   "pages": [
+    19,
+    43,
+    46,
+    49
+   ],
+   "evidence_quote": "dCarbon plans to monitor for seismic activity using the existing TexNet monitoring system."
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "mentioned_only",
+   "detail": "20 square miles of licensed, reprocessed 3D seismic used to map faults and build the static model; no repeat seismic planned.",
+   "location": "20 sq mi licensed 3D seismic volume around the site",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    13,
+    15,
+    26
+   ],
+   "evidence_quote": "There are three faults intersecting the Queen City Formation that have been mapped on the 3D seismic data licensed for this project"
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "mentioned_only",
+   "detail": "Atmospheric sensing to establish ambient CO2 baseline, eddy covariance, open-path tunable diode lasers, closed-path detector arrays and NDIR sensors are described as methods that 'could be used' or will be 'considered' to quantify a detected leak.",
+   "location": "Project area / MMA",
+   "frequency": "unspecified",
+   "baseline": "no",
+   "trigger_or_response": "Deviations from ambient baseline coupled with meteorological and PVT data to attribute and estimate leak rate, if a leak is detected.",
+   "pages": [
+    47,
+    48
+   ],
+   "evidence_quote": "Currently available (and continuously improving) atmospheric sensing technology could be used to establish a baseline of ambient CO2 concentration"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Quarterly re-check of TRRC records for proposed, approved or drilled wells within the MMA; new wells evaluated for added risk and MRV plan updated.",
+   "location": "AMA/MMA",
+   "frequency": "quarterly",
+   "baseline": "not_applicable",
+   "trigger_or_response": "New well proposed or drilled in MMA: investigate added risk; update MRV plan.",
+   "pages": [
+    45
+   ],
+   "evidence_quote": "dCarbon will reverify the status and public information for all proposed and approved drilling permits within the MMA quarterly."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Internal and external corrosion control program checked by periodic inspection of the system and analysis of liquids collected from the pipeline.",
+   "location": "Surface pipeline and facility",
+   "frequency": "periodic_unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    44
+   ],
+   "evidence_quote": "The effectiveness of the internal and external corrosion control program is monitored through the periodic inspection of the system and analysis of liquids"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Equipment leaks and vents between the flow meter and wellhead quantified with Subpart W procedures (CO2FI term); no direct leak survey because the stream contains H2S.",
+   "location": "Surface equipment between Coriolis meter and wellhead",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    44,
+    51,
+    54
+   ],
+   "evidence_quote": "quantified using the procedures specified in subpart W of the GHGRP"
+  },
+  {
+   "method": "other",
+   "commitment": "conditional",
+   "detail": "Fault Slip Potential (FSP) modeling of the closest mapped faults, built from data gathered while drilling the injector, run if unexpected formation pressure increases are detected.",
+   "location": "Mapped faults near the AMA/MMA",
+   "frequency": "event_driven",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Unexpected formation pressure increase: run FSP analysis; abnormal pressure or seismicity concern: shut in and investigate.",
+   "pages": [
+    43
+   ],
+   "evidence_quote": "dCarbon can perform Fault Slip Potential (FSP) analysis (Walsh et al., 2017) to evaluate the risk of induced seismicity"
+  },
+  {
+   "method": "other",
+   "commitment": "conditional",
+   "detail": "If CO2 is suspected in existing or future third-party wells, operator will try to arrange wellhead gas sampling to compare CO2 content with historical levels, and consider workovers or remedial cement.",
+   "location": "Third-party wells in the monitoring area",
+   "frequency": "event_driven",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Measurable CO2 increase attributable to injection: estimate leakage by engineering methods, report and subtract from injected volume; remediate if practical.",
+   "pages": [
+    45
+   ],
+   "evidence_quote": "take wellhead gas samples to quantify variations or increases of CO2 compared with historical or baseline CO2 concentrations"
+  },
+  {
+   "method": "other",
+   "commitment": "mentioned_only",
+   "detail": "UAV with high-fidelity (ppb) CO2 sensor flown in repeatable 3D patterns over the MMA, fixed CO2 monitoring systems, fixed-wing flyovers or satellite data, and 3D reservoir modeling, offered via an environmental services vendor to find and quantify diffuse leaks.",
+   "location": "MMA",
+   "frequency": "unspecified",
+   "baseline": "no",
+   "trigger_or_response": "Considered among quantification methods if a leak is detected.",
+   "pages": [
+    47,
+    48
+   ],
+   "evidence_quote": "deployment of an unmanned aerial vehicle (UAV), which is outfitted with an industry leading high fidelity CO2 sensor"
+  }
+ ],
+ "notes": "Pre-operational plan: the well had not been drilled (drilling planned Q3 2025, injection early 2026). Page 60 (Appendix 13.3, W-1/W-14 permits) has no text; pages 35, 37 and 41 contain garbled figure characters. AVO inspection frequency is stated inconsistently: monthly (p40), daily inspections plus monthly AVO (p44), and 'daily to weekly AVO inspections' (p49); coded as monthly with detail noting the others. The only reservoir-pressure measurement is the bottomhole gauge in the injection well itself; there are no observation wells. Groundwater monitoring is explicitly conditional on finding a freshwater response in open-hole logs of the injector (the plan notes no water wells within two miles), so the groundwater baseline exists only in that case. Open-hole logs over each casing interval during drilling (p47) are site characterization, not cased-hole monitoring, so cased_hole_logging is not_found. Section 6.7 lists many quantification technologies (atmospheric sensing, UAV, eddy covariance, open-path lasers, NDIR, soil flux, reservoir models) only as options to be 'considered' if a leak is detected; these are coded mentioned_only. The static/dynamic model is to be updated with core and log data after drilling (p28). Monitoring period stated as the 12-year injection period plus a proposed two-year post-injection period (p44). Risk ranking uses the CARB CCS Protocol likelihood matrix (p38-39)."
+}

@@ -1,0 +1,298 @@
+{
+ "site_slug": "farnsworth-unit",
+ "plan_title": "Farnsworth Unit, Texas (FWU) MONITORING, REPORTING, AND VERIFICATION PLAN",
+ "plan_version_or_date": "May, 2021",
+ "injection_purpose": "eor",
+ "uic_class_per_plan": "II",
+ "ama_definition": "The entire Farnsworth Unit, because activity is expected to expand from the western half to the eastern half on an uncertain schedule (p24).",
+ "mma_definition": "The Farnsworth Unit boundary plus a one-half mile buffer, justified by simulation showing the free-phase plume stays within the modeled area through five years after injection ends (p6, p21-23).",
+ "leakage_pathways_rated_significant": "Wellbores (especially poorly completed or cemented legacy wells) and surface equipment are treated as the realistic pathways; faults/fractures, lateral migration, seal failure and seismicity are all rated unlikely (p24-35).",
+ "baseline_summary": "The plan calls its baseline the combination of ongoing operational monitoring plus Southwest Partnership (SWP) research data collected since 2013: Ogallala groundwater sampling at 14 wells, soil CO2 flux of 3-15 umol/m2/s at 94 collars, and an atmospheric CO2 baseline of 390\u00b110 ppmv from an eddy tower; daily equipment inspection and well surveillance are also cited (p35-39).",
+ "reporting_summary": "Annual Subpart RR report with the mass balance; any leak quantification method is reported in that submission and reconciled against the Subpart W report (p34-35). Leaks are also reported to TRRC under Rule 20 with measured or estimated quantities (p40). Records retained per 98.3(g)/98.447 (p46-47). No commitment to publish measurement data.",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "Custody transfer meter and AGA Report #3 totalizer on purchased CO2, similar totalizer on recycled gas, totalizers at each injection well pad read daily; produced gas sampled at least quarterly for CO2 content.",
+   "location": "Compression facility, recycle compressor outlet, each injection well pad",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    11,
+    12,
+    44,
+    45
+   ],
+   "evidence_quote": "Daily totalized volumetric flow meters are used to record CO2 received via pipeline from the Arkalon ethanol plant"
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "Continuous pressure monitoring at the WAG injection skids, plus daily injection volume totals per well pad collected by field personnel; also notes unusually high pressure encountered in new wells. No SCADA system described.",
+   "location": "WAG skids / injection well pads",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Unexplained pressure: shut in injectors near faults or seismic events, re-enter and reseal abandoned wells, keep pressure below parting pressure.",
+   "pages": [
+    12,
+    33,
+    34
+   ],
+   "evidence_quote": "Continuous monitoring of pressure in WAG skids"
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "committed",
+   "detail": "Changes in annulus pressure monitored to detect tubing leaks; TRRC rules require Bradenhead gauges on all wells and reporting of any pressure between casing strings.",
+   "location": "Injection wells / all wells (Bradenhead)",
+   "frequency": "unspecified",
+   "baseline": "no",
+   "trigger_or_response": "Tubing leak indicated: workover crews respond within days.",
+   "pages": [
+    14,
+    28,
+    34
+   ],
+   "evidence_quote": "Monitor changes in annulus pressure; MIT for injectors"
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "MITs on injection wells under TRRC Rule 46 and permit conditions; no test interval stated.",
+   "location": "Injection wells",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Casing or tubing leak found: workover crews respond within days.",
+   "pages": [
+    24,
+    25,
+    34,
+    40
+   ],
+   "evidence_quote": "Mechanical integrity testing (MIT) is an essential requirement of the Underground Injection Control (UIC) program"
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "committed",
+   "detail": "Each producer tested at an AWT separator every 30-60 days (oil, gas, water metered); produced gas metered downstream of compressors and sampled quarterly; sales oil analyzed annually for CO2; pattern monitoring.",
+   "location": "Each production well via AWT sites; central tank battery",
+   "frequency": "monthly",
+   "baseline": "no",
+   "trigger_or_response": "Pattern monitoring anomalies would lead to further investigation.",
+   "pages": [
+    10,
+    12,
+    33,
+    41,
+    44
+   ],
+   "evidence_quote": "Each producing well is production tested every 30 to 60 days after the last production test"
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "mentioned_only",
+   "detail": "Reservoir pressure named as an example of reservoir fluid monitoring that would prompt investigation; the SWP real-time downhole pressure/temperature gauges in monitoring well #13-10 are explicitly not part of the MRV plan.",
+   "location": "Monitoring well #13-10 (SWP research only)",
+   "frequency": "unspecified",
+   "baseline": "unclear",
+   "trigger_or_response": "Unexplained reservoir pressure change would lead to further investigation.",
+   "pages": [
+    27,
+    28,
+    33
+   ],
+   "evidence_quote": "other reservoir fluid monitoring provisions (e.g., reservoir pressure, well pressure, and pattern monitoring) would lead to further investigation"
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Field personnel visually inspect surface equipment, pipelines and wellheads daily (Table 1 says weekly field inspection); inspections also watch for unapproved drilling.",
+   "location": "Field-wide surface equipment, pipelines, wellheads",
+   "frequency": "daily",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Event indicating leakage: report and act; workover crews respond within days.",
+   "pages": [
+    24,
+    28,
+    34,
+    39
+   ],
+   "evidence_quote": "Perdure operational field personnel visually inspect surface equipment daily and report and act upon any event indicating leakage."
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "committed",
+   "detail": "All field and contractor personnel (8-10 on site) wear H2S detectors reading 0-100 ppm with alarm above 10 ppm; secondary use is detecting gas releases from pipelines or equipment.",
+   "location": "Worn by all field personnel",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Alarm: leak located, response initiated, CO2 volume quantified.",
+   "pages": [
+    12,
+    13
+   ],
+   "evidence_quote": "all field and contractor personnel are always required to wear H2S detectors"
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "mentioned_only",
+   "detail": "SWP research soil CO2 flux surveys since 2013 at 94 collars around well 13-10A using a LiCor LI-8100, monthly for a year then quarterly; cited as baseline (3-15 umol/m2/s), no Perdure commitment to continue.",
+   "location": "94 collars around injector 13-10A, western FWU",
+   "frequency": "quarterly",
+   "baseline": "yes",
+   "trigger_or_response": "",
+   "pages": [
+    35,
+    37,
+    38,
+    39
+   ],
+   "evidence_quote": "Since 2013, SWP has been conducting regular soil flux surveys within the western half of the FWU"
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "mentioned_only",
+   "detail": "SWP has sampled 14 Ogallala groundwater wells since 2013 for major ions and trace metals; no leakage found; Perdure says it is unlikely to continue.",
+   "location": "14 Ogallala wells in and around the FWU",
+   "frequency": "periodic_unspecified",
+   "baseline": "yes",
+   "trigger_or_response": "",
+   "pages": [
+    35,
+    36,
+    37
+   ],
+   "evidence_quote": "Perdure is unlikely to continue monitoring USDW wells for CO2 or brine contamination"
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "mentioned_only",
+   "detail": "SWP monitoring well #13-10 has permanent downhole gauges and distributed temperature sensing along the wellbore covering the injection zone and overlying seals; not continued under the MRV plan.",
+   "location": "Monitoring well #13-10 adjacent to injector 13-10A",
+   "frequency": "continuous",
+   "baseline": "unclear",
+   "trigger_or_response": "",
+   "pages": [
+    27,
+    28
+   ],
+   "evidence_quote": "Distributed Temperature Sensing (DTS): Real time monitoring of temperature along the wellbore for leakage detection."
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "mentioned_only",
+   "detail": "DTS fiber in well #13-10 from the Southwest Partnership research program; the plan says it will not be part of the MRV monitoring.",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    27,
+    28
+   ],
+   "evidence_quote": ""
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "mentioned_only",
+   "detail": "SWP 16-level borehole geophone array in #13-10 plus 20 surface seismometer stations, not continued under the MRV plan; one-time review of the USGS earthquake catalog. Seismic leakage is to be caught by WAG skid pressure.",
+   "location": "Monitoring well #13-10 and 20 surface stations (SWP research)",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Seismic event suspected of causing leakage: shut in injectors near the event.",
+   "pages": [
+    27,
+    28,
+    33,
+    34
+   ],
+   "evidence_quote": "Perdure may continue to observe and collect the data, but it will not be an ongoing part of the FWU MRV plan."
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "mentioned_only",
+   "detail": "3D seismic acquired 2013 and reprocessed 2017, plus over 70 miles of regional 2D lines, used only to characterize structure and rule out faults; no repeat survey.",
+   "location": "FWU and region",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    7,
+    29
+   ],
+   "evidence_quote": "3D Reflection seismic data of the FWU was acquired in 2013 and reprocessed in 2017 to obtain a better image resolution."
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "mentioned_only",
+   "detail": "SWP eddy covariance tower gave a baseline of 390\u00b110 ppmv at ~3 m; tower has been broken since winter 2019 and NOAA Moody, Texas data are offered as background instead. No ongoing measurement committed.",
+   "location": "SWP eddy tower in the FWU; NOAA WKT station as proxy",
+   "frequency": "unspecified",
+   "baseline": "yes",
+   "trigger_or_response": "Significant, consistent variance from baseline: investigate source; if FWU leakage, measure, report, mitigate, revise MRV plan.",
+   "pages": [
+    38
+   ],
+   "evidence_quote": "Any significant and consistent variance from this baseline will be investigated to determine the source of the CO2"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Surface equipment leaks and vents between meters and wellheads estimated with Subpart W Table W-1A emission factors; event-driven leaks quantified by emission factors or engineering estimates and reconciled with the Subpart W report.",
+   "location": "Surface equipment, pipelines",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Detected leak: quantify, document in electronic records, report method in annual Subpart RR submission.",
+   "pages": [
+    24,
+    34,
+    35,
+    42,
+    44
+   ],
+   "evidence_quote": "should leakage from surface equipment occur it will be quantified according to the procedures in Subpart W of the GHGRP."
+  },
+  {
+   "method": "other",
+   "commitment": "mentioned_only",
+   "detail": "History-matched Eclipse compositional reservoir model used once to forecast plume extent through injection plus five years for the MMA; no commitment to periodic model updates.",
+   "location": "Western half of FWU (model area)",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    13,
+    17,
+    19,
+    20,
+    21
+   ],
+   "evidence_quote": "the modelled area is projected to contain the free phase CO2 plume at the end of year t + 5"
+  }
+ ],
+ "notes": "Much of the environmental monitoring described (groundwater, soil flux, eddy tower, downhole gauges, DTS, geophones, seismometers) was done by the Southwest Regional Partnership as research; the plan uses it to establish baselines but says the #13-10 instrumentation will not be an ongoing part of the MRV plan and that Perdure is unlikely to continue groundwater sampling, with no stated commitment on soil flux or atmospheric monitoring, so these are coded mentioned_only. Inspection frequency is inconsistent: Section 5.4 says daily surface equipment inspection while Table 1 says weekly field inspection. No SCADA system is described; pressure monitoring is 'continuous monitoring of pressure in WAG skids'. MIT interval is not stated. The plan's internal cross-references to 'Sections 4.5 and 4.6' for detection/quantification actually point to Sections 4.7 and 4.8. Implementation is tied to the new capture facility starting January 1, 2022 (p43). Pages 22, 23, 30, 31 and 39 are mostly figures; the text of Table 1 is on p34.",
+ "_": ""
+}
