@@ -1,0 +1,24 @@
+{
+ "service": "https://mercator.env.nm.gov/server/rest/services/emnrd/ocd_wells/MapServer",
+ "layers": {
+  "0": "Oil Wells",
+  "1": "Gas Wells",
+  "2": "CO2 Wells",
+  "3": "Injection Wells",
+  "4": "Water Wells"
+ },
+ "service_description": "This map shows the locations of all permitted wells for which EMNRD has locations.",
+ "retrieved_utc": "2026-10-16T12:32:01Z",
+ "currency_check_oil_layer_counts": {
+  "30-025-53xxx": 910,
+  "30-025-54xxx": 487,
+  "30-015-55xxx": 717,
+  "30-015-56xxx": 205
+ },
+ "apis_queried": 1278,
+ "apis_found": 1276,
+ "note": "EMNRD Oil Conservation Division well locations and attributes, as served by the New Mexico Environment Department's public ArcGIS server. Queried by API with IN-lists of 150, all five layers. The NM State Land Office's NMOCD_Wells_V3 service was tried first and rejected: it holds no Lea County API above 30-025-50999, so it is missing wells permitted in recent years.",
+ "secondary_service": "https://mapservice.nmstatelands.org/arcgis/rest/services/Public/NMOCD_Wells_V3/MapServer/5",
+ "secondary_note": "NM State Land Office NMOCD_Wells_V3 (an older copy of the same OCD data; no Lea County API above 30-025-50999). Used only for nmslo_spud_date, nmslo_plug_date and nmslo_tvd_ft.",
+ "secondary_apis_found": 1201
+}

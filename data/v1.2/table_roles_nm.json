@@ -1,0 +1,16 @@
+{
+ "_note": "Gale, 2026-10-16. Page ranges (1-based PDF pages) of the numbered well lists in each New Mexico plan, with their role. Source 'text' = PDF text layer; 'ocr' = image-only table read by OCR (scripts/ocr_maljamar.py).",
+ "hobbs-field": [[61, 78, "unit_well_list", "text", "Appendix 5. Well Identification Numbers (wells in the Hobbs units as of August 2016)"]],
+ "red-hills-gas-processing-plant": [[64, 64, "project_wells", "text", "Appendix 1 TND Wells"],
+                                    [72, 74, "radius_well_list", "text", "Appendix 4 Oil and Gas Wells within 2-mile Radius of the RH AGI Well Site"]],
+ "maljamar-gas-plant": [[81, 81, "project_wells", "text", "Part A (Metropolis) Appendix 1 - Frontier Wells"],
+                        [171, 171, "project_wells", "text", "Part B (Maljamar) Appendix 1 - Frontier Maljamar Wells"],
+                        [85, 85, "radius_well_list", "ocr", "Part A (Metropolis) Appendix 3 - Oil and Gas Wells within a 1-mile Radius of the Metropolis Well"],
+                        [175, 181, "mma_well_list", "ocr", "Part B (Maljamar) Appendix 3 - Oil and Gas Wells within the MMA / AMA for the Maljamar AGI #1 and #2 Wells"]],
+ "dark-horse-treating-plant": [[66, 66, "project_wells", "text", "Appendix 1 - Independence AGI Wells"],
+                               [71, 73, "radius_well_list", "text", "Appendix 3 - Oil and natural gas wells within 2-mile radius of the Independence AGI Wells"]],
+ "titan-treating-facility": [[191, 200, "aor_well_list", "text", "Salt Creek AGI No. 2 and No. 3 Area of Review: Oil & Gas Wells List"]],
+ "copperhead-gas-plant": [[48, 50, "mma_well_list", "text", "Table 5.2-1 Oil and Gas-Related Wells within the MMA with their evaluated risk"],
+                          [75, 75, "mma_well_list", "text", "Appendix 3 Oil and gas wells within the MMA of Copperhead AGI #001"]],
+ "dkl-libby-gas-plant": []
+}
