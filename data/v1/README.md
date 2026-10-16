@@ -2,6 +2,8 @@
 
 *Dataset v1 - 16 October 2026 - Gale*
 
+> **Correction (16 Oct 2026):** this version's description of the 392 unmatched wells is wrong in aggregate. About 223 of them are recent horizontal wells and permits that are not yet in the RRC's completion-based file; about 150 have no RRC digital record at all. See [v1.1](../v1.1/README.md).
+
 ## What this is
 
 Every carbon storage site that reports to EPA under Subpart RR has to file a monitoring plan, and most of those plans list the existing wells in or around the storage area. The lists are buried in PDFs, one per filing, and nobody has joined them to the state's well records. This dataset does that for the Texas Permian.
