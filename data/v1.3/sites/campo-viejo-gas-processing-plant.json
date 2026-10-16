@@ -1,0 +1,299 @@
+{
+ "site_slug": "campo-viejo-gas-processing-plant",
+ "plan_title": "Amended Subpart RR Monitoring, Reporting, and Verification Plan Campo Viejo Plant Pozo Acido Viejo No. 1 Esperanza No. 1 Yoakum County, Texas",
+ "plan_version_or_date": "August 2025 (Original Approval Date August 8, 2022)",
+ "injection_purpose": "acid_gas_disposal",
+ "uic_class_per_plan": "II",
+ "ama_definition": "Same boundary as the MMA, on the grounds that the only probable leakage paths are penetrating wells and surface equipment; it contains the plume through year 55 (p46).",
+ "mma_definition": "The modeled plume 25 years after injection ends (about 3,337 acres, 1% gas saturation cutoff) plus a buffer of at least half a mile (p44-45).",
+ "leakage_pathways_rated_significant": "Existing wells penetrating the injection zone are rated 'possible' with medium magnitude (six offset penetrations); surface equipment is remote but monitored; drilling, faults, confining zone and seismicity are remote or very unlikely (p46-48).",
+ "baseline_summary": "Injection volume and pressure measurements taken before the original 2022 plan was implemented, plus a 2022 baseline sample from the on-site water well; 2023 and 2024 samples reported no variance (p68-69).",
+ "reporting_summary": "Annual Subpart RR report filed by March 31 of the following year; records kept at least three years. No commitment to publish measurement data or to report monitoring results to the state is stated in the plan text (p73, p76).",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "Volumetric flowmeter on injected stream, compiled quarterly; composition from continuous analyzer or representative sampling, averaged quarterly; monthly gas composition collected for both AGI wells; separate meter for any future stream.",
+   "location": "Injection stream upstream of the AGI wellheads; new RR meter in service Q4 2025",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    36,
+    48,
+    65,
+    70,
+    74
+   ],
+   "evidence_quote": "Flowmeters will be continuously operated except for maintenance and calibration."
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "SCADA and distributed control system continuously record injection volume and pressure at both AGI wells; wellhead pressure gauges, high/low pressure shut-in valve, and set points to keep pressure below fracture gradient.",
+   "location": "Pozo Acido Viejo No. 1 and Esperanza No. 1 wellheads; plant surface equipment",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Data outside limits or deviation suggesting fault/seal pathway: alert, field review, shut in wells if needed; M3.0+ seismic event triggers review of volumes and pressures.",
+   "pages": [
+    48,
+    63,
+    64,
+    65,
+    66,
+    68
+   ],
+   "evidence_quote": "Stakeholder continuously monitors and collects injection volumes and pressures through their SCADA systems"
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "committed",
+   "detail": "Pressure gauge on the casing annulus of each AGI well; a change in annulus pressure is treated as a sign of a possible leak.",
+   "location": "Casing annulus of both AGI wells",
+   "frequency": "unspecified",
+   "baseline": "no",
+   "trigger_or_response": "Change in annulus pressure indicates possible leak; reviewed under response procedures.",
+   "pages": [
+    65
+   ],
+   "evidence_quote": "a pressure gauge on the casing annulus. A change of pressure on the annulus would indicate the presence of a possible leak."
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "Annual MITs under TRRC rules to confirm the AGI wells and wellheads hold pressure.",
+   "location": "AGI wells",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Failed MIT: review MIT data, volumes and pressures; if AGI stream leakage is likely, isolate the well and mitigate.",
+   "pages": [
+    52,
+    64,
+    65
+   ],
+   "evidence_quote": "Mechanical integrity tests (MITs) required under TRRC rules are run annually"
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Daily field inspections of the plant and both AGI wells, looking at gauges, monitors and leak signs such as vapor plumes and ice; well inspections listed as 'as needed'.",
+   "location": "Campo Viejo Facility and the two AGI well sites",
+   "frequency": "daily",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Vapor clouds or ice found: corrective action taken.",
+   "pages": [
+    64,
+    65,
+    68
+   ],
+   "evidence_quote": "field personnel conduct daily visual field inspections of gauges, monitors, and leak indicators, such as vapor plumes."
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "committed",
+   "detail": "All field personnel wear H2S monitors alarming at 10 ppm; H2S is the proxy for CO2. Monitoring table lists frequency as 'As needed'.",
+   "location": "Worn by field personnel",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Alarm: protect personnel, check monitors, secure facility; CO2 release quantified from operating conditions.",
+   "pages": [
+    48,
+    52,
+    64,
+    65,
+    68
+   ],
+   "evidence_quote": "all Stakeholder field personnel are required to wear H2S monitors, which trigger the alarm at 10 ppm."
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "committed",
+   "detail": "Fixed H2S detectors (10 ppm alarm) around plant and AGI wells; H2S and CO2 monitoring at well sites; CO2 monitors at any new meter; handheld CO2 readings near penetrations at least quarterly.",
+   "location": "Plant, AGI well sites; identified penetrations within the MMA/AMA",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Alarm: protect personnel, verify monitor, secure facility.",
+   "pages": [
+    48,
+    49,
+    52,
+    64,
+    65,
+    66,
+    68,
+    74
+   ],
+   "evidence_quote": "The H2S gas detectors, located around the facility and the well site, trigger alarms at 10 ppm."
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "committed",
+   "detail": "Water well(s) on the facility property (about 180 ft deep) sampled yearly and analyzed by a third-party lab.",
+   "location": "Water well(s) on the Campo Viejo facility property",
+   "frequency": "annual",
+   "baseline": "yes",
+   "trigger_or_response": "Significant change in water analysis: investigate whether it came from AGI well leakage.",
+   "pages": [
+    58,
+    64,
+    66,
+    69
+   ],
+   "evidence_quote": "sampling the wells on the facility property and analyzing the samples with a third-party laboratory on an annual basis"
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "committed",
+   "detail": "Operator-installed seismic station near Campo Viejo, tied into TexNet; plan also cites a one-time USGS and TexNet catalog review.",
+   "location": "Near the Campo Viejo Facility (Figure 39)",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Event of M3.0 or greater: review AGI injection volumes and pressures for signs of leakage; quantify any leak.",
+   "pages": [
+    61,
+    63,
+    65,
+    66,
+    67
+   ],
+   "evidence_quote": "Stakeholder has installed a seismic monitoring station near Campo Viejo."
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "mentioned_only",
+   "detail": "Risk table cites a past regional seismic evaluation finding no faults in the confining or injection zones; no repeat seismic planned.",
+   "location": "",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    47
+   ],
+   "evidence_quote": "A regional seismic evaluation did not identify any faulting of the confining or injection zones"
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "committed",
+   "detail": "At least quarterly atmospheric CO2/H2S monitoring near identified penetrations, described elsewhere as periodic hand-held monitoring.",
+   "location": "Identified penetrations within the AMA/MMA",
+   "frequency": "quarterly",
+   "baseline": "no",
+   "trigger_or_response": "",
+   "pages": [
+    66,
+    68
+   ],
+   "evidence_quote": "as well as minimum, quarterly atmospheric monitoring near identified penetrations within the MMA."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Corrosion control program checked by periodic inspection of the system and of the cathodic protection system.",
+   "location": "Facility and AGI lines",
+   "frequency": "periodic_unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    65
+   ],
+   "evidence_quote": "The effectiveness of the internal and external corrosion control program is monitored through the periodic inspection of the system"
+  },
+  {
+   "method": "other",
+   "commitment": "conditional",
+   "detail": "H2S monitoring during offset drilling operations, listed for the drilling-through-the-MMA pathway.",
+   "location": "Offset drilling operations in the MMA",
+   "frequency": "event_driven",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    64
+   ],
+   "evidence_quote": "H2S monitoring during offset drilling operations"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Subpart W methods for equipment between meter and wellhead; detected leaks quantified from operating conditions or case-by-case engineering analysis, reservoir modeling and history matching; blowdowns go to flare.",
+   "location": "Surface equipment between flowmeter and wellhead",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Leak detected: quantified, addressed and documented.",
+   "pages": [
+    65,
+    69,
+    71,
+    72,
+    74
+   ],
+   "evidence_quote": "Calculation methods from Subpart W will be used to calculate CO2 emissions caused by any surface leakage"
+  }
+ ],
+ "notes": "Amendment adds Esperanza No. 1 (permit pending at time of writing) and replaces Estacado No. 1, now shut in. Appendix pages with the step-rate test and the Pozo Acido Viejo UIC order/GAU letter are image-only (p81-85, p91-95), so permit monitoring conditions could not be checked. Personal H2S monitors listed 'As needed' in Table 11; frequency coded unspecified. Quarterly handheld CO2 'atmospheric monitoring' near penetrations coded under fixed_gas_detectors, not atmospheric_co2. 'Regional seismic evaluation' (p47) may refer to reflection seismic or seismicity review; unclear."
+}

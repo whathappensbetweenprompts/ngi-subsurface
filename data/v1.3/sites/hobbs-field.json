@@ -1,0 +1,300 @@
+{
+ "site_slug": "hobbs-field",
+ "plan_title": "Oxy Hobbs Field CO2 Subpart RR Monitoring, Reporting and Verification (MRV) Plan",
+ "plan_version_or_date": "January 2017",
+ "injection_purpose": "eor",
+ "uic_class_per_plan": "II",
+ "ama_definition": "The Hobbs Field boundary (North and South Hobbs Units), on the grounds that CO2 is already present throughout the field and kept there by fluid management; no buffer is added (p30-31).",
+ "mma_definition": "The Hobbs Field plus a half-mile buffer (p31).",
+ "leakage_pathways_rated_significant": "Existing wellbores (about 700 field wells plus offset wells) and surface equipment are the pathways Oxy manages; faults, seismicity, previous operations, lateral migration, new drilling and diffuse seal leakage are judged minimal or very unlikely (p4, p32-38).",
+ "baseline_summary": "No pre-injection environmental baseline. The 'baselines' are the existing automated data systems: injection set points from pattern modeling, production forecasts, visual inspection work orders and H2S alarms, screened for possible CO2 leakage (p44-45).",
+ "reporting_summary": "Annual Subpart RR report filed with other GHG reports by March 31, giving the mass balance and leak estimates; records kept at least three years. Well leaks are also reported to NMOCD and surface-facility leaks under Subpart W. No commitment to publish measurement data (p37-38, p45, p50, p52-53).",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "Custody transfer meters at the two Permian pipeline off-take points and the NHU-SHU transfer; operations meters at RCF inlets and outlets for produced and recycled CO2; composition sampled at least quarterly.",
+   "location": "Two custody transfer points, NHU-SHU transfer point, RCF inlets and outlets",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    19,
+    39,
+    40,
+    51
+   ],
+   "evidence_quote": "Meters measure flow rate continually."
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "Injection rate and pressure targets from pattern modeling programmed into WAG satellite controllers; pressure monitors flag deviations; data sent to a central monitoring station; automatic shutoff if pressure exceeds fracture pressure.",
+   "location": "Each injection well, via WAG headers at satellites",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Pressure or rate outside set points: automatic flag, field investigation, work order if not readily resolved; screened for possible CO2 leakage.",
+   "pages": [
+    19,
+    20,
+    33,
+    34,
+    41,
+    45
+   ],
+   "evidence_quote": "Well pressure in injection wells is monitored on a continual basis."
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "committed",
+   "detail": "Annular pressure at wellheads monitored for tubing leaks; state rules also require Bradenhead gauges to measure pressure between casing strings.",
+   "location": "Wellheads",
+   "frequency": "unspecified",
+   "baseline": "no",
+   "trigger_or_response": "Annulus anomaly: inspect; simple repairs made on the spot, otherwise work order; workover crews respond within days.",
+   "pages": [
+    22,
+    23,
+    37,
+    42
+   ],
+   "evidence_quote": "monitoring of the annular pressure in wellheads"
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "NMOCD MITs on all active injectors before injection, every two years, after workovers or casing repairs; casing-tubing annulus tested to 300 psi for 30 minutes.",
+   "location": "Active injection wells",
+   "frequency": "multi_year",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Failed MIT: well shut in immediately, NMOCD notified, casing repaired and retested or well plugged.",
+   "pages": [
+    21,
+    23,
+    24,
+    37
+   ],
+   "evidence_quote": "Every 2 years as stated in the injection orders (NMOCD Order NO. R-4934-F / R-6199-F);"
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "committed",
+   "detail": "Each producer diverted to satellite test equipment for 8-12 hours about every two months; produced gas sampled quarterly, oil sampled yearly for CO2; results compared with forecast.",
+   "location": "Each production well; satellite batteries; RCF inlets",
+   "frequency": "bimonthly",
+   "baseline": "no",
+   "trigger_or_response": "Significant deviation from forecast: well management personnel investigate; work order if not resolved quickly.",
+   "pages": [
+    24,
+    33,
+    41,
+    45,
+    51
+   ],
+   "evidence_quote": "There is a routine cycle for each satellite battery, with each well being tested approximately once every two months."
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "committed",
+   "detail": "Plan says injection-zone pressure is monitored continually and automatically, and IWR kept near 1.0; the response table says this is read at WAG headers and in new wells, not observation wells.",
+   "location": "Injection zone, read at WAG headers and new wells",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Unexplained pressure or high pressure in new wells: investigate; responses include resealing abandoned wells and shutting in injectors near faults or seismic events.",
+   "pages": [
+    26,
+    37,
+    38,
+    42,
+    44
+   ],
+   "evidence_quote": "Oxy monitors wells through continual, automated pressure monitoring in the injection zone"
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Two-part visual inspection by about 40 field staff: routine facility visits checking equipment, valves and WAG schedules, watching for white CO2 clouds, ice and fluid leaks; also watches for unapproved drilling.",
+   "location": "Field-wide surface facilities and wells",
+   "frequency": "periodic_unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Leak or problem found: repair on the spot or work order; critical leaks acted on immediately; leak quantified for annual report.",
+   "pages": [
+    33,
+    34,
+    36,
+    37,
+    38,
+    42,
+    43,
+    44,
+    45
+   ],
+   "evidence_quote": "field inspections are conducted on a routine basis by field personnel."
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "committed",
+   "detail": "All field personnel wear H2S monitors at all times (detection limit 10 ppm); H2S treated as a proxy for CO2 leaks.",
+   "location": "Worn by field personnel (about 40 on site)",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Alarm: protect personnel, investigate source, quantify CO2 leak; MRV lead notified of confirmed H2S incidents.",
+   "pages": [
+    24,
+    25,
+    41,
+    42,
+    43,
+    45
+   ],
+   "evidence_quote": "all field personnel are required to wear H2S monitors at all times"
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "committed",
+   "detail": "Under Oxy's voluntary SFRM program, wells and equipment screened as near the public get H2S sensors and gas-triggered automatic shut-off valves; plan does not say how many locations qualify.",
+   "location": "SFRM-screened wells and surface equipment near the City of Hobbs",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Triggered safeguards are investigated to determine whether CO2 leaked.",
+   "pages": [
+    33,
+    35,
+    43
+   ],
+   "evidence_quote": "SFRM guidelines call for using enhanced materials for well heads, installing sensors to detect H2S"
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "mentioned_only",
+   "detail": "Cement bond logs and temperature surveys were used historically to find top of cement on 1946-1979 wells; CBLs are listed among corrosion-protection procedures. Not part of MRV monitoring.",
+   "location": "Older wells",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    21,
+    23
+   ],
+   "evidence_quote": "Cement bond logs (CBL) or temperature surveys (TS) have been used to determine that this depth is available on most wells."
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "mentioned_only",
+   "detail": "One-time review of recorded Permian Basin earthquakes (literature including Frohlich 2012); none in the field, closest about 80 miles away. No seismic monitoring committed.",
+   "location": "",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Response table lists shutting in injectors near a seismic event.",
+   "pages": [
+    34,
+    35,
+    38
+   ],
+   "evidence_quote": "Oxy has reviewed the nature and location of seismic events within the vicinity of the Hobbs Field."
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "mentioned_only",
+   "detail": "Seismic surveys from field development cited as showing deep faults that do not reach the San Andres; no repeat seismic.",
+   "location": "",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    11,
+    12,
+    34
+   ],
+   "evidence_quote": "seismic surveys have been conducted to characterize the formations and provide information for the reservoir models"
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Subpart W emission factors for equipment leaks and vents, plus event-driven quantification of leaks found through work orders, reconciled to avoid double counting.",
+   "location": "Surface equipment between meters and wellheads",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    37,
+    40,
+    43,
+    44,
+    49
+   ],
+   "evidence_quote": "Oxy uses 40 CFR Part 98 Subpart W to estimate surface leaks from equipment at the Hobbs Field."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Step-rate tests measure formation fracture pressure so injection pressure can be held below it.",
+   "location": "Injection wells",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    26,
+    27,
+    34
+   ],
+   "evidence_quote": "keeping injection pressure below the formation fracture pressure, which is measured using step-rate"
+  }
+ ],
+ "notes": "Well-test frequency is inconsistent: about every two months (p24, p33) but 'once during each monthly cycle' on p41; coded periodic_unspecified. 'Reservoir pressure' is read at WAG headers and in new wells (Table 3, p37-38); no observation wells or bottom-hole gauges are named. Fixed H2S sensors exist only where the voluntary SFRM program applies; coverage not stated. The 'two-part' visual inspection never clearly defines the second part. AMA has no buffer; the MMA adds the half mile. Older-style plan (2017): no seismic, soil gas, groundwater or atmospheric monitoring."
+}

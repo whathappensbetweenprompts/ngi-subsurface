@@ -1,0 +1,330 @@
+{
+ "site_slug": "red-hills-gas-processing-plant",
+ "plan_title": "Monitoring, Reporting, and Verification Plan, Red Hills AGI #1 and Red Hills AGI #3, Targa Northern Delaware, LLC (TND)",
+ "plan_version_or_date": "Version 1.0, July 23, 2024",
+ "injection_purpose": "acid_gas_disposal",
+ "uic_class_per_plan": "II",
+ "ama_definition": "Set equal to the MMA: it covers the modeled plume at end of injection (2054) and five years later (2059), plus a half-mile buffer (p40).",
+ "mma_definition": "The stabilized modeled acid gas plume at 2059 plus a half-mile buffer (p40).",
+ "leakage_pathways_rated_significant": "Surface equipment (injection wells, the line to them, flanges, relief valves) is the most likely pathway; lateral migration along channel sands is rated possible; existing and groundwater wells possible-to-improbable with minimal magnitude; seal, faults and seismicity improbable per NRAP modeling (p41-46).",
+ "baseline_summary": "DCS operating data and H2S Contingency Plan monitoring, plus purpose-built baselines: 12 months of monthly groundwater and soil CO2 flux sampling, and historical seismic records (p53-55). Plan says baseline monitoring has been under way for several years (p59).",
+ "reporting_summary": "Annual Subpart RR reporting through GHG reports and records retention; pipeline leaks reported to NMOCD; NMBGMR seismic analysis and maps to be made publicly available; a groundwater chemistry report to be prepared; TND to take over monitoring, recording and reporting of the New Mexico Tech network data. No commitment to publish other measurement data (p52-54, p61-62).",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "Orifice volumetric meters (AGA Report #3) on the receiving pipelines (M1, M2) and on the lines to each AGI well (M3, M6), with daily totalizers; acid gas concentration sampled biweekly at sample points.",
+   "location": "Plant inlet meters and injection lines to RH AGI #1 and #3",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    29,
+    56,
+    57,
+    58,
+    60
+   ],
+   "evidence_quote": "Daily CO2 injected is recorded by totalizers on the volumetric flow meters"
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "Plant DCS continuously monitors injection rates, pressures and composition against high and low set points that alert engineering and operations; plant staffed 24/7.",
+   "location": "RH AGI #1 and #3 and plant",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Parameter outside allowable window: investigation of leak threat; leak indicated: shut in well and quantify.",
+   "pages": [
+    32,
+    47,
+    49,
+    52,
+    54
+   ],
+   "evidence_quote": "The DCS of the plant monitors injection rates, pressures, and composition on a continuous basis."
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "committed",
+   "detail": "Downhole gauge in each AGI well reads pressure and temperature in the tubing-casing annulus; data recorded onsite and sent offsite for daily real-time review.",
+   "location": "RH AGI #1 and #3",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Annulus and tubing gauges reading the same pressure indicates a leak; well shut in and leak quantified.",
+   "pages": [
+    49,
+    50,
+    52
+   ],
+   "evidence_quote": "the second gauge monitors the annular space between the tubing and the long string casing"
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "MITs under NMOCC Rule 26 and permit conditions, listed as a detection method for the AGI wells; plan gives no test interval.",
+   "location": "RH AGI #1 and #3",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Failed MIT: well shut in, leak characterized and quantified.",
+   "pages": [
+    47,
+    49,
+    52,
+    54
+   ],
+   "evidence_quote": "Rule 26 also includes requirements for testing and monitoring of Class II injection wells to ensure they maintain mechanical integrity at all times."
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "committed",
+   "detail": "One downhole gauge in each AGI well reads tubing (reservoir) pressure and temperature continuously; recorded by an onsite interrogator and sent offsite for analysis.",
+   "location": "Downhole in RH AGI #1 and #3",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "",
+   "pages": [
+    49,
+    50,
+    54
+   ],
+   "evidence_quote": "One gauge is designated to monitor the tubing ID (reservoir) pressure and temperature"
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Field personnel follow daily and weekly inspection protocols on surface equipment; routine O&M procedures provide frequent periodic inspection of the wells.",
+   "location": "Plant surface equipment and AGI wellheads",
+   "frequency": "daily",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Leak found: immediate response, isolate the leak point, quantify.",
+   "pages": [
+    41,
+    47,
+    48,
+    53,
+    54
+   ],
+   "evidence_quote": "following daily and weekly inspection protocols which include reporting and responding to any detected leakage events"
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "committed",
+   "detail": "All plant personnel wear H2S monitors (alarm 10 ppm); handheld detectors with H2S, CO2, LEL and oxygen sensors are kept at strategic points for checks before maintenance.",
+   "location": "Worn by plant personnel and contractors; handhelds around plant",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Alarm: response under H2S Contingency Plan; any CO2 leak quantified.",
+   "pages": [
+    48,
+    53
+   ],
+   "evidence_quote": "All personnel working at the Plant wear personal H2S monitors."
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "committed",
+   "detail": "Numerous fixed H2S detectors (Red Line RL-101) and LEL detectors around plant and AGI wells, wired to PLC and DCS, calibrated monthly; plan says in-field monitors detect H2S and CO2.",
+   "location": "Throughout plant and around RH AGI wells, including temporarily abandoned AGI #2",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "10 ppm: beacons and alarm; 90 ppm: plant evacuation; immediate response to characterize and quantify.",
+   "pages": [
+    27,
+    28,
+    47,
+    48,
+    49,
+    53
+   ],
+   "evidence_quote": "TND also maintains in-field gas monitors to detect H2S and CO2."
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "committed",
+   "detail": "Soil CO2 flux by LI-COR LI-8100A chamber on fixed collars at 32 locations: monthly for 12 months, bimonthly for a year, then quarterly. Set up by New Mexico Tech under a DOE grant.",
+   "location": "32 CO2 flux locations in the AMA (Figure 7-1)",
+   "frequency": "quarterly",
+   "baseline": "yes",
+   "trigger_or_response": "Detected leak: decide if surface equipment or subsurface source; flux methods used to quantify subsurface leaks.",
+   "pages": [
+    47,
+    51,
+    52,
+    53,
+    55,
+    56
+   ],
+   "evidence_quote": "Soil CO2 flux will be collected on a monthly basis for 12 months to establish the baseline"
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "committed",
+   "detail": "Groundwater wells sampled for TDS, pH, alkalinity, major ions, ORP, inorganic and organic carbon: monthly for 12 months, bimonthly for a year, then quarterly. Run by New Mexico Tech under a DOE grant.",
+   "location": "2 groundwater wells in the AMA (Figure 7-1)",
+   "frequency": "quarterly",
+   "baseline": "yes",
+   "trigger_or_response": "Samples outside expected variation: investigate whether leakage from the injection zone has occurred.",
+   "pages": [
+    26,
+    44,
+    47,
+    54,
+    55,
+    56
+   ],
+   "evidence_quote": "Water samples will be collected and analyzed on a monthly basis for 12 months to establish baseline data."
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "committed",
+   "detail": "Fiber-optic distributed temperature sensing clamped to the tubing in each AGI well records the annulus temperature profile from about 6,159 ft to surface. Permanent sensing, not logging runs.",
+   "location": "RH AGI #1 and #3",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Temperature profile anomalies flag possible tubing or casing leaks.",
+   "pages": [
+    49,
+    50
+   ],
+   "evidence_quote": "DTS is clamped to the tubing, and it monitors the temperature profiles of the annulus from 6,159 ft to surface."
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "committed",
+   "detail": "Operator-installed Trillium Compact Horizon seismometer at the plant (required by NMOCC order), plus state NMTSO network within 10 miles analyzed by NMBGMR.",
+   "location": "Plant site station plus NMTSO stations within 10 miles",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Leak signals linked to a seismic event: assess whether CO2 came from AGI wells and quantify.",
+   "pages": [
+    46,
+    47,
+    51,
+    52,
+    54,
+    56
+   ],
+   "evidence_quote": "TND has Installed a model TCH120-1 Trillium Compact Horizon Seismometer and a model CTR4-3S Centaur Digital Recorder"
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "mentioned_only",
+   "detail": "Licensed 3D seismic used in site characterization and the geologic model; no repeat seismic.",
+   "location": "",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    23,
+    33
+   ],
+   "evidence_quote": "The static model is constructed with well tops and licensed 3D seismic data"
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "committed",
+   "detail": "The New Mexico Tech/DOE monitoring network scope includes periodic atmospheric sampling over 10-15 square miles around the injection wells; instruments and frequency not stated.",
+   "location": "10-15 square miles around the injection wells",
+   "frequency": "periodic_unspecified",
+   "baseline": "unclear",
+   "trigger_or_response": "",
+   "pages": [
+    52,
+    53
+   ],
+   "evidence_quote": "These activities include periodic well (groundwater and gas) and atmospheric sampling from an area of 10 \u2013 15 square miles around the injection wells."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Subpart W (Table W-1A factors) for equipment between injection meter and wellhead; major leaks quantified from duration, pressure, temperature, composition and leak size; pipeline leak procedure under NMAC 19.15.28 to be adapted.",
+   "location": "Surface equipment and pipelines",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Leak identified: isolate location, then quantify.",
+   "pages": [
+    52,
+    58,
+    59,
+    60
+   ],
+   "evidence_quote": "quantification of emissions of CO2 from surface equipment will be assessed by employing the methods detailed in Subpart W"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Inline inspections listed as a surface-equipment detection method in Table 6-1; no further detail.",
+   "location": "Surface equipment",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    47
+   ],
+   "evidence_quote": "Inline inspections"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Plume model calibrated to RH AGI #1 injection history; to be reevaluated periodically as the state requires, and reassessed if monitoring shows the plume beyond the modeled area.",
+   "location": "Injection zone model",
+   "frequency": "periodic_unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Plume beyond modeled area: reassess modeling and submit revised MRV plan.",
+   "pages": [
+    33,
+    51
+   ],
+   "evidence_quote": "will be reevaluated periodically as required by the State permitting agency"
+  },
+  {
+   "method": "other",
+   "commitment": "conditional",
+   "detail": "More frequent monitoring and NMOCD H2S precautions when any new well is drilled through the injection zones within the MMA, by TND or other operators.",
+   "location": "New wells penetrating the injection zones",
+   "frequency": "event_driven",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    42,
+    48
+   ],
+   "evidence_quote": "including more frequent monitoring during drilling operations"
+  }
+ ],
+ "notes": "PDF page 1 is a cover notice only; figure pages (detector map p28, monitoring network map p56) and appendix records (p87-92) are image-only. Groundwater, soil flux and atmospheric work are run by New Mexico Tech under a DOE grant, with TND to take over. DTS coded as cased_hole_logging though it is permanent fiber. MIT interval not stated. No production at site (p58), so production_monitoring is not_found. Monitoring covers injection plus a 5-year post-injection period (p47). Atmospheric sampling is coded committed (periodic, unspecified) to match Wildcat, whose plan uses the same language (p52-53), although no instruments, locations or frequency are given and the Figure 7-1 network map shows none."
+}

@@ -1,0 +1,298 @@
+{
+ "site_slug": "west-seminole-san-andres-unit",
+ "plan_title": "Oxy West Seminole San Andres Unit Subpart RR Monitoring, Reporting and Verification (MRV) Plan",
+ "plan_version_or_date": "December 11, 2020",
+ "injection_purpose": "eor",
+ "uic_class_per_plan": "II",
+ "ama_definition": "The West Seminole San Andres Unit boundary plus a half-mile buffer; the reservoir model forecast shows CO2 staying inside the unit (p15-16).",
+ "mma_definition": "Same as the AMA: the unit boundary plus a half-mile buffer (p16).",
+ "leakage_pathways_rated_significant": "Wellbores and surface equipment are treated as the only meaningful pathways; faults (a Devonian fault about a mile below the zone), seismicity, previous operations, lateral migration, drilling and diffuse seal leakage are rated low or no risk (p8, p17-21).",
+ "baseline_summary": "No pre-injection environmental baseline. Existing automated operational data (injection set points, production forecasts, inspection work orders, H2S alarms) are used to flag excursions from expected performance (p28-29).",
+ "reporting_summary": "Annual Subpart RR report filed by March 31 with other GHG reports, with the mass balance and leakage estimates; equipment leaks reported under Subpart W; records kept at least three years; the discontinuation request is to include two to three or more years of post-injection data. No commitment to publish data or report to the state UIC program (p27-28, p34, p37).",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "Custody transfer meter on CO2 received from the Permian Basin pipeline and an operations meter at the recompression facility outlet; composition sampled at least quarterly.",
+   "location": "Custody transfer point and recompression facility outlet",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    10,
+    23,
+    30,
+    35
+   ],
+   "evidence_quote": "This meter measures flow rate continually."
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "Injection pressure monitored continually against pattern plans programmed into remotely operated WAG satellites; automatic flags on deviations and automatic shutoff on overpressure; SCADA monitors wellhead pressure.",
+   "location": "Each injection well and WAG satellite",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Pressure or rate outside set points: automatic flag, field investigation, work order; WAG skids shut off if pressure exceeds programmed levels.",
+   "pages": [
+    18,
+    19,
+    22,
+    24,
+    28
+   ],
+   "evidence_quote": "Pressure in injection wells is monitored on a continual basis."
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "committed",
+   "detail": "Annular pressure in wellheads monitored to detect tubing and casing leaks.",
+   "location": "Wellheads",
+   "frequency": "unspecified",
+   "baseline": "no",
+   "trigger_or_response": "Anomaly: inspect and repair; if extensive, well shut in, work order, leak quantified.",
+   "pages": [
+    22,
+    25
+   ],
+   "evidence_quote": "monitoring of the annular pressure in wellheads"
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "MITs on injectors listed in the response plan as the check for tubing and casing leaks; no testing interval or rule citation given.",
+   "location": "Injection wells",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Tubing or casing leak: wellbore shut in, workover crews respond within days.",
+   "pages": [
+    22
+   ],
+   "evidence_quote": "Monitor changes in tubing and annulus pressure; MIT for injectors"
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "committed",
+   "detail": "Each producer tested about once every two months through satellite test stations (8-12 hours); produced gas sampled at least quarterly for CO2; results compared with forecast.",
+   "location": "Each production well; satellite test stations; recompression facility inlet",
+   "frequency": "bimonthly",
+   "baseline": "no",
+   "trigger_or_response": "Significant deviation from forecast: well management personnel investigate; work order if unresolved.",
+   "pages": [
+    18,
+    24,
+    29,
+    35
+   ],
+   "evidence_quote": "each well being tested approximately once every two months"
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "committed",
+   "detail": "Reservoir pressure is collected for modeling and operations and routinely updated, with FPP from step-rate tests; read at WAG headers and in new wells. Listed observation wells are not tied to monitoring.",
+   "location": "Injection zone, via WAG headers and new wells",
+   "frequency": "periodic_unspecified",
+   "baseline": "no",
+   "trigger_or_response": "Unexplained pressure changes: investigate; reseal abandoned wells, manage lease-line fluids, or shut in injectors.",
+   "pages": [
+    12,
+    13,
+    16,
+    18,
+    22,
+    25
+   ],
+   "evidence_quote": "Measurements to determine FPP and reservoir pressure are routinely updated."
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Routine field inspections of wells and surface facilities for white CO2 clouds, ice and fluid leaks; also used to spot unapproved drilling.",
+   "location": "Field-wide wells and surface facilities",
+   "frequency": "periodic_unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Problem found: investigate, work order tracked to completion, leak quantified.",
+   "pages": [
+    18,
+    20,
+    21,
+    22,
+    25,
+    26,
+    28
+   ],
+   "evidence_quote": "Field inspections are conducted on a routine basis by field personnel."
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "committed",
+   "detail": "All field personnel wear H2S monitors (alarm at 10 ppm); injected gas is about 1% H2S, so H2S serves as a proxy for CO2 leaks.",
+   "location": "Worn by field personnel",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Alarm: protect personnel, investigate source, quantify CO2 leak for the annual report.",
+   "pages": [
+    18,
+    25,
+    26,
+    28
+   ],
+   "evidence_quote": "the H2S monitors, which are worn by all field personnel at all times, is used as a last method to detect leakage from wellbores."
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "mentioned_only",
+   "detail": "Existing open- and cased-hole logs from 232 wells used to build the geomodel; no logging is run as monitoring.",
+   "location": "",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    13
+   ],
+   "evidence_quote": "These wells have digital open- or cased-hole logs that were used for correlation of formation tops."
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "committed",
+   "detail": "Oxy participates in the public TexNet network and says it will keep monitoring for seismic signals; a one-time USGS review (M3.0+) found none in the field, nearest about 35 miles away. No site array.",
+   "location": "TexNet (public network)",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Seismic event: shut in nearby injectors (response plan).",
+   "pages": [
+    19,
+    22
+   ],
+   "evidence_quote": "will continue to monitor for seismic signals that could indicate the creation of potential leakage pathways in WSSAU"
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "mentioned_only",
+   "detail": "Past review of geologic and seismic evidence cited as showing no faults or fractures crossing the reservoir; no repeat seismic.",
+   "location": "",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    8,
+    18
+   ],
+   "evidence_quote": "After reviewing geologic, seismic, operating, and other evidence, it has been concluded that there are no known faults or fractures"
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Subpart W emission factors and engineering estimates used to quantify surface equipment leaks and vents, reconciled with event-driven estimates to avoid double counting.",
+   "location": "Surface equipment",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    20,
+    21,
+    24,
+    26,
+    32
+   ],
+   "evidence_quote": "Oxy uses 40 CFR Part 98 Subpart W to estimate surface leaks from equipment at the WSSAU."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Pipeline leak detection: personnel monitor the field pipeline system continuously through SCADA.",
+   "location": "Facility pipelines",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Leak detected: mitigate and quantify under Subpart W.",
+   "pages": [
+    20
+   ],
+   "evidence_quote": "Personnel continuously monitor the pipeline system using the SCADA system and are able to detect and mitigate pipeline leaks expeditiously."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "History-matched Eclipse reservoir model used to track injected CO2 and, through ongoing pattern modeling, to set injector targets; predictive modeling plus monitoring data to support the discontinuation request.",
+   "location": "Field-wide",
+   "frequency": "periodic_unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    13,
+    15,
+    16,
+    24,
+    28
+   ],
+   "evidence_quote": "Track injected CO2, identify how and where CO2 is trapped in the WSSAU, and to monitor sequestration volumes and distribution."
+  }
+ ],
+ "notes": "Same Oxy template as the Seminole San Andres Unit and South Plains plans. Producers are tested about every two months; the vocabulary has no bimonthly value, so frequency is periodic_unspecified. Two observation wells appear in the well count (p12) but the plan never says they are used for monitoring, so they are not coded as above-zone or reservoir-pressure monitoring. Existing cased-hole logs are mentioned only as geomodel inputs (coded mentioned_only). Table numbering is inconsistent (the well count is captioned Table 1 but cited as Table 2; the response plan is Table 2 but cited as Table 3). Figures are images."
+}

@@ -1,0 +1,317 @@
+{
+ "site_slug": "targa-permian-co2-sequestration-well",
+ "plan_title": "Monitoring, Reporting and Verification (MRV) Plan Pursuant to [40 CFR 98.448(a)(1) Sub-Part RR], Driver AGI #1, Midland County, Texas",
+ "plan_version_or_date": "",
+ "injection_purpose": "acid_gas_disposal",
+ "uic_class_per_plan": "II",
+ "ama_definition": "Set equal to the MMA; the end-of-injection (2055) plume plus buffer and the t+5 plume both fall inside it (p24).",
+ "mma_definition": "The modeled plume after 30 years of injection and 50 years post-injection (about 1.01 miles from the well), plus a half-mile buffer (p23, 73).",
+ "leakage_pathways_rated_significant": "None rated more than low. Artificial penetrations are called the most likely risk (one plugged well reaching the Ellenburger and one reaching the Simpson seal get extra monitoring), and surface equipment leaks are called possible; faults, seal and seismicity are rated extremely low using NRAP (p24-31).",
+ "baseline_summary": "Twelve months of monthly groundwater and soil CO2 flux sampling before routine monitoring; base-level H2S/CO2 from fixed and handheld monitors at the site and near deep penetrations; operational parameter baselines set after injection stabilizes; seismic baseline from an on-site station and public catalogs (p39-42).",
+ "reporting_summary": "Annual Subpart RR reporting with records retained per 98.3(g). On-site seismic station data go to the public TexNet catalog, with a seismologist's report on events within 10 miles; a groundwater chemistry report will be prepared. No other commitment to publish data (p41, 44, 47-48).",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "Volumetric orifice flow meters (AGA Report #3) with totalizers and gas analyzers on the inlet pipeline (received) and the line to the well (injected); daily totals recorded.",
+   "location": "Inlet pipeline and injection line to Driver AGI #1",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    43,
+    45,
+    46,
+    74
+   ],
+   "evidence_quote": "Daily CO2 injection is recorded by totalizers on the volumetric flow meters on the pipelines to the Driver AGI #1 well"
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "Control system continuously monitors injection rate and surface injection pressure and temperature with alarm and shutdown thresholds; data reviewed by technicians.",
+   "location": "Driver AGI #1 and facility",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Threshold exceeded: flagged and investigated; downhole anomalies scrutinized for fault or seal leakage; shut in well if needed.",
+   "pages": [
+    20,
+    26,
+    33,
+    36,
+    40
+   ],
+   "evidence_quote": "These injection parameters are continuously monitored and retained via the facility control system."
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "committed",
+   "detail": "Surface annular pressure sensors and a downhole annular pressure and temperature gauge (Halliburton ROC) monitor the tubing-casing annulus.",
+   "location": "Driver AGI #1 annulus (surface and downhole)",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Pressure change indicates a leak; leak quantified from operating conditions.",
+   "pages": [
+    20,
+    34,
+    40
+   ],
+   "evidence_quote": "surface annular pressure sensors to continuously monitor the health and integrity of the well and subsurface injection interval"
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "Routine MITs under RRC Class II rules; no interval stated.",
+   "location": "Driver AGI #1",
+   "frequency": "periodic_unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Failed MIT: shut in, quantify leak from operating conditions.",
+   "pages": [
+    32,
+    34,
+    38,
+    40
+   ],
+   "evidence_quote": "Routine Mechanical Integrity Testing (MIT)"
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "committed",
+   "detail": "Downhole gauge records bottom-hole pressure and temperature continuously; data transmitted for daily analysis.",
+   "location": "Driver AGI #1 (downhole)",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Anomalous downhole conditions investigated as possible fault, fracture or seal leakage.",
+   "pages": [
+    20,
+    34,
+    36,
+    40
+   ],
+   "evidence_quote": "The down-hole gauge is designated to monitor the bottom- hole pressure and temperature"
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Daily and weekly inspection protocols for surface equipment and facility grounds by staff wearing H2S monitors; inline inspections of facility equipment.",
+   "location": "Facility, surface equipment and well",
+   "frequency": "daily",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Leak found: report and respond, isolate, quantify.",
+   "pages": [
+    32,
+    33,
+    39,
+    40
+   ],
+   "evidence_quote": "Leaks from surface equipment would be detected by Targa field personnel wearing personal H2S monitors following daily and weekly inspection protocols"
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "committed",
+   "detail": "All on-site personnel carry personal or handheld H2S monitors (alarm at or below 10 ppm); H2S is the proxy for CO2.",
+   "location": "Worn by all site personnel",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "10 ppm or more: reported to control room, source investigated.",
+   "pages": [
+    33,
+    35,
+    39,
+    40
+   ],
+   "evidence_quote": "All personnel on site are required to be equipped with personal or handheld H2S monitors"
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "committed",
+   "detail": "Numerous fixed H2S monitors across the facility, tied to PLCs and the control system. Quarterly H2S checks at the two plugged deep wells in the MMA.",
+   "location": "Facility; two plugged deep wells in the MMA (quarterly)",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "10 ppm: beacons and horns, investigation; 90 ppm: plant evacuation; emergency shutdown possible.",
+   "pages": [
+    25,
+    33,
+    35,
+    39,
+    74
+   ],
+   "evidence_quote": "The facility utilizes numerous fixed-point monitors, strategically located throughout the station, to detect the presence of H2S in ambient air."
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "committed",
+   "detail": "Soil CO2 flux measured with a LI-COR LI-8100A chamber on fixed collars: monthly for 12 months as baseline, then bi-monthly for one year, then quarterly.",
+   "location": "Pre-planned locations at the site and throughout the MMA",
+   "frequency": "quarterly",
+   "baseline": "yes",
+   "trigger_or_response": "Flux data used to assess and quantify subsurface leaks reaching the surface.",
+   "pages": [
+    32,
+    35,
+    36,
+    38,
+    42
+   ],
+   "evidence_quote": "CO2 soil flux will be collected on a monthly basis for 12 months to establish the baseline"
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "committed",
+   "detail": "Existing water supply wells near the AGI well and deep penetrations sampled monthly for 12 months, then bi-monthly for a year, then quarterly; analytes include TDS, pH, alkalinity, ions, ORP, IC, NPOC.",
+   "location": "Select existing water wells near the AGI well and deep penetrations (number not stated)",
+   "frequency": "quarterly",
+   "baseline": "yes",
+   "trigger_or_response": "Results outside expected variation: investigate whether leakage from the injection zone occurred.",
+   "pages": [
+    32,
+    35,
+    41,
+    42
+   ],
+   "evidence_quote": "Groundwater samples will be collected and analyzed on a monthly basis for 12 months to establish baseline data."
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "committed",
+   "detail": "Distributed temperature sensing (DTS) fiber clamped to the tubing records continuous annulus temperature profiles to spot leaks.",
+   "location": "Driver AGI #1",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Temperature variation flagged as a possible leak.",
+   "pages": [
+    34
+   ],
+   "evidence_quote": "DTS is clamped to the tubing, and it monitors the temperature profiles of the annulus."
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "committed",
+   "detail": "Plans an on-site seismic station feeding the public TexNet catalog, as required by the UIC permit, plus review of public networks; seismologist reports on events within 10 miles.",
+   "location": "On-site station; public networks within 10 miles",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Qualifying events handled under the RRC-approved Earthquake Response Plan; well integrity checked.",
+   "pages": [
+    33,
+    37,
+    40,
+    41
+   ],
+   "evidence_quote": "the on-site seismic monitoring stations will contribute recorded data to the TexNet public seismic event catalog"
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "mentioned_only",
+   "detail": "Existing 3D seismic survey used for fault review and model building; no repeat seismic.",
+   "location": "",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    17,
+    18,
+    20,
+    21,
+    37
+   ],
+   "evidence_quote": "a detailed review of a 3D seismic survey was completed, which indicates that there are no resolvable tectonic faults within the areal extent"
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "committed",
+   "detail": "Monitoring network includes periodic atmospheric CO2 and H2S sampling around the injection well and near other wells in the MMA, starting before injection.",
+   "location": "Around the injection well and near other wells in the MMA",
+   "frequency": "periodic_unspecified",
+   "baseline": "yes",
+   "trigger_or_response": "Detected leaks traced to surface equipment or subsurface, then quantified.",
+   "pages": [
+    38,
+    40
+   ],
+   "evidence_quote": "These activities include periodic well (groundwater and gas) and atmospheric sampling around the injection wells."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Equipment leaks and vents between meter and wellhead estimated with Subpart W Table W-1A emission factors; major leaks quantified from operating conditions or leak models.",
+   "location": "Surface equipment between flow meter and wellhead",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    37,
+    44,
+    45,
+    46
+   ],
+   "evidence_quote": "According to 98.233(r)(2) of Subpart W, the emissions factor listed in Table W-1A of Subpart W shall be used."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Reservoir model and injection simulation periodically updated with history matching of operating data to confirm plume and pressure behavior.",
+   "location": "Injection reservoir",
+   "frequency": "periodic_unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Plume beyond the MMA: reassess plume model, submit revised MRV plan.",
+   "pages": [
+    32,
+    33,
+    36,
+    37
+   ],
+   "evidence_quote": "reservoir characterization modeling and simulation will be periodically updated, including history matching of operating data"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Periodic queries of the RRC well database for new wells in the MMA; extra monitoring of fluid returns and gas around any new well drilled through the injection zone.",
+   "location": "MMA",
+   "frequency": "periodic_unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "New well through injection zone: more frequent monitoring during drilling.",
+   "pages": [
+    26,
+    32,
+    34
+   ],
+   "evidence_quote": "Periodic well queries of the public RRC well database will be conducted to identify any wells within the MMA"
+  }
+ ],
+ "notes": "No date or version is printed on the cover (UIC permit issued June 10, 2024). H2S (about 10% of the stream) is the proxy for CO2 in all gas detection. The monitoring network is 'anticipated' to start no less than three months before injection, which conflicts with the stated 12 months of monthly baseline sampling. 'Bi-monthly' is ambiguous. No MIT interval is given. The seismic section says data will be analyzed by the 'New Mexico Bureau of Geology seismologist', which looks carried over from another plan. Cross-references to Sections 6.8.1 and 6.8.3 point to sections that do not exist. Water-well counts in the MMA differ (111, 112, 113). The plugging-record pages (about p128-135) are scanned images with garbled or no text. 'Communication with local active operators' (Table 4) is not coded."
+}

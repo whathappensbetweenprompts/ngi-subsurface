@@ -1,0 +1,291 @@
+{
+ "site_slug": "kinder-morgan-ccs-complex",
+ "plan_title": "Subpart RR Monitoring, Reporting, and Verification (MRV) Plan, Kinder Morgan Permian CCS LLC",
+ "plan_version_or_date": "Version 4.0, June 2023",
+ "injection_purpose": "acid_gas_disposal",
+ "uic_class_per_plan": "II",
+ "ama_definition": "Same as the MMA: a 9,500 ft radius around the KSU 2361 well, built from the plume at stabilization (30 years after injection ends) and at t+5 plus a half-mile buffer (p57-58).",
+ "mma_definition": "A circle of 9,500 ft radius around KSU 2361: the modeled stabilized plume radius of 6,850 ft plus a half-mile buffer (p57-58).",
+ "leakage_pathways_rated_significant": "None. Surface equipment, the single injection wellbore (the only well reaching the injection interval in the MMA), faults, the confining layer and seismicity are all rated unlikely; surface equipment and the injection well get the most monitoring (p59-67).",
+ "baseline_summary": "Pre-injection baselines: 12 months of ambient CO2 to set fixed-monitor alarm levels, atmospheric and topsoil CO2 at the well site and within the MMA, and groundwater samples from new monitoring wells; injection volumes and pressures baselined at startup (p59, 69-70, 74-75).",
+ "reporting_summary": "Annual Subpart RR report filed by March 31 with the mass balance; records kept at least three years; plan revised within 180 days of material changes. No commitment to publish or share monitoring data and no stated reporting of results to the TRRC (p79, 81-82).",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "Volumetric flow meter on injected CO2, compiled quarterly; composition from a continuous analyzer or representative sampling upstream of the meter, averaged quarterly. A custody transfer meter feeds the pipeline to the wellhead.",
+   "location": "Custody transfer meter and injection line to KSU 2361",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    59,
+    76,
+    80
+   ],
+   "evidence_quote": ""
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "SCADA continuously records injection volumes, pressures and temperatures, with a wellhead pressure and temperature gauge; wellhead emergency shutdown valve trips on high or low pressure.",
+   "location": "KSU 2361 wellhead and surface equipment",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Data outside acceptable limits or deviation from normal: alert, field review, response and reporting procedures; shut in the well if needed.",
+   "pages": [
+    59,
+    69,
+    72,
+    74
+   ],
+   "evidence_quote": ""
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "committed",
+   "detail": "Pressure gauge on the casing annulus at the KSU 2361 wellhead; a pressure change indicates a possible leak.",
+   "location": "KSU 2361 casing annulus",
+   "frequency": "unspecified",
+   "baseline": "no",
+   "trigger_or_response": "Annulus pressure change treated as a possible leak.",
+   "pages": [
+    69
+   ],
+   "evidence_quote": ""
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "MITs under Statewide Rule 3.46 every five years to verify the well and wellhead hold operating pressure.",
+   "location": "KSU 2361",
+   "frequency": "multi_year",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Failed MIT: well isolated and leak mitigated.",
+   "pages": [
+    61,
+    68,
+    69
+   ],
+   "evidence_quote": ""
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Daily field inspections of the facility and well for vapor clouds, ice and leak indicators, plus periodic inspection of surface equipment for the corrosion control program.",
+   "location": "Facility and KSU 2361 well site",
+   "frequency": "daily",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Vapor clouds or ice found: corrective action.",
+   "pages": [
+    68,
+    69,
+    74
+   ],
+   "evidence_quote": ""
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "committed",
+   "detail": "Fixed CO2 monitors around the facility and at the well, run continuously; alarm set points come from a 12-month pre-injection ambient baseline and a gas dispersion model. New meters will also get CO2 monitors.",
+   "location": "Facility and KSU 2361 well site",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Concentration significantly above baseline: alarm; release quantified from operating conditions.",
+   "pages": [
+    59,
+    68,
+    69,
+    74,
+    80
+   ],
+   "evidence_quote": ""
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "committed",
+   "detail": "Shallow topsoil CO2 measured quarterly by in-field gas sensors across the MMA, with pre-injection baseline values at pre-determined locations. Section 5.3 calls the system 'proposed'.",
+   "location": "Pre-determined locations across the MMA",
+   "frequency": "quarterly",
+   "baseline": "yes",
+   "trigger_or_response": "Elevated readings alert field personnel; any leak quantified per Section 7.",
+   "pages": [
+    68,
+    72,
+    74
+   ],
+   "evidence_quote": ""
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "committed",
+   "detail": "At least two new monitoring wells about 100 ft deep within 1,500 ft of KSU 2361, sampled annually by a third-party lab for pH, TDS, inorganic and organic carbon, density and temperature.",
+   "location": "At least 2 new shallow monitoring wells within 1,500 ft of KSU 2361 (final number set by third-party study)",
+   "frequency": "annual",
+   "baseline": "yes",
+   "trigger_or_response": "Significant change from baseline: evaluate for CO2 leakage to the USDW.",
+   "pages": [
+    68,
+    70,
+    71,
+    75
+   ],
+   "evidence_quote": ""
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "committed",
+   "detail": "Relies on the nearest TexNet public station, 7.29 miles southwest; no operator-owned seismometers. One-time review of USGS ANSS and TexNet catalogs for siting.",
+   "location": "TexNet station 7.29 miles from the well",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "M3.0 or greater nearby: review injection volumes and pressures for signs of leakage.",
+   "pages": [
+    66,
+    67,
+    68,
+    72,
+    73
+   ],
+   "evidence_quote": ""
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "mentioned_only",
+   "detail": "Existing 3D seismic used to map structure and the fault 12,000 ft east; no repeat seismic.",
+   "location": "",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    33,
+    66
+   ],
+   "evidence_quote": ""
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "committed",
+   "detail": "Qualified third party measures atmospheric CO2 at the AGI well site and, at least quarterly, near any wells that penetrate the injection interval; none have been identified. Pre-injection atmospheric baseline.",
+   "location": "AGI well site; near penetrating wells in the MMA (none identified)",
+   "frequency": "quarterly",
+   "baseline": "yes",
+   "trigger_or_response": "Leak detected: quantified per Section 7.",
+   "pages": [
+    68,
+    69,
+    70,
+    74
+   ],
+   "evidence_quote": ""
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Subpart W calculation methods for equipment leaks and vents between the meter and wellhead; any detected leak quantified case by case from operating conditions and engineering analysis.",
+   "location": "Surface equipment between flow meter and wellhead",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    77,
+    78,
+    80
+   ],
+   "evidence_quote": ""
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Corrosion control program checked by periodic inspection of surface equipment and the cathodic protection system.",
+   "location": "Surface equipment",
+   "frequency": "periodic_unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    69
+   ],
+   "evidence_quote": ""
+  },
+  {
+   "method": "other",
+   "commitment": "conditional",
+   "detail": "CO2 monitoring during offset drilling operations, listed in Table 10 for future wells; no detail given.",
+   "location": "Offset drilling sites",
+   "frequency": "event_driven",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Offset drilling near the injection interval triggers monitoring.",
+   "pages": [
+    68
+   ],
+   "evidence_quote": ""
+  }
+ ],
+ "notes": "Every page carries an 'EXEMPT - FOIA ... CRITICAL ENERGY INFRASTRUCTURE INFORMATION - DO NOT RELEASE' stamp, though the plan was obtained as a public filing. Appendices A-D (including Appendix C on safety systems) have no text in the file (p85). Table 10's text extraction scrambles which method goes with which pathway; rows were coded from the section text. Soil gas is called 'proposed' in Section 5.3, but Section 6.2 firmly commits to baseline topsoil measurements, so it is coded committed. Quarterly atmospheric monitoring is tied to penetrating wells and none exist, so in practice it covers the AGI well site. The AMA is given as 3,384 acres, which is the plume area, not the 9,500 ft circle. Monitoring runs for injection plus a 'proposed' 5-year post-injection period, though the plume is modeled to stabilize 30 years after injection. No bottom-hole or reservoir pressure monitoring is described. Coded acid_gas_disposal because the plan frames the well as a treated acid gas (AGI) well, although the expected stream is 99.2% CO2 with no H2S. Every page of the posted plan carries a \"Critical Energy Infrastructure Information - DO NOT RELEASE\" stamp. EPA posts the plan publicly, but out of caution this dataset cites pages for this site and does not quote it."
+}

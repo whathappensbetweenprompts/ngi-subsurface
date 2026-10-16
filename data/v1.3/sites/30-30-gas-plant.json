@@ -1,0 +1,293 @@
+{
+ "site_slug": "30-30-gas-plant",
+ "plan_title": "Subpart RR Monitoring, Reporting, and Verification (MRV) Plan Rattlesnake AGI #1 Yoakum County, Texas",
+ "plan_version_or_date": "Version 3, September 2022",
+ "injection_purpose": "acid_gas_disposal",
+ "uic_class_per_plan": "II",
+ "ama_definition": "A half-mile buffer around the modeled plume at end of injection (2036), which also contains the 2041 plume, covering a 14-year monitoring period; a revised plan is due by 2036 (p42).",
+ "mma_definition": "The stabilized plume after modeled density drift (about 2,177 acres) plus a buffer of at least half a mile (p41-42).",
+ "leakage_pathways_rated_significant": "None are rated likely. Surface equipment and the AGI well (plus ten deep penetrations in the MMA) get most of the monitoring; faults, the confining layer and seismicity are rated unlikely or very low risk (p44-53).",
+ "baseline_summary": "Operational baseline of injection volumes and pressures taken from SCADA, plus one pre-expansion groundwater sample from the operator's on-site water well analyzed by a third-party lab (p59-60).",
+ "reporting_summary": "Annual Subpart RR report filed by March 31 of the following year; records kept at least three years. No commitment to publish measurement data. The appended TRRC permit requires monthly monitoring of injection pressure and volume reported annually on Form H-10 (p64, p67, p77).",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "Volumetric flow meter on the injected stream, flows compiled quarterly; composition from a continuous analyzer or representative sampling upstream of the meter, averaged quarterly. Any future stream gets its own meter.",
+   "location": "AGI injection line upstream of the wellhead; separate meter for any future stream",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    44,
+    61,
+    65
+   ],
+   "evidence_quote": "Flow meters will be continuously operated except for maintenance and calibration."
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "SCADA and the plant control system continuously record injection volume, pressure, temperature and composition at the AGI well; wellhead shut-in valve on high/low pressure; data reviewed by qualified staff.",
+   "location": "Rattlesnake AGI #1 wellhead and plant surface equipment",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Data outside limits or deviation suggesting fault/seal pathway: alert, review by personnel, shut in well if needed; M3.0+ seismic event triggers review of volumes and pressures.",
+   "pages": [
+    44,
+    56,
+    57,
+    58,
+    59
+   ],
+   "evidence_quote": "Stakeholder continuously monitors and collects injection volumes, pressures, temperatures and gas composition data, through their SCADA systems"
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "committed",
+   "detail": "Pressure gauge on the casing annulus of the AGI well; a change in annulus pressure is treated as a sign of a possible leak.",
+   "location": "Rattlesnake AGI #1 casing annulus",
+   "frequency": "unspecified",
+   "baseline": "no",
+   "trigger_or_response": "Change in annulus pressure indicates possible leak; reviewed under response procedures.",
+   "pages": [
+    57
+   ],
+   "evidence_quote": "a pressure gauge on the casing annulus. A change of pressure on the annulus would indicate the presence of a possible leak."
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "Annual MITs under TRRC rules to confirm the AGI well and wellhead hold pressure.",
+   "location": "Rattlesnake AGI #1",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Failed MIT: well isolated immediately and leak mitigated.",
+   "pages": [
+    46,
+    56,
+    57
+   ],
+   "evidence_quote": "Mechanical integrity tests (\u201cMITs\u201d) performed annually would also indicate the presence of a leak."
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Daily field inspections of the plant and AGI well, looking at gauges, monitors and leak signs such as vapor plumes and ice.",
+   "location": "30-30 Facility and Rattlesnake AGI #1 well site",
+   "frequency": "daily",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Vapor clouds or ice found: corrective action taken.",
+   "pages": [
+    56,
+    57,
+    59
+   ],
+   "evidence_quote": "field personnel conduct daily visual field inspections of gauges, monitors and leak indicators such as vapor plumes."
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "committed",
+   "detail": "All field personnel wear H2S monitors alarming at 5 ppm; H2S serves as the proxy for CO2 leaks.",
+   "location": "Worn by field personnel",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Alarm: protect personnel, check monitors, secure facility and mitigate leak; CO2 release quantified from operating conditions.",
+   "pages": [
+    44,
+    46,
+    56,
+    57,
+    59
+   ],
+   "evidence_quote": "all Stakeholder field personnel are required to wear H2S monitors, which trigger the alarm at 5 ppm H2S."
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "committed",
+   "detail": "Fixed H2S detectors (10 ppm alarm) around plant and well; fixed H2S and CO2 monitors at the well site; mobile CO2/H2S readings near penetrating wells in the AMA at least quarterly.",
+   "location": "Plant, AGI well site, any new meter; penetrating well sites within the AMA",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Alarm: protect personnel, verify monitor, secure facility and mitigate leak.",
+   "pages": [
+    44,
+    46,
+    56,
+    57,
+    58,
+    59,
+    96
+   ],
+   "evidence_quote": "At the well site, H2S and CO2 concentrations will be monitored continuously with fixed monitors"
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "committed",
+   "detail": "The operator's on-site water well (119 ft) sampled yearly and analyzed by a third-party lab for pH, TDS, inorganic and organic carbon, density, temperature and standard parameters.",
+   "location": "One groundwater well on the 30-30 facility property (State Well ID 482963)",
+   "frequency": "annual",
+   "baseline": "yes",
+   "trigger_or_response": "Significant change from baseline: investigate whether CO2 leaked to the USDW.",
+   "pages": [
+    50,
+    56,
+    58,
+    60
+   ],
+   "evidence_quote": "sampling the well on the facility property and analyzing the sample with a third\u2010party laboratory on an annual basis"
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "committed",
+   "detail": "Operator will install its own seismic station near the well, tied into TexNet, in service about six months after installation starts; plan also cites one-time USGS and TexNet catalog review.",
+   "location": "General area of the Rattlesnake AGI #1 well",
+   "frequency": "unspecified",
+   "baseline": "no",
+   "trigger_or_response": "Event of M3.0 or greater: review injection volumes and pressures for signs of leakage.",
+   "pages": [
+    53,
+    56,
+    58
+   ],
+   "evidence_quote": "Stakeholder plans to install a seismic monitoring station in the general area of the Rattlesnake AGI #1 well."
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "mentioned_only",
+   "detail": "Existing 3D seismic (about 9 square miles) used to map faults; no repeat seismic.",
+   "location": "",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    52
+   ],
+   "evidence_quote": "Faults were interpreted from roughly 9 square miles of 3D seismic"
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "committed",
+   "detail": "Atmospheric CO2 and H2S measured with mobile gas monitors at penetrating well sites within the AMA, recorded at least quarterly; also measured at the AGI well site.",
+   "location": "AGI well site and identified penetrations within the AMA",
+   "frequency": "quarterly",
+   "baseline": "no",
+   "trigger_or_response": "",
+   "pages": [
+    57,
+    58
+   ],
+   "evidence_quote": "At penetrating well sites, Stakeholder will similarly measure atmospheric concentrations of CO2 and H2S using mobile gas monitors."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Corrosion control program checked by periodic inspection of the system, analysis of liquids collected from the line, and inspection of cathodic protection.",
+   "location": "AGI line and surface equipment",
+   "frequency": "periodic_unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    57
+   ],
+   "evidence_quote": "The effectiveness of the internal and external corrosion control program is monitored through the periodic inspection of the system"
+  },
+  {
+   "method": "other",
+   "commitment": "conditional",
+   "detail": "H2S monitoring during drilling of offset wells, listed as the method for leakage from future wells.",
+   "location": "Offset drilling operations",
+   "frequency": "event_driven",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    56
+   ],
+   "evidence_quote": "H2S Monitoring during offset drilling operations"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Subpart W methods for equipment leaks between meter and wellhead; any detected release calculated from pressure, flow rate, opening size and duration; blowdowns go to flare.",
+   "location": "Surface equipment between flow meter and wellhead",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    57,
+    59,
+    60,
+    62,
+    63
+   ],
+   "evidence_quote": "Calculation methods from subpart W will be used to calculate CO2 emissions from equipment located on the surface"
+  }
+ ],
+ "notes": "Plan is titled for the Rattlesnake AGI #1 well serving the 30-30 plant. The quarterly mobile CO2/H2S readings near penetrating wells, which the plan calls 'atmospheric monitoring', are coded under fixed_gas_detectors per the guide's scheduled-handheld-survey rule, not atmospheric_co2. Plan says MITs are annual; the appended TRRC permit only requires an annulus pressure test before injection and after workovers (p77). Seismic station frequency not stated. Monitoring runs for the 17-year injection period plus a proposed 5-year post-injection period (p56). Not EOR; no CO2 produced (p62)."
+}

@@ -1,0 +1,405 @@
+{
+ "site_slug": "brown-pelican-co2-sequestration-project",
+ "plan_title": "Brown Pelican CO2 Sequestration Project Monitoring, Reporting, and Verification (MRV) Plan",
+ "plan_version_or_date": "Plan revision 2; 14 July 2025",
+ "injection_purpose": "class_vi_storage",
+ "uic_class_per_plan": "VI",
+ "ama_definition": "The modeled Area of Review (maximum pressure front at 12 years of injection combined with the CO2 plume 50 years after injection stops, about 5.4 square miles) plus a half-mile buffer (p16, p19).",
+ "mma_definition": "Same as the AMA: the Area of Review plus a half-mile buffer (p19).",
+ "leakage_pathways_rated_significant": "None. All eight pathways (legacy wells, project wells, faults, seismicity, surface equipment, confining zone, lateral migration, third-party drilling) are rated low likelihood and low magnitude given the mitigations; the three legacy wells in the AoR were re-plugged in February 2025 (p21-29).",
+ "baseline_summary": "Roughly one year of pre-injection baseline: quarterly fluid and dissolved gas sampling in the Injection Zone and one USDW well, quarterly soil gas at 20 stations, injectate composition, pressure and temperature in 10 wells, site seismometers, quarterly DInSAR/GPS, and pre-injection VSP and 2D seismic on top of a 2022 3D survey (p20, p31, p43-44).",
+ "reporting_summary": "Annual Subpart RR report with the mass balance; any confirmed leakage quantified case by case with a statistical error estimate; records kept at least three years. Monitoring is tied to the UIC Class VI permit's testing and monitoring plan and QASP. No commitment to publish measurement data (p35, p44-45, p49-50).",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "Coriolis meter with gas analyzers at a single point (M1) measures CO2 received and injected; online analyzers and gas chromatography monitor injectate chemistry, confirmed by quarterly lab analysis.",
+   "location": "Pipeline near the custody transfer meter (M1) and upstream of the injector wellheads",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Event-driven extra composition and isotopic sampling if the direct air capture process changes materially.",
+   "pages": [
+    13,
+    14,
+    31,
+    36,
+    37,
+    44,
+    45,
+    46,
+    47
+   ],
+   "evidence_quote": "OLCV will continuously measure the mass of CO2 received by the BRP Project."
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "Continuous recording of injection pressure, rate, volume and CO2 temperature in each Class VI well; alarmed process control system and SCADA watched 24 hours a day.",
+   "location": "Each of the three Class VI injection wells",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Parameters deviating past set thresholds trigger automatic well shutdown; remote shutdown available in emergencies.",
+   "pages": [
+    14,
+    15,
+    32,
+    36,
+    45
+   ],
+   "evidence_quote": "OLCV will install and use continuous recording devices in UIC Class VI wells to monitor injection pressure, rate, and volume"
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "committed",
+   "detail": "Continuous recording of pressure in the annulus between tubing and long string casing, used to verify internal mechanical integrity; periodic annulus pressure tests confirm the gauges.",
+   "location": "Class VI injection wells",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "",
+   "pages": [
+    15,
+    32
+   ],
+   "evidence_quote": "the pressure on the annulus between the tubing and the long string casing"
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "Annual temperature logs in injectors for external integrity; annular pressure tests at least every five years, after well interventions and before plugging; integrity logs every five years in monitoring and brine withdrawal wells.",
+   "location": "Class VI injectors, Injection Zone and Confining Zone monitoring wells, brine withdrawal wells",
+   "frequency": "annual",
+   "baseline": "yes",
+   "trigger_or_response": "",
+   "pages": [
+    15,
+    25,
+    32,
+    37,
+    44
+   ],
+   "evidence_quote": "OLCV will conduct temperature logging in the UIC Class VI injector wells on an annual basis to demonstrate external mechanical integrity."
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "committed",
+   "detail": "Downhole and surface gauges plus DTS fiber record Injection Zone pressure and temperature continuously in injectors, Injection Zone monitoring wells and brine withdrawal wells; data reviewed daily for trends.",
+   "location": "3 injectors, Injection Zone monitoring wells SLR2 and SLR3 (SLR3 built about year 5), 4 brine withdrawal wells",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Persistent pressure or temperature deviation: sample reservoir fluids and dissolved gases for increased CO2.",
+   "pages": [
+    11,
+    12,
+    24,
+    25,
+    32,
+    36,
+    39,
+    40,
+    42,
+    44
+   ],
+   "evidence_quote": "OLCV will monitor pressure and temperature data obtained from downhole gauges and/or DTS fiber daily"
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Visual inspection of wells, facilities and piping weekly during injection and quarterly after injection until site closure.",
+   "location": "Facilities, wellheads, surface equipment and piping",
+   "frequency": "weekly",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Inspections corroborate the automated leak detection and shutdown system.",
+   "pages": [
+    15,
+    23,
+    27,
+    33,
+    38,
+    39
+   ],
+   "evidence_quote": "Weekly visual inspection, quarterly inspection via OGI"
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "committed",
+   "detail": "Optical gas imaging (OGI) camera surveys for CO2 leaks at surface facilities, quarterly during injection. No fixed gas sensors described.",
+   "location": "Surface facilities and equipment",
+   "frequency": "quarterly",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    15,
+    27,
+    33,
+    38,
+    39
+   ],
+   "evidence_quote": "utilize optical gas imaging cameras (OGI) to monitor for potential CO2 leakage."
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "committed",
+   "detail": "Permanent soil gas probes at 20 stations analyzed for gas composition and isotopes using a process-based method; quarterly in years 1-3, then annually for a subset of stations.",
+   "location": "20 stations throughout and around the AoR",
+   "frequency": "quarterly",
+   "baseline": "yes",
+   "trigger_or_response": "Departure from baseline or seasonal patterns: more soil gas, atmospheric or fluid testing; extra sampling if monitor-well pressure/temperature or fluid results are anomalous.",
+   "pages": [
+    13,
+    15,
+    25,
+    33,
+    35,
+    36,
+    42,
+    43,
+    44
+   ],
+   "evidence_quote": "Permanent subsurface soil gas probes will be installed at 20 representative locations throughout the AoR and adjacent area."
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "committed",
+   "detail": "Fluid and dissolved gas geochemistry and isotopes in the USDW; quarterly for the first three years of injection, then annually, then annually for 10 years after injection.",
+   "location": "One USDW monitoring well (USDW1)",
+   "frequency": "quarterly",
+   "baseline": "yes",
+   "trigger_or_response": "Anomalous pressure/temperature in monitoring wells or Confining Zone saturation log changes: more frequent sampling; persistent chemistry anomalies: confirmation samples.",
+   "pages": [
+    11,
+    12,
+    15,
+    25,
+    31,
+    36,
+    42,
+    43
+   ],
+   "evidence_quote": "Quarterly sampling and analysis of fluids and dissolved gases in the USDW is planned to continue for the first three years"
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "committed",
+   "detail": "Two Confining Zone monitoring wells record pressure and temperature with gauges or DTS fiber, continuously during injection and for 10 years after or until plugging.",
+   "location": "Confining Zone monitoring wells SLR1 and ACZ1 (Upper Confining Zone)",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Anomalous Confining Zone pressure or temperature triggers more frequent USDW and soil gas sampling.",
+   "pages": [
+    11,
+    12,
+    29,
+    31,
+    32,
+    36,
+    41,
+    44
+   ],
+   "evidence_quote": "Pressure and temperature monitoring of wells monitoring the Confining Zone using gauges or Distributed Temperature Sensing (DTS) fiber"
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "committed",
+   "detail": "Annual saturation logs in Injection Zone monitoring wells; saturation logs every five years (or event-driven) in Confining Zone and brine withdrawal wells; annual temperature logs in injectors; casing inspection logs during maintenance; continuous DTS temperature profiles.",
+   "location": "Injectors, Injection Zone and Confining Zone monitoring wells, brine withdrawal wells",
+   "frequency": "annual",
+   "baseline": "yes",
+   "trigger_or_response": "Saturation log showing fluid change triggers geochemical sampling of that well.",
+   "pages": [
+    15,
+    25,
+    29,
+    30,
+    32,
+    38,
+    41,
+    42
+   ],
+   "evidence_quote": "OCLV will conduct annual saturation logging in Injection Zone monitoring wells to confirm the presence or absence of CO2 along the wellbores."
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "committed",
+   "detail": "Five project seismometers with real-time alerts, combined with TexNet and the private MTX subscription array, to detect events of ML 1.0 and above within 10 miles; continuous until site closure.",
+   "location": "Surface array at the project site plus regional networks",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Event above ML 2.0 within 5.6 miles of injectors triggers the response plan; any resulting leakage quantified and reported.",
+   "pages": [
+    13,
+    25,
+    35,
+    39,
+    44
+   ],
+   "evidence_quote": "OLCV has installed five new seismometers at the BRP Project site to deliver real-time seismicity alerts within the BRP Project area."
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "committed",
+   "detail": "Time-lapse 2D VSP in selected wells at years 1, 2, 5 and 10, then about every five years; 2D radial surface seismic from year 10, about every five years, to image plume and pressure front.",
+   "location": "Selected wellbores (VSP); radial 2D lines centered near the injector wellheads",
+   "frequency": "multi_year",
+   "baseline": "yes",
+   "trigger_or_response": "",
+   "pages": [
+    15,
+    28,
+    34,
+    41,
+    44
+   ],
+   "evidence_quote": "Acquisition at 1, 2, 5 and 10 years post commencement of CO2 injection"
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "committed",
+   "detail": "DInSAR satellite data with GPS on 11 corner reflectors to track ground uplift or subsidence; quarterly during injection, annually after injection.",
+   "location": "AoR; 11 corner reflectors",
+   "frequency": "quarterly",
+   "baseline": "yes",
+   "trigger_or_response": "",
+   "pages": [
+    13,
+    15,
+    34,
+    36,
+    39,
+    41,
+    44
+   ],
+   "evidence_quote": "A network of 11 corner reflectors is installed to serve as permanent monuments for GPS data collection"
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "mentioned_only",
+   "detail": "Atmospheric testing listed as a possible follow-up if soil gas departs from baseline; no routine atmospheric monitoring.",
+   "location": "",
+   "frequency": "event_driven",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Soil gas departure from baseline or seasonal pattern.",
+   "pages": [
+    33
+   ],
+   "evidence_quote": "additional testing of soil gas, the atmosphere, and/or the fluids in the Injection Zone or USDW may be conducted."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Corrosion coupons exposed to injectate and reservoir fluids in a surface spool near each wellhead, checked for mass loss, thinning, cracking and pitting.",
+   "location": "Injectors, Injection Zone and Confining Zone monitoring wells, brine withdrawal wells",
+   "frequency": "quarterly",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    15,
+    27,
+    33,
+    37,
+    38
+   ],
+   "evidence_quote": "These materials will be monitored via coupons that will be exposed to the CO2 injectate stream and reservoir fluids."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Dynamic simulation model history-matched to injection, brine withdrawal, pressure, seismic and DInSAR data to track plume and pressure front and re-evaluate the AoR.",
+   "location": "AoR / MMA",
+   "frequency": "periodic_unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Model results may change the AoR or MMA; revised MRV plan and operational action to control plume geometry.",
+   "pages": [
+    7,
+    19,
+    28,
+    41,
+    42
+   ],
+   "evidence_quote": "These data will be periodically integrated into the simulation model to conduct a history match and forecast the future extent of the AoR."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Pressure fall-off tests in the Class VI injectors once every five years to evaluate near-wellbore properties.",
+   "location": "Class VI injection wells",
+   "frequency": "multi_year",
+   "baseline": "yes",
+   "trigger_or_response": "",
+   "pages": [
+    30,
+    41
+   ],
+   "evidence_quote": "Testing once during every five-year period until plugging"
+  },
+  {
+   "method": "other",
+   "commitment": "conditional",
+   "detail": "Geochemical sampling of Injection Zone fluids at monitoring wells and of brine from withdrawal wells, done when pressure, temperature or saturation logs suggest a change.",
+   "location": "Injection Zone monitoring wells; brine withdrawal wells",
+   "frequency": "event_driven",
+   "baseline": "yes",
+   "trigger_or_response": "CO2 found in a brine withdrawal well: shut in that well (WW2 to be plugged in the Holt sub-zone when CO2 arrives).",
+   "pages": [
+    26,
+    31,
+    37,
+    42,
+    48
+   ],
+   "evidence_quote": "Fluids and dissolved gases in the Injection Zone will be sampled and analyzed if other data indicate that the composition of fluids"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Tracking of drilling permits and rig activity near the site to prevent third-party drilling through the AoR; quarterly during injection, annually after.",
+   "location": "Near the project site",
+   "frequency": "quarterly",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    29,
+    30,
+    42
+   ],
+   "evidence_quote": "Monitoring of permits and rig activity near the BRP Project site"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Subpart W methods used to estimate CO2 from equipment leaks and vents such as gas analyzers; surface leakage quantified case by case.",
+   "location": "Surface equipment",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    44,
+    45,
+    46
+   ],
+   "evidence_quote": "40 CFR 98.230-238 (Subpart W) is used to estimate CO2 emissions from equipment, such as gas analyzers."
+  }
+ ],
+ "notes": "Frequencies differ by period; rows give the injection-period frequency and detail notes the post-injection one. Inconsistencies: DInSAR after injection is 'annually for 10 years' in 7.1.7 (p34) but 'annual for five years or until plume stabilization' in Table 7 (p36); the USDW paragraph (p31) lists triggers for increasing 'soil gas sampling', apparently a drafting slip. Annual soil gas sampling from year 4 covers only a subset of the 20 stations, and after injection soil gas is event-driven only. The Confining Zone monitors sit in the Upper Confining Zone itself; the plan says no permeable zone lies between it and the USDW (p31). Atmospheric testing coded mentioned_only because it 'may be conducted' as a follow-up. Optical gas imaging coded under fixed_gas_detectors per the guide; no fixed sensors or personal monitors are described. Table 4 (p22) is interleaved with Table 5 in the text layer. Contents page says 'June 2025', cover says July 2025."
+}

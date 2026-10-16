@@ -1,0 +1,268 @@
+{
+ "site_slug": "denver-city-fields",
+ "plan_title": "CapturePoint LLC Denver City Field Subpart RR Monitoring, Reporting and Verification (MRV) Plan",
+ "plan_version_or_date": "July 2024",
+ "injection_purpose": "eor",
+ "uic_class_per_plan": "II",
+ "ama_definition": "The George Allen Unit and Ruth Hudson Lease boundaries plus a half-mile buffer; the plume is projected to stay inside the unit boundaries through 2037 and for five years after injection (p19, p21).",
+ "mma_definition": "Same as the AMA, because the projected plume is smaller than the unit area (p19-20).",
+ "leakage_pathways_rated_significant": "Wellbores and surface equipment are treated as the only meaningful pathways; faults, seismicity, previous operations, lateral migration, drilling and diffuse seal leakage are rated low risk (p22-27).",
+ "baseline_summary": "No pre-injection environmental baseline. The baseline is ongoing operational data (injection rates and pressures, production forecasts, visual inspections, H2S alarms) used to flag excursions (p33-34).",
+ "reporting_summary": "Annual Subpart RR report filed with other GHGRP reports by March 31, with the mass balance and estimated leakage; simple leak repairs also go in the Subpart W report; records kept at least three years. No commitment to publish measurement data or report to the state UIC program (p27, p31, p39, p42).",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "Custody transfer meter on CO2 received from the Kinder Morgan pipeline system and an operations meter at the recycle compression facility outlet; composition sampled at least quarterly.",
+   "location": "Custody transfer point and recycle compression facility outlet",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    15,
+    29,
+    35,
+    40
+   ],
+   "evidence_quote": "This meter measures flow rate continually."
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "Injection pressure monitored daily against weekly pattern injection plans; WAG skids continuously monitored; SCADA monitors wellhead pressure; excursions flagged and screened for leakage.",
+   "location": "Each injection well and WAG skid",
+   "frequency": "daily",
+   "baseline": "no",
+   "trigger_or_response": "Pressure or rate outside pattern set points: field personnel investigate; unresolved excursions get detailed investigation.",
+   "pages": [
+    23,
+    24,
+    28,
+    30,
+    34
+   ],
+   "evidence_quote": "Pressure in injection wells is monitored daily."
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "committed",
+   "detail": "Annular pressure in wellheads monitored to detect tubing and casing leaks.",
+   "location": "Wellheads",
+   "frequency": "unspecified",
+   "baseline": "no",
+   "trigger_or_response": "Anomaly: inspect and repair; if extensive, well shut in, work order, leak quantified.",
+   "pages": [
+    28,
+    31
+   ],
+   "evidence_quote": "monitoring of the annular pressure in wellheads"
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "MITs on injectors listed in the response plan as the check for tubing and casing leaks; no testing interval or rule citation given.",
+   "location": "Injection wells",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Tubing or casing leak: well shut in, workover crews respond within days.",
+   "pages": [
+    28
+   ],
+   "evidence_quote": "Monitor changes in tubing and annulus pressure; MIT for injectors"
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "committed",
+   "detail": "Each producer tested about monthly through satellite test stations (12-24 hours); produced gas sampled annually for CO2; performance compared with forecast.",
+   "location": "Each production well; satellite test stations",
+   "frequency": "monthly",
+   "baseline": "no",
+   "trigger_or_response": "Significant deviation from forecast: well management personnel investigate.",
+   "pages": [
+    23,
+    30,
+    34,
+    40
+   ],
+   "evidence_quote": "each well being tested approximately once every month"
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "committed",
+   "detail": "Reservoir pressure and formation parting pressure (from step-rate tests) are routinely updated; reservoir pressure is read at WAG headers and in new wells. No observation wells or bottom-hole gauges named.",
+   "location": "Injection zone, via WAG headers and new wells",
+   "frequency": "periodic_unspecified",
+   "baseline": "no",
+   "trigger_or_response": "Unexplained pressure changes: investigate; reseal abandoned wells, manage lease-line fluids, or shut in injectors.",
+   "pages": [
+    16,
+    20,
+    24,
+    28,
+    31
+   ],
+   "evidence_quote": "Measurements to determine FPP and reservoir pressure are routinely updated."
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Routine field inspections of wells and surface facilities for white CO2 clouds, ice and fluid leaks; also used to spot unapproved drilling.",
+   "location": "Field-wide wells and surface facilities",
+   "frequency": "periodic_unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Leak found: repair on the spot or shut in, work order, quantify.",
+   "pages": [
+    23,
+    26,
+    28,
+    32,
+    33
+   ],
+   "evidence_quote": "Field inspections are conducted on a routine basis by field personnel."
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "committed",
+   "detail": "All field personnel wear H2S monitors (alarm at 10 ppm); H2S is used as a proxy for CO2 leaks.",
+   "location": "Worn by field personnel",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Alarm: protect personnel, investigate source, quantify CO2 leak for the annual report.",
+   "pages": [
+    23,
+    31,
+    32,
+    34
+   ],
+   "evidence_quote": "H2S monitors are worn by all field personnel."
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "committed",
+   "detail": "Permanent ground-level H2S monitors placed throughout the field alarm at a set limit; used with personal monitors to catch wellbore and surface leaks that escape visual detection.",
+   "location": "Throughout the field at ground level (number and locations not stated)",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Alarm: protect personnel, investigate source, quantify any CO2 leak.",
+   "pages": [
+    23,
+    31,
+    32,
+    34
+   ],
+   "evidence_quote": "there are various permanent H2S monitors throughout the field at ground level to detect H2S and alarm if a limit is reached."
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "committed",
+   "detail": "Monitors the public USGS earthquake map for signals of new leakage pathways; a one-time USGS catalog review (M1.0+ since 1956) found the nearest event about 38 miles away. No site seismometers.",
+   "location": "Public USGS network",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Seismic event: shut in nearby injectors (response plan).",
+   "pages": [
+    24,
+    25,
+    28
+   ],
+   "evidence_quote": "CapturePoint monitors the USGS earthquake monitoring Geographical Information System (GIS)"
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "mentioned_only",
+   "detail": "Past review of geologic and seismic evidence cited as showing no faults or fractures in the reservoir; no repeat seismic.",
+   "location": "",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    24
+   ],
+   "evidence_quote": "After reviewing geologic, seismic, operating, and other evidence, it has been concluded that there are no known faults or fractures"
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Subpart W emission factors and engineering estimates used to quantify surface equipment leaks and vents; emergency vent volume metered.",
+   "location": "Surface equipment; facility emergency vent",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    26,
+    27,
+    30,
+    32,
+    38
+   ],
+   "evidence_quote": "CapturePoint uses 40 CFR Part 98 Subpart W to estimate surface leaks from equipment at the DCF."
+  }
+ ],
+ "notes": "Close to the Wellman plan (same operator, same template), with two differences: it adds permanent ground-level H2S monitors throughout the field (coded fixed_gas_detectors) and it has no radioactive tracer survey. MIT appears only in the response-plan table with no interval or rule citation; coded committed because it is listed as monitoring, but it is thin. The plan says CapturePoint 'monitors the USGS earthquake monitoring ... site' (p25); coded passive_seismic committed (public network only, no site instruments). Wellman has the same sentence (its p22) and was coded mentioned_only, so one of the two should be harmonized. Section 5.8 says injection pressure (not reservoir pressure, as in Wellman) is continuously monitored. The CO2 supply pipeline is called Kinder Morgan in some places and Trinity in others (p14, p29, p35). Figures are images."
+}

@@ -1,0 +1,325 @@
+{
+ "site_slug": "titan-treating-facility",
+ "plan_title": "Subpart RR Monitoring, Reporting, and Verification Plan, Titan Treating Facility, Lea County, New Mexico",
+ "plan_version_or_date": "Version 1.4, January 2025",
+ "injection_purpose": "acid_gas_disposal",
+ "uic_class_per_plan": "II",
+ "ama_definition": "An initial 5-year AMA: a half-mile buffer around the combined modeled plumes of both wells at year 5, which also contains the year-10 plume; to be redefined in a revised plan by year 5 (p86-87, p117).",
+ "mma_definition": "The stabilized Siluro-Devonian plume (the Delaware Mountain Group plume falls inside it) plus a half-mile buffer (p84-85).",
+ "leakage_pathways_rated_significant": "Surface equipment rated possible during injection. Leakage through the upper confining layers is unlikely but rated medium magnitude, since it could affect the Capitan Reef aquifer. Two Siluro-Devonian penetrating wells, faults and seismicity rated very low to low (p88-89, p95, p101-102).",
+ "baseline_summary": "Pre-injection reservoir and operating pressures, a baseline atmospheric CO2 level set at plant commissioning, and third-party baseline samples of groundwater (3 wells) and soil gas; baseline surveys in mid-September 2024 (p105-106, p109-110, p115).",
+ "reporting_summary": "Annual Subpart RR report filed by March 31; soil gas results to go in the annual report. Separately, the NMOCD permit appendices require monthly C-115 injection reports, quarterly injection summaries and a 5-year performance report. No commitment to publish data (p106, p115, p133, p138-139).",
+ "notes": "Soil gas is coded conditional because the plan contradicts itself: Table 16 commits annual sampling at wells in the AMA penetrating the upper confining zone, and 17 wells penetrate the DMG in the AMA (p95). Section 5.2.1 says no penetrating wells are in the AMA, so none is proposed (p106). H2S set points conflict: 15/40 ppm (p90) vs 10/90 ppm (Table 15, p92). Body section numbers do not match the TOC. Appendix OCD conditions require bottom-hole and annulus P/T monitoring that the plan body does not repeat (p138, p144). Pages 121, 147-165, 186 and 209 are image-only or blank (permit and completion appendices). Personal H2S monitors are never mentioned.",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "Volumetric flow meter on each AGI well downstream of the amine unit; composition measured upstream by continuous analyzer or representative sampling and averaged quarterly. CO2 received taken as equal to CO2 injected.",
+   "location": "Each Salt Creek AGI well line",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    92,
+    106,
+    107,
+    111,
+    116
+   ],
+   "evidence_quote": "The flow rate of the CO2 being injected will be measured with a volumetric flow meter, consistent with applicable industry standards."
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "SCADA records injection volumes, pressures, temperatures and gas composition; wellhead pressure and temperature gauge on the injection stream; ESD valves with high and low pressure shutoffs.",
+   "location": "Each Salt Creek AGI well and the plant",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Pressure change or exceeded limits: alert reviewed by personnel; investigate; shut in the well if necessary.",
+   "pages": [
+    90,
+    102,
+    104,
+    105,
+    106,
+    108,
+    109
+   ],
+   "evidence_quote": "Northwind will continuously monitor and collect injection volumes, pressures, and temperatures through their SCADA systems for the Salt Creek AGI wells."
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "committed",
+   "detail": "Pressure gauge on the casing annulus, which is filled with corrosion-inhibited diesel; changes in annular pressure treated as a possible leak.",
+   "location": "Each Salt Creek AGI well",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Annular pressure change: investigate as a possible leak.",
+   "pages": [
+    92,
+    105,
+    106
+   ],
+   "evidence_quote": "a pressure gauge will be placed on the casing annulus."
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "Annual MITs required by NMOCD to confirm each well and wellhead hold operating pressure.",
+   "location": "Salt Creek AGI No. 2 and No. 3",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Failed MIT: isolate the well and mitigate; permit requires shut-in within 24 hours.",
+   "pages": [
+    92,
+    104,
+    105,
+    108,
+    131,
+    138
+   ],
+   "evidence_quote": "will take place annually to verify that each well and wellhead can contain the appropriate operating pressures."
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "mentioned_only",
+   "detail": "Initial reservoir pressure measured before injection, and pressure baselines before AGI No. 2 starts. Continuous bottom-hole pressure monitoring appears only in OCD permit conditions in the appendix, not in the plan's monitoring sections.",
+   "location": "Salt Creek AGI wells",
+   "frequency": "one_time",
+   "baseline": "yes",
+   "trigger_or_response": "",
+   "pages": [
+    109,
+    138,
+    144
+   ],
+   "evidence_quote": "Initial reservoir pressure measurements were taken prior to commencing injection operations."
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Field personnel inspect the plant and AGI wells, gauges and gas monitoring equipment for vapor clouds or ice; daily for surface equipment, as needed for wells.",
+   "location": "Titan Treating Facility and Salt Creek AGI wells",
+   "frequency": "daily",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Issues found: corrective action.",
+   "pages": [
+    104,
+    105,
+    109
+   ],
+   "evidence_quote": "Regular inspections will be conducted by field personnel at the Titan Treating Facility and the Salt Creek AGI wells."
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "committed",
+   "detail": "Fixed ambient H2S detectors at each AGI wellsite and in the plant, wired to SCADA; alarm at 10 ppm, emergency shutdown at 90 ppm; calibrated per 98.444(e).",
+   "location": "AGI No. 2 and No. 3 wellsites; in-plant",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "10 ppm: high alarm; 90 ppm: emergency shutdown.",
+   "pages": [
+    90,
+    92,
+    104,
+    105,
+    109,
+    116
+   ],
+   "evidence_quote": "Ambient H2S monitors are located at the plant and near the Salt Creek AGI wells with local alarms"
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "conditional",
+   "detail": "Annual soil gas samples, analyzed by a third party, near wells penetrating the injection interval inside the AMA; the plan says no such wells are in the current AMA, so sampling starts when the AMA grows.",
+   "location": "Wells penetrating the injection zone within the AMA",
+   "frequency": "annual",
+   "baseline": "yes",
+   "trigger_or_response": "Baseline samples taken before a revised AMA takes effect; results reported annually.",
+   "pages": [
+    104,
+    105,
+    106
+   ],
+   "evidence_quote": "annual soil gas samples taken near identified wells that penetrate the injection interval within the AMA"
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "committed",
+   "detail": "Annual sampling of three existing groundwater wells above the uppermost confining interval, analyzed by a third-party lab; first samples set the baseline. Access and well locations still being finalized.",
+   "location": "3 groundwater wells around the facility (not yet finalized)",
+   "frequency": "annual",
+   "baseline": "yes",
+   "trigger_or_response": "",
+   "pages": [
+    100,
+    104,
+    108,
+    110,
+    115
+   ],
+   "evidence_quote": "Northwind is working to secure access to three of these wells to monitor the groundwater quality above the uppermost confining interval."
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "mentioned_only",
+   "detail": "OCD permit appendix lets OCD request tracer surveys, noise, temperature and casing integrity logs, and requires a cement bond log if cement does not circulate; not part of the plan's monitoring.",
+   "location": "Salt Creek AGI wells",
+   "frequency": "event_driven",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    129,
+    132
+   ],
+   "evidence_quote": "including but not limited to step-rate tests, tracer surveys, injection surveys, noise logs, temperature logs, and casing integrity logs"
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "committed",
+   "detail": "Relies on the public USGS network, nearest station about 1.3 miles WSW; TexNet and USGS catalogs also cited. Table 16 lists a seismic monitoring station, continuous; no operator-owned station described.",
+   "location": "Public USGS station near the wells",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "M3.0 or greater within 3 miles: review AGI injection volumes and pressures for signs of leakage.",
+   "pages": [
+    102,
+    103,
+    104,
+    108
+   ],
+   "evidence_quote": "Northwind will monitor the USGS system for any seismic activity that occurs in the area."
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "mentioned_only",
+   "detail": "Existing 3D seismic used to site AGI No. 2 and interpret faults; no repeat seismic.",
+   "location": "",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    3,
+    101
+   ],
+   "evidence_quote": "No faults were interpreted at the DMG level within the 3D seismic coverage near Salt Creek AGI No. 3."
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "committed",
+   "detail": "Table 16 lists quarterly CO2 measurements within the MMA, against a baseline atmospheric CO2 level set at plant commissioning; method and locations not described.",
+   "location": "Within the MMA (locations not stated)",
+   "frequency": "quarterly",
+   "baseline": "yes",
+   "trigger_or_response": "",
+   "pages": [
+    104,
+    105
+   ],
+   "evidence_quote": "A baseline atmospheric CO2 concentration will be established during commissioning of the plant."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Periodic inspection of corrosion coupons and the cathodic protection system to check the corrosion control program.",
+   "location": "Surface equipment",
+   "frequency": "periodic_unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    105
+   ],
+   "evidence_quote": "The effectiveness of the internal and external corrosion control program is monitored through the periodic inspection of the corrosion coupons"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Subpart W methods used for CO2 from surface equipment between the injection meter and wellhead; blowdowns go to the flare and are reported.",
+   "location": "Surface equipment",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    109,
+    112,
+    113,
+    116
+   ],
+   "evidence_quote": "Calculation methods from Subpart W will be used to calculate CO2 emissions from equipment located on the surface"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Routine tracking of new drilling permits and activity in the MMA, coordinating well design with operators.",
+   "location": "MMA",
+   "frequency": "periodic_unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Proposed well may cross the plume: work with the operator on construction.",
+   "pages": [
+    99,
+    104,
+    108
+   ],
+   "evidence_quote": "Northwind will routinely monitor for permits and drilling activities in the MMA and coordinate with those operators"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Plume model updated with measured well data and a revised MRV plan with new AMA filed at least 180 days before year 5, repeating until AMA equals MMA.",
+   "location": "Both injection zones",
+   "frequency": "multi_year",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Plume larger than expected: update model and MRV plan.",
+   "pages": [
+    95,
+    106,
+    117
+   ],
+   "evidence_quote": "an amended MRV plan will be submitted for this facility with an updated plume extent based on measured conditions in the well."
+  }
+ ]
+}

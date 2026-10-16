@@ -1,0 +1,294 @@
+{
+ "site_slug": "dark-horse-treating-plant",
+ "plan_title": "Monitoring, Reporting, and Verification Plan, Independence AGI #1 and #2 Wells, Pinon Midstream, LLC",
+ "plan_version_or_date": "Version 5.0, February 2024",
+ "injection_purpose": "acid_gas_disposal",
+ "uic_class_per_plan": "II",
+ "ama_definition": "Same as the MMA; because the plume is not stable by t+5, the AMA uses the largest plume extent of any modeled scenario (through about year 50) plus a half-mile buffer (p47-48).",
+ "mma_definition": "The maximum extent of any modeled plume in any scenario at any time (stabilizing around year 50) plus a half-mile buffer (p47-48).",
+ "leakage_pathways_rated_significant": "All pathways rated low or unlikely. The plan singles out the West Jal B Deep #001 brine injection well, which penetrates the injection zone about a mile away, as possible but unlikely; the plume reaches mapped faults but leakage is called unlikely (p49-53).",
+ "baseline_summary": "No pre-injection environmental baseline. The baseline is the H2S contingency plan monitoring (daily inspections, fixed and personal H2S monitors) and DCS operating set points (p57-58).",
+ "reporting_summary": "Annual Subpart RR report with the mass balance, under an internal Greenhouse Gas Monitoring Plan. The onsite seismic station sends data to the New Mexico Tech Seismic Network as required by the NMOCC order. No commitment to publish measurement data (p23, p53, p58, p62-64).",
+ "notes": "Pages 21, 65 and 86-100 are image-only or blank (86-100 hold Appendix 9 West Jal Unit #1 plugging records and Appendix 10 flow diagram). Mobile CO2 surveys coded as atmospheric_co2, not fixed_gas_detectors. The fault surveys have no stated schedule. No groundwater sampling, even though 15 water wells lie within 2 miles (p29). Text calls the injection meters both volumetric and Coriolis (p60, p62). Says implementation on June 1, 2023, although this is version 5.0, February 2024 (p61).",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "Volumetric meters on three inlet pipelines and Coriolis (and ultrasonic) meters on dense-phase TAG to the AGI wells, with daily totalizers; quarterly CO2 concentration for the mass balance.",
+   "location": "Inlet pipelines and lines to Independence AGI #1 and #2",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    33,
+    57,
+    59,
+    60,
+    62,
+    63
+   ],
+   "evidence_quote": "Pi\u00f1on utilizes Coriolis metering to measure the dense phase injected TAG stream."
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "DCS continuously monitors injection rate, pressure and composition with high and low set points; flow, pressure, temperature and composition collected from each AGI well.",
+   "location": "Facility and each Independence AGI well",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Out-of-range parameter: alert and investigation; quantify any leak; may shut in the well.",
+   "pages": [
+    53,
+    54,
+    55,
+    58
+   ],
+   "evidence_quote": "The DCS of the Dark Horse Facility monitors injection rates, pressures, and composition on a continuous basis."
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "Annual MIT on each Independence AGI well. Table 6.1 also lists MITs for other operators' active wells, done by those operators.",
+   "location": "Independence AGI #1 and #2",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Failed MIT: shut in the well, assess the failure, mitigate, quantify leak.",
+   "pages": [
+    54,
+    55,
+    58
+   ],
+   "evidence_quote": "Mechanical integrity tests (MIT) are performed on each Independence AGI Well annually."
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "mentioned_only",
+   "detail": "Section 7.4 points to continuous P/T monitoring in the well, but section 6.2 only names flow, pressure and temperature data from each well; no downhole or reservoir gauge is described.",
+   "location": "Independence AGI wells",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "",
+   "pages": [
+    55,
+    58
+   ],
+   "evidence_quote": "Also, see Section 6.2 for continuous monitoring of P/T in the well."
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Daily visual inspections of surface equipment at the facility and wells; daily and weekly inspection protocols; Table 6.1 also lists visual checks of other operators' wells.",
+   "location": "Dark Horse Facility and Independence AGI wells",
+   "frequency": "daily",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Leak found: prompt corrective action.",
+   "pages": [
+    53,
+    54,
+    55,
+    57
+   ],
+   "evidence_quote": "Pi\u00f1on field personnel conduct daily visual inspections of surface equipment located at the Dark Horse Facility and the Independence AGI Wells."
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "committed",
+   "detail": "All personnel wear personal H2S monitors alarming at 10 ppm; handheld detectors (O2, LEL, H2S, CO) are used before maintenance work.",
+   "location": "Worn by facility personnel and contractors",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Alarm at 10 ppm.",
+   "pages": [
+    53,
+    54,
+    55,
+    58
+   ],
+   "evidence_quote": "Personal monitoring devices will give an audible alarm and vibrate upon detection of H2S concentrations of 10 ppm."
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "committed",
+   "detail": "Rosemount fixed H2S detectors and an LEL network wired to the DCS, calibrated monthly; section 7.3 adds H2S monitoring at the AGI well site.",
+   "location": "Throughout the facility and at the AGI well site",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "10 ppm: beacons and horns; 90 ppm: evacuation siren; any alarm requires immediate action.",
+   "pages": [
+    32,
+    53,
+    54,
+    55,
+    57,
+    58
+   ],
+   "evidence_quote": "The Dark Horse Facility has numerous ambient H2S detectors placed strategically throughout the facility to detect possible leaks."
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "committed",
+   "detail": "Onsite Trillium Compact Horizon seismometer and Centaur recorder, required by the NMOCC order and installed before AGI #1 injection, sending data to the New Mexico Tech network; other nearby stations shown.",
+   "location": "Dark Horse Facility",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Event of M2.5 or more evaluated; remote gas sweeps above fault at 10, 30, 100 and 365 days.",
+   "pages": [
+    23,
+    52,
+    56,
+    57,
+    58,
+    59
+   ],
+   "evidence_quote": "the NMOCC Order requires Pi\u00f1on to install, operate, and monitor for the life of the project a seismic monitoring station or stations."
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "mentioned_only",
+   "detail": "Licensed WesternGeco 3D seismic used once to map faults for the fault-slip assessment; no repeat seismic.",
+   "location": "",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    22
+   ],
+   "evidence_quote": "Pi\u00f1on evaluated and interpreted licensed seismic survey data (WesternGeco \u2013 South Lea Survey)"
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "committed",
+   "detail": "Annual mobile CO2 detector surveys (possibly drone-mounted) at the two deep wells penetrating the injection zone; atmospheric monitoring near those penetrations; mobile CO2 checks above mapped faults.",
+   "location": "West Jal B Deep #001 and West Jal Unit #1 locations; mapped faults",
+   "frequency": "annual",
+   "baseline": "no",
+   "trigger_or_response": "Leak tied to these wells or faults: quantify with the operator or surface owner; may shut in AGI wells.",
+   "pages": [
+    54,
+    55,
+    56,
+    58
+   ],
+   "evidence_quote": "Pi\u00f1on will annually employ mobile CO2 detectors, which may include drone mounted sensors, to monitor for any CO2 emission at the locations"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Subpart W emission factors used for surface equipment leaks and vents between the injection meter and wellhead; leaks also quantified from operating conditions.",
+   "location": "Surface equipment",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    53,
+    55,
+    61,
+    62
+   ],
+   "evidence_quote": "Pi\u00f1on will assess leakage from the relevant surface equipment listed in sections 98.233 and 98.234 of Subpart W."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Inline inspections listed as a surface equipment detection method; no further detail.",
+   "location": "Surface equipment",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    53
+   ],
+   "evidence_quote": "Inline inspections"
+  },
+  {
+   "method": "other",
+   "commitment": "conditional",
+   "detail": "Plume migration model reassessed if operating data show the plume beyond the modeled area; revised MRV plan if it meets a release pathway.",
+   "location": "Injection zone",
+   "frequency": "event_driven",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Plume beyond modeled area: reassess modeling; submit revised MRV plan.",
+   "pages": [
+    57
+   ],
+   "evidence_quote": "Pi\u00f1on will reassess the plume migration modeling for evidence that the plume may have intersected a pathway for CO2 release to the surface."
+  }
+ ]
+}

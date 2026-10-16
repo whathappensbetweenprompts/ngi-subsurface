@@ -1,0 +1,317 @@
+{
+ "site_slug": "copperhead-gas-plant",
+ "plan_title": "Monitoring, Reporting, and Verification Plan, Copperhead AGI #001, Targa Midstream Services, LLC (Targa)",
+ "plan_version_or_date": "Version 2.0, April 2025",
+ "injection_purpose": "acid_gas_disposal",
+ "uic_class_per_plan": "II",
+ "ama_definition": "Set equal to the MMA; the plume at the end of 30 years of injection (2055) plus a half-mile buffer, enlarged to take in the nearby fault trace, falls inside the MMA (p43).",
+ "mma_definition": "The stabilized plume (no growth after 2060) plus a half-mile buffer, joined with the trace of the northern fault (Fault 1) plus a half-mile buffer (p40-42).",
+ "leakage_pathways_rated_significant": "None rated more than very unlikely or low. Surface equipment (injection well, TAG pipeline, flanges, relief valves) is called the most likely source; the plugged Woolley #001 inside the plume is the only well rated low risk (p45-47, p51-54).",
+ "baseline_summary": "DCS operating set points and the H2S contingency plan, plus planned pre-injection baselines: 12 months of monthly groundwater sampling and soil CO2 flux, and historical regional seismicity from the New Mexico Tech network (p61-64).",
+ "reporting_summary": "Annual Subpart RR report with the mass balance. The plan also mentions a periodic seismic report with an event map and a groundwater chemistry report, with no stated recipient. No commitment to publish or share measurement data (p62-63, p67, p70).",
+ "notes": "Well not yet drilled (planned 2025); plan says it will be re-evaluated after drilling (p67, p70). Groundwater monitoring is committed, but the plan also says there are no active groundwater wells in the MMA (p46); sampling locations are never identified. Red Hills wells 5+ miles away are cited as Targa sampling (p30). The 'CO2 monitoring network' (p62) is undefined; Table 6-1 calls it a LiCor flux network, so atmospheric_co2 coded mentioned_only and the LiCor work coded as soil_gas. DTS fiber coded under cased_hole_logging. MIT interval not stated. Text cites a Figure 5.6-2 that does not exist and refers to Texas (p6, p70) although the site is in New Mexico.",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "Volumetric (orifice, AGA Report #1) flow meters on received gas and on TAG sent to the well, with daily totalizers; CO2 concentration measured quarterly at a sampling point for the mass balance.",
+   "location": "Plant inlet pipelines and line to the AGI well (Figure 3.7-1)",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    32,
+    33,
+    65,
+    66,
+    68,
+    69
+   ],
+   "evidence_quote": "Daily CO2 injected is recorded by totalizers on the volumetric flow meters on the pipelines to the Copperhead AGI #001 well"
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "Plant distributed control system (DCS) monitors injection rate, pressure and composition with high and low set points.",
+   "location": "Plant and Copperhead AGI #001",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Parameter outside set points alerts engineering and operations; investigation of a possible leak; shut in if needed.",
+   "pages": [
+    56,
+    58,
+    61,
+    62
+   ],
+   "evidence_quote": "The DCS of the plant monitors injection rates, pressures, and composition on a continuous basis."
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "committed",
+   "detail": "Downhole gauge monitoring pressure and temperature in the tubing-long string annulus; data sent to the control room and relayed for daily real-time analysis.",
+   "location": "Copperhead AGI #001",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Readings suggesting a leak: quantify from operating conditions; shut in the well.",
+   "pages": [
+    57,
+    58,
+    61
+   ],
+   "evidence_quote": "the second gauge monitors the annular space between the tubing and the long string casing"
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "MITs under NMOCD Class II rules listed as a detection method for the AGI well; no interval stated.",
+   "location": "Copperhead AGI #001",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "MIT failure: quantify the leak; shut in and repair.",
+   "pages": [
+    56,
+    58,
+    60,
+    62
+   ],
+   "evidence_quote": "It includes requirements for testing and monitoring of Class II injection wells to ensure they maintain mechanical integrity at all times."
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "committed",
+   "detail": "In-well gauge monitoring tubing (reservoir) pressure and temperature; also used to keep bottom-hole pressure under 90% of fracture gradient.",
+   "location": "Copperhead AGI #001",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Readings outside acceptable range: shut in the well, then quantify the leak.",
+   "pages": [
+    5,
+    56,
+    57,
+    58,
+    61
+   ],
+   "evidence_quote": "One gauge is designated to monitor the tubing ID (reservoir) pressure and temperature"
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Field personnel inspect surface equipment under daily and weekly inspection and maintenance protocols; the well gets frequent periodic inspection under routine O&M procedures.",
+   "location": "Plant surface equipment and the AGI well",
+   "frequency": "daily",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Detected leaks reported and responded to.",
+   "pages": [
+    56,
+    57,
+    61,
+    62
+   ],
+   "evidence_quote": "Targa field personnel conduct frequent periodic inspections of all surface equipment"
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "committed",
+   "detail": "Personnel in sour gas areas wear personal H2S monitors that alarm at 10 ppm; handheld detectors with CO2 and H2S sensors are used before maintenance work.",
+   "location": "Worn by plant personnel and contractors",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Alarm at 10 ppm.",
+   "pages": [
+    56,
+    57,
+    61,
+    62
+   ],
+   "evidence_quote": "Personal monitoring devices will give an audible alarm and vibrate at 10 ppm."
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "committed",
+   "detail": "Fixed in-field gas monitors for H2S (and CO2, per section 6.1) wired to the DCS; H2S alarms at 10 ppm, plant evacuation at 90 ppm.",
+   "location": "Throughout the plant and at the AGI well",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "10 ppm: beacons and horns; 90 ppm: evacuation alarm; any alarm triggers immediate response.",
+   "pages": [
+    56,
+    57,
+    61,
+    62
+   ],
+   "evidence_quote": "Targa also maintains in-field gas monitors to detect H2S and CO2."
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "committed",
+   "detail": "Soil CO2 flux measured with a LI-COR LI-8100A chamber (or similar) on fixed soil collars; monthly for 12 months as baseline, every two months for a year, then quarterly.",
+   "location": "Pre-planned locations at the site and within the MMA",
+   "frequency": "quarterly",
+   "baseline": "yes",
+   "trigger_or_response": "Results outside expected range investigated; flux methods used to quantify subsurface leaks.",
+   "pages": [
+    56,
+    57,
+    58,
+    61,
+    62,
+    64
+   ],
+   "evidence_quote": "Soil CO2 flux will be collected on a monthly basis for 12 months to establish a baseline"
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "committed",
+   "detail": "Groundwater wells sampled for pH, alkalinity, major ions, TDS, ORP, inorganic and organic carbon; monthly for 12 months as baseline, every two months for a year, then quarterly. Wells not identified.",
+   "location": "Groundwater wells in the AMA (not named)",
+   "frequency": "quarterly",
+   "baseline": "yes",
+   "trigger_or_response": "Samples outside expected variation investigated for leakage from the injection zone.",
+   "pages": [
+    56,
+    58,
+    59,
+    62,
+    63,
+    64
+   ],
+   "evidence_quote": "Water samples will be collected and analyzed on a monthly basis for 12 months to establish baseline data."
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "committed",
+   "detail": "Distributed temperature sensing (DTS) fiber clamped to the tubing records annulus temperature profiles; a fiber optic (DAS) line is also deployed. Coded here as continuous temperature logging.",
+   "location": "Copperhead AGI #001",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Temperature variation could indicate a leak; quantify and shut in.",
+   "pages": [
+    57,
+    58
+   ],
+   "evidence_quote": "The DTS system is clamped to the tubing, and it monitors the temperature profiles of the annulus."
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "committed",
+   "detail": "Onsite seismometer and digital recorder (meeting NMOCD requirements) plus analysis of New Mexico Tech Seismological Observatory network data; periodic report with event map.",
+   "location": "Copperhead Gas Plant and regional NMTSO network",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Seismic event: assess plant and well integrity; quantify any leak.",
+   "pages": [
+    54,
+    55,
+    56,
+    59,
+    60,
+    62,
+    63
+   ],
+   "evidence_quote": "Targa will install a seismometer and a digital recorder to monitor and record data for any seismic event at the Copperhead Gas Plant."
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "mentioned_only",
+   "detail": "Existing 3D seismic used to build the geologic model and map faults; no repeat seismic.",
+   "location": "",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    27,
+    34
+   ],
+   "evidence_quote": "The construction of the static model was based on 3D seismic, well logs and formation tops"
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "mentioned_only",
+   "detail": "A CO2 leak detection monitoring network in the MMA is promised, and once called an atmospheric and CO2 flux network; instruments, locations and frequency never described.",
+   "location": "MMA, near other wells",
+   "frequency": "unspecified",
+   "baseline": "unclear",
+   "trigger_or_response": "Leaks found assessed as surface or subsurface, then quantified.",
+   "pages": [
+    61,
+    62
+   ],
+   "evidence_quote": "Other wells within the MMA will be monitored with the atmospheric and CO2 flux monitoring network placed strategically in their vicinity."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Subpart W emission factors used to estimate CO2 from surface equipment leaks and vents between the injection meter and wellhead.",
+   "location": "Surface equipment",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    60,
+    67,
+    68,
+    69
+   ],
+   "evidence_quote": "For normal operations, quantification of emissions of CO2 from surface equipment will be assessed by employing the methods detailed in Subpart W"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Inline inspections listed as a surface equipment detection method; no further detail.",
+   "location": "Surface equipment",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    56
+   ],
+   "evidence_quote": "Inline inspections"
+  },
+  {
+   "method": "other",
+   "commitment": "conditional",
+   "detail": "Plume migration model reassessed if monitoring shows the plume beyond the modeled area; revised MRV plan if material.",
+   "location": "Injection zone",
+   "frequency": "event_driven",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Plume beyond modeled area: reassess modeling; submit revised MRV plan.",
+   "pages": [
+    58
+   ],
+   "evidence_quote": "Targa will reassess the plume migration modeling for evidence that the plume may have intersected a pathway for CO2 migration."
+  }
+ ]
+}

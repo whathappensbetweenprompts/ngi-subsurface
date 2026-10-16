@@ -1,0 +1,288 @@
+{
+ "site_slug": "seminole-east-field-sef",
+ "plan_title": "CapturePoint LLC Seminole East Field Subpart RR Monitoring, Reporting and Verification (MRV) Plan",
+ "plan_version_or_date": "August 2, 2022",
+ "injection_purpose": "eor",
+ "uic_class_per_plan": "II",
+ "ama_definition": "The East Seminole San Andres Unit and Lindoss Unit boundaries; the projected CO2 storage area (about 1,000 acres) sits inside the 2,045-acre field outline (p16).",
+ "mma_definition": "The two unit boundaries plus a half-mile buffer, though the same paragraph also says the MMA is the same as the AMA (p16).",
+ "leakage_pathways_rated_significant": "Wellbores and surface equipment are treated as the only meaningful pathways; faults, seismicity, previous operations, lateral migration, third-party drilling and diffuse seal leakage are rated low or negligible (p18-23).",
+ "baseline_summary": "No pre-injection environmental baseline. The baseline is ongoing operational data (injection targets and excursion flags, production forecasts, visual inspections, H2S alarms) used to spot deviations that could indicate leakage (p29-30).",
+ "reporting_summary": "Annual Subpart RR report, filed around March 31 with other GHG reports, with the mass balance and estimated leakage; well changes noted in the annual report; records kept at least three years. No commitment to publish measurement data (p4, p23, p29-30, p34, p36).",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "Custody transfer meter on CO2 received from the Kinder Morgan pipeline and an operations meter at the recycle compression facility outlet; received CO2 composition sampled at least quarterly.",
+   "location": "Custody transfer point; recycle compression facility outlet",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    10,
+    11,
+    25,
+    34,
+    35
+   ],
+   "evidence_quote": "This meter measures flow rate continually."
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "Injection pressure and rate checked against weekly pattern injection plans; SCADA monitors wellhead pressure and WAG skids are continuously monitored; excursions flagged and screened for leakage.",
+   "location": "Each injection well; WAG skids",
+   "frequency": "daily",
+   "baseline": "no",
+   "trigger_or_response": "Pressure or rate outside pattern set points: field personnel investigate; unresolved issues get detailed investigation; wellhead leak means shut-in and workover.",
+   "pages": [
+    19,
+    20,
+    23,
+    26,
+    29
+   ],
+   "evidence_quote": "Pressure in injection wells is monitored daily."
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "committed",
+   "detail": "Annular pressure in wellheads monitored to detect tubing and casing leaks.",
+   "location": "Wellheads",
+   "frequency": "unspecified",
+   "baseline": "no",
+   "trigger_or_response": "Anomaly: inspect; simple repair on the spot, otherwise shut in, work order, workover crew within days.",
+   "pages": [
+    23,
+    26,
+    27
+   ],
+   "evidence_quote": "monitoring of the annular pressure in wellheads"
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "MITs on injectors listed in the response table for tubing and casing leaks; no interval given.",
+   "location": "Injection wells",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Tubing or casing leak: well shut in and workover crew responds within days.",
+   "pages": [
+    23
+   ],
+   "evidence_quote": "MIT for injectors"
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "committed",
+   "detail": "Each producer tested about monthly at satellite test stations (12-24 hours); produced gas metered at the recycle facility inlet and sampled annually for CO2; performance compared with forecast.",
+   "location": "Each production well; satellite test stations; recycle compression facility inlet",
+   "frequency": "monthly",
+   "baseline": "no",
+   "trigger_or_response": "Significant deviation from forecast: well management personnel investigate; leakage quantified by material balance if found.",
+   "pages": [
+    11,
+    19,
+    26,
+    30,
+    34
+   ],
+   "evidence_quote": "each well being tested approximately once every month"
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "committed",
+   "detail": "Reservoir pressure collected for operations management and routinely updated; the response table relies on pressure at WAG headers and high pressure in new wells. No observation wells or gauges named.",
+   "location": "WAG headers; newly drilled wells (no observation wells named)",
+   "frequency": "periodic_unspecified",
+   "baseline": "no",
+   "trigger_or_response": "High pressure: re-enter and reseal abandoned wells, manage fluids along lease lines, keep below parting pressure, or shut in injectors near a seismic event.",
+   "pages": [
+    16,
+    20,
+    24,
+    26
+   ],
+   "evidence_quote": "The reservoir pressure in the SEF is collected for use in operations management."
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Routine field visits to wells and surface facilities looking for white CO2 clouds, ice and fluid leaks; also used to spot unapproved drilling.",
+   "location": "Field-wide wells, surface facilities and pipelines",
+   "frequency": "periodic_unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Leak found: repair on the spot or shut in, work order, quantify for Subpart W or RR reporting.",
+   "pages": [
+    19,
+    22,
+    23,
+    24,
+    27,
+    29
+   ],
+   "evidence_quote": "Field inspections are conducted on a routine basis by field personnel."
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "committed",
+   "detail": "All field personnel wear H2S monitors (alarm at 10 ppm); H2S, over 18,000 ppm in recycled gas, is used as a proxy for CO2 leaks.",
+   "location": "Worn by field personnel",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Alarm: protect personnel, investigate source, quantify CO2 leak for the annual report.",
+   "pages": [
+    19,
+    26,
+    27,
+    29
+   ],
+   "evidence_quote": "H2S monitors are worn by all field personnel."
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "committed",
+   "detail": "Permanent ground-level H2S monitors throughout the field alarm at a set limit; number and locations not given.",
+   "location": "Field-wide at ground level (locations not specified)",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Alarm: protect personnel, investigate source, quantify CO2 leak.",
+   "pages": [
+    19,
+    26,
+    27,
+    29
+   ],
+   "evidence_quote": "there are various permanent H2S monitors throughout the field at ground level to detect H2S and alarm if a limit is reached."
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "conditional",
+   "detail": "Injection radioactive tracer survey if unexplained injection pressure changes suggest diffuse leakage through the seal.",
+   "location": "Suspect injection well",
+   "frequency": "event_driven",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Unexplained injection pressure change: tracer survey; if verified, shut in and workover within days.",
+   "pages": [
+    24
+   ],
+   "evidence_quote": "Conduct an injection radioactive tracer survey."
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "committed",
+   "detail": "Operator watches the public USGS earthquake map site for signals of new leakage pathways, after a one-time review of the USGS catalog (M0.5+ since 1966); no site seismometers.",
+   "location": "Public USGS network (no site instruments)",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Seismic event: shut in injectors near the event.",
+   "pages": [
+    20,
+    21,
+    24
+   ],
+   "evidence_quote": "CapturePoint monitors the USGS earthquake monitoring Geological Information System (GIS)"
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "mentioned_only",
+   "detail": "Past seismic and geologic evidence cited as showing no faults through the reservoir; no repeat seismic.",
+   "location": "",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    20
+   ],
+   "evidence_quote": "After reviewing geologic, seismic, operating, and other evidence, it has been concluded that there are no known faults or fractures"
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Subpart W emission factors and engineering estimates used to quantify surface equipment leaks and vents, reconciled with event-driven leak estimates to avoid double counting.",
+   "location": "Surface equipment",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    22,
+    23,
+    25,
+    28,
+    32,
+    33
+   ],
+   "evidence_quote": "CapturePoint uses 40 CFR Part 98 Subpart W to estimate surface leaks from equipment at the SEF."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Step-rate tests measure formation parting pressure so injection pressure can be kept below it; plan says these measurements are routinely updated.",
+   "location": "Injection wells",
+   "frequency": "periodic_unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    13,
+    20
+   ],
+   "evidence_quote": "Injection pressure is also maintained below the FPP, which is measured using step-rate tests."
+  }
+ ],
+ "notes": "Near-identical template to CapturePoint's Wellman plan; the main differences are permanent ground-level H2S monitors and an ongoing (unscheduled) watch of the USGS earthquake site, both coded committed. The plan says injection pressure is 'monitored daily' (p19) and elsewhere 'continuously monitored' (p23); coded daily. MMA text is self-contradictory (unit boundary plus half-mile buffer, yet 'same as the AMA', p16). Reservoir pressure is said to be collected but no instruments or wells are named. Continuous water-curtain injection at the unit boundary (p9, p22) is a containment practice, not monitoring, so it is not coded. Figures and the process flow diagrams are images."
+}

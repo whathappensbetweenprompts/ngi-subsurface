@@ -1,0 +1,318 @@
+{
+ "site_slug": "dkl-libby-gas-plant",
+ "plan_title": "Subpart RR Monitoring, Reporting, and Verification Plan, Libby AGI No. 1 and Libby AGI No. 2, Lea County, New Mexico",
+ "plan_version_or_date": "Revised September 2025",
+ "injection_purpose": "acid_gas_disposal",
+ "uic_class_per_plan": "II",
+ "ama_definition": "By rule the end-of-injection (year 20) plume plus a half-mile buffer combined with the year 25 plume, but because the difference is small the operator set the AMA equal to the MMA (p59).",
+ "mma_definition": "The modeled stabilized plume (about 651 acres, 50 years after injection stops) plus a half-mile buffer (p59).",
+ "leakage_pathways_rated_significant": "None rated above low. Surface equipment (pipeline flanges, valves, wellheads) is described as the most likely failure point during injection; three wells penetrate the injection zone in the MMA, one plugged well inside the stabilized plume (p61-66).",
+ "baseline_summary": "Pre-injection soil gas sampling near selected well locations in the MMA (scheduled Q4 2025, third-party lab), ambient H2S and CO2 levels set during amine unit commissioning, and initial reservoir pressure measurements; after that, SCADA operational data serve as the baseline (p75-78, p84).",
+ "reporting_summary": "Annual Subpart RR report filed by March 31 through e-GGRT (draft in Appendix D); injected volumes and pressures also reported to NMOCD under Class II rules; records kept at least three years; amended plan with an updated plume due before the end of year 5. No commitment to publish measurement data (p84, p86-87).",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "Volumetric flow meter downstream of the amine unit measures acid gas injected; composition by continuous gas chromatograph or regular lab samples, averaged quarterly. Received is set equal to injected.",
+   "location": "In-plant, downstream of the amine unit",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    11,
+    65,
+    76,
+    80,
+    85
+   ],
+   "evidence_quote": "The flow rate of the acid gas being injected will be measured with a volumetric flow meter"
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "SCADA/DCS records injection pressure, temperature, rate and gas composition around the clock from a wellhead gauge; pressure kept below the 4,525 psig surface limit; ESD valves with high/low pressure shutoffs.",
+   "location": "Libby No. 1 and No. 2 wellheads; plant and pipeline",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Data outside normal range or deviation suggesting a pathway: personnel investigate and shut in the well if needed.",
+   "pages": [
+    61,
+    65,
+    72,
+    74,
+    75,
+    76,
+    77,
+    78
+   ],
+   "evidence_quote": "Injection pressure, temperature, rate, and annular pressure will be monitored continuously."
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "committed",
+   "detail": "Pressure gauge on the tubing-casing annulus (filled with corrosion-inhibited diesel), recorded by SCADA.",
+   "location": "Libby No. 1 and No. 2 wells",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Change in annular pressure is treated as a possible leak and investigated.",
+   "pages": [
+    65,
+    75,
+    76
+   ],
+   "evidence_quote": "a pressure gauge is placed on the casing annulus."
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "Annual MITs required by NMOCD rule to confirm each well and wellhead hold operating pressure.",
+   "location": "Libby No. 1 and No. 2 wells",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Failed MIT: well isolated and leak mitigated.",
+   "pages": [
+    65,
+    66,
+    74,
+    75,
+    77
+   ],
+   "evidence_quote": "NMOCD regulations require that an MIT be performed annually to confirm that the well and wellhead can properly hold the appropriate amount of pressure."
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "committed",
+   "detail": "Initial reservoir pressure measured before injection as a baseline; no downhole gauges or observation wells described for ongoing monitoring.",
+   "location": "Libby No. 1 and No. 2 wells",
+   "frequency": "one_time",
+   "baseline": "yes",
+   "trigger_or_response": "Significant pressure deviations over time analyzed for leakage.",
+   "pages": [
+    78,
+    86
+   ],
+   "evidence_quote": "Initial reservoir pressure measurements will be taken before commencing injection operations."
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Field inspections of detectors, gauges and leak signs such as vapor plumes and ice; daily at the gas plant, as needed at wells.",
+   "location": "DKL Libby Gas Plant; Libby No. 1 and No. 2 well sites",
+   "frequency": "daily",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Vapor clouds or ice found: corrective action taken.",
+   "pages": [
+    74,
+    75,
+    78
+   ],
+   "evidence_quote": "Regular inspections are to be conducted by field personnel at the DKL Libby Gas Plant and the Libby No. 1 and No. 2 wells."
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "committed",
+   "detail": "Field personnel wear personal H2S detectors (alarm at 10 ppm) and CO2 alarms (above 0.5%).",
+   "location": "Worn by field personnel",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Alarm: protect personnel, verify detectors, secure facility and mitigate leak.",
+   "pages": [
+    75
+   ],
+   "evidence_quote": "Delek field personnel are required to wear personal H2S detectors that trigger an alarm at 10 ppm"
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "committed",
+   "detail": "Fixed ambient H2S detectors in the plant and at both well sites, tied to SCADA, used as a proxy for CO2; 10 ppm high alarm, 90 ppm emergency shutdown.",
+   "location": "In-plant; Libby No. 1 and No. 2 well sites",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "10 ppm: alarm and response; 90 ppm: emergency shutdown; leak quantified from operating conditions.",
+   "pages": [
+    63,
+    65,
+    74,
+    75,
+    78,
+    85
+   ],
+   "evidence_quote": "Ambient H2S detectors are located throughout the DKL Libby Gas Plant and near the Libby No. 1 and No. 2 wells with local alarms"
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "committed",
+   "detail": "Annual soil gas samples near selected well penetrations in the MMA, including the plugged Federal C No. 1 inside the plume, analyzed by a third-party lab; continues through post-injection.",
+   "location": "Selected artificial penetrations within the MMA (number not stated)",
+   "frequency": "annual",
+   "baseline": "yes",
+   "trigger_or_response": "",
+   "pages": [
+    61,
+    74,
+    76,
+    78,
+    84
+   ],
+   "evidence_quote": "annual soil gas monitoring samples taken near identified wells within the MMA"
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "committed",
+   "detail": "Relies on public networks: nearest station NM03 (about 12.2 km away, called a TexNet station in the plan) plus the USGS and NMTSO online catalogs; watches for M2.0+ within 9.08 km. No site seismometers.",
+   "location": "Public networks (no site instruments)",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "M2.0+ event within 9.08 km: review injection volumes and pressures for signs of leakage.",
+   "pages": [
+    72,
+    73,
+    74,
+    77
+   ],
+   "evidence_quote": "Delek will monitor for any seismic event of 2.0 magnitude or greater that is detected within the 9.08 km radius"
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "mentioned_only",
+   "detail": "Existing 3D seismic used to locate the nearest fault outside the MMA; no repeat seismic.",
+   "location": "",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    23,
+    33,
+    71
+   ],
+   "evidence_quote": "The nearest fault identified from a 3D seismic is located approximately 1.9 miles east-northeast of the Libby No. 1 and No. 2 wells"
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "mentioned_only",
+   "detail": "Baseline ambient H2S and CO2 concentrations to be set during amine unit commissioning; no ongoing ambient CO2 monitoring described beyond personal CO2 alarms.",
+   "location": "DKL Libby Gas Plant",
+   "frequency": "one_time",
+   "baseline": "yes",
+   "trigger_or_response": "",
+   "pages": [
+    75
+   ],
+   "evidence_quote": "Baseline atmospheric H2S & CO2 concentrations are to be established during commissioning of the amine unit."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Corrosion control checked through periodic inspection of surface equipment, analysis of liquids taken from the line, and cathodic protection inspections.",
+   "location": "Surface equipment and pipeline",
+   "frequency": "periodic_unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    75
+   ],
+   "evidence_quote": "The internal and external corrosion control programs are be monitored for effectiveness by way of periodic inspection of surface equipment"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Tracking of drilling activity and permits in the MMA, coordinating with NMOCD and operators on well design.",
+   "location": "MMA",
+   "frequency": "periodic_unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    74,
+    77
+   ],
+   "evidence_quote": "Delek will routinely monitor for drilling activities and permits within the MMA"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Leaks calculated from operating conditions (pressure, rate, CO2 fraction, opening size, duration) rather than surveyed, because of H2S; Subpart W used for equipment between meter and wellhead; flare blowdowns reported.",
+   "location": "Surface equipment between flow meter and wellheads; flare",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    78,
+    79,
+    81,
+    82,
+    85,
+    86
+   ],
+   "evidence_quote": "Equations from Subpart W – Petroleum and Natural Gas Systems §98.232 are to be used to calculate CO2 emissions from equipment"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Plume model to be updated with measured well conditions and the AMA/MMA revised in an amended plan before the end of the first five years of injection.",
+   "location": "MMA",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    86
+   ],
+   "evidence_quote": "an amended MRV plan is to be submitted for this facility with an updated plume extent based on measured conditions in the wells"
+  }
+ ],
+ "notes": "Pre-construction plan: wells scheduled to be built Q1 2026 and operating Q2 2026 (p3), yet p82 says injection begins Q3 2025. Acid gas is about 80% CO2 / 20% H2S, so H2S detection is the main CO2 proxy and the plan rules out direct leak surveys for safety (p78, p81). Fixed detector set points conflict: Table 6 gives 10 ppm alarm / 90 ppm shutdown (p65), text says 'setpoints at 10 ppm and alarm at 15 ppm' (p75). The seismic section calls NM03 a TexNet station and cites a nonexistent Figure 42 (p77). Soil gas location count is not stated. Atmospheric CO2 coded mentioned_only because only a one-time commissioning baseline is described. Figures and Appendices A-D (plot plan, well table, draft report) are images or not in the text. Printed page numbers are one less than PDF page numbers used here."
+}

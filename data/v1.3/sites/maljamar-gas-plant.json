@@ -1,0 +1,376 @@
+{
+ "site_slug": "maljamar-gas-plant",
+ "plan_title": "Monitoring, Reporting, and Verification Plan, Frontier Field Services, LLC (Frontier) Acid Gas Injection Facility, Metropolis, Maljamar AGI #1 and Maljamar AGI #2 Wells",
+ "plan_version_or_date": "Version Number: 1.0, Version Date: May, 2024",
+ "injection_purpose": "acid_gas_disposal",
+ "uic_class_per_plan": "II",
+ "ama_definition": "Equal to the MMA in both parts: Part A the Metropolis plume at 2053 and 2058 plus a half mile; Part B the superposed AGI #1 and #2 plumes at end of injection (2043, 2046) and five years later plus a half mile (p53, p137-138).",
+ "mma_definition": "Part A: modeled Metropolis acid gas plume at end of injection (2053) plus a half-mile buffer; Part B: superposed plumes of Maljamar AGI #1 (2043) and AGI #2 (2046) plus a half-mile buffer (p52-53, p137).",
+ "leakage_pathways_rated_significant": "In both parts, surface equipment (injection wells, pipelines, flanges, relief valves) is the likely pathway and the injection wells themselves possible but unlikely; other wells, water wells, the seal, lateral migration, faults and seismicity are rated unlikely to highly unlikely using NRAP and a 5x5 risk matrix (p55-65, p140-152).",
+ "baseline_summary": "Both parts: past injection volume and CO2 concentration history (Maljamar has years of Subpart UU data) and DCS set points; plus new baselines of six monthly groundwater and soil flux rounds before going quarterly, and historical seismic records (p72-74, p77, p161-163, p166).",
+ "reporting_summary": "One combined annual Subpart RR report for both plants under a single GHGRP ID, with narratives of monitoring efforts and anomalies; pipeline leaks reported to NMOCD; NMBGMR seismic analysis to be made public. No commitment to publish other monitoring data (p3-7, p56, p73, p141, p162).",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "Orifice volumetric meter (AGA Report #3) on each plant's acid gas header (DDVM in Part A, MVM in Part B) plus AMETEK IPS-4 spectrometer for CO2, H2S and hydrocarbons; logged hourly, daily totalizers.",
+   "location": "Acid gas header at Dagger Draw (Part A) and Maljamar (Part B) plants",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    45,
+    74,
+    75,
+    77,
+    78,
+    128,
+    164,
+    166,
+    167
+   ],
+   "evidence_quote": "Signal outputs from both the volumetric flow meter and the spectrometer are monitored continuously and recorded hourly"
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "DCS tracks injection rate, pressure and composition against high/low set points (both parts). Part A: compressor pressure transmitters trip the system and a limiting device caps wellhead pressure. Part B: line pressure monitored continuously.",
+   "location": "Injection wells and acid gas compression and lines at both plants",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Out-of-range parameter: alert and investigation; leak indicated: shut in well and quantify; compressor shutdown routes gas to flare.",
+   "pages": [
+    46,
+    59,
+    63,
+    69,
+    72,
+    73,
+    130,
+    158,
+    162
+   ],
+   "evidence_quote": "The DCS of the plant monitors injection rates, pressures, and composition on a continuous basis."
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "committed",
+   "detail": "Diesel-filled tubing-casing annulus pressure recorded continuously (both parts). Part A: state order requires a continuous chart recorder on the casing backside. Part B: wellhead annular gauges report in real time to gas control.",
+   "location": "Metropolis well (Part A); Maljamar AGI #1 and #2 (Part B)",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Excursion outside range: compressor shut down, wellhead and pipeline safety valves close, acid gas sent to flare.",
+   "pages": [
+    46,
+    59,
+    130,
+    140,
+    141
+   ],
+   "evidence_quote": "designed to allow the pressure in the annular space to be monitored and recorded continuously"
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "Section 6.2 of both parts says MITs are run annually. Part A also cites the state order's casing pressure test, surface to packer, at least every two years. Table 6-1 also lists MITs on other operators' wells.",
+   "location": "Metropolis (Part A) and Maljamar AGI wells (Part B)",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Failed MIT: shut in the well, assess the failure, mitigate and quantify the leak.",
+   "pages": [
+    59,
+    67,
+    69,
+    154,
+    158
+   ],
+   "evidence_quote": "Mechanical integrity tests are performed annually."
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "committed",
+   "detail": "Bottom-hole temperature and pressure gauge data, with wellhead gauges, recorded continuously by the DCS (same text in both parts).",
+   "location": "Downhole in Metropolis (Part A) and Maljamar AGI wells (Part B)",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "",
+   "pages": [
+    69,
+    158
+   ],
+   "evidence_quote": "data from the bottom hole temperature and pressure gauge and wellhead gauges are continuously recorded by the DCS"
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Field personnel follow daily and weekly inspection protocols on surface equipment and wellheads; routine O&M procedures give frequent periodic well inspections (both parts).",
+   "location": "Plant surface equipment and wellheads at both plants",
+   "frequency": "daily",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Leak found: immediate response, isolate and repair, quantify.",
+   "pages": [
+    55,
+    67,
+    69,
+    72,
+    73,
+    140,
+    154,
+    158,
+    161,
+    162
+   ],
+   "evidence_quote": "following daily and weekly inspection protocols which include reporting and responding to any detected leakage events"
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "committed",
+   "detail": "All employees and contractors wear personal H2S monitors; handheld 4-gas detectors used before maintenance (Part A units include a CO2 sensor, Part B units sense carbon monoxide instead).",
+   "location": "Worn by all staff and contractors at both plants",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Alarm: emergency response to secure the facility and contain the leak; spectrometer data and duration used to estimate CO2.",
+   "pages": [
+    68,
+    72,
+    155,
+    161
+   ],
+   "evidence_quote": "all Frontier employees and contract personnel are required to wear personal H2S monitors set to alarm at 5 ppm"
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "committed",
+   "detail": "Fixed H2S sensors throughout both plants and at wells, alarm 10 ppm, calibrated monthly. Part A: wireless perimeter detectors at plant and well. Part B: four wellhead monitors trigger shutdown at 20 ppm. Monthly optical gas imaging surveys.",
+   "location": "Plants, wellheads and perimeters at both sites",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "10 ppm: beacon and horn, immediate response; Part B wellhead monitors at 20 ppm activate emergency shutdown; OGI-found leaks isolated and repaired immediately.",
+   "pages": [
+    67,
+    68,
+    71,
+    72,
+    154,
+    155,
+    157,
+    160,
+    161
+   ],
+   "evidence_quote": "Fixed H2S monitors are set to alarm at 10 ppm."
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "committed",
+   "detail": "Soil CO2 flux by LI-COR LI-8100A chamber on fixed PVC collars at preplanned locations: monthly for six months for baseline, then quarterly, compared with baseline (same in both parts).",
+   "location": "Preplanned locations across the MMA, including near other wells; number not stated",
+   "frequency": "quarterly",
+   "baseline": "yes",
+   "trigger_or_response": "Quarterly results compared with baseline for percent change; indicated leak triggers pathway identification and quantification.",
+   "pages": [
+    67,
+    69,
+    71,
+    74,
+    154,
+    158,
+    160,
+    163
+   ],
+   "evidence_quote": "The data will be collected on a monthly basis, for six months, to establish a baseline."
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "committed",
+   "detail": "Groundwater wells near the injection wells, still to be identified, sampled for TDS, pH, alkalinity, ions, ORP, inorganic and organic carbon: monthly for six months, then quarterly. Part A names two wells in its MMA.",
+   "location": "Part A: water wells RA-03975 and RA-07639 in MMA; Part B: wells not named",
+   "frequency": "quarterly",
+   "baseline": "yes",
+   "trigger_or_response": "Leak indicated: quantify per Section 6.8.",
+   "pages": [
+    60,
+    67,
+    73,
+    74,
+    147,
+    154,
+    162,
+    163
+   ],
+   "evidence_quote": "Groundwater wells, in the vicinity of the injection well(s), will be identified."
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "committed",
+   "detail": "Relies on the public NMTSO network; Part A names stations 15-49.5 miles away, Part B stations 11.8-30.1 miles. NMBGMR to analyze state seismometers within 10 miles and publish. No operator seismometer.",
+   "location": "NMTSO stations (Part A: DAG, SRH, CBET, CL7; Part B: CPRX, HOB5, WTX28, WTX29, HOB3, HTMS, CL7, CBET)",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Leak signals linked to a seismic event: assess whether CO2 came from the wells and quantify.",
+   "pages": [
+    64,
+    65,
+    67,
+    70,
+    73,
+    151,
+    152,
+    154,
+    159,
+    162
+   ],
+   "evidence_quote": "Frontier will use the established NMTSO seismic network."
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Subpart W for equipment between injection meter and wellhead, using OGI leak surveys and Table W-1A factors; other surface leaks quantified from pressure, flow, duration and size; pipeline leaks reported under NMAC 19.15.28 (both parts).",
+   "location": "Surface equipment and pipelines at both plants",
+   "frequency": "annual",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Leak detected: isolate and repair immediately, then quantify.",
+   "pages": [
+    55,
+    56,
+    68,
+    70,
+    71,
+    78,
+    140,
+    141,
+    155,
+    156,
+    160,
+    167
+   ],
+   "evidence_quote": "will follow the monitoring and QA/QC requirements specified in Subpart W of the GHGRP"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Part A only: the 2-inch acid gas line runs inside a 6-inch pipe swept with sweet gas, checked continuously for H2S (Delmar analyzer) and pressure. Part B instead has H2S sensors at pipe-rack junctions.",
+   "location": "Acid gas line, Dagger Draw plant to Metropolis well (Part A); plant pipe racks (Part B)",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Reading out of range: automatic safety valves close, compressor shuts down, acid gas routed to flare.",
+   "pages": [
+    46,
+    55,
+    130
+   ],
+   "evidence_quote": "This sweet gas stream is monitored continuously for H2S"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Inline inspections listed as a surface-equipment detection method in Table 6-1 of both parts; no further detail.",
+   "location": "Surface equipment",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    67,
+    154
+   ],
+   "evidence_quote": "Inline inspections"
+  },
+  {
+   "method": "other",
+   "commitment": "conditional",
+   "detail": "If monitoring shows the plume beyond the modeled area, plume modeling is reassessed and a revised MRV plan submitted (both parts).",
+   "location": "Injection zone model",
+   "frequency": "event_driven",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Plume beyond modeled area: reassess modeling, submit revised MRV plan.",
+   "pages": [
+    69,
+    70,
+    158,
+    159
+   ],
+   "evidence_quote": "Frontier will reassess the plume migration modeling for evidence that the plume may have intersected"
+  },
+  {
+   "method": "other",
+   "commitment": "conditional",
+   "detail": "If surface leaks are detected, advanced methods from EPA's technical support document and emerging tools (Part A cites satellite imaging and drones) would be deployed to find the pathway and quantify.",
+   "location": "",
+   "frequency": "event_driven",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Surface leak detected: identify pathway and quantify.",
+   "pages": [
+    71,
+    72,
+    161
+   ],
+   "evidence_quote": "technologies for quantifying CO2 surface emissions are continuing to be developed and refined (e.g. satellite imaging, drones, etc.)"
+  }
+ ],
+ "notes": "One plan in two parts: Part A (Dagger Draw plant, Metropolis well, PDF p15-97) and Part B (Maljamar plant, AGI #1 and #2, p98-198). Monitoring text is nearly identical; differences are flagged in rows. Conflicts: MIT annual (6.2) vs order's two-year casing test (Part A p59); personal H2S alarm 10 ppm (quoted contingency plans) vs 5 ppm (Section 7.2); Part A maximum wellhead pressure 3,280 psi (p59) vs 1,980 psi (p63); Section 7.6 cites state seismometers within 10 miles but the nearest named stations are 15 mi (A) and 11.8 mi (B). Groundwater wells 'will be identified'. Bottom-hole gauge appears only in 6.2. Monitoring stated for duration of injection only (p67, p154). Part B 2.1 gives an ID 'for Daggers Draw' (likely typo). Dagger Draw spectrometer expected operational Sept 2023 (p77). Cover, figures and appendices (p175-198) are image-only."
+}

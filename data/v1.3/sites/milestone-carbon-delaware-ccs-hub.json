@@ -1,0 +1,306 @@
+{
+ "site_slug": "milestone-carbon-delaware-ccs-hub",
+ "plan_title": "Subpart RR Monitoring, Reporting, and Verification (MRV) Plan for the Delaware CCS Hub Facility",
+ "plan_version_or_date": "Revision Version 4.0, resubmitted 11 February 2025",
+ "injection_purpose": "class_vi_storage",
+ "uic_class_per_plan": "VI and II (Delaware CCS #1, #2 and #5 Class VI; Loving AGI #3 and #4 Class II)",
+ "ama_definition": "Set equal to the MMA: the end-of-injection (2038) plume plus a half-mile buffer superimposed on the 2043 plume (p26).",
+ "mma_definition": "Three separate MMAs around the facilities' plumes: the modeled CO2 extent 50 years after injection ends, plus a half-mile buffer, totaling about 38.9 square miles; MMA #3 (CCS #5) not yet modeled (p24-25).",
+ "leakage_pathways_rated_significant": "None. Surface equipment and injection wells are rated low likelihood; existing and future wells, groundwater wells, faults, the confining system and seismicity are rated extremely low. None of the 758 wells in the MMAs reaches the seal (p27-35).",
+ "baseline_summary": "Pre-injection environmental baseline: ambient and near-surface CO2 (including vadose-zone soil gas), fluid samples from the Pecos Valley and Rustler aquifers, the first permeable zone above the injection interval and the injection interval, pre-injection pulsed-neutron and cased-hole logs, and baseline CSEM and microseismic surveys (p39, 41).",
+ "reporting_summary": "Annual Subpart RR report filed by March 31; testing and monitoring plan reviewed at least every five years; records kept at least three years. Seismic events over M2.5 within 10 km 'will be reported' (recipient unstated). No commitment to publish measurement data (p35, 44-45).",
+ "rows": [
+  {
+   "method": "injection_metering",
+   "commitment": "committed",
+   "detail": "Metering station on each pipeline, with the primary meter closest to each injection wellhead; volumetric or mass flow meter depending on equipment availability; composition by continuous analyzer or representative sampling, averaged quarterly.",
+   "location": "Primary metering station at each injection wellhead",
+   "frequency": "continuous",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    23,
+    37,
+    42,
+    44
+   ],
+   "evidence_quote": "The point of measurement for the mass of CO2 received (injected) will be the primary metering station located closest to each injection wellhead."
+  },
+  {
+   "method": "injection_pressure_scada",
+   "commitment": "committed",
+   "detail": "SCADA continuously monitors stream composition, pressure, flow and temperature at each wellhead with automated alerts, fail-safe alarms and emergency shutdown valves; wellhead pressure loggers.",
+   "location": "Each injection wellhead and flowline",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "Data outside performance limits or signs of fault or seal breakthrough: alert, field review, shut in if necessary.",
+   "pages": [
+    27,
+    37,
+    38,
+    39,
+    40
+   ],
+   "evidence_quote": "Milestone\u2019s qualified technicians and operators will continuously monitor stream composition, pressure, flow, and temperature via the automated Supervisory Control and Data Acquisition (SCADA) system"
+  },
+  {
+   "method": "annulus_pressure",
+   "commitment": "committed",
+   "detail": "Digital surface pressure gauges on the tubing-casing annulus, tied to SCADA, with a planned +100 psi annulus-tubing differential; annulus pressure also tested before injection and at least every five years.",
+   "location": "Each injection well annulus",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Annular pressure change signals a potential leak; safety devices activate.",
+   "pages": [
+    23,
+    27,
+    38,
+    39
+   ],
+   "evidence_quote": "Changes in annular pressure will signal the presence of a potential leak and mitigating safety devices will activate"
+  },
+  {
+   "method": "mechanical_integrity_testing",
+   "commitment": "committed",
+   "detail": "MIT program every five years, plus ultrasonic or other casing inspection log before injection and at least every five years.",
+   "location": "Each injection well",
+   "frequency": "multi_year",
+   "baseline": "yes",
+   "trigger_or_response": "MIT or corrosion monitoring shows a leak: well isolated and remediated.",
+   "pages": [
+    27,
+    37,
+    39
+   ],
+   "evidence_quote": "Milestone will perform a mechanical integrity test program (MIT) at 5-year intervals to confirm well and wellhead integrity."
+  },
+  {
+   "method": "production_monitoring",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "reservoir_pressure",
+   "commitment": "committed",
+   "detail": "At least one downhole tubing-conveyed pressure-temperature gauge per well. Fiber and in-zone monitoring wells are mentioned, but the number and location of in-zone wells are never given.",
+   "location": "Each injection well (downhole gauge); in-zone monitoring wells unspecified",
+   "frequency": "continuous",
+   "baseline": "no",
+   "trigger_or_response": "",
+   "pages": [
+    27,
+    38,
+    39,
+    40
+   ],
+   "evidence_quote": "pressure in the wellbore will be continuously monitored with at least one downhole, tubing-conveyed pressure\u2013temperature (P\u2013T) gauge"
+  },
+  {
+   "method": "visual_inspection",
+   "commitment": "committed",
+   "detail": "Operators inspect equipment from the flow meter to the wellhead at a risk-based interval, carrying personal CO2 monitors; also risk-driven analysis of collected liquids and cathodic protection inspections.",
+   "location": "Flow meter to wellhead at each site",
+   "frequency": "periodic_unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Gas detected: immediate corrective action. If any well penetrating the injection interval is found, quarterly visual and handheld CO2 checks.",
+   "pages": [
+    37,
+    38,
+    39
+   ],
+   "evidence_quote": "Operators will also conduct visual field inspections from the injection flow meter to the injection wellhead, using personal CO\u2082 monitor-sensors for leak detection."
+  },
+  {
+   "method": "personal_gas_monitors",
+   "commitment": "committed",
+   "detail": "Personal CO2 monitors used during inspections (risk-based interval); all field personnel wear H2S monitors per OSHA.",
+   "location": "Worn by field personnel",
+   "frequency": "periodic_unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Gas detected: immediate corrective action and quantification.",
+   "pages": [
+    37,
+    38
+   ],
+   "evidence_quote": "all field personnel will wear H\u2082S monitors in compliance with Occupational Safety and Health Administration (OSHA) requirements"
+  },
+  {
+   "method": "fixed_gas_detectors",
+   "commitment": "committed",
+   "detail": "CO2 gas detectors at the central collection hub and injection sites, operated continuously and calibrated to manufacturer and API standards.",
+   "location": "Central collection hub and injection well sites",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Detection: alarm, immediate corrective action, release quantified from operating conditions.",
+   "pages": [
+    38,
+    41,
+    43,
+    44
+   ],
+   "evidence_quote": "CO\u2082 gas detectors will be installed at the central collection hub and injection sites"
+  },
+  {
+   "method": "soil_gas",
+   "commitment": "mentioned_only",
+   "detail": "Vadose-zone soil gas named once, as an example inside the baseline sentence; no sampling program, locations or repeat schedule.",
+   "location": "",
+   "frequency": "one_time",
+   "baseline": "unclear",
+   "trigger_or_response": "",
+   "pages": [
+    41
+   ],
+   "evidence_quote": "This baseline will use samples and analysis from near-surface and deep subsurface environments, such as soil gas in the vadose zone"
+  },
+  {
+   "method": "groundwater_sampling",
+   "commitment": "committed",
+   "detail": "Baseline fluid samples from the Pecos Valley and Rustler aquifers and from Milestone water wells at seismic stations, tested for ions, dissolved CO2, pH, TDS, isotopes and alkalinity. No repeat schedule stated.",
+   "location": "Pecos Valley and Rustler aquifers; Milestone water wells co-located with seismic stations",
+   "frequency": "one_time",
+   "baseline": "yes",
+   "trigger_or_response": "",
+   "pages": [
+    41
+   ],
+   "evidence_quote": "Milestone will collect baseline fluid samples from the surface aquifers (Pecos Valley, and Rustler)"
+  },
+  {
+   "method": "above_zone_monitoring",
+   "commitment": "committed",
+   "detail": "Downhole fluid samples from the first permeable zone above the injection interval (likely the Strawn), taken while drilling as a baseline; no ongoing above-zone wells or gauges.",
+   "location": "Injection wells during drilling",
+   "frequency": "one_time",
+   "baseline": "yes",
+   "trigger_or_response": "",
+   "pages": [
+    41
+   ],
+   "evidence_quote": "Milestone will collect downhole reservoir fluid samples from the first permeable zone above the Injection interval, likely the Strawn formation"
+  },
+  {
+   "method": "cased_hole_logging",
+   "commitment": "committed",
+   "detail": "Cement bond logs, pulsed-neutron saturation logs and casing inspection logs at baseline and on 5-year or as-needed intervals; DTS fiber gives continuous wellbore temperature profiles.",
+   "location": "Each injection well",
+   "frequency": "multi_year",
+   "baseline": "yes",
+   "trigger_or_response": "Repeat logs compared to baseline for CO2 behind casing outside the injection interval.",
+   "pages": [
+    27,
+    30,
+    37,
+    39,
+    41
+   ],
+   "evidence_quote": "Future logs can be compared to baseline to confirm whether any CO2 is being observed behind the casing outside the Injection Interval."
+  },
+  {
+   "method": "passive_seismic",
+   "commitment": "committed",
+   "detail": "Six Milestone-owned broadband near-surface seismometers per MMA, plus existing TexNet stations; DAS fiber in injection wells records continuously, with intermittent fiber recording in in-zone wells; baseline microseismic survey.",
+   "location": "Arrays around each MMA; injection and in-zone monitoring wells",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Event over M2.5 within 10 km reported; larger events handled under the UIC permit emergency response plan.",
+   "pages": [
+    35,
+    37,
+    38,
+    40,
+    41
+   ],
+   "evidence_quote": "At each MMA area (MMA #1, MMA #2, and MMA #3), six additional Milestone owned broadband stations will be installed"
+  },
+  {
+   "method": "active_seismic",
+   "commitment": "mentioned_only",
+   "detail": "Existing 3-D seismic used for site characterization and the model; no repeat seismic or VSP.",
+   "location": "",
+   "frequency": "one_time",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [
+    14,
+    21,
+    24
+   ],
+   "evidence_quote": "No faults are observed to cut through the Barnett shale within the AoR on 3-D seismic."
+  },
+  {
+   "method": "surface_deformation",
+   "commitment": "not_found",
+   "detail": "",
+   "location": "",
+   "frequency": "unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "",
+   "pages": [],
+   "evidence_quote": ""
+  },
+  {
+   "method": "atmospheric_co2",
+   "commitment": "committed",
+   "detail": "Continuous airborne CO2 sensors near potential leakage pathways (Table 7's 'Atmospheric CO2 Monitor'), with emission rates calculated from atmospheric data against background; atmospheric monitoring near any AMA penetrations (none found).",
+   "location": "Near potential leakage pathways at well sites; near AMA penetrations if found",
+   "frequency": "continuous",
+   "baseline": "yes",
+   "trigger_or_response": "Readings above background: emission rate calculated and entered in Equation RR-10.",
+   "pages": [
+    28,
+    37,
+    38,
+    41
+   ],
+   "evidence_quote": "the facility will employ continuous airborne gas monitoring using sensors strategically placed near potential leakage pathways"
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Time-lapse controlled-source electromagnetic (CSEM) surveys to track the plume and pressure spread, with a pre-injection baseline survey; no repeat interval given.",
+   "location": "Storage reservoir",
+   "frequency": "periodic_unspecified",
+   "baseline": "yes",
+   "trigger_or_response": "",
+   "pages": [
+    41
+   ],
+   "evidence_quote": "Milestone will employ two indirect methods to track the CO2 plume and pressure spread during the injection phase of the project."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Corrosion coupons and continuous monitoring of tubing and casing materials for mass loss, thinning, cracking and pitting, following AMPP NACE SP0775-2023.",
+   "location": "Injection well tubing and casing",
+   "frequency": "periodic_unspecified",
+   "baseline": "yes",
+   "trigger_or_response": "Corrosion indicates leak or design failure: isolate and remediate well.",
+   "pages": [
+    27
+   ],
+   "evidence_quote": "Using corrosion coupons, initial baseline and periodic measurements will follow the recommendations of AMPP NACE SP0775-2023."
+  },
+  {
+   "method": "other",
+   "commitment": "committed",
+   "detail": "Tracks RRC drilling permit applications in the MMA for wells deep enough to reach the seal or injection interval and works with those operators.",
+   "location": "MMA",
+   "frequency": "periodic_unspecified",
+   "baseline": "not_applicable",
+   "trigger_or_response": "Deep permit filed: work with operator to mitigate risk.",
+   "pages": [
+    32,
+    39
+   ],
+   "evidence_quote": "Milestone will monitor new drilling permit applications in the MMA and mitigate potential risk with operators ahead of them drilling into the disposal reservoir."
+  }
+ ],
+ "notes": "Hub of five wells: three Class VI and two Class II AGI wells, all with UIC numbers 'Not Yet Assigned'; coded class_vi_storage because most of the planned volume goes to the Class VI wells. Soil gas, groundwater and above-zone fluid sampling are described only as pre-injection baselines; they are coded committed with frequency one_time, and no repeat schedule is given. Internal inconsistencies: Table 7 gives cement bond logs a 5-year interval while the text says 'as-needed'; Table 7 lists the pulsed-neutron log as both 'As Needed' and '5 Year Interval'; p35 says six seismometers around the Central Loving Facility, with stations at MMA #2/#3 only 'likely', while p40 says six per MMA. In-zone monitoring wells are referenced but never specified. Airborne CO2 sensors (atmospheric_co2) and the hub gas detectors (fixed_gas_detectors) may be the same equipment. Details are deferred to the Class VI permit's testing and monitoring plan, which is not included. The last page carries a Milestone notice calling the document confidential and proprietary. Soil gas recoded to mentioned_only after the independent check: the only support is an example in the baseline sentence (p41)."
+}
