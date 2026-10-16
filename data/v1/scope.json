@@ -1,0 +1,114 @@
+[
+ {
+  "site_slug": "brown-pelican-co2-sequestration-project",
+  "site_name": "Brown Pelican CO2 Sequestration Project",
+  "operator": "Occidental Permian, Ltd.",
+  "uic_class": "VI",
+  "counties_in_plan": "Ector"
+ },
+ {
+  "site_slug": "denver-unit",
+  "site_name": "Wasson San Andres Field (Denver Unit)",
+  "operator": "Occidental Permian Ltd",
+  "uic_class": "II",
+  "counties_in_plan": "Yoakum; Gaines"
+ },
+ {
+  "site_slug": "seminole-san-andres-unit",
+  "site_name": "Seminole San Andres Unit",
+  "operator": "OXY USA Inc.",
+  "uic_class": "II",
+  "counties_in_plan": "Gaines"
+ },
+ {
+  "site_slug": "west-seminole-san-andres-unit",
+  "site_name": "West Seminole San Andres Unit",
+  "operator": "OXY USA WTP LP",
+  "uic_class": "II",
+  "counties_in_plan": "Gaines"
+ },
+ {
+  "site_slug": "seminole-east-field-sef",
+  "site_name": "Seminole East Field",
+  "operator": "Block T Petroleum, Inc",
+  "uic_class": "II",
+  "counties_in_plan": "Gaines"
+ },
+ {
+  "site_slug": "south-plains-complex",
+  "site_name": "South Plains Complex",
+  "operator": "Occidental Permian, Ltd.",
+  "uic_class": "II",
+  "counties_in_plan": ""
+ },
+ {
+  "site_slug": "denver-city-fields",
+  "site_name": "Denver City Fields",
+  "operator": "CapturePoint, LLC",
+  "uic_class": "II",
+  "counties_in_plan": "Gaines"
+ },
+ {
+  "site_slug": "wellman",
+  "site_name": "Wellman",
+  "operator": "CapturePoint, LLC",
+  "uic_class": "II",
+  "counties_in_plan": "Terry"
+ },
+ {
+  "site_slug": "30-30-gas-plant",
+  "site_name": "30-30 Gas Plant",
+  "operator": "Stakeholder Gas Services, LLC",
+  "uic_class": "II",
+  "counties_in_plan": "Yoakum"
+ },
+ {
+  "site_slug": "campo-viejo-gas-processing-plant",
+  "site_name": "Campo Viejo Gas Processing Plant",
+  "operator": "Stakeholder Gas Services, LLC",
+  "uic_class": "II",
+  "counties_in_plan": "Yoakum"
+ },
+ {
+  "site_slug": "targa-permian-co2-sequestration-well",
+  "site_name": "Targa Permian CO2 Sequestration Well",
+  "operator": "Targa Resources Corp",
+  "uic_class": "II",
+  "counties_in_plan": "Midland"
+ },
+ {
+  "site_slug": "milestone-carbon-delaware-ccs-hub",
+  "site_name": "Milestone Carbon Delaware CCS Hub",
+  "operator": "Milestone Carbon Delaware CCS Hub, LLC",
+  "uic_class": "II, VI",
+  "counties_in_plan": "Loving"
+ },
+ {
+  "site_slug": "wildcat-gas-plant",
+  "site_name": "Wildcat Gas Plant",
+  "operator": "Targa Delaware LLC",
+  "uic_class": "II",
+  "counties_in_plan": "Winkler"
+ },
+ {
+  "site_slug": "bull-moose-gas-plant",
+  "site_name": "Bull Moose Gas Plant",
+  "operator": "Targa Midstream Services LLC",
+  "uic_class": "II",
+  "counties_in_plan": "Winkler"
+ },
+ {
+  "site_slug": "mongoose-amine-treating-facility",
+  "site_name": "Mongoose Amine Treating Facility",
+  "operator": "Bayswater Operating, LLC",
+  "uic_class": "II",
+  "counties_in_plan": "Mitchell"
+ },
+ {
+  "site_slug": "kinder-morgan-ccs-complex",
+  "site_name": "Kinder Morgan CCS Complex",
+  "operator": "Kinder Morgan Permian CCS LLC",
+  "uic_class": "II",
+  "counties_in_plan": "Stonewall; King (per plan text)"
+ }
+]

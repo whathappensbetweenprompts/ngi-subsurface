@@ -1,0 +1,14 @@
+[
+["brown-pelican-co2-sequestration-project",12,12,"project_wells","Table 1 - List of Project wells"],
+["brown-pelican-co2-sequestration-project",17,18,"legacy_penetrations_aor_mma","Table 2 - Locations of legacy APs in BRP AoR and MMA; Table 3 - Public records search results for APs in BRP AoR and MMA"],
+["denver-unit",46,159,"unit_well_list","Table 4 - WSA Well Numbers, Types, and Status"],
+["seminole-san-andres-unit",39,55,"unit_well_list","Table 4 - SSAU Well Numbers, Types, and Status"],
+["west-seminole-san-andres-unit",38,43,"unit_well_list","Appendix 12.1 - Well Identification Numbers"],
+["seminole-east-field-sef",37,40,"unit_well_list","Appendix 12.1 - Well Identification Numbers"],
+["south-plains-complex",46,157,"unit_well_list","Table 5 - Wells in the South Plains Complex"],
+["denver-city-fields",43,44,"unit_well_list","Appendix 12.1 / Table 12-1 - Well Status Table"],
+["wellman",43,45,"unit_well_list","Appendix 12.1 / Table 12-1 - Well Status Table"],
+["30-30-gas-plant",101,107,"mma_well_list","Rattlesnake AGI No. 1 - Oil and Gas Wells within MMA"],
+["campo-viejo-gas-processing-plant",123,126,"mma_well_list","Campo Viejo Facility - Oil and Gas Wells within MMA"],
+["milestone-carbon-delaware-ccs-hub",56,74,"mma_well_list","Appendix C-2 - Oil & Gas Wells within MMA List"]
+]

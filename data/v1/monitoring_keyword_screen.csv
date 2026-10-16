@@ -1,0 +1,17 @@
+site_slug,uic_class,injection_rate_pressure_scada,mechanical_integrity_testing,surface_leak_detection_h2s_co2_sensors,soil_gas,groundwater_usdw_sampling,atmospheric_eddy_covariance,pulsed_neutron_saturation_logging,fiber_optic_das_dts,seismic_monitoring_or_surveys,insar_surface_deformation,pressure_front_or_monitoring_wells,tracers,mass_balance_equations
+brown-pelican-co2-sequestration-project,VI,8,14,1,13,20,0,0,10,13,12,19,0,9
+denver-unit,II,12,2,5,0,0,0,0,0,1,0,2,0,10
+seminole-san-andres-unit,II,11,3,5,0,0,0,0,0,1,0,2,0,10
+west-seminole-san-andres-unit,II,10,2,4,0,0,0,0,0,1,0,1,0,8
+seminole-east-field-sef,II,8,3,4,0,1,0,0,0,0,0,1,1,9
+south-plains-complex,II,11,2,5,0,0,0,0,0,1,0,1,0,12
+denver-city-fields,II,9,3,4,0,0,0,0,0,0,0,1,0,10
+wellman,II,8,5,4,0,0,0,0,0,0,0,1,1,13
+30-30-gas-plant,II,8,5,3,0,5,0,0,0,1,0,1,0,0
+campo-viejo-gas-processing-plant,II,15,4,8,0,8,2,0,0,5,0,0,0,4
+targa-permian-co2-sequestration-well,II,8,5,12,0,12,0,0,1,5,0,0,0,9
+milestone-carbon-delaware-ccs-hub,"II, VI",12,7,4,1,5,1,2,5,4,0,4,0,7
+wildcat-gas-plant,II,10,5,6,0,8,0,0,1,5,0,0,0,10
+bull-moose-gas-plant,II,8,4,5,0,9,0,0,1,5,0,0,0,10
+mongoose-amine-treating-facility,II,14,4,2,4,6,0,0,0,1,0,2,0,4
+kinder-morgan-ccs-complex,II,13,4,0,0,10,1,0,0,3,0,5,0,5
