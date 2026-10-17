@@ -101,7 +101,7 @@ It found problems with the parsing of plan type and status, with duplicate list 
 
 - Text extraction can miss API numbers in scanned pages or in figures. A few plan pages have no text layer.
 - Page-to-role assignment is my judgment from table captions. The page ranges are published, so anyone can check or change them.
-- RRC fields reflect the 16 October 2026 file. Well status changes.
+- RRC fields come from the file downloaded on 16 October 2026, but that file's contents date from about December 2020: every row has a December 2020 load date, and its newest completion and status dates are from late 2020. RRC fields here describe each well as of then. *(Correction added 17 October 2026; see `../v1.5/README.md`.)*
 - `plan_type_raw` and `plan_status_raw` are filled only where the list format allowed a reliable parse. The Milestone list's formatting defeated it, so use `plan_row_raw` there. A handful of Wellman rows where the PDF glued two table cells together are also imperfect; the raw row text is kept.
 - Texas only.
 
