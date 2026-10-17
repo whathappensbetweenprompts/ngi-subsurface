@@ -1,0 +1,215 @@
+[
+ {
+  "slug": "bull-moose-gas-plant",
+  "name": "Bull Moose Gas Plant",
+  "status": "unclear",
+  "injection_start": "",
+  "summary": "The Winkler County plant has run since 1Q 2025, and the MRV plan cites an issued RRC permit for BM AGI #1. Targa reports seven Delaware AGI wells but never names one at Bull Moose. Drilling and injection are unconfirmed.",
+  "evidence_date": "2026-02",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "EPA Subpart RR MRV plan, Bull Moose (2025)",
+    "url": "https://www.epa.gov/system/files/documents/2025-04/bull_moose_mrv.pdf"
+   },
+   {
+    "title": "Targa Resources Form 10-K FY2025",
+    "url": "https://www.sec.gov/Archives/edgar/data/1389170/000119312526059296/trgp-20251231.htm"
+   },
+   {
+    "title": "Targa Investor Presentation, November 2025",
+    "url": "https://www.targaresources.com/static-files/8c3ab5dc-9abb-4152-8e45-61e8eddb4674"
+   }
+  ]
+ },
+ {
+  "slug": "denver-city-fields",
+  "name": "Denver City Fields",
+  "status": "eor_flood_ongoing",
+  "injection_start": "2007-12",
+  "summary": "CapturePoint's George Allen Unit and Ruth Hudson Lease in Gaines County have run CO2 floods since 2007 and 2012. The 2024 MRV plan describes active WAG injection using pipeline CO2 plus recycled CO2. No newer public update was found.",
+  "evidence_date": "2024-10",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "EPA Subpart RR MRV plan, Denver City Fields (2024)",
+    "url": "https://www.epa.gov/system/files/documents/2024-10/denvercityfields_mrv.pdf"
+   }
+  ]
+ },
+ {
+  "slug": "maljamar-gas-plant",
+  "name": "Maljamar Gas Plant",
+  "status": "injecting",
+  "injection_start": "",
+  "summary": "Maljamar AGI #1 had begun injecting acid gas by October 2015, per an NMOCC order. AGI #2 was later added, and a 2017 OCD report shows both in use. The 2024 MRV plan says the plant operates two AGI wells. Exact start date unknown.",
+  "evidence_date": "2024-08",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "EPA Subpart RR MRV plan, Maljamar (2024)",
+    "url": "https://www.epa.gov/system/files/documents/2024-09/maljamar_mrv.pdf"
+   },
+   {
+    "title": "NMOCC Order R-13443-C, Case 15193 (2015)",
+    "url": "https://ocdimage.emnrd.nm.gov/Imaging/FileStore/SantaFeAdmin/CF/300081/15193_32_CF.pdf"
+   },
+   {
+    "title": "NM OCD Form C-103, Maljamar AGI #1 quarterly report (2017)",
+    "url": "https://ocdimage.emnrd.nm.gov/Imaging/FileStore/Hobbs/WF/312182/30025404200000_52_WF.pdf"
+   }
+  ]
+ },
+ {
+  "slug": "south-plains-complex",
+  "name": "South Plains Complex",
+  "status": "eor_flood_ongoing",
+  "injection_start": "1984",
+  "summary": "Oxy runs this as one project of 38 Slaughter and Levelland field units in Cochran, Hockley and Terry counties. CO2 flooding began in 1984. The 2025 MRV plan says CO2 injection continues in some units, using Bravo pipeline and recycled CO2.",
+  "evidence_date": "2025-07",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "EPA Subpart RR MRV plan, South Plains Complex (2025)",
+    "url": "https://www.epa.gov/system/files/documents/2025-07/south_plains_complex_mrv.pdf"
+   }
+  ]
+ },
+ {
+  "slug": "wellman",
+  "name": "Wellman",
+  "status": "eor_flood_ongoing",
+  "injection_start": "1983",
+  "summary": "The Wellman Unit in Terry County, operated by CapturePoint, has run a CO2 flood since 1983. The 2024 MRV plan lists seven active CO2 injectors fed by pipeline and recycled CO2. No newer public update was found.",
+  "evidence_date": "2024-07",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "EPA Subpart RR MRV plan, Wellman (2024)",
+    "url": "https://www.epa.gov/system/files/documents/2024-07/wellman_mrv.pdf"
+   }
+  ]
+ },
+ {
+  "slug": "booker-field-area",
+  "name": "Booker Field Area",
+  "status": "injecting",
+  "injection_start": "2023-04",
+  "summary": "This CapturePoint CO2-EOR area in Ochiltree County has flooded since 2009 using Arkalon ethanol CO2. Supply was curtailed in 2020 and resumed when Arkalon's upgraded capture entered service in April 2023. A March 2024 45Q sale covered this CO2.",
+  "evidence_date": "2024-03",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "EPA Subpart RR MRV plan, Booker Field Area (2023)",
+    "url": "https://epa.gov/system/files/documents/2023-12/bookerfieldarea_mrv.pdf"
+   },
+   {
+    "title": "CapturePoint closes 45Q transfer for Arkalon CO2 (Business Wire, Mar 2024)",
+    "url": "https://www.businesswire.com/news/home/20240318084428/en/CapturePoint-Closes-45Q-Direct-Transfer-Tax-Credit-Transaction-Associated-With-the-Arkalon-Co2-Capture-Facility-in-Kansas"
+   },
+   {
+    "title": "CarbonStorage.io: Booker",
+    "url": "https://carbonstorage.io/storage/booker"
+   }
+  ]
+ },
+ {
+  "slug": "cotton-cove-ccs-1",
+  "name": "Cotton Cove CCS 1",
+  "status": "injecting",
+  "injection_start": "2026-04",
+  "summary": "BKV says Cotton Cove first injected CO2 in April 2026 and began commercial operation by June 30, 2026. The Fort Worth Basin project, co-developed with Banpu Power US, uses a Class II well and expects about 32,000 t/yr.",
+  "evidence_date": "2026-08-14",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "BKV starts up Eagle Ford, Cotton Cove CCS plants in Texas (OGJ)",
+    "url": "https://www.ogj.com/energy-transition/news/55388185/bkv-starts-up-eagle-ford-cotton-cove-ccs-plants-in-texas"
+   },
+   {
+    "title": "BKV brings Eagle Ford, Cotton Cove CCS online in Texas (Decarbonfuse)",
+    "url": "https://decarbonfuse.com/posts/bkv-brings-eagle-ford-cotton-cove-ccs-online-in-texas"
+   }
+  ]
+ },
+ {
+  "slug": "eastern-wyoming-sequestration-hub",
+  "name": "Eastern Wyoming Sequestration Hub",
+  "status": "injecting",
+  "injection_start": "2025",
+  "summary": "Four of six injectors are drilled, and Juniper I-1 holds Wyoming authorization to inject. Trailblazer pipeline deliveries from Nebraska ethanol plants began in fall 2025. A December 2025 report says the CO2 is now being stored at the hub. The exact first-injection month is unpublished.",
+  "evidence_date": "2026-05-01",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "CO2 from Nebraska ethanol refineries now stored underground in Wyoming (EnergyTech, Dec 2025)",
+    "url": "https://www.energytech.com/infrastructure/news/55337435/co2-from-nebraska-ethanol-refineries-now-stored-underground-in-wyoming"
+   },
+   {
+    "title": "EPA Subpart RR MRV plan, EWS Hub (2025)",
+    "url": "https://www.epa.gov/system/files/documents/2025-10/ewsh_mrvplan.pdf"
+   },
+   {
+    "title": "Tallgrass launches open season for Trailblazer CO2 pipeline (P&GJ, May 2026)",
+    "url": "https://pgjonline.com/news/2026/may/tallgrass-launches-open-season-for-trailblazer-co2-pipeline"
+   }
+  ]
+ },
+ {
+  "slug": "northeast-purdy-springer-unit-nepsusouth-east-bradley-unit-sebau",
+  "name": "Northeast Purdy Springer Unit (NEPSU)/South East Bradley A Unit (SEBAU)",
+  "status": "eor_flood_ongoing",
+  "injection_start": "1982-09",
+  "summary": "CO2 floods began at NEPSU in 1982 and SEBAU in 1997. The 2025 MRV plan says only recycled CO2 is injected now, with no fresh CO2 since 2022. Subpart RR monitoring awaits a new supplier, and none was found publicly.",
+  "evidence_date": "2025-11",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "EPA Subpart RR MRV plan, NEPSU/SEBAU (2025)",
+    "url": "https://www.epa.gov/system/files/documents/2025-11/nepsu_sebau_mrv.pdf"
+   }
+  ]
+ },
+ {
+  "slug": "rose-carbon-capture-and-sequestration-facility",
+  "name": "Rose Carbon Capture and Sequestration Facility",
+  "status": "built_not_injecting",
+  "injection_start": "",
+  "summary": "Injection and monitoring wells were drilled in 2024. The RRC approved the protested Class VI permit 2-1 in mid-September 2026. ExxonMobil says it is moving toward injection but gives no start date. No report of injection was found.",
+  "evidence_date": "2026-09-17",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Texas Regulator OKs ExxonMobil CCS Project (JPT)",
+    "url": "https://jpt.spe.org/texas-regulator-oks-exxonmobil-ccs-project"
+   },
+   {
+    "title": "ExxonMobil: Lower-carbon steel and permanent storage, CCS expands across the Gulf Coast",
+    "url": "https://corporate.exxonmobil.com/what-we-do/delivering-industrial-solutions/carbon-capture-and-storage/lower-carbon-steel-and-permanent-storage-ccs-expands-across-the-gulf-coast"
+   },
+   {
+    "title": "RRC Class VI application list (3/30/26)",
+    "url": "https://www.rrc.texas.gov/media/tmzm5zuk/class-vi-application-list-33026.pdf"
+   }
+  ]
+ },
+ {
+  "slug": "summit-carbon-storage-3",
+  "name": "Summit Carbon Storage #3, LLC",
+  "status": "not_built",
+  "injection_start": "",
+  "summary": "On hold and in court. A district court voided Summit's North Dakota storage permits in 2026. Summit dropped sites #1 and #2 but is appealing to keep #3. Its pipeline now targets Wyoming storage instead. No injection wells are reported.",
+  "evidence_date": "2026-08-31",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Summit forfeits two CO2 storage permits in North Dakota, continues legal fight over third",
+    "url": "https://www.newsfromthestates.com/article/summit-forfeits-two-co2-storage-permits-north-dakota-continues-legal-fight-over-third"
+   },
+   {
+    "title": "Summit carbon pipeline rerouted to storage site in Wyoming (North Dakota Monitor)",
+    "url": "https://northdakotamonitor.com/?p=19152"
+   }
+  ]
+ }
+]

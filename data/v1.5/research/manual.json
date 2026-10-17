@@ -1,0 +1,32 @@
+[
+ {
+  "slug": "great-plains-synfuels-plant",
+  "name": "Great Plains Synfuels Plant",
+  "status": "injecting",
+  "injection_start": "2024-02",
+  "summary": "Reported zero stored to EPA for 2022 and 2023, before its storage wells started. Basin Electric says injection into the Broom Creek sandstone near Beulah began in mid-February 2024 and passed 1 million metric tons by August 2024.",
+  "evidence_date": "2024-08",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Basin Electric: 1 million metric tons of CO2 captured and sequestered at Dakota Gas",
+    "url": "https://basinelectric.com/News-Center/basin-today-stories/1-million-metric-tons-of-co2-captured-and-sequestered-at-Dakota-Gas"
+   }
+  ]
+ },
+ {
+  "slug": "northeast-purdy-springer-unit-nepsusouth-east-bradley-unit-sebau",
+  "name": "Northeast Purdy Springer Unit (NEPSU)/South East Bradley A Unit (SEBAU)",
+  "status": "eor_recycle_only",
+  "injection_start": "1982-09",
+  "summary": "CO2 floods began at NEPSU in 1982 and SEBAU in 1997. The 2025 plan says only recycled CO2 has been injected since fresh supply ended in 2022, so no new CO2 is being stored; Subpart RR monitoring starts when a new supplier is found.",
+  "evidence_date": "2025-11",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "EPA Subpart RR MRV plan, NEPSU/SEBAU (2025)",
+    "url": "https://www.epa.gov/system/files/documents/2025-11/nepsu_sebau_mrv.pdf"
+   }
+  ]
+ }
+]

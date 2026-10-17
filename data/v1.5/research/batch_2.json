@@ -1,0 +1,231 @@
+[
+ {
+  "slug": "copperhead-gas-plant",
+  "name": "Copperhead Gas Plant",
+  "status": "not_built",
+  "injection_start": "",
+  "summary": "Targa's Copperhead gas plant was still under construction as of August 2026, so no acid gas can be injected yet. NM OCD approved the Copperhead AGI No. 1 well in 2024-25, but no public record confirms it has been drilled.",
+  "evidence_date": "2026-08-06",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Targa Resources Q2 2026 earnings release (8-K Ex. 99.1)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001389170/000119312526336525/trgp-ex99_1.htm"
+   },
+   {
+    "title": "EPA Copperhead MRV plan (April 2025)",
+    "url": "https://www.epa.gov/system/files/documents/2025-08/copperhead_mrvplan.pdf"
+   },
+   {
+    "title": "NM OCC notice, June 24, 2025 (Case 24594, Copperhead AGI No. 1)",
+    "url": "https://www.emnrd.nm.gov/ocd/wp-content/uploads/sites/6/June-24-2025-Commission-Notice.pdf"
+   }
+  ]
+ },
+ {
+  "slug": "dkl-libby-gas-plant",
+  "name": "DKL Libby Gas Plant",
+  "status": "built_not_injecting",
+  "injection_start": "",
+  "summary": "Delek Logistics finished drilling its first Libby acid gas injection well in Q1 2026. As of August 2026 the sour gas system was described as nearly complete and expected online in Q3-Q4 2026. No injection start has been announced.",
+  "evidence_date": "2026-08-05",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Delek Logistics Q1 2026 results (AGI well drilling completed)",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001552797/000162828026028090/dkl-ex991xearningsreleasex.htm"
+   },
+   {
+    "title": "Delek Logistics Q2 2026 results",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001552797/000162828026052893/dkl-ex991xearningsreleasex.htm"
+   },
+   {
+    "title": "DKL Q2 2026 earnings call transcript",
+    "url": "https://earningswhispers.com/transcript/DKL/Q22026"
+   }
+  ]
+ },
+ {
+  "slug": "milestone-carbon-delaware-ccs-hub",
+  "name": "Milestone Carbon Delaware CCS Hub",
+  "status": "not_built",
+  "injection_start": "",
+  "summary": "Not built. The Texas RRC Class VI list dated 9/22/2026 shows the Central Loving Facility (#58440) as Withdrawn; it was On Hold on 6/3/2026. The plan's two Class II AGI wells were only proposed, with no drilling record found.",
+  "evidence_date": "2026-09-22",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Texas RRC Class VI application list, updated 09/22/2026",
+    "url": "https://www.rrc.texas.gov/media/3ivkqhtb/class_vi_application-09222026.pdf"
+   },
+   {
+    "title": "Texas RRC Class VI application list, updated 06/03/2026",
+    "url": "https://www.rrc.texas.gov/media/b05bt0ux/class_vi_application-6032026.pdf"
+   },
+   {
+    "title": "CarbonStorage.io: Loving CCS Hub (Loving AGI #3/#4)",
+    "url": "https://carbonstorage.io/storage/loving-ccs-hub-1"
+   }
+  ]
+ },
+ {
+  "slug": "targa-permian-co2-sequestration-well",
+  "name": "Targa Permian CO2 Sequestration Well",
+  "status": "unclear",
+  "injection_start": "",
+  "summary": "The plan covers Driver AGI #1 in Midland County (RRC Class II permit 17479). The MRV plan listed its API number as TBD and said Targa intended to drill and inject in 2025. No later evidence of drilling or injection was found.",
+  "evidence_date": "2025-07",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "EPA Targa Permian CO2 Sequestration MRV plan (Driver AGI #1)",
+    "url": "https://www.epa.gov/system/files/documents/2025-07/targa_mrv.pdf"
+   },
+   {
+    "title": "CarbonStorage.io: Driver AGI #1",
+    "url": "https://carbonstorage.io/storage/driver-agi-1"
+   }
+  ]
+ },
+ {
+  "slug": "wildcat-gas-plant",
+  "name": "Wildcat Gas Plant",
+  "status": "injecting",
+  "injection_start": "2019",
+  "summary": "WC AGI #1 in Winkler County (API 42-495-34153, RRC permit 15903) has injected treated acid gas since 2019, per injection history through 2023. WC AGI #2 was permitted but not drilled. Nothing shows injection has stopped, but the newest evidence is from late 2024.",
+  "evidence_date": "2024-11-25",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "EPA Wildcat Gas Plant MRV plan (Nov 2024)",
+    "url": "https://www.epa.gov/system/files/documents/2025-01/wildcatgasplant_mrv.pdf"
+   },
+   {
+    "title": "CarbonStorage.io: Wildcat AGI",
+    "url": "https://carbonstorage.io/storage/wildcat-agi"
+   }
+  ]
+ },
+ {
+  "slug": "chester-21-29n-02w",
+  "name": "Chester 21-29N-02W",
+  "status": "unclear",
+  "injection_start": "",
+  "summary": "The plan covers a new Smith 3-21 well (EGLE Class II permit 61818, January 2025) for CO2 from Riverside's Turtle Lake capture at South Chester. It targeted readiness by March 2025. No confirmation of drilling or injection was found; trackers list it as in development.",
+  "evidence_date": "2025-07",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "EPA Chester 21-29N-02W MRV plan (Feb 2025)",
+    "url": "https://www.epa.gov/system/files/documents/2025-07/chester_mrv.pdf"
+   },
+   {
+    "title": "CarbonStorage.io: Turtle Lake Capture Facility",
+    "url": "https://carbonstorage.io/facilities/turtle-lake-capture-facility"
+   },
+   {
+    "title": "Michigan Oil and Gas Association feature, Dec 2024",
+    "url": "https://www.michiganoilandgas.org/feature-stories/december-20th-2024"
+   }
+  ]
+ },
+ {
+  "slug": "ctvcrc-elk-hills-carbon-project",
+  "name": "CTV/CRC Elk Hills Carbon Project",
+  "status": "injecting",
+  "injection_start": "2026-05",
+  "summary": "CRC announced on May 26, 2026 that it had begun CO2 injection at Carbon TerraVault I (26R reservoir, Elk Hills), using CO2 from its Elk Hills cryogenic gas plant. The Q2 2026 results say CTV I is operating and injecting. Volumes were not disclosed.",
+  "evidence_date": "2026-08-10",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "OGJ: CRC starts first CO2 injection at state's inaugural CCS project",
+    "url": "https://www.ogj.com/energy-transition/news/55379799/crc-starts-first-co2-injection-at-states-inaugural-ccs-project"
+   },
+   {
+    "title": "California Resources Q2 2026 earnings release",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001609253/000160925326000127/a2026q2erex991.htm"
+   }
+  ]
+ },
+ {
+  "slug": "lima-tango-ccs-1",
+  "name": "Lima Tango CCS 1",
+  "status": "injecting",
+  "injection_start": "2026-06",
+  "summary": "BKV's Eagle Ford CCS project near Freer began commercial operations June 30, 2026 at about 90,000 t/yr. The plan puts Lima Tango in McMullen County, near Freer, with the same operator and source; BKV doesn't name the well, so the match is inferred.",
+  "evidence_date": "2026-08-06",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "OGJ: BKV starts up Eagle Ford, Cotton Cove CCS plants in Texas",
+    "url": "https://www.ogj.com/energy-transition/news/55388185/bkv-starts-up-eagle-ford-cotton-cove-ccs-plants-in-texas"
+   },
+   {
+    "title": "BKV carbon capture and sequestration page",
+    "url": "https://www.bkv.com/carbon-capture-and-sequestration"
+   },
+   {
+    "title": "EPA Lima Tango CCS 1 decision (McMullen County, Las Tiendas plant)",
+    "url": "https://www.epa.gov/system/files/documents/2025-07/lima_tango_decision.pdf"
+   }
+  ]
+ },
+ {
+  "slug": "oneal-gas-unit-well-no-4",
+  "name": "O'Neal Gas Unit Well No. 4",
+  "status": "unclear",
+  "injection_start": "",
+  "summary": "The plan converts an existing shut-in gas well in Bee County to inject treated acid gas from StarTex's Pawnee plant into the Sligo Formation. The RRC Class II permit was pending in August 2024. No public evidence of recompletion or injection was found.",
+  "evidence_date": "2024-08",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "EPA O'Neal Gas Unit Well No. 4 MRV plan (Aug 2024)",
+    "url": "https://www.epa.gov/system/files/documents/2024-10/oneal_mrv.pdf"
+   },
+   {
+    "title": "CarbonStorage.io: O'Neal Gas Unit",
+    "url": "https://www.carbonstorage.io/storage/oneal-gas-unit"
+   }
+  ]
+ },
+ {
+  "slug": "summit-carbon-storage-1",
+  "name": "Summit Carbon Storage #1, LLC",
+  "status": "not_built",
+  "injection_start": "",
+  "summary": "Cancelled. In August 2026 Summit gave up its North Dakota Summit #1 and #2 storage permits and said it will not build those facilities. It plans to send CO2 to Wyoming instead and is keeping only the Summit #3 permit under appeal.",
+  "evidence_date": "2026-08-31",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "North Dakota Monitor: Summit forfeits two CO2 storage permits",
+    "url": "https://www.newsfromthestates.com/article/summit-forfeits-two-co2-storage-permits-north-dakota-continues-legal-fight-over-third"
+   },
+   {
+    "title": "Decarbonfuse: Summit forfeits two CO2 storage permits in North Dakota",
+    "url": "https://decarbonfuse.com/posts/summit-forfeits-two-co2-storage-permits-in-north-dakota-continues-legal-fight-over-third"
+   }
+  ]
+ },
+ {
+  "slug": "tundra-sgs-llc",
+  "name": "Tundra SGS LLC",
+  "status": "not_built",
+  "injection_start": "",
+  "summary": "Still in planning. Minnkota added Reliant as capture partner and targets an investment decision in 2027; no construction was reported as of August 2026. The planned injectors are not completed, and the existing J-ROC1 test well is plugged and awaiting conversion.",
+  "evidence_date": "2026-08-19",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "North Dakota Monitor: Minnkota adds partner for Project Tundra",
+    "url": "https://www.newsfromthestates.com/node/423333"
+   },
+   {
+    "title": "EPA Tundra SGS MRV plan (2022)",
+    "url": "https://epa.gov/system/files/documents/2022-04/tsgsmrvplan.pdf"
+   }
+  ]
+ }
+]

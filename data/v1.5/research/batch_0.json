@@ -1,0 +1,223 @@
+[
+ {
+  "slug": "brown-pelican-co2-sequestration-project",
+  "name": "Brown Pelican CO2 Sequestration Project",
+  "status": "built_not_injecting",
+  "injection_start": "",
+  "summary": "Texas RRC Class VI permit took effect Oct 2025; three wells exist and a 2026 amendment uses new fracture-pressure test data. Injection awaits Stratos DAC startup, delayed by a commissioning problem; Oxy now targets end of 2026.",
+  "evidence_date": "2026-08",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "E&E News: World's largest carbon removal plant to open at the end of 2026",
+    "url": "https://www.eenews.net/articles/worlds-largest-carbon-removal-plant-to-open-at-the-end-of-2026/"
+   },
+   {
+    "title": "Decarbonfuse: Stratos DAC delay, inside the holdup",
+    "url": "https://decarbonfuse.com/posts/stratos-dac-delay-inside-the-holdup-at-the-world-s-largest-carbon-capture-plant"
+   },
+   {
+    "title": "Texas RRC: Brown Pelican permit amendment response to comments",
+    "url": "https://www.rrc.state.tx.us/media/eqoflk1h/brown-pelican-co2-sequetration-project-amendment-response-to-comments.pdf"
+   }
+  ]
+ },
+ {
+  "slug": "dark-horse-treating-plant",
+  "name": "Dark Horse Treating Plant",
+  "status": "injecting",
+  "injection_start": "2021-10",
+  "summary": "Plant and Independence AGI #1 entered service in 2021; a second AGI well followed. Operator reported about 160,000 t CO2 sequestered through mid-2024 (about 100,000 t in 2023). Enterprise Products agreed to buy Pinon in Aug 2024.",
+  "evidence_date": "2024-06",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "P&GJ: Pinon Midstream secures EPA approval for carbon capture at Dark Horse",
+    "url": "https://pgjonline.com/news/2024/june/pinon-midstream-secures-epa-approval-for-carbon-capture-at-dark-horse-facility"
+   },
+   {
+    "title": "P&GJ: Pinon's Dark Horse carbon capture facility, pipelines in service",
+    "url": "https://pgjonline.com/news/2021/october/pinon-midstream-s-dark-horse-carbon-capture-facility-pipelines-in-service"
+   },
+   {
+    "title": "Enterprise to acquire Pinon Midstream (Business Wire)",
+    "url": "https://businesswire.com/news/home/20240821749801/en/Enterprise-to-Acquire-Pi%c3%b1on-Midstream/"
+   }
+  ]
+ },
+ {
+  "slug": "kinder-morgan-ccs-complex",
+  "name": "Kinder Morgan CCS Complex",
+  "status": "unclear",
+  "injection_start": "",
+  "summary": "No public source ties this facility to specific wells. Likely tied to Red Cedar's Colorado capture project, whose CO2 Kinder Morgan ships via Cortez for Permian Class II storage; Red Cedar describes it as operating, but no start date or confirmed link found.",
+  "evidence_date": "2025-12",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "Kinder Morgan and Carbon Capture, Utilization and Storage (May 2023)",
+    "url": "https://www.kindermorgan.com/Pages/Energy-Delivered/Kinder-Morgan-and-Carbon-Capture,-Utilization-and-Storage"
+   },
+   {
+    "title": "Red Cedar Gathering: CO2 pipeline",
+    "url": "https://www.redcedargathering.com/co2-pipeline/"
+   },
+   {
+    "title": "CarbonStorage.io: Red Cedar Carbon Capture Project",
+    "url": "https://carbonstorage.io/facilities/red-cedar-carbon-capture-project"
+   }
+  ]
+ },
+ {
+  "slug": "mongoose-amine-treating-facility",
+  "name": "Mongoose Amine Treating Facility",
+  "status": "injecting",
+  "injection_start": "2023-08",
+  "summary": "Mongoose AGI #1 (Mitchell County, Ellenburger) was permitted by RRC in March 2023; the MRV plan says plant and well began operating in Aug 2023. RRC raised the rate to 19.5 MMcf/d in 2024, and the plant expanded in May 2025.",
+  "evidence_date": "2025-05",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "OGJ: Operator expands Texas Permian sour gas treating, gathering infrastructure",
+    "url": "https://ogj.com/refining-processing/gas-processing/capacities/article/55293833/operator-expands-texas-permian-sour-gas-treating-gathering-infrastructure"
+   },
+   {
+    "title": "Bayswater Mongoose AGI No. 1 MRV plan",
+    "url": "https://carbonstorage.io/media/permitted_files/Bayswater_Mongoose_AGI_No_1_MRV.pdf"
+   },
+   {
+    "title": "P&GJ: Tejon expands Mongoose gas treatment plant",
+    "url": "https://pgjonline.com/news/2025/may/tejon-expands-mongoose-gas-treatment-plant-in-midland-basin"
+   }
+  ]
+ },
+ {
+  "slug": "titan-treating-facility",
+  "name": "Titan Treating Facility",
+  "status": "injecting",
+  "injection_start": "",
+  "summary": "Northwind says it built and put into service two acid gas injection and sequestration wells at Titan (Lea County). NM regulators approved a third well, due in 2026. Start date and actual volumes are not public.",
+  "evidence_date": "2025-05",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Northwind: third AGI well permitted, MRV plan approved (May 2025)",
+    "url": "https://www.businesswire.com/news/home/20250529113616/en/Northwind-Midstream-Partners-Announces-Permitting-of-Third-AGI-Injection-Well-Final-Approval-of-MRV-Plan-and-the-Completion-of-New-Compressor-Station"
+   },
+   {
+    "title": "Northwind Titan expansion release (Mar 2025)",
+    "url": "https://www.businesswire.com/news/home/20250313760663/en"
+   }
+  ]
+ },
+ {
+  "slug": "aker-plant",
+  "name": "Aker Plant",
+  "status": "injecting",
+  "injection_start": "2012-04",
+  "summary": "MRV plan says existing Aker No. 1 Class II well (Freestone County, Woodbine) has injected treated acid gas since April 2012 and remains active, with about 12 more years planned. No newer operator news found; separate 2027 capture expansion reported.",
+  "evidence_date": "2026-05",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "EPA: Aker Plant MRV plan",
+    "url": "https://www.epa.gov/system/files/documents/2026-05/aker_plant_mrvplan_508.pdf"
+   },
+   {
+    "title": "CarbonStorage.io: Aker Gas Injection",
+    "url": "https://carbonstorage.io/storage/aker-gas-injection"
+   }
+  ]
+ },
+ {
+  "slug": "core-co2-services-sequestration-operations",
+  "name": "Core CO2 Services Sequestration Operations",
+  "status": "unclear",
+  "injection_start": "",
+  "summary": "Core CO2 Services (Core Energy subsidiary) has pending Class VI applications in Manistee County announced Aug 2025, and parent Core Energy has long run Niagaran reef CO2 EOR. No public source shows which wells this plan covers or that storage injection began.",
+  "evidence_date": "2025-08",
+  "confidence": "low",
+  "sources": [
+   {
+    "title": "CarbonStorage.io: Manistee 24",
+    "url": "https://www.carbonstorage.io/storage/manistee-24"
+   },
+   {
+    "title": "CarbonStorage.io: Manistee 23",
+    "url": "https://carbonstorage.io/storage/manistee-23"
+   }
+  ]
+ },
+ {
+  "slug": "dry-piney-jackalope-gas-processing-facility",
+  "name": "Dry Piney Jackalope Gas Processing Facility",
+  "status": "not_built",
+  "injection_start": "",
+  "summary": "Still in permitting and financing. BLM and Wyoming siting approvals came in Dec 2025, with a two-year build expected to begin in 2026. In Sept 2026, DOE was still considering a loan. No evidence that construction or drilling began.",
+  "evidence_date": "2026-09",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "DOE: Dry Piney Helium environmental review completion letter",
+    "url": "https://www.energy.gov/sites/default/files/2026-09/20260910_EnvReview_Completion_Dry_Piney_Helium.pdf"
+   },
+   {
+    "title": "WyoFile: Feds, Wyoming greenlight new helium plant",
+    "url": "https://wyofile.com/feds-wyoming-greenlight-new-helium-plant-among-worlds-largest/"
+   }
+  ]
+ },
+ {
+  "slug": "lisbon-valley-gas-plant",
+  "name": "Lisbon Valley Gas Plant",
+  "status": "injecting",
+  "injection_start": "2015-06",
+  "summary": "MRV plan says existing Class II well Lisbon Unit D-716 has injected acid gas (90% CO2) into the Leadville since June 2015 at about 750 Mscf/d, with planned increases. No operator confirmation of current injection; evidence is mostly the plan.",
+  "evidence_date": "2025-08",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Lisbon Valley MRV plan",
+    "url": "https://carbonstorage.io/media/permitted_files/Lisbon_MRV_Plan.pdf"
+   },
+   {
+    "title": "University of Utah: EPA approves first MRV plan in Utah",
+    "url": "https://attheu.utah.edu/science-technology/epa-approves-first-mrv-plan-in-utah/"
+   }
+  ]
+ },
+ {
+  "slug": "rangely-gas-plant",
+  "name": "Rangely Gas Plant",
+  "status": "eor_flood_ongoing",
+  "injection_start": "1986",
+  "summary": "The Rangely Weber Sand Unit CO2 flood has run since 1986; Scout Energy now operates it. As of April 2023 it injected about 160 MMscf/d, mostly recycled CO2. The plan expects the flood to continue for years. No newer status found.",
+  "evidence_date": "2024-03",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "EPA: Rangely Gas Plant MRV plan",
+    "url": "https://epa.gov/system/files/documents/2024-04/rangelygasplant_mrv.pdf"
+   },
+   {
+    "title": "CarbonStorage.io: Rangely",
+    "url": "https://www.carbonstorage.io/storage/rangley"
+   }
+  ]
+ },
+ {
+  "slug": "summit-carbon-storage-2",
+  "name": "Summit Carbon Storage #2, LLC",
+  "status": "not_built",
+  "injection_start": "",
+  "summary": "Cancelled. Summit asked to cancel its Storage #1 and #2 permits, and the ND Industrial Commission approved. A court had voided all three permits; Summit is appealing only #3 and plans to send CO2 to Wyoming.",
+  "evidence_date": "2026-08-31",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "Summit forfeits 2 CO2 storage permits in North Dakota",
+    "url": "https://advancedbiofuelsusa.info/summit-forfeits-2-co2-storage-permits-in-north-dakota-continues-legal-fight-over-third"
+   }
+  ]
+ }
+]
