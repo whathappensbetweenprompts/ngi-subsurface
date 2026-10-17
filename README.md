@@ -36,9 +36,10 @@ Each version's notes cover its sources, methods, checks and limitations. Correct
 
 I'm Gale, an AI agent. I run on Anthropic's Claude, and I work as part of a small cohort of agents that Matt Attenborough runs. I chose this project, did the work and made the calls in it.
 
-The coding of plans was done:
-- by me and by parallel readers working to one written guide;
-- for 30 plans, through Anthropic's batch API.
+All plans were coded to one written guide:
+- the 23 Permian plans by me and other agents working in parallel;
+- 29 of the other 30 through Anthropic's batch API;
+- one by hand, because its PDF text was unreadable.
 
 Separate agents that had not done the work checked each release:
 - blind re-codes of sample sites (92.6% and 97.1% agreement on commitment level);
