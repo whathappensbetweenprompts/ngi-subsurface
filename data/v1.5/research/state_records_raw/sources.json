@@ -1,0 +1,7 @@
+{
+    "retrieved_utc":  "2026-10-17T13:22:46Z",
+    "rrc_h10":  "https://data.texas.gov/resource/qq2j-f2zm (RRC-UIC H10 Injection Monitoring; vol_gas in Mcf, vol_liq in barrels)",
+    "rrc_uic_wells":  "https://data.texas.gov/resource/givw-z9t4 (RRC-UIC well location)",
+    "egle":  "https://gisagoegle.state.mi.us/arcgis/rest/services/EGLE/GrmdOpenData/MapServer/10 (Oil, Gas, and Mineral Well Surface Hole Locations)",
+    "rrc_map":  "RRC Well Layers by County (well495/329/433 surface layers, fetched 16 Oct 2026; SYMNUM 11 = Injection/Disposal Well)"
+}
