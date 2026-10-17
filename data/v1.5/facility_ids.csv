@@ -1,0 +1,54 @@
+site_slug,facility_name,state,site_group,ghgrp_facility_id
+30-30-gas-plant,30-30 Gas Plant,Texas,class_ii_disposal,1013701
+brown-pelican-co2-sequestration-project,Brown Pelican CO2 Sequestration Project,Texas,class_vi_storage,1015461
+bull-moose-gas-plant,Bull Moose Gas Plant,Texas,class_ii_disposal,1015124
+campo-viejo-gas-processing-plant,Campo Viejo Gas Processing Plant,Texas,class_ii_disposal,1013609
+copperhead-gas-plant,Copperhead Gas Plant,New Mexico,class_ii_disposal,1015153
+dark-horse-treating-plant,Dark Horse Treating Plant,New Mexico,class_ii_disposal,1014467
+denver-city-fields,Denver City Fields,Texas,eor,1013859
+denver-unit,Wasson San Andres Field,Texas,eor,1011767
+dkl-libby-gas-plant,DKL Libby Gas Plant,New Mexico,class_ii_disposal,1013621
+hobbs-field,Hobbs Field,New Mexico,eor,1012121
+kinder-morgan-ccs-complex,Kinder Morgan CCS Complex,Texas,class_ii_disposal,1014543
+maljamar-gas-plant,Maljamar Gas Plant,New Mexico,class_ii_disposal,1008432
+milestone-carbon-delaware-ccs-hub,Milestone Carbon Delaware CCS Hub,Texas,class_vi_storage,1015122
+mongoose-amine-treating-facility,Mongoose Amine Treating Facility,Texas,class_ii_disposal,1014747
+red-hills-gas-processing-plant,Red Hills Gas Processing Plant,New Mexico,class_ii_disposal,1011064
+seminole-east-field-sef,Seminole East Field (SEF),Texas,eor,1012091
+seminole-san-andres-unit,Seminole San Andres Unit,Texas,eor,1009861
+south-plains-complex,South Plains Complex,Texas,eor,1014924
+targa-permian-co2-sequestration-well,Targa Permian CO2 Sequestration Well,Texas,class_ii_disposal,1015130
+titan-treating-facility,Titan Treating Facility,New Mexico,class_ii_disposal,1013725
+wellman,Wellman,Texas,eor,1009875
+west-seminole-san-andres-unit,West Seminole San Andres Unit,Texas,eor,1013793
+wildcat-gas-plant,Wildcat Gas Plant,Texas,class_ii_disposal,1013183
+aker-plant,Aker Plant,Texas,class_ii_disposal,1003129
+archer-daniels-midland-company-illinois-industrial-carbon-capture-and-sequestration,Archer Daniels Midland Co.,Illinois,class_vi_storage,1005661
+barnett-rdc-well-no-1,Barnett RDC Well No. 1,Texas,class_ii_disposal,1014524
+blue-flint-sequester-company-llc,"Blue Flint Sequester Company, LLC",North Dakota,class_vi_storage,1014505
+booker-field-area,Booker Field Area,Texas,eor,1009946
+camrick-unit,Camrick Unit,Oklahoma,eor,1009997
+chester-21-29n-02w,Chester 21-29N-02W,Michigan,class_ii_disposal,1015227
+core-co2-services-sequestration-operations,Core CO2 Services Sequestration Operations,Michigan,class_ii_disposal,1015478
+core-energy-northern-niagaran-pinnacle-reef-trend,Core Energy Otsego County EOR Operations,Michigan,eor,1010117
+cotton-cove-ccs-1,Cotton Cove CCS 1,Texas,class_ii_disposal,1015181
+ctvcrc-elk-hills-carbon-project,CTV/CRC Elk Hills Carbon Project,California,class_vi_storage,1014435
+dry-piney-jackalope-gas-processing-facility,Dry Piney Jackalope Gas Processing Facility,Wyoming,class_ii_disposal,1016110
+eastern-wyoming-sequestration-hub,Eastern Wyoming Sequestration Hub,Wyoming,class_vi_storage,1015123
+farnsworth-unit,Farnsworth Unit CO2 Flood,Texas,eor,1009999
+great-plains-synfuels-plant,Great Plains Synfuels Plant,North Dakota,class_vi_storage,1002440
+lima-tango-ccs-1,Lima Tango CCS 1,Texas,class_ii_disposal,1015343
+lisbon-valley-gas-plant,Lisbon Valley Gas Plant,Utah,class_ii_disposal,1002414
+north-burbank-unit,North Burbank Unit,Oklahoma,eor,1010975
+northeast-purdy-springer-unit-nepsusouth-east-bradley-unit-sebau,Northeast Purdy Springer Unit (NEPSU)/South East Bradley A Unit (SEBAU),Oklahoma,eor,1010178
+oneal-gas-unit-well-no-4,O'Neal Gas Unit Well No. 4,Texas,class_ii_disposal,1014786
+petra-nova-west-ranch,Petra Nova West Ranch,Texas,eor,1013810
+rangely-gas-plant,Rangely Gas Plant,Colorado,eor,1009244
+red-trail-energy-llc,"Red Trail Energy, LLC",North Dakota,class_vi_storage,1001157
+rose-carbon-capture-and-sequestration-facility,Rose Carbon Capture and Sequestration Facility,Texas,class_vi_storage,1015535
+shute-creek-facility,Shute Creek Facility,Wyoming,class_ii_disposal,1002150
+spg-co2-bowie-facility,SPG CO2 Bowie Facility,Texas,class_ii_disposal,1014507
+summit-carbon-storage-1,"Summit Carbon Storage #1, LLC",North Dakota,class_vi_storage,1014783
+summit-carbon-storage-2,"Summit Carbon Storage #2, LLC",North Dakota,class_vi_storage,1014781
+summit-carbon-storage-3,"Summit Carbon Storage #3, LLC",North Dakota,class_vi_storage,1014782
+tundra-sgs-llc,Tundra SGS LLC,North Dakota,class_vi_storage,1014103
