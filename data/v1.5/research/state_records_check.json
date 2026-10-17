@@ -1,0 +1,20 @@
+[
+ {"slug": "bull-moose-gas-plant", "verdict": "confirmed",
+  "notes": "UIC/API, activated, first injection 2025-04, 1,593,500 Mcf through 2025-07 (latest filed) all match. Map symbol 11: not checkable here. Missed: W-14 dated 2026-04-30; data now 15 months old; same operator's Wildcat AGI dropped ~97% from 2025-08, suggesting gas moved here."},
+ {"slug": "kinder-morgan-ccs-complex", "verdict": "partly",
+  "notes": "Liquid injection ran 2013-02 to 2022-11 (brief gap Mar-May 2019), not 'from 2019'. Zero since, through 2025-09: correct. API, activated correct. Register lease name is 'KATZ NORTH DISPOSAL WELLS', not Katz Strawn Unit. W-14 2024-07-26 adds 23,000 Mcf/d gas capacity. Map: not checkable."},
+ {"slug": "targa-permian-co2-sequestration-well", "verdict": "partly",
+  "notes": "Checkable facts match: API field is 32900000 (county code only, no well number), activated_flag false, 24 H-10 months all zero 2024-02 to 2026-01. 'No well at location' is not checkable here, and not_built rests on it; the register alone can't prove nothing was drilled."},
+ {"slug": "oneal-gas-unit-well-no-4", "verdict": "partly",
+  "notes": "API 42-025-32658, not activated, no H-10 rows: confirmed. '2026-08-31' is the H-1 date; permit letter_date is 2024-08-12, so 'permit issued 31 Aug 2026' is unsupported. 'Older gas well' and the UIC 56819 match aren't in raw files. Injection type 2, lease name blank."},
+ {"slug": "chester-21-29n-02w", "verdict": "confirmed",
+  "notes": "Smith 3-21, permit 61818, API 21-137-62019, CO2 Injection Well, RCS Storage Michigan, status 'Well Completed' all match. 6,663 ft is measured depth (DTD); directional well, TVD 5,953 ft. Permit date 2025-01-10. No injection data in raw files, consistent with built_injection_unconfirmed."},
+ {"slug": "core-co2-services-sequestration-operations", "verdict": "partly",
+  "notes": "Permit 29527, Charlton 10, operator, top status Active/CO2 Injection Well match; Gelow 1-12, 2-12 shut-in gas: correct. Missed: same record shows WellStatus 'Plugging Completed', PluggingDate 2025-11-14. No injection volumes exist, so 'injecting' is overstated; built_injection_unconfirmed fits."},
+ {"slug": "wildcat-gas-plant", "verdict": "partly",
+  "notes": "UIC/API, start 2019-08, every year since, 2,367,254 Mcf in 2025, reports through 2026-07: all correct. Missed: from 2025-08 monthly volume fell from ~250,000 to 7,000-19,000 Mcf; Jan-Jul 2026 total only 109,290 Mcf. Still injecting, at a much lower rate."},
+ {"slug": "aker-plant", "verdict": "confirmed",
+  "notes": "UIC/API, activated, first injection 2012-04 (reports start 2011-12), 1,713,082 Mcf in 2025 over 11 months, latest filed 2025-11: all match. Steady 140,000-175,000 Mcf/month. Latest report is 11 months old."},
+ {"slug": "mongoose-amine-treating-facility", "verdict": "partly",
+  "notes": "UIC/API and first injection 2023-08 correct; last nonzero month 2025-12. But latest month filed is 2026-01 (flagged most recent), reporting zero volume and zero pressure. Claim misses it. Rate had risen to ~74,000 Mcf/month late 2025; Jan 2026 may be a stop or a placeholder."}
+]

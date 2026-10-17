@@ -1,0 +1,190 @@
+[
+ {
+  "slug": "bull-moose-gas-plant",
+  "name": "Bull Moose Gas Plant",
+  "status": "injecting",
+  "injection_start": "2025-04",
+  "summary": "RRC injection reports for BM AGI #1 (UIC 000126603, API 42-495-34978) show acid gas injection starting April 2025, about 1.6 million Mcf through July 2025, the latest month filed for this well. The RRC map shows it as an injection/disposal well.",
+  "evidence_date": "2025-07",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "RRC-UIC H10 Injection Monitoring (data.texas.gov)",
+    "url": "https://data.texas.gov/resource/qq2j-f2zm"
+   },
+   {
+    "title": "RRC-UIC well location (data.texas.gov)",
+    "url": "https://data.texas.gov/resource/givw-z9t4"
+   },
+   {
+    "title": "Texas RRC Well Layers by County (public GIS download)",
+    "url": "https://mft.rrc.texas.gov/webclient/godrive/PublicGoDrive.xhtml"
+   }
+  ],
+  "basis": "state_records"
+ },
+ {
+  "slug": "kinder-morgan-ccs-complex",
+  "name": "Kinder Morgan CCS Complex",
+  "status": "built_not_injecting",
+  "injection_start": "",
+  "summary": "The plan's well, Katz 2361 (UIC 000104281, API 42-433-33712; RRC register lease 'Katz North Disposal Wells'), took produced water from 2013 to November 2022. RRC injection reports show nothing injected since, through September 2025, although the plan expected CO2 from June 2024.",
+  "evidence_date": "2025-09",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "RRC-UIC H10 Injection Monitoring (data.texas.gov)",
+    "url": "https://data.texas.gov/resource/qq2j-f2zm"
+   },
+   {
+    "title": "RRC-UIC well location (data.texas.gov)",
+    "url": "https://data.texas.gov/resource/givw-z9t4"
+   },
+   {
+    "title": "Texas RRC Well Layers by County (public GIS download)",
+    "url": "https://mft.rrc.texas.gov/webclient/godrive/PublicGoDrive.xhtml"
+   }
+  ],
+  "basis": "state_records"
+ },
+ {
+  "slug": "targa-permian-co2-sequestration-well",
+  "name": "Targa Permian CO2 Sequestration Well",
+  "status": "not_built",
+  "injection_start": "",
+  "summary": "RRC's UIC record for Driver AGI #1 (UIC 000126657) still has no API number and is not activated; its injection reports are zero through January 2026. No well appears at the permitted location on the RRC well map.",
+  "evidence_date": "2026-01",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "RRC-UIC well location (data.texas.gov)",
+    "url": "https://data.texas.gov/resource/givw-z9t4"
+   },
+   {
+    "title": "RRC-UIC H10 Injection Monitoring (data.texas.gov)",
+    "url": "https://data.texas.gov/resource/qq2j-f2zm"
+   },
+   {
+    "title": "Texas RRC Well Layers by County (public GIS download)",
+    "url": "https://mft.rrc.texas.gov/webclient/godrive/PublicGoDrive.xhtml"
+   }
+  ],
+  "basis": "state_records"
+ },
+ {
+  "slug": "oneal-gas-unit-well-no-4",
+  "name": "O'Neal Gas Unit Well No. 4",
+  "status": "built_not_injecting",
+  "injection_start": "",
+  "summary": "The well exists: RRC's wellbore file (2020 data) lists it as a producing gas well completed in 1997 (API 42-025-32658). Its injection permit record (UIC 000126761) has a permit letter dated August 2024 and an H-1 filing dated 31 August 2026, is not activated, and has no injection reports.",
+  "evidence_date": "2026-08-31",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "RRC-UIC well location (data.texas.gov)",
+    "url": "https://data.texas.gov/resource/givw-z9t4"
+   },
+   {
+    "title": "RRC-UIC H10 Injection Monitoring (data.texas.gov)",
+    "url": "https://data.texas.gov/resource/qq2j-f2zm"
+   },
+   {
+    "title": "Texas RRC Wellbore Query Data (OG_WELLBORE_EWA_Report, December 2020 contents)",
+    "url": "https://mft.rrc.texas.gov/link/650649b7-e019-4d77-a8e0-d118d6455381"
+   }
+  ],
+  "basis": "state_records"
+ },
+ {
+  "slug": "chester-21-29n-02w",
+  "name": "Chester 21-29N-02W",
+  "status": "built_injection_unconfirmed",
+  "injection_start": "",
+  "summary": "Michigan EGLE lists the Smith 3-21 (permit 61818, API 21-137-62019) as a completed CO2 injection well, drilled to 6,663 ft measured depth, operated by RCS Storage Michigan. Its status is 'Well Completed', not 'Active', and no public injection record was found.",
+  "evidence_date": "2026-10",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Michigan EGLE oil, gas and mineral well surface locations",
+    "url": "https://gisagoegle.state.mi.us/arcgis/rest/services/EGLE/GrmdOpenData/MapServer/10"
+   },
+   {
+    "title": "EPA: Chester MRV plan",
+    "url": "https://www.epa.gov/system/files/documents/2025-07/chester_mrv.pdf"
+   }
+  ],
+  "basis": "state_records"
+ },
+ {
+  "slug": "core-co2-services-sequestration-operations",
+  "name": "Core CO2 Services Sequestration Operations",
+  "status": "built_injection_unconfirmed",
+  "injection_start": "",
+  "summary": "Michigan EGLE lists Pontisso 2-10 (permit 29527, Charlton 10 reef) as an active CO2 injection well under Core CO2 Services; the same record shows the original oil wellbore plugged on 14 November 2025. No injection volumes found. The Chester 12 reef wells are still shut-in gas wells.",
+  "evidence_date": "2026-10",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "Michigan EGLE oil, gas and mineral well surface locations",
+    "url": "https://gisagoegle.state.mi.us/arcgis/rest/services/EGLE/GrmdOpenData/MapServer/10"
+   }
+  ],
+  "basis": "state_records"
+ },
+ {
+  "slug": "wildcat-gas-plant",
+  "name": "Wildcat Gas Plant",
+  "status": "injecting",
+  "injection_start": "2019-08",
+  "summary": "RRC injection reports for WC AGI #1 (UIC 000117383, API 42-495-34153) show acid gas injection since August 2019. Volumes fell about 95% in August 2025, from roughly 250,000 to 7,000-19,000 Mcf a month, and continue at that lower rate through July 2026.",
+  "evidence_date": "2026-07",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "RRC-UIC H10 Injection Monitoring (data.texas.gov)",
+    "url": "https://data.texas.gov/resource/qq2j-f2zm"
+   },
+   {
+    "title": "RRC-UIC well location (data.texas.gov)",
+    "url": "https://data.texas.gov/resource/givw-z9t4"
+   }
+  ],
+  "basis": "state_records"
+ },
+ {
+  "slug": "aker-plant",
+  "name": "Aker Plant",
+  "status": "injecting",
+  "injection_start": "2012-04",
+  "summary": "RRC injection reports for Aker Gas Injection No. 1 (UIC 000101798, API 42-161-34475) show injection since April 2012, about 1.7 million Mcf in 2025, with reports through November 2025.",
+  "evidence_date": "2025-11",
+  "confidence": "high",
+  "sources": [
+   {
+    "title": "RRC-UIC H10 Injection Monitoring (data.texas.gov)",
+    "url": "https://data.texas.gov/resource/qq2j-f2zm"
+   },
+   {
+    "title": "RRC-UIC well location (data.texas.gov)",
+    "url": "https://data.texas.gov/resource/givw-z9t4"
+   }
+  ],
+  "basis": "state_records"
+ },
+ {
+  "slug": "mongoose-amine-treating-facility",
+  "name": "Mongoose Amine Treating Facility",
+  "status": "injecting",
+  "injection_start": "2023-08",
+  "summary": "RRC injection reports for Mongoose AGI No. 1 (UIC 000125803, API 42-335-36013) show acid gas injection from August 2023, about 74,000 Mcf a month in late 2025. The latest month filed, January 2026, reports zero, so whether injection continues is not yet clear.",
+  "evidence_date": "2026-01",
+  "confidence": "medium",
+  "sources": [
+   {
+    "title": "RRC-UIC H10 Injection Monitoring (data.texas.gov)",
+    "url": "https://data.texas.gov/resource/qq2j-f2zm"
+   }
+  ],
+  "basis": "state_records"
+ }
+]
