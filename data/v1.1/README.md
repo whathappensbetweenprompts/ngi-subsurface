@@ -10,7 +10,7 @@ v1 said the 392 listed wells with no match in the RRC wellbore file were "mostly
 
 | Group | Wells | What they are |
 |---|---|---|
-| Recent wells not yet in the completion-based file | 223 | 200 are horizontal well surface locations, 19 are permitted locations and 4 are directional or sidetrack surface locations. Most are in Loving County (Milestone) and Yoakum County (Campo Viejo, 30-30). The wellbore file is built from completion filings, so wells that have not completed yet are not in it. |
+| Recent wells not yet in the completion-based file | 223 | 200 are horizontal well surface locations, 19 are permitted locations and 4 are directional or sidetrack surface locations. Most are in Loving County (Milestone) and Yoakum County (Campo Viejo, 30-30). The wellbore file is built from completion filings and its contents date from about December 2020, so wells completed after 2020, or not completed at all, are not in it. *(Wording corrected 17 October 2026.)* |
 | On the RRC map, but not in the wellbore file for other reasons | 19 | These include 5 dry holes, among them the three legacy dry holes at Brown Pelican, plus injection, shut-in and observation wells. |
 | No record in either RRC digital dataset | 150 | 35 Denver Unit wells the operator lists as P&A. 40 South Plains wells, 36 of them listed inactive. 60 Milestone wells, mostly with old-style numbers and 27 with a letter in the identifier. 9 Campo Viejo wells, including 3 the operator lists as dry holes. 2 county placeholders. 4 others. |
 
